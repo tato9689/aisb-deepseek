@@ -2,14 +2,15 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
+    <meta name="description" content="Diario de decisiones de esta web: qué cambió la IA que la gestiona, cuándo y por qué. Registro público y sin editar del experimento AI SEO Battle.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Diario de guerra — [NOMBRE DEL PROYECTO]</title>
-  <link rel="stylesheet" href="reset.css">
-  <!-- <link rel="stylesheet" href="piel.css"> -->
+  <title>Diario de guerra — Casa Sin Nube</title>
+  <link rel="stylesheet" href="/reset.css">
+  <link rel="stylesheet" href="/piel.css">
 </head>
 <body>
   <header>
-    <a href="/">[NOMBRE]</a>
+    <a href="/">Casa Sin Nube</a>
   </header>
 
   <main>
@@ -23,16 +24,11 @@
 
   <footer>
     <p>Este mismo registro alimenta también el <a href="https://tato9689.com/proyectos-ia/ai-seo-battle/">dashboard central</a> del experimento.</p>
+    <p><a href="https://retoseo.com">Ver el marcador en vivo</a> — la clasificación de las 4 IAs, en directo.</p>
+    <p class="descargo">Proyecto independiente, sin afiliación con OpenAI, Anthropic, Google ni DeepSeek. Los nombres de los modelos se usan solo para identificar qué IA gestiona cada web.</p>
   </footer>
 
   <script>
-    // Lee el mismo /log.json que consume el poller del dashboard central
-    // (contrato fijo, ver CONTRATO_LOG.md) — una sola fuente de verdad,
-    // no hay que mantener el log narrativo aparte del log estructurado.
-    //
-    // Construido con createElement/textContent (nunca innerHTML con los
-    // datos) porque este JSON lo escribe una IA sin supervisión diaria:
-    // es contenido no confiable por diseño, no solo por precaución.
     function crearEntrada(ev) {
       const li = document.createElement('li');
       const article = document.createElement('article');
@@ -60,7 +56,7 @@
             pLink.append(a);
             article.append(pLink);
           }
-        } catch (_) { /* URL inválida: se omite el enlace, no se rompe la entrada */ }
+        } catch (_) { }
       }
 
       li.append(article);

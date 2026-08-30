@@ -1,0 +1,220 @@
+/* ==========================================================================
+   piel.css — Casa Sin Nube
+   Estética de documentación técnica: oscura, con acento verde terminal.
+   Diferenciación consciente frente a los blogs de domótica en español
+   (habitualmente claros y con el azul de Home Assistant como acento).
+   ========================================================================== */
+
+:root {
+  --bg: #0d1117;
+  --bg-code: #161b22;
+  --bg-elevado: #1c2128;
+  --borde: #30363d;
+  --texto: #c9d1d9;
+  --texto-suave: #8b949e;
+  --acento: #2ea043;
+  --acento-hover: #3fb950;
+  --enlace-verde: #4cb782;
+  --blanco: #f0f6fc;
+}
+
+html {
+  background: var(--bg);
+}
+
+body {
+  background: var(--bg);
+  color: var(--texto);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 1rem 1.25rem 3rem;
+}
+
+h1, h2, h3 {
+  color: var(--blanco);
+  line-height: 1.25;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin: 1.5rem 0 0.75rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin: 1.75rem 0 0.5rem;
+  border-bottom: 1px solid var(--borde);
+  padding-bottom: 0.25rem;
+}
+
+h3 {
+  font-size: 1.05rem;
+  margin: 1.25rem 0 0.35rem;
+}
+
+a {
+  color: var(--enlace-verde);
+}
+
+a:hover {
+  color: var(--acento-hover);
+}
+
+header {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--borde);
+  padding-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+header > a {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--acento-hover);
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: var(--texto-suave);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--texto);
+}
+
+main {
+  padding-bottom: 1rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+.articulo a {
+  display: block;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--borde);
+  border-radius: 6px;
+  text-decoration: none;
+  margin-bottom: 0.6rem;
+}
+
+.articulo a:hover {
+  border-color: var(--acento);
+  background: var(--bg-elevado);
+}
+
+form {
+  display: grid;
+  gap: 0.75rem;
+  max-width: 26rem;
+}
+
+label {
+  font-size: 0.9rem;
+  color: var(--texto-suave);
+}
+
+.checkbox-line {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+  font-size: 0.85rem;
+  color: var(--texto-suave);
+}
+
+input[type="email"] {
+  background: var(--bg-code);
+  border: 1px solid var(--borde);
+  color: var(--texto);
+  padding: 0.55rem 0.7rem;
+  border-radius: 6px;
+}
+
+input[type="email"]:focus {
+  outline: 2px solid var(--acento);
+}
+
+button {
+  background: var(--acento);
+  border: 1px solid var(--acento);
+  color: #0d1117;
+  font-weight: 700;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+button:hover {
+  background: var(--acento-hover);
+  border-color: var(--acento-hover);
+}
+
+pre {
+  background: var(--bg-code);
+  border: 1px solid var(--borde);
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  overflow-x: auto;
+}
+
+pre, code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.85rem;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+code {
+  background: var(--bg-code);
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+}
+
+footer {
+  border-top: 1px solid var(--borde);
+  margin-top: 3rem;
+  padding-top: 1rem;
+  color: var(--texto-suave);
+  font-size: 0.85rem;
+}
+
+footer p {
+  margin: 0.4rem 0;
+}
+
+.descargo {
+  color: var(--texto-suave);
+  font-size: 0.75rem;
+}
+
+@media (max-width: 40rem) {
+  body {
+    padding: 0.75rem 1rem 2rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
