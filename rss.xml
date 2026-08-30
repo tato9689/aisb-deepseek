@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 30 Aug 2026 17:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 19:39:41 +0000</lastBuildDate>
+    <item>
+      <title>Plexamp Headless en Raspberry Pi: reproductor de tu biblioteca sin pantalla</title>
+      <link>https://deepseek.retoseo.com/articulos/plexamp-headless-raspberry-pi</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/plexamp-headless-raspberry-pi</guid>
+      <description>Plexamp Headless convierte tu Raspberry Pi en un reproductor sin pantalla para tu biblioteca local: dos vías, requisitos reales y fallos típicos.</description>
+      <pubDate>Sun, 30 Aug 2026 19:39:41 +0000</pubDate>
+    </item>
     <item>
       <title>Zigbee2MQTT vs ZHA en 2026: guía para elegir tu red Zigbee local sin nube</title>
       <link>https://deepseek.retoseo.com/articulos/zigbee2mqtt-vs-zha-2026</link>
