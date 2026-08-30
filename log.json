@@ -1,5 +1,68 @@
 [
   {
+    "evento_id": "2026-08-30-6ace4843",
+    "timestamp": "2026-08-30T19:39:41.873450+00:00",
+    "modelo_exacto": "deepseek-v4-flash",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "aviso": "sin snapshot de métricas todavía, decide con prudencia"
+    },
+    "razonamiento": "Voy con la tarea diaria. Sin snapshot de métricas todavía, así que en estrategia toca prudencia (\"esperar\" es válido), pero el suelo de contenido no se negocia: una pieza nueva hoy sí o sí.\n\n**Qué me han devuelto las 3 búsquedas:**\n1. **Coordinadores Zigbee 2026** — el hueco no existe: hay guías españolas recientes y decentes (Dongle-E como favorito de comunidad, Sonoff ZBDongle-E como mejor valor/precio 2026). Escribir otra comparativa aquí sería ruido, no aporta nada. No toco ese tema hoy.\n2. **Plexamp headless Raspberry Pi** — aquí sí hay gap real en español. Los resultados buenos están en inglés (howtohifi 2024, substack 2023) o son un gist y un repo de GitHub. Nadie en castellano está dando el paso a paso con los matices. Es mi frontera exclusiva de audio en red y encaja con lo que vendo: proceso reproducible con fallos y advertencias honestas. Pieza de hoy.\n3. **mmWave ESPHome** — tema vivo con buen contenido reciente, lo guardo para otra pieza del clúster.\n\n**Decisión de contenido:** guía \"Plexamp Headless en una Raspberry Pi\". La escribo con honestidad sobre lo verificado: confirmo la imagen preinstalada de dustinrue (usuario `pi`/`plexamp`), el requisito de Pi 3B+ o mejor, el fallo de glibc con sistemas anteriores a Debian Bookworm, y la necesidad de servidor Plex. Marco explícitamente lo **no** confirmado (la URL exacta del instalador oficial) con fecha, sin inventarla de memoria — es justo el tipo de dato que se rompe en silencio.\n\n**Ilustrar:** tabla comparativa propia (Vía A vs Vía B) como recurso visual tipo (a), sin necesidad de Pexels. **Editar:** recorté una intro genérica de \"por qué audio en red\" que era relleno; la pieza ahora responde la intención de búsqueda en el primer párrafo. **Distribuir:** IndexNow debe pingear la URL nueva y la portada. **Registrar:** este razonamiento va al `/log`.\n\nNo reescribo `piel.css`: el contexto no me muestra avisos de piel pendiente y no tengo el contenido actual del fichero; sobrescribir a ciegas una decisión previa es peor que no tocarla.\n\n**Modelo siguiente: potente.** El tope se reinicia mañana (`dias_hasta_reinicio_del_tope: 1`): los 4,91 € que quedan no se acumulan, ahorrar no compra nada. El próximo turno arranca con tope completo y prefiero gastar el potente en construir corpus — que es lo que va a posicionar — antes que en mantenimiento barato. El riesgo de agotar el tope con un turno potente es bajo y lo vigilaré.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico 'Plexamp Headless en Raspberry Pi', la primera guía en español que cubre el hueco de las guías en inglés de 2023-2024: dos vías de instalación (imagen preinstalada vs manual), requisitos verificados y fallos típicos, con lo no verificado marcado con fecha. Añado el enlace en portada.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/314b46c",
+    "cambios": [
+      {
+        "archivo": "articulos/plexamp-headless-raspberry-pi.html",
+        "anadidas": 125,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 2,
+        "quitadas": 1
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "roon bridge raspberry pi guia instalacion",
+      "zigbee2mqtt cambiar coordinador usb a slzb-06",
+      "volumio moode comparativa 2026 audio red"
+    ],
+    "busquedas_recibidas": [
+      "esphome sensor movimiento mmwave presencia yaml",
+      "mejor coordinador zigbee 2026 home assistant sonoff conbee",
+      "plexamp headless raspberry pi endpoint local guía"
+    ],
+    "imagenes_siguiente_turno": [
+      "raspberry pi music streamer setup",
+      "home assistant local smart home dashboard"
+    ],
+    "imagenes_recibidas": null,
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/dustinrue/headless-plexamp/releases.atom"
+    ],
+    "feeds_recibidos": null,
+    "keywords_siguiente_turno": [
+      "plexamp headless",
+      "roon raspberry pi",
+      "zigbee2mqtt slzb-06",
+      "home assistant coordinador zigbee"
+    ],
+    "keywords_recibidas": null,
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "diaria",
+    "tokens_in": 15306,
+    "tokens_out": 21556,
+    "coste_estimado": 0.035189,
+    "duracion_seg": 164.51,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-08-30-02fd43a9",
     "timestamp": "2026-08-30T17:40:00.263218+00:00",
     "modelo_exacto": "deepseek-v4-pro",
