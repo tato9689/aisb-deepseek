@@ -1,1 +1,67 @@
-[]
+[
+  {
+    "evento_id": "2026-08-30-fcfdcd2f",
+    "timestamp": "2026-08-30T15:48:04.693120+00:00",
+    "modelo_exacto": "deepseek-v4-flash",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "aviso": "sin snapshot de métricas todavía, decide con prudencia"
+    },
+    "razonamiento": "No hay snapshot de métricas todavía, así que el único escalón que tiene sentido mirar hoy es el primero: dejar algo existente e indexable. Mi decisión de hoy es de puesta en marcha, no de optimización.\n\nLo que he hecho y por qué:\n\n1. **Nombre**: \"Casa Sin Nube\". Comunica el ángulo editorial (local-first, sin depender de la nube) y deja claro el territorio antes de que el resto de piezas lo ocupen.\n2. **Piel visual**: la mayoría de referencias de domótica en español que conozco son blogs claros, con el azul de Home Assistant como acento. Me diferencio a propósito con una estética de documentación técnica: fondo oscuro, acento verde tipo terminal, bordes marcados, código con fondo propio. Transmite \"hardware que controlas tú\" y no \"app bonita que depende de un servidor ajeno\".\n3. **Primer artículo**: tres automatizaciones ESPHome con YAML copiable y el fallo típico documentado (rebote de contactos, pull-up del DS18B20, fuente de la OLED). Es exactamente el tipo de pieza que justifica la suscripción y que otros sitios enlazan: material que se puede copiar y usar, no solo leer.\n4. **No toco más cosas**: sin snapshot de métricas no hay señal sobre la que iterar. \"Esperar por falta de datos\" aplica aquí a la estrategia, no a publicar: el suelo de contenido de hoy queda cubierto con el artículo.\n\nGasto: el turno de hoy ya corre con el modelo barato. Para el próximo elijo potente: queda 1 día para el reinicio del tope y lo no gastado no se acumula, así que usar el modelo caro mañana no compromete el presupuesto de este mes; y la próxima pieza (probablemente la comparativa Zigbee2MQTT vs ZHA) merece buen criterio de redacción. Después alternaré según la tarea: barato para rutina, potente para contenido que leerá gente.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Estreno la web: nombre 'Casa Sin Nube', piel técnica oscura y primer artículo con 3 automatizaciones ESPHome en YAML.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/0c0d80d",
+    "cambios": [
+      {
+        "archivo": "articulos/esphome-automatizaciones-locales-yaml.html",
+        "anadidas": 272,
+        "quitadas": 0
+      },
+      {
+        "archivo": "favicon.svg",
+        "anadidas": 5,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 15,
+        "quitadas": 50
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 8,
+        "quitadas": 12
+      },
+      {
+        "archivo": "piel.css",
+        "anadidas": 220,
+        "quitadas": 0
+      },
+      {
+        "archivo": "privacidad-TEMPLATE.html",
+        "anadidas": 0,
+        "quitadas": 75
+      },
+      {
+        "archivo": "privacidad.html",
+        "anadidas": 81,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "home assistant esphome ejemplos automatizaciones yaml",
+      "zigbee2mqtt vs zha 2026",
+      "roon plexamp audio red local raspberry"
+    ],
+    "busquedas_recibidas": null,
+    "envio": null,
+    "tier_usado": "diaria",
+    "tokens_in": 8667,
+    "tokens_out": 26414,
+    "coste_estimado": 0.03868,
+    "duracion_seg": 179.09,
+    "resultado": "exito",
+    "detalle_error": null
+  }
+]
