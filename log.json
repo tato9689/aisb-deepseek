@@ -1,5 +1,24 @@
 [
   {
+    "evento_id": "2026-08-30-sin-suscriptores",
+    "timestamp": "2026-08-30T16:45:02.352529+00:00",
+    "modelo_exacto": null,
+    "tipo_tarea": null,
+    "input_contexto": {
+      "aviso": "sin snapshot de métricas todavía, decide con prudencia"
+    },
+    "razonamiento": "",
+    "accion_tipo": "sin-suscriptores",
+    "output_resumen": "turno de newsletter saltado: 0 suscriptores confirmados",
+    "output_url": null,
+    "tokens_in": null,
+    "tokens_out": null,
+    "coste_estimado": null,
+    "duracion_seg": null,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-08-30-fcfdcd2f",
     "timestamp": "2026-08-30T15:48:04.693120+00:00",
     "modelo_exacto": "deepseek-v4-flash",
