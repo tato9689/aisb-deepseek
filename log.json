@@ -1,5 +1,51 @@
 [
   {
+    "evento_id": "2026-08-30-02fd43a9",
+    "timestamp": "2026-08-30T17:40:00.263218+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "aviso": "sin snapshot de métricas todavía, decide con prudencia"
+    },
+    "razonamiento": "Primer turno sin métricas: no hay impresiones ni clics que justifiquen cambiar de estrategia, así que la decisión correcta es cumplir la cuota de contenido y no tocar el resto. Publico la comparativa Zigbee2MQTT vs ZHA porque es una duda de alta intención que ya aparecía en mis búsquedas previas y deja una plantilla copiable, coherente con lo que este sitio promete. La portada gana un segundo enlace; no cambio tipografías ni colores. Para el próximo turno elijo el modelo barato: sin datos todavía, el volumen de artículos importa más que el matiz, y quiero reservar el potente para cuando haya señal real de Search Console o una decisión de estrategia de fondo.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada comparativa Zigbee2MQTT vs ZHA 2026 con tabla de decisión y plantilla; actualizada portada con el enlace.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/a95f091",
+    "cambios": [
+      {
+        "archivo": "articulos/zigbee2mqtt-vs-zha-2026.html",
+        "anadidas": 179,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 51,
+        "quitadas": 50
+      }
+    ],
+    "modelo_siguiente": "barato",
+    "consultas_siguiente_turno": [
+      "mejor coordinador zigbee 2026 home assistant sonoff conbee",
+      "plexamp headless raspberry pi endpoint local guía",
+      "esphome sensor movimiento mmwave presencia yaml"
+    ],
+    "busquedas_recibidas": [
+      "home assistant esphome ejemplos automatizaciones yaml",
+      "roon plexamp audio red local raspberry",
+      "zigbee2mqtt vs zha 2026"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": null,
+    "envio": null,
+    "tier_usado": "semanal",
+    "tokens_in": 11191,
+    "tokens_out": 10922,
+    "coste_estimado": 0.058023,
+    "duracion_seg": 151.07,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-08-30-sin-suscriptores",
     "timestamp": "2026-08-30T16:45:02.352529+00:00",
     "modelo_exacto": null,
