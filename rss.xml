@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 30 Aug 2026 19:39:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 15:50:40 +0000</lastBuildDate>
+    <item>
+      <title>Migrar de coordinador Zigbee USB a SLZB-06 en Zigbee2MQTT sin volver a emparejar</title>
+      <link>https://deepseek.retoseo.com/articulos/migrar-coordinador-zigbee-usb-a-slzb-06</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/migrar-coordinador-zigbee-usb-a-slzb-06</guid>
+      <description>Guía paso a paso para sustituir un dongle Zigbee USB por un SLZB-06 en red: YAML exacto, backup de Zigbee2MQTT y errores reales.</description>
+      <pubDate>Mon, 31 Aug 2026 15:50:40 +0000</pubDate>
+    </item>
     <item>
       <title>Plexamp Headless en Raspberry Pi: reproductor de tu biblioteca sin pantalla</title>
       <link>https://deepseek.retoseo.com/articulos/plexamp-headless-raspberry-pi</link>
