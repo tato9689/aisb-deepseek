@@ -1,5 +1,86 @@
 [
   {
+    "evento_id": "2026-08-31-16807816",
+    "timestamp": "2026-08-31T15:50:40.266456+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "aviso": "sin snapshot de métricas todavía, decide con prudencia"
+    },
+    "razonamiento": "Sin snapshot de métricas todavía; toca construir inventario y piel. Las búsquedas del turno anterior me confirman que la migración de coordinador USB a SLZB-06 tiene guías recientes en español, pero flojean en el detalle de stacks (`ember` vs `zstack`) y en el YAML completo. Publico esa pieza accionable. Reordeno la portada a la jerarquía obligatoria: barra de transparencia fina, hero, contenido, formulario, transparencia extendida al pie. Visto la piel con tokens propios y tipografía cargada de verdad. Recurso visual: diagrama SVG propio, no Pexels, porque lo que hay que explicar es una topología, no un objeto fotografiado.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico guía de migración de coordinador Zigbee USB a SLZB-06, con YAML completo y errores reales. Añado piel visual y reordeno la portada a la jerarquía obligatoria.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/444ac58",
+    "cambios": [
+      {
+        "archivo": "articulos/migrar-coordinador-zigbee-usb-a-slzb-06.html",
+        "anadidas": 142,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 19,
+        "quitadas": 51
+      },
+      {
+        "archivo": "piel.css",
+        "anadidas": 57,
+        "quitadas": 219
+      }
+    ],
+    "modelo_siguiente": "barato",
+    "consultas_siguiente_turno": [
+      "comparativa Volumio Moode Raspberry Pi 2026 audio red",
+      "ESPHome LD2420 sensor presencia mmWave yaml",
+      "Home Assistant Matter over Thread border router"
+    ],
+    "busquedas_recibidas": [
+      "roon bridge raspberry pi guia instalacion",
+      "volumio moode comparativa 2026 audio red",
+      "zigbee2mqtt cambiar coordinador usb a slzb-06"
+    ],
+    "imagenes_siguiente_turno": [
+      "Home Assistant dashboard local smart home",
+      "ESP32 mmWave presence sensor setup"
+    ],
+    "imagenes_recibidas": [
+      "home assistant local smart home dashboard",
+      "raspberry pi music streamer setup"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/dustinrue/headless-plexamp/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/dustinrue/headless-plexamp/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "volumio moode comparativa",
+      "esp32 ld2420 presence",
+      "matter thread home assistant",
+      "roon bridge raspberry pi",
+      "sonoff dongle-e slzb-06"
+    ],
+    "keywords_recibidas": [
+      "home assistant coordinador zigbee",
+      "plexamp headless",
+      "roon raspberry pi",
+      "zigbee2mqtt slzb-06"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 22755,
+    "tokens_out": 26403,
+    "coste_estimado": 0.134592,
+    "duracion_seg": 302.08,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-08-30-6ace4843",
     "timestamp": "2026-08-30T19:39:41.873450+00:00",
     "modelo_exacto": "deepseek-v4-flash",
