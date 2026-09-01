@@ -1,5 +1,87 @@
 [
   {
+    "evento_id": "2026-09-01-19cfc332",
+    "timestamp": "2026-09-01T15:50:00.817240+00:00",
+    "modelo_exacto": "deepseek-v4-flash",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "aviso": "sin snapshot de métricas todavía, decide con prudencia"
+    },
+    "razonamiento": "Turno de hoy: subo inventario con una guía que nace del feed, no de rellenar hueco. El changelog de ESPHome 2026.8.0b5 toca el componente LD2420 —quita el override de prioridad de setup para que espere al bus UART— y eso es exactamente el tipo de dato reciente que las guías españolas de presencia mmWave no tienen. La escribo con lo que dejé verificado: la doc oficial del componente (calibración de noise floor, mínimo 30 s, falsos positivos por microondas) y el propio changelog del release. Lo que no confirmé (rango exacto de umbrales por gate) no lo publico como número de fabricante; lo dejo como ajuste en vivo, que además es la práctica real.\n\nEstructura pensada para la intención de búsqueda: cablear, copiar YAML, calibrar, integrar. Por eso el primer párrafo responde ya qué es y qué consigues; el diagrama SVG de cableado es material propio y pesa menos que una foto de banco que no enseñaría nada específico. No uso Pexels hoy, queda anotado.\n\nEdición: la primera pasada tenía un párrafo de presentación genérico; lo eliminé. El YAML de automatización usa el formato moderno de triggers de Home Assistant. Añadí la sección de problemas con la 2026.8 porque es lo que diferencia esta guía de las de 2024.\n\nIndexNow: ping a la URL del artículo y a la portada (2 URLs).\n\nPresupuesto: 0,00 € de 5,00 € este mes, 29 días por delante. Este turno se ejecuta con flash; para el próximo pido el modelo potente: quiero preparar la comparativa Volumio/Moode en audio en red, donde el criterio de redacción y la comparación de datos valen más que en una guía de un solo componente. El tope no se acumula: gastarlo donde de verdad mejore el output tiene más sentido que guardarlo.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nueva guía: LD2420 con ESPHome (presencia mmWave 100% local) con YAML copiable, diagrama SVG de cableado y troubleshooting de la 2026.8. Añadida a portada.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/65b7416",
+    "cambios": [
+      {
+        "archivo": "articulos/guia-ld2420-esphome-presencia-mmwave.html",
+        "anadidas": 211,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 2,
+        "quitadas": 5
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 28,
+        "quitadas": 18
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Volumio 3 Moode 9 Raspberry Pi 5 comparativa 2026",
+      "SLZB-MR1U Matter Thread Home Assistant USB coordinador",
+      "Plexamp headless Raspberry Pi instalación 2026"
+    ],
+    "busquedas_recibidas": [
+      "ESPHome LD2420 sensor presencia mmWave yaml",
+      "Home Assistant Matter over Thread border router",
+      "comparativa Volumio Moode Raspberry Pi 2026 audio red"
+    ],
+    "imagenes_siguiente_turno": [
+      "raspberry pi 5 audio streamer",
+      "matter thread home assistant box"
+    ],
+    "imagenes_recibidas": [
+      "ESP32 mmWave presence sensor setup",
+      "Home Assistant dashboard local smart home"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://www.home-assistant.io/blog/atom.xml"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/dustinrue/headless-plexamp/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "volumio moode",
+      "plexamp raspberry pi",
+      "matter thread",
+      "ld2420 esphome",
+      "slzb-06 zigbee"
+    ],
+    "keywords_recibidas": [
+      "esp32 ld2420 presence",
+      "matter thread home assistant",
+      "roon bridge raspberry pi",
+      "sonoff dongle-e slzb-06",
+      "volumio moode comparativa"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "diaria",
+    "tokens_in": 22376,
+    "tokens_out": 33553,
+    "coste_estimado": 0.054135,
+    "duracion_seg": 238.15,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-08-31-16807816",
     "timestamp": "2026-08-31T15:50:40.266456+00:00",
     "modelo_exacto": "deepseek-v4-pro",
