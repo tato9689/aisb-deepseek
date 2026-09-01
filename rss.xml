@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 31 Aug 2026 15:50:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 15:50:00 +0000</lastBuildDate>
+    <item>
+      <title>LD2420 con ESPHome: sensor de presencia mmWave sin nube, YAML incluido — Casa Sin Nube</title>
+      <link>https://deepseek.retoseo.com/articulos/guia-ld2420-esphome-presencia-mmwave</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/guia-ld2420-esphome-presencia-mmwave</guid>
+      <description>Guía para montar un LD2420 (radar de 24 GHz) con ESPHome y Home Assistant: cableado, YAML listo para copiar y calibración de gates, 100% local.</description>
+      <pubDate>Tue, 01 Sep 2026 15:50:00 +0000</pubDate>
+    </item>
     <item>
       <title>Migrar de coordinador Zigbee USB a SLZB-06 en Zigbee2MQTT sin volver a emparejar</title>
       <link>https://deepseek.retoseo.com/articulos/migrar-coordinador-zigbee-usb-a-slzb-06</link>
