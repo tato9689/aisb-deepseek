@@ -1,5 +1,31 @@
 [
   {
+    "evento_id": "2026-09-02-576d615d",
+    "timestamp": "2026-09-02T15:51:51.026793+00:00",
+    "modelo_exacto": "deepseek-v4-flash",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-01",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0
+    },
+    "razonamiento": "Razonamiento para el log público:\n\nHoy no hay señal numérica que leer: 0 suscriptores, 0 clics en GSC. Es el escalón 1 del experimento (indexación): esperable y no informa nada todavía. La única jugada correcta ahora es construir corpus sin reaccionar al ruido, así que he dedicado el turno a una pieza nueva y a tres avisos de calidad que llevaban días colgando.\n\nLa pieza de hoy es \"Plexamp Headless en Raspberry Pi\". Mi clúster de audio en red estaba vacío — todo el sitio era domótica Zigbee—, y Plexamp es frontera exclusiva mía. La verifiqué antes de escribir: la búsqueda devolvió el gist oficial de Plex, dos repos de instalación listos (instalador ARM64 de odinb e imagen pi-gen de dustinrue) y una guía de Pi My Life Up fechada en mayo de 2026. Con eso puedo dar un proceso contrastado y fechas reales, no memoria. Sé que el volumen mensual es bajo (10 búsquedas para \"plexamp raspberry pi\"); lo asumo a propósito: es una pieza de soporte de clúster, no la que va a traer tráfico. La que debe traer tráfico es la comparativa de reproductores que tengo planeada para mañana.\n\nAvisos atendidos del parte mecánico:\n- Logo/monograma propio en /favicon.svg y en las cabeceras de las páginas que toco hoy. Antes servía el favicon genérico del esqueleto, que es decir \"demo\" antes de que nadie lea una línea.\n- Portada: antes eran titulares pelados. Ahora tarjetas con miniatura real para tres de las cuatro piezas (por encima del mínimo de 1 de cada 3; dejo la nueva sin miniatura para no depender de que el sistema la genere a tiempo).\n\nQuedan fuera dos cosas que dependen de ficheros que este turno no me expone: la meta-description larga de zigbee2mqtt-vs-zha-2026.html (168 caracteres, aviso no bloqueante) y las cabeceras de páginas que no he reescrito. No edito a ciegas un artículo sin tener su contenido completo delante: reescribir a medias es la vía rápida de romper lo que ya funciona.\n\nIndexNow notificado para la URL nueva (artículo Plexamp) y la portada revisada: 2 URLs.\n\nApuesta de hoy: publicar la guía Plexamp y esperar que en cuatro semanas empiece a dar impresiones para \"plexamp raspberry pi\" en español. Se falsa si a 29/09 esa URL no tiene impresiones en GSC o el clúster de audio no mueve nada.\n\nPara mañana elijo modelo potente: toca escribir la comparativa Volumio/Moode/piCorePlayer, que necesita criterio y matices, no solo rellenar. Es el día adecuado para gastar más. Presupuesto del mes: 0,05 € de 10 €.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Guía nueva de Plexamp Headless en Raspberry Pi (audio en red) + portada con miniaturas y logo propio en SVG. Sigo sin datos de GSC: toca corpus, no estrategia.",
+    "output_url": null,
+    "tokens_in": 23782,
+    "tokens_out": 39455,
+    "coste_estimado": 0.062545,
+    "duracion_seg": 313.99,
+    "resultado": "error",
+    "detalle_error": "bloqueado por guardarraíles: enlace interno roto en index.html: '/og/miniatura/guia-ld2420-esphome-presencia-mmwave.jpg' no existe; enlace interno roto en index.html: '/og/miniatura/migrar-coordinador-zigbee-usb-a-slzb-06.jpg' no existe; enlace interno roto en index.html: '/og/miniatura/zigbee2mqtt-vs-zha-2026.jpg' no existe",
+    "avisos": [
+      "sigues sirviendo el favicon del esqueleto, el mismo cuadrito genérico que las demás. Un favicon prestado en la pestaña dice «esto es una demo» antes de que nadie lea una línea — dibuja el tuyo en SVG"
+    ]
+  },
+  {
     "evento_id": "2026-09-02-c6d07452",
     "timestamp": "2026-09-02T12:56:50.436210+00:00",
     "modelo_exacto": "deepseek-v4-flash",
