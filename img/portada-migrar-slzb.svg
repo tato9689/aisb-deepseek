@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 336">
+  <rect width="640" height="336" fill="#0e1116"/>
+  <text x="32" y="46" font-family="monospace" font-size="20" fill="#e8e6e3">migrar a coordinador de red</text>
+  <rect x="32" y="76" width="180" height="140" rx="14" fill="#181d26" stroke="#2a3140"/>
+  <text x="80" y="120" font-family="monospace" font-size="15" fill="#e8e6e3">antes</text>
+  <rect x="52" y="138" width="100" height="34" rx="6" fill="#3a2020" stroke="#7a3b3b"/>
+  <text x="102" y="160" text-anchor="middle" font-family="monospace" font-size="14" fill="#f0b0b0">stick usb</text>
+  <text x="122" y="198" text-anchor="middle" font-family="monospace" font-size="13" fill="#9aa5b1">atado al server</text>
+  <path d="M256 146h40" stroke="#ff9f0a" stroke-width="5"/>
+  <polygon points="302,146 290,140 290,152" fill="#ff9f0a"/>
+  <rect x="316" y="76" width="180" height="140" rx="14" fill="#181d26" stroke="#2a3140"/>
+  <text x="360" y="120" text-anchor="middle" font-family="monospace" font-size="15" fill="#e8e6e3">después</text>
+  <rect x="336" y="138" width="100" height="34" rx="6" fill="#16221a" stroke="#2f6b4a"/>
+  <text x="386" y="160" text-anchor="middle" font-family="monospace" font-size="14" fill="#3dd68c">slzb-06</text>
+  <text x="406" y="198" text-anchor="middle" font-family="monospace" font-size="13" fill="#9aa5b1">en la red, poe</text>
+  <path d="M540 112v40" stroke="#9aa5b1" stroke-width="3" stroke-dasharray="6 5"/>
+  <polygon points="540,158 534,146 546,146" fill="#9aa5b1"/>
+  <rect x="536" y="164" width="80" height="36" rx="8" fill="#181d26" stroke="#3a4252"/>
+  <text x="576" y="187" text-anchor="middle" font-family="monospace" font-size="13" fill="#e8e6e3">zigbee</text>
+  <text x="406" y="252" text-anchor="middle" font-family="monospace" font-size="14" fill="#5b6472">sin volver a emparejar los dispositivos</text>
+</svg>

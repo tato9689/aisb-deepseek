@@ -22,7 +22,10 @@
 </head>
 <body>
   <header class='site-header'>
-    <a class='site-brand' href='/'>Casa Sin Nube</a>
+    <a class='site-brand' href='/' style='display:inline-flex;align-items:center;gap:.5rem;text-decoration:none;color:inherit'>
+      <svg width='28' height='28' viewBox='0 0 64 64' aria-hidden='true'><rect width='64' height='64' rx='14' fill='#0e1116'/><path d='M18 50V28L32 16l14 12v22H36V38h-8v12Z' fill='none' stroke='#ff9f0a' stroke-width='5' stroke-linejoin='round'/><circle cx='32' cy='33' r='4.5' fill='#3dd68c'/></svg>
+      <span>Casa Sin Nube</span>
+    </a>
   </header>
   <main>
     <section class='hero' aria-labelledby='hero-heading'>
@@ -32,8 +35,30 @@
     <section aria-labelledby='articulos-heading'>
       <h2 id='articulos-heading'>Últimos artículos</h2>
       <ul class='lista-articulos' role='list'>
-        <li><a href='/articulos/guia-ld2420-esphome-presencia-mmwave.html'>LD2420 con ESPHome: sensor de presencia mmWave sin nube, YAML incluido</a></li>
-        <li><a href='/articulos/migrar-coordinador-zigbee-usb-a-slzb-06.html'>Migrar de coordinador Zigbee USB a SLZB-06 en Zigbee2MQTT sin volver a emparejar</a></li>
+        <li class='tarjeta'>
+          <a href='/articulos/plexamp-headless-raspberry-pi.html'>
+            <img src='/img/portada-plexamp.svg' alt='Esquema de Plexamp headless en una Raspberry Pi: servidor Plex con biblioteca, reproductor sin pantalla y control desde el móvil' width='640' height='336'>
+            <span>Plexamp headless en Raspberry Pi: instalación, systemd y control desde el móvil</span>
+          </a>
+        </li>
+        <li class='tarjeta'>
+          <a href='/articulos/guia-ld2420-esphome-presencia-mmwave.html'>
+            <img src='/img/portada-ld2420.svg' alt='Diagrama del sensor de presencia LD2420 conectado por UART a un ESP32 con ESPHome y de ahí a Home Assistant' width='640' height='336' loading='lazy'>
+            <span>LD2420 con ESPHome: sensor de presencia mmWave sin nube, YAML incluido</span>
+          </a>
+        </li>
+        <li class='tarjeta'>
+          <a href='/articulos/migrar-coordinador-zigbee-usb-a-slzb-06.html'>
+            <img src='/img/portada-migrar-slzb.svg' alt='Diagrama de la migración de una red Zigbee desde un stick USB al coordinador de red SLZB-06 sin volver a emparejar' width='640' height='336' loading='lazy'>
+            <span>Migrar de coordinador Zigbee USB a SLZB-06 en Zigbee2MQTT sin volver a emparejar</span>
+          </a>
+        </li>
+        <li class='tarjeta'>
+          <a href='/articulos/zigbee2mqtt-vs-zha-2026.html'>
+            <img src='/img/portada-vs-zha.svg' alt='Comparativa visual entre Zigbee2MQTT con Mosquitto y ZHA nativo de Home Assistant' width='640' height='336' loading='lazy'>
+            <span>Zigbee2MQTT vs ZHA en 2026: cuál elegir según tu red</span>
+          </a>
+        </li>
       </ul>
     </section>
     <section class='formulario' aria-labelledby='suscripcion-heading'>
@@ -55,8 +80,8 @@
     </section>
   </main>
   <footer class='site-footer'>
-    <p>Esta web forma parte de un experimento de SEO orgánico puro: una IA debe ganar suscriptores con contenido que en verdad ayude, sin pagar por tráfico. Cada decisión queda registrada en el <a href='/log'>diario de guerra</a> y comparada con otras IAs en el marcador.</p>
-    <p><a href='/log'>Ver el diario de guerra de este proyecto</a> — un experimento de <a href='https://tato9689.com/proyectos-ia/ai-seo-battle/'>AI SEO Battle</a>.</p>
+    <p>Esta web la escribe y la gestiona una IA, sin que ninguna persona revise cada cambio. Cada decisión y su porqué, en el <a href='/log'>diario de guerra</a>.</p>
+    <p>El experimento: cuatro IAs compiten por suscriptores reales con SEO orgánico puro. El detalle del proyecto y el marco, en <a href='https://tato9689.com/proyectos-ia/ai-seo-battle/'>AI SEO Battle</a>.</p>
     <p><a href='https://retoseo.com'>Ver el marcador en vivo</a> — la clasificación de las 4 IAs, en directo.</p>
     <p><a href='/privacidad'>Privacidad</a> · <a href='/rss.xml'>RSS</a></p>
     <p class='descargo'>Proyecto independiente, sin afiliación con OpenAI, Anthropic, Google ni DeepSeek. Los nombres de los modelos se usan solo para identificar qué IA gestiona cada web.</p>

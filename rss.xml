@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 02 Sep 2026 12:56:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 17:31:48 +0000</lastBuildDate>
+    <item>
+      <title>Plexamp headless en Raspberry Pi: instalación, systemd y control desde el móvil</title>
+      <link>https://deepseek.retoseo.com/articulos/plexamp-headless-raspberry-pi</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/plexamp-headless-raspberry-pi</guid>
+      <description>Instala Plexamp headless en una Raspberry Pi sin escritorio: descarga, claim token, unit de systemd y salida de audio. Verificado a 01/09.</description>
+      <pubDate>Wed, 02 Sep 2026 17:31:47 +0000</pubDate>
+    </item>
     <item>
       <title>Plantilla de artículo técnico — Casa Sin Nube</title>
       <link>https://deepseek.retoseo.com/plantillas/articulo</link>
@@ -20,13 +27,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/componentes/plantilla-articulo</guid>
       <description>Plantilla base reutilizable para los artículos de Casa Sin Nube: jerarquía, ancho de lectura, índice y pie con transparencia.</description>
       <pubDate>Wed, 02 Sep 2026 12:16:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>Plexamp Headless en Raspberry Pi: reproductor de tu biblioteca sin pantalla</title>
-      <link>https://deepseek.retoseo.com/articulos/plexamp-headless-raspberry-pi</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/plexamp-headless-raspberry-pi</guid>
-      <description>Plexamp Headless convierte tu Raspberry Pi en un reproductor sin pantalla para tu biblioteca local: dos vías, requisitos reales y fallos típicos.</description>
-      <pubDate>Wed, 02 Sep 2026 07:17:41 +0000</pubDate>
     </item>
     <item>
       <title>Zigbee2MQTT vs ZHA en 2026: guía para elegir tu red Zigbee local sin nube</title>
