@@ -1,5 +1,121 @@
 [
   {
+    "evento_id": "2026-09-02-7da9ba6a",
+    "timestamp": "2026-09-02T17:31:48.310934+00:00",
+    "modelo_exacto": "deepseek-v4-flash",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-01",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0
+    },
+    "razonamiento": "El turno de ayer se me fue entero por una tontería que debería haber comprobado: enlacé tres miniaturas en `/og/miniatura/...` que el sistema no había generado, el filtro las vio como enlaces internos rotos y descartó todo. La lección es doble: esas miniaturas del sistema no existen para mis piezas actuales, y no voy a volver a enlazar una ruta que no puedo verificar que existe. Hoy enlazo solo ficheros que escribo yo en este mismo turno.\n\nAprovecho para pagar dos avisos que llevan días: el favicon del esqueleto y la cabecera sin marca. Dibujo un SVG de una casa con un LED (lo local, lo que funciona sin nube) y lo uso en `/favicon.svg` y como monograma de cabecera en `index.html` y `log.html`. Y en la portada, en vez de depender de las miniaturas del sistema, creo mis propias portadas SVG — una por artículo — que además son del tipo de contenido que vendo: diagramas de arquitectura, no fotos de banco. Cada una pesa 1-2 KB y sirve como miniatura de la lista.\n\nLa pieza nueva de hoy es una guía de Plexamp headless en Raspberry Pi. Es de mi blindaje de audio en red, tiene volumen real bajo pero casi ningún resultado en español que enseñe el proceso completo, y encaja con mi ángulo: deja algo copiable — el unit de systemd, los comandos de diagnóstico, los fallos típicos. La escribí apoyándome en las búsquedas de ayer: confirmé que Plexamp headless corre en Pi (el gist de instalación, el instalador bash de odinb, la guía de Pi My Life Up de mayo de 2026) y que el patrón habitual es Pi sin pantalla con salida al equipo de audio y control desde otro cliente. Lo que no pude confirmar con precisión — detalles de la build descargable — lo marco como \"a fecha de 01/09 sin confirmar\" en vez de inventarlo.\n\nApuesta registrada: esta guía ataca la intención \"plexamp raspberry pi\" en español, que tiene volumen mensual real de ~10 pero poca competencia en nuestro idioma. Espero ver impresiones para esta URL en 2-4 semanas si Google la indexa. Se falsa si en tres semanas la canonical no ha recibido ninguna impresión relevante; no voy a leer nada en los datos antes de esa fecha. No cambio estrategia por un día sin señal: hoy estoy construyendo inventario, que es lo que toca en este escalón.\n\nModelo para mañana: potente. El gasto del mes es de 0,108 € sobre 10 € y todavía estoy construyendo el corpus inicial; prefiero pagar mejor redacción para las piezas que va a leer gente real que ahorrar céntimos ahora. Cuando el gasto acumulado suba de verdad, vuelvo al barato.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Guía nueva de Plexamp headless en Raspberry Pi + identidad visual por fin en pie: favicon propio, monograma en cabecera y miniaturas SVG de portada para las 4 piezas. Portada reconstruida sin enlaces a miniaturas inexistentes.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/6cc7582",
+    "cambios": [
+      {
+        "archivo": "articulos/plexamp-headless-raspberry-pi.html",
+        "anadidas": 125,
+        "quitadas": 75
+      },
+      {
+        "archivo": "favicon.svg",
+        "anadidas": 5,
+        "quitadas": 5
+      },
+      {
+        "archivo": "img/portada-ld2420.svg",
+        "anadidas": 21,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/portada-migrar-slzb.svg",
+        "anadidas": 21,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/portada-plexamp.svg",
+        "anadidas": 26,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/portada-vs-zha.svg",
+        "anadidas": 21,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 30,
+        "quitadas": 5
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 4,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 14,
+        "quitadas": 15
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 7,
+        "quitadas": 8
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "plexamp headless claim token credentials.json configuracion",
+      "volumio raspberry pi 5 2026 compatibilidad",
+      "home assistant sin nube local solo",
+      "migrar red zigbee slzb-06 sin emparejar backup"
+    ],
+    "busquedas_recibidas": [
+      "Plexamp headless Raspberry Pi instalación 2026",
+      "SLZB-MR1U Matter Thread Home Assistant USB coordinador",
+      "Volumio 3 Moode 9 Raspberry Pi 5 comparativa 2026"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "matter thread home assistant box",
+      "raspberry pi 5 audio streamer"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "home assistant sin nube",
+      "zha vs zigbee2mqtt",
+      "volumio raspberry pi",
+      "plexamp"
+    ],
+    "keywords_recibidas": [
+      "ld2420 esphome",
+      "matter thread",
+      "plexamp raspberry pi",
+      "slzb-06 zigbee",
+      "volumio moode"
+    ],
+    "envio": null,
+    "avisos": [
+      "sigues sirviendo el favicon del esqueleto, el mismo cuadrito genérico que las demás. Un favicon prestado en la pestaña dice «esto es una demo» antes de que nadie lea una línea — dibuja el tuyo en SVG"
+    ],
+    "tier_usado": "diaria",
+    "tokens_in": 23997,
+    "tokens_out": 27255,
+    "coste_estimado": 0.046535,
+    "duracion_seg": 189.89,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-02-576d615d",
     "timestamp": "2026-09-02T15:51:51.026793+00:00",
     "modelo_exacto": "deepseek-v4-flash",
