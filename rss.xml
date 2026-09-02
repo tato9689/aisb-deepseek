@@ -6,41 +6,48 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 01 Sep 2026 15:50:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 12:16:29 +0000</lastBuildDate>
     <item>
-      <title>LD2420 con ESPHome: sensor de presencia mmWave sin nube, YAML incluido — Casa Sin Nube</title>
-      <link>https://deepseek.retoseo.com/articulos/guia-ld2420-esphome-presencia-mmwave</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/guia-ld2420-esphome-presencia-mmwave</guid>
-      <description>Guía para montar un LD2420 (radar de 24 GHz) con ESPHome y Home Assistant: cableado, YAML listo para copiar y calibración de gates, 100% local.</description>
-      <pubDate>Tue, 01 Sep 2026 15:50:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Migrar de coordinador Zigbee USB a SLZB-06 en Zigbee2MQTT sin volver a emparejar</title>
-      <link>https://deepseek.retoseo.com/articulos/migrar-coordinador-zigbee-usb-a-slzb-06</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/migrar-coordinador-zigbee-usb-a-slzb-06</guid>
-      <description>Guía paso a paso para sustituir un dongle Zigbee USB por un SLZB-06 en red: YAML exacto, backup de Zigbee2MQTT y errores reales.</description>
-      <pubDate>Mon, 31 Aug 2026 15:50:40 +0000</pubDate>
+      <title>Plantilla de artículo — Componente de diseño — Casa Sin Nube</title>
+      <link>https://deepseek.retoseo.com/componentes/plantilla-articulo</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/componentes/plantilla-articulo</guid>
+      <description>Plantilla base reutilizable para los artículos de Casa Sin Nube: jerarquía, ancho de lectura, índice y pie con transparencia.</description>
+      <pubDate>Wed, 02 Sep 2026 12:16:29 +0000</pubDate>
     </item>
     <item>
       <title>Plexamp Headless en Raspberry Pi: reproductor de tu biblioteca sin pantalla</title>
       <link>https://deepseek.retoseo.com/articulos/plexamp-headless-raspberry-pi</link>
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/plexamp-headless-raspberry-pi</guid>
       <description>Plexamp Headless convierte tu Raspberry Pi en un reproductor sin pantalla para tu biblioteca local: dos vías, requisitos reales y fallos típicos.</description>
-      <pubDate>Sun, 30 Aug 2026 19:39:41 +0000</pubDate>
+      <pubDate>Wed, 02 Sep 2026 07:17:41 +0000</pubDate>
     </item>
     <item>
       <title>Zigbee2MQTT vs ZHA en 2026: guía para elegir tu red Zigbee local sin nube</title>
       <link>https://deepseek.retoseo.com/articulos/zigbee2mqtt-vs-zha-2026</link>
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/zigbee2mqtt-vs-zha-2026</guid>
       <description>Comparativa real de Zigbee2MQTT y ZHA en Home Assistant para 2026: cuál elegir según número de dispositivos, OTA y dependencias. Incluye plantilla de decisión copiable.</description>
-      <pubDate>Sun, 30 Aug 2026 17:40:00 +0000</pubDate>
+      <pubDate>Wed, 02 Sep 2026 07:17:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Migrar de coordinador Zigbee USB a SLZB-06 en Zigbee2MQTT sin volver a emparejar</title>
+      <link>https://deepseek.retoseo.com/articulos/migrar-coordinador-zigbee-usb-a-slzb-06</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/migrar-coordinador-zigbee-usb-a-slzb-06</guid>
+      <description>Guía paso a paso para sustituir un dongle Zigbee USB por un SLZB-06 en red: YAML exacto, backup de Zigbee2MQTT y errores reales.</description>
+      <pubDate>Wed, 02 Sep 2026 07:15:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>LD2420 con ESPHome: sensor de presencia mmWave sin nube, YAML incluido — Casa Sin Nube</title>
+      <link>https://deepseek.retoseo.com/articulos/guia-ld2420-esphome-presencia-mmwave</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/guia-ld2420-esphome-presencia-mmwave</guid>
+      <description>Guía para montar un LD2420 (radar de 24 GHz) con ESPHome y Home Assistant: cableado, YAML listo para copiar y calibración de gates, 100% local.</description>
+      <pubDate>Wed, 02 Sep 2026 07:15:42 +0000</pubDate>
     </item>
     <item>
       <title>ESPHome y Home Assistant: 3 automatizaciones locales con YAML listo para copiar</title>
       <link>https://deepseek.retoseo.com/articulos/esphome-automatizaciones-locales-yaml</link>
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esphome-automatizaciones-locales-yaml</guid>
       <description>Sensor de puerta, ventilador por temperatura y pantalla OLED con ESPHome y Home Assistant: tres automatizaciones locales con YAML completo.</description>
-      <pubDate>Sun, 30 Aug 2026 15:48:04 +0000</pubDate>
+      <pubDate>Wed, 02 Sep 2026 07:14:07 +0000</pubDate>
     </item>
   </channel>
 </rss>
