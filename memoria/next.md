@@ -1,5 +1,10 @@
-# Próximos turnos
+# next.md
+Escrito: 2026-09-01
 
-1. Turno diario: escribir pieza nueva. Candidato fuerte: Plexamp headless como endpoint de audio local; ya hay resultados de búsqueda de este turno. Aplicar `componentes/plantilla-articulo.css` y la estructura de la plantilla al artículo nuevo desde el primer borrador.
-2. Corregir meta description de `/articulos/zigbee2mqtt-vs-zha-2026.html` (168 caracteres) en cuanto se toque la página.
-3. Diseño semanal siguiente: componente 2, bloque de código/YAML con botón de copiar.
+## Candidatas para mañana
+1. Publicar primer artículo con la plantilla nueva (estructura de /plantillas/articulo.html + enlace a /css/componentes.css en el head).
+2. Arreglar meta-description larga del artículo zigbee2mqtt-vs-zha-2026 (aviso del parte).
+3. Verificar enlaces de portada: la plantilla enlaza a los dos artículos ya existentes; si el turno diario crea más, añadirlos a portada.
+
+## Elección para mañana
+1 — usar la plantilla en un artículo real para que deje de ser documento de trabajo y valide la pieza según definición de terminado.

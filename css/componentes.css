@@ -1,0 +1,302 @@
+/* Componentes reutilizables de artículo — Casa Sin Nube
+   Se enlaza desde la plantilla de artículo y viaja con cada pieza nueva.
+   Auto-contenido: define sus tokens sin depender de piel.css.
+   Última revisión: 01/09 */
+
+:root {
+  --dsn-fondo: #0f1115;
+  --dsn-superficie: #171a21;
+  --dsn-borde: #2a2f3a;
+  --dsn-texto: #e6e8ec;
+  --dsn-texto-suave: #a7adb8;
+  --dsn-acento: #d7a53e;
+  --dsn-acento-suave: rgba(215, 165, 62, 0.14);
+  --dsn-error: #c96a5b;
+  --dsn-radio: 6px;
+  --dsn-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --dsn-sans: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+/* Anchura de lectura */
+.marco-articulo {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+.articulo {
+  font-family: var(--dsn-sans);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--dsn-texto);
+}
+
+.articulo h1,
+.articulo h2,
+.articulo h3 {
+  line-height: 1.25;
+  margin: 1.8em 0 0.6em;
+  color: var(--dsn-texto);
+}
+
+.articulo h1 {
+  font-size: 2rem;
+  margin-top: 0.2em;
+}
+
+.articulo h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--dsn-borde);
+  padding-bottom: 0.3rem;
+}
+
+.articulo h3 {
+  font-size: 1.2rem;
+}
+
+.articulo p {
+  margin: 0 0 1.1em;
+}
+
+.articulo a {
+  color: var(--dsn-acento);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 120ms ease, color 120ms ease;
+}
+
+.articulo a:hover,
+.articulo a:focus-visible {
+  color: #e3bd6e;
+  border-bottom-color: currentColor;
+}
+
+.articulo code {
+  font-family: var(--dsn-mono);
+  font-size: 0.875em;
+  background: var(--dsn-superficie);
+  border: 1px solid var(--dsn-borde);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+}
+
+/* Cabecera de artículo */
+.cabecera-articulo {
+  margin-bottom: 2rem;
+}
+
+.fecha-linea {
+  font-family: var(--dsn-mono);
+  font-size: 0.8125rem;
+  color: var(--dsn-texto-suave);
+  margin: 0 0 0.5rem;
+}
+
+.lead {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--dsn-texto-suave);
+}
+
+/* Aviso de página de trabajo */
+.aviso-trabajo {
+  background: var(--dsn-acento-suave);
+  border: 1px solid var(--dsn-acento);
+  border-radius: var(--dsn-radio);
+  padding: 0.9rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.aviso-trabajo strong {
+  color: var(--dsn-acento);
+}
+
+/* Tabla de contenidos */
+.toc {
+  background: var(--dsn-superficie);
+  border: 1px solid var(--dsn-borde);
+  border-radius: var(--dsn-radio);
+  padding: 1.1rem 1.25rem;
+  margin: 1.5rem 0 2.2rem;
+}
+
+.toc h2 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--dsn-texto-suave);
+  border: 0;
+  margin-top: 0;
+  padding-bottom: 0.2rem;
+}
+
+.toc ol {
+  margin: 0.4rem 0 0;
+  padding-left: 1.3rem;
+}
+
+.toc li {
+  margin: 0.25rem 0;
+}
+
+/* Bloque de código con botón copiar */
+.code-block {
+  background: var(--dsn-superficie);
+  border: 1px solid var(--dsn-borde);
+  border-radius: var(--dsn-radio);
+  margin: 1.4rem 0;
+  overflow: hidden;
+}
+
+.code-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.6rem 0.4rem 0.9rem;
+  border-bottom: 1px solid var(--dsn-borde);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.badge-archivo {
+  font-family: var(--dsn-mono);
+  font-size: 0.75rem;
+  color: var(--dsn-texto-suave);
+}
+
+.btn-copiar {
+  font-family: var(--dsn-sans);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--dsn-texto);
+  background: transparent;
+  border: 1px solid var(--dsn-borde);
+  border-radius: var(--dsn-radio);
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  transition: border-color 120ms ease, color 120ms ease, background-color 120ms ease;
+}
+
+.btn-copiar:hover,
+.btn-copiar:focus-visible {
+  border-color: var(--dsn-acento);
+  color: var(--dsn-acento);
+  background: var(--dsn-acento-suave);
+}
+
+.btn-copiar:focus-visible {
+  outline: 2px solid var(--dsn-acento);
+  outline-offset: 2px;
+}
+
+.code-block pre {
+  margin: 0;
+  overflow-x: auto;
+  padding: 1rem 1.1rem;
+}
+
+.code-block pre code {
+  font-family: var(--dsn-mono);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  white-space: pre;
+}
+
+/* Tabla de datos */
+.tabla-wrapper {
+  overflow-x: auto;
+  margin: 1.4rem 0;
+  border: 1px solid var(--dsn-borde);
+  border-radius: var(--dsn-radio);
+}
+
+.tabla-datos {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.tabla-datos th,
+.tabla-datos td {
+  text-align: left;
+  padding: 0.65rem 0.9rem;
+  border-bottom: 1px solid var(--dsn-borde);
+}
+
+.tabla-datos thead th {
+  background: var(--dsn-superficie);
+  font-family: var(--dsn-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--dsn-texto-suave);
+}
+
+.tabla-datos tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.tabla-datos tbody tr:hover td {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+/* Nota */
+.nota {
+  border-left: 3px solid var(--dsn-acento);
+  background: var(--dsn-superficie);
+  border-radius: 0 var(--dsn-radio) var(--dsn-radio) 0;
+  padding: 0.9rem 1.1rem;
+  margin: 1.4rem 0;
+}
+
+.nota p {
+  margin: 0;
+}
+
+/* Fuentes */
+.fuentes {
+  border-top: 1px solid var(--dsn-borde);
+  margin-top: 2.4rem;
+  padding-top: 0.4rem;
+}
+
+/* Changelog */
+.changelog {
+  border-top: 1px solid var(--dsn-borde);
+  margin-top: 2rem;
+  padding-top: 0.4rem;
+}
+
+.changelog ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: 0.9375rem;
+  color: var(--dsn-texto-suave);
+}
+
+/* Recientes */
+.recientes {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--dsn-borde);
+}
+
+.recientes h2 {
+  font-size: 1.1rem;
+}
+
+.recientes ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .articulo a,
+  .btn-copiar {
+    transition: none;
+  }
+}
