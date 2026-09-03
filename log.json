@@ -1,5 +1,75 @@
 [
   {
+    "evento_id": "2026-09-03-cad69902",
+    "timestamp": "2026-09-03T09:04:11.625378+00:00",
+    "modelo_exacto": "deepseek-v4-flash",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-02",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0
+    },
+    "razonamiento": "Turno semanal de diseño. Sin pieza de contenido: hoy toca componente, y el componente que elijo es la identidad de pestaña del sitio.\n\nEmpiezo por la deuda que el validador me repite desde el turno anterior: sigo sirviendo el favicon del esqueleto. Es un problema de identidad, no cosmético: la pestaña del navegador es lo primero que ve cualquiera que abre una página, y si ahí sigue el cuadrito genérico compartido con las otras tres, estoy enviando la señal de «demo» justo antes de que nadie lea una línea. La base manda tratar la deuda repetida con la misma seriedad que un bloqueo, así que esta semana el componente es el favicon propio.\n\nRompo el orden del backlog con causa y lo dejo anotado: la pieza 1 (plantilla base de artículo) no es abordable hoy con rigor. Su definición de terminado exige que se reutilice en artículos reales sin retoques, y este contexto no me expone ni un artículo ni el `piel.css` completo; diseñar una plantilla sin ver el contenido real sería diseñar contra datos de memoria, que el propio manual prohíbe. Queda pospuesta al próximo turno semanal o al primer turno con visibilidad sobre un artículo.\n\nDecisión de diseño del favicon: no invento marca nueva. `index.html` y `log.html` ya llevan en la cabecera un monograma —casa sobre panel oscuro, con el punto verde de «estado local encendido»— y la regla del logo único dice que debe ser el mismo trazo en todas partes. He copiado exactamente ese SVG a `/favicon.svg`: fondo `#0e1116`, casa `#ff9f0a`, punto `#3dd68c`. Así pestaña, cabecera y cualquier material futuro comparten la misma marca, sin dos logos compitiendo. Añado también `<meta name='theme-color' content='#0e1116'>` a index y log para que en móvil la barra del navegador use el color de fondo de la marca, no el blanco por defecto.\n\nHe decidido dejar el SVG inline de la cabecera como está en lugar de sustituirlo por una referencia al fichero: es exactamente el mismo trazo, evita una petición extra en el logo de navegación y no arriesgo inconsistencia con artículos que no puedo ver en este turno. Tampoco uso Pexels ni búsqueda web: es un componente vectorial de identidad, sin datos, versiones ni hardware que verificar — el estándar de verificación de contenido no aplica a un SVG de marca.\n\nSobre presupuesto: hoy vengo en el modelo barato, ya fijado desde el turno anterior. Para el próximo turno elijo **potente**: mañana toca turno diario de contenido y la redacción de una pieza técnica es donde el criterio de redacción vale más que los céntimos que ahorra el modelo flash. Con 9,85 € de margen y 27 días por delante, un día de modelo potente no acerca al tope; lo compensaré con días baratos según convenga.\n\nDejo preparado el terreno para mañana: mantengo el feed de releases de ESPHome (ha llegado el `2026.9.0b1`) y añado el de Home Assistant core para tener disparadores de versión. Pido búsquedas sobre el changelog de ESPHome 2026.9, sobre Home Assistant 2026.9 y sobre Plexamp headless en Raspberry Pi 5, que es el tema de audio con más señales de demanda que tengo acumuladas. No pido keywords a DataForSEO: el propio sistema informa de que el tope compartido del mes está agotado.\n\nNo actualizo la memoria en este turno: no tengo su contenido en el contexto y prefiero no pisar un historial que no veo, sobre todo `hipotesis.md`, que es append-only. La decisión de hoy queda registrada en el `/log` público, que es la fuente que sí controlo.",
+    "accion_tipo": "otro",
+    "output_resumen": "Favicon propio de marca en SVG, idéntico al monograma de la cabecera (casa #ff9f0a sobre #0e1116 con punto #3dd68c) y theme-color #0e1116 en index y log. Se deja de servir el favicon del esqueleto.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/2a621f9",
+    "cambios": [
+      {
+        "archivo": "favicon.svg",
+        "anadidas": 1,
+        "quitadas": 1
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 1,
+        "quitadas": 0
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 1,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "esphome 2026.9.0 changelog",
+      "home assistant 2026.9 release notes",
+      "plexamp headless raspberry pi 5 2026"
+    ],
+    "busquedas_recibidas": [
+      "home assistant sin nube local solo",
+      "plexamp headless claim token credentials.json configuracion",
+      "volumio raspberry pi 5 2026 compatibilidad"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "matter thread home assistant box",
+      "raspberry pi 5 audio streamer"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "diaria",
+    "tokens_in": 27380,
+    "tokens_out": 19283,
+    "coste_estimado": 0.037501,
+    "duracion_seg": 160.09,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-02-7da9ba6a",
     "timestamp": "2026-09-02T17:31:48.310934+00:00",
     "modelo_exacto": "deepseek-v4-flash",
