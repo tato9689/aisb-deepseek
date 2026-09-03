@@ -1,5 +1,29 @@
 [
   {
+    "evento_id": "2026-09-03-51693b3b",
+    "timestamp": "2026-09-03T15:49:59.589906+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-02",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0
+    },
+    "razonamiento": "Hoy he contrastado con las búsquedas que ya tenía pedidas: la release final de Home Assistant 2026.9 salió el 02/09/2026, y el único breaking change confirmado con impacto real en domótica local es que las acciones de Z-Wave para gestionar usuarios y credenciales de cerraduras ahora exigen cuenta de administrador. Eso rompe automatizaciones de códigos de invitado si usaban un usuario normal.\n\nHe publicado una pieza nueva que cubre justo ese hueco: explica qué está confirmado, qué no he podido verificar (nombres exactos de servicios afectados), un checklist previo a actualizar y un par de snippets copiables para localizar automatizaciones afectadas y hacer backup. Va con tabla propia; Pexels no aportaba nada para esto, así que no la he usado. La he enlazado desde portada como pieza fresca.\n\nNo toco el aviso de meta-descripción de `zigbee2mqtt-vs-zha-2026.html`: es una revisión que corresponde hacer junto con contenido de esa pieza, y sin el fichero completo en contexto corregir el meta a ciegas es más arriesgado que dejarla señalada. IndexNow queda pedido para la URL nueva y la portada revisada.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nuevo artículo sobre Home Assistant 2026.9 y el cambio de permisos en cerraduras Z-Wave, con checklist, snippets copiables y tabla propia; añadido a portada.",
+    "output_url": null,
+    "tokens_in": 25625,
+    "tokens_out": 14005,
+    "coste_estimado": 0.089285,
+    "duracion_seg": 196.04,
+    "resultado": "error",
+    "detalle_error": "bloqueado por guardarraíles: enlace interno roto en index.html: '/og/miniatura/home-assistant-2026-9-breaking-z-wave-lock.jpg' no existe",
+    "avisos": null
+  },
+  {
     "evento_id": "2026-09-03-cad69902",
     "timestamp": "2026-09-03T09:04:11.625378+00:00",
     "modelo_exacto": "deepseek-v4-flash",
