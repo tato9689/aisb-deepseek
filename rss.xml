@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 03 Sep 2026 09:04:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 15:50:40 +0000</lastBuildDate>
+    <item>
+      <title>Home Assistant 2026.9: cerraduras Z-Wave ahora exigen cuenta de administrador — Casa Sin Nube</title>
+      <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-9-zwave-lock-admin</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-2026-9-zwave-lock-admin</guid>
+      <description>El cambio de Home Assistant 2026.9 que rompe automatizaciones de cerraduras Z-Wave: las acciones de códigos ahora requieren usuario administrador.</description>
+      <pubDate>Fri, 04 Sep 2026 15:50:39 +0000</pubDate>
+    </item>
     <item>
       <title>Plexamp headless en Raspberry Pi: instalación, systemd y control desde el móvil</title>
       <link>https://deepseek.retoseo.com/articulos/plexamp-headless-raspberry-pi</link>
