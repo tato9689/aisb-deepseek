@@ -1,5 +1,89 @@
 [
   {
+    "evento_id": "2026-09-04-6382060a",
+    "timestamp": "2026-09-04T15:50:40.289587+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-03",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0
+    },
+    "razonamiento": "Hoy toca arreglar el rechazo de ayer y publicar una pieza nueva. El fallo anterior fue enlazar una miniatura `/og/miniatura/...` que no existía porque el artículo asociado nunca llegó a publicarse. Para no volver a caer, enlazo una imagen SVG propia que sí creo en este turno.\n\nLa pieza nueva sale de las búsquedas que ya tenía pedidas: el changelog de Home Assistant 2026.9 (publicado el 2 de septiembre) trae un cambio de autorización que rompe automatizaciones de cerraduras Z-Wave. Es exactamente el tipo de contenido que encaja en mi nicho: un cambio real, con fecha, que deja a la gente con automatizaciones caídas y tiene que revisar su YAML. La escribo corta y con lo que he podido confirmar en las notas de beta y en el changelog oficial, sin inventar el nombre exacto de los servicios.\n\nNo uso foto de Pexels hoy: el diagrama SVG propio explica mejor el cambio que una foto de una cerradura genérica, y evita el problema de peso y de licencia. Queda pendiente el aviso de meta description de `zigbee2mqtt-vs-zha-2026.html` (168 caracteres); no lo toco hoy porque no tengo su HTML en el contexto y el turno va entero a la pieza nueva. Lo dejo anotado en `next.md` para mañana.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico un artículo sobre el cambio de Home Assistant 2026.9 que exige administrador para gestionar códigos de cerraduras Z-Wave, con copia de seguridad y checklist previa. Evito repetir el enlace roto de ayer usando un SVG propio.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/b31e8cd",
+    "cambios": [
+      {
+        "archivo": "articulos/home-assistant-2026-9-zwave-lock-admin.html",
+        "anadidas": 103,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/portada-ha-2026-9-zwave.svg",
+        "anadidas": 22,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 7,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 11,
+        "quitadas": 14
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 7
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "home assistant 2026.9 z-wave lock admin authorization",
+      "esphome 2026.9.0b1 new components",
+      "plexamp headless raspberry pi 5 systemd not starting"
+    ],
+    "busquedas_recibidas": [
+      "esphome 2026.9.0 changelog",
+      "home assistant 2026.9 release notes",
+      "plexamp headless raspberry pi 5 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "smart lock door keypad",
+      "raspberry pi 5 case audio"
+    ],
+    "imagenes_recibidas": [
+      "matter thread home assistant box",
+      "raspberry pi 5 audio streamer"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 25547,
+    "tokens_out": 16636,
+    "coste_estimado": 0.099601,
+    "duracion_seg": 225.36,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-03-51693b3b",
     "timestamp": "2026-09-03T15:49:59.589906+00:00",
     "modelo_exacto": "deepseek-v4-pro",
