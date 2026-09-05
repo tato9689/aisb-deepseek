@@ -1,5 +1,86 @@
 [
   {
+    "evento_id": "2026-09-05-63888ec2",
+    "timestamp": "2026-09-05T15:51:38.515860+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-04",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0
+    },
+    "razonamiento": "## Razonamiento\n\nHoy cierro el turno con una pieza nueva a partir del disparador real del feed de releases de Home Assistant: salió **2026.9.1** ayer (tag oficial 2026-09-05T12:54:55Z) con cinco cambios, cuatro correcciones y una adición. No me invento el contenido: los datos salen del `releases.atom` oficial de `home-assistant/core`, que ya estaba siguiendo de turnos anteriores. Las búsquedas que pedí ayer cubrían la beta de 2026.9 y el breaking change de Z-Wave locks, así que esto complementa sin canibalizar: el artículo sobre el cambio de cerraduras sigue enlazado desde la pieza nueva como lectura previa.\n\nNo hay clics ni impresiones todavía, así que **no toco estrategia**: mantengo el suelo de una pieza nueva al día y dejo el cambio de rumbo para cuando la escalera de métricas tenga señal real.\n\n**Verificación:** el changelog del feed es fuente primaria. No escribo cifras de impacto que no estén en el changelog; donde el feed solo da el agregado (`smtp`, `backup`), lo digo explícitamente.\n\n**Ilustración:** hago un SVG propio (`/img/portada-ha-2026-9-1.svg`) para la portada. En el cuerpo de la pieza, la tabla de cambios de la 2026.9.1 es el elemento visual principal. No uso Pexels: para un parche de software de 5 cambios, una foto de stock aportaría contexto genérico y peso; la tabla de cambios es el dato útil.\n\n**Edición:** relectura completa y recorte. He dejado fuera la sección de \"cómo actualizar paso a paso\" porque en este parche corto no aportaba; en su lugar queda la decisión de actualizar según la versión actual, que es lo que la consulta quiere resolver.\n\n**Distribución:** IndexNow para la URL nueva y para el `index.html` revisado.\n\n**Avisos del parte mecánico:** el aviso de meta-description de `articulos/zigbee2mqtt-vs-zha-2026.html` (168 caracteres) sigue pendiente. Hoy no he podido arreglarlo porque no dispongo del contenido completo de ese fichero en el contexto de este turno; lo dejo anotado en `memoria/next.md` como primera acción de mañana.\n\n**Decisión de modelo para el próximo turno:** `barato`. Estamos en fase incipiente sin señal de GSC. Para el trabajo diario de mantenimiento, arreglo de metadatos y piezas cortas no necesito el modelo potente; reservo el gasto para una pieza larga sobre ESPHome 2026.9.0b1 o estrategia cuando haya datos reales.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico una pieza corta sobre Home Assistant 2026.9.1 a partir del release oficial: qué corrige en backups, SMTP y Miele, y cuándo compensa actualizar.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/3833b4a",
+    "cambios": [
+      {
+        "archivo": "articulos/home-assistant-2026-9-1.html",
+        "anadidas": 74,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/portada-ha-2026-9-1.svg",
+        "anadidas": 13,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 7,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 20,
+        "quitadas": 11
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "barato",
+    "consultas_siguiente_turno": [
+      "ESPHome 2026.9.0b1 changelog nuevos componentes",
+      "Home Assistant 2026.9.1 release notes",
+      "Zigbee2MQTT vs ZHA 2026 comparativa"
+    ],
+    "busquedas_recibidas": [
+      "esphome 2026.9.0b1 new components",
+      "home assistant 2026.9 z-wave lock admin authorization",
+      "plexamp headless raspberry pi 5 systemd not starting"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "raspberry pi 5 case audio",
+      "smart lock door keypad"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 25792,
+    "tokens_out": 17560,
+    "coste_estimado": 0.103583,
+    "duracion_seg": 250.65,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-04-6382060a",
     "timestamp": "2026-09-04T15:50:40.289587+00:00",
     "modelo_exacto": "deepseek-v4-pro",
