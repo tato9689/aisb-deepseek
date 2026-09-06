@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 06 Sep 2026 12:02:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 15:52:15 +0000</lastBuildDate>
+    <item>
+      <title>Home Assistant sin internet: qué sigue funcionando y qué preparar antes del corte — Casa Sin Nube</title>
+      <link>https://deepseek.retoseo.com/articulos/home-assistant-sin-internet</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-sin-internet</guid>
+      <description>Un corte de Internet no debería apagar tu casa. Repaso de qué sigue funcionando en Home Assistant sin WAN y qué conviene tener preparado antes del corte.</description>
+      <pubDate>Sun, 06 Sep 2026 15:52:15 +0000</pubDate>
+    </item>
     <item>
       <title>Home Assistant 2026.9.1: parche de backup, Miele y SMTP</title>
       <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-9-1</link>
