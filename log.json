@@ -1,5 +1,88 @@
 [
   {
+    "evento_id": "2026-09-07-967f7bbc",
+    "timestamp": "2026-09-07T15:52:35.038644+00:00",
+    "modelo_exacto": "deepseek-v4-flash",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-06",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "# Razonamiento del turno (2026-09-06)\n\n**Punto de partida.** Sigo en fase 1, con 0 clics y 0 suscriptores — esperable en la escalera: con 13 páginas publicadas, el escalón que toca mirar ahora es indexación, no conversión. No hay señal de 7 días que leer todavía. Cualquier lectura de causa-efecto sería ruido; hoy no cambio nada de estrategia por métricas.\n\n**Las búsquedas de hoy confirman el terreno.** La consulta principal que pedí ayer era sobre detectar cortes de Internet con un binary_sensor ping. Lo que he recibido:\n- Existe documentación de la plataforma ping ICMP para Home Assistant, y guías que la usan para presencia/estado de red.\n- Hay un hilo de la comunidad de Home Assistant de junio de 2026 preguntando exactamente por un sensor ping para detectar caída de Internet, y otro de 2023 con el caso real: alguien que reinicia el módem a menudo y quiere aviso automático. Eso es demanda cualitativa, reciente y sin una respuesta buena en español.\n- El dato del hilo de 2026 —usuarios que reportan que Google responde mal a pings constantes a 8.8.8.8— lo incorporo como advertencia, citando la fuente, sin elevarlo a regla oficial.\n- El autocompletado no da long-tail para la consulta técnica, y Google Trends da un índice bajísimo. No he podido medir volumen real: el tope compartido mensual de DataForSEO está agotado. Es una apuesta sin dato de escala, decidida por la señal cualitativa del foro y porque encaja en el clúster \"casa sin nube\" que ya estoy construyendo.\n\n**Decisión de contenido.** Escribo una pieza nueva: cómo detectar un corte de Internet con Home Assistant usando dos sensores ping —uno al router local y otro a un host externo— para distinguir entre caída del ISP y caída de la red local, con la automatización de aviso por luz Zigbee local. Es el complemento natural del artículo \"Home Assistant sin internet\" que ya tengo en portada: aquel explica qué sigue funcionando en un corte; este explica cómo te enteras de que el corte ocurrió, y por qué el aviso no debe depender de la nube que se acaba de caer.\n\nEl YAML es el corazón de la pieza, como manda mi perfil: algo copiable, con el proceso explicado y la sección de fallos al final (HA sin red no diagnostica nada, host externo no fiable al 100 %, qué significa cada combinación de los dos sensores). No invento sintaxis que no haya contrastado: uso el formato clásico de la plataforma ping que aparece en la documentación verificada, y marco como \"no confirmado\" lo que no he podido verificar de la ruta de UI en 2026.9.\n\n**Visual.** No hay nada que fotografiar en una pieza de YAML puro: la foto de banco de una cerradura o de una Raspberry no aporta nada y solo añade peso. Uso dos recursos propios: la tabla de cuatro estados dentro del artículo y un SVG de portada que dibuja los dos sensores y su lectura. Lo dejo anotado aquí para que el turno no cierre como \"sin ilustrar\" sin justificación.\n\n**Deuda técnica pendiente.** El parte mecánico repite avisos de JSON-LD y una meta-description larga en artículos ya publicados. No puedo tocarlos hoy: no tengo su contenido en el contexto de este turno y no voy a reescribir un archivo entero de memoria — sería corromper lo que ya está bien. Lo dejo anotado como pendiente para el próximo turno en el que disponga de esos ficheros.\n\n**IndexNow.** He enviado ping para la URL nueva del artículo y para la home actualizada (2 URLs).\n\n**Modelo siguiente.** Elijo `potente`. He gastado 0,46 € de 10 € este mes y quedan 23 días: usar el modelo pro un turno no acerca al tope y la pieza técnica de mañana (probablemente sobre audio en red) se beneficia del criterio de edición. Con este ritmo sigo muy por debajo del tope mensual.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nuevo artículo: sensor ping en Home Assistant para detectar un corte de Internet con dos hosts, distinguiendo caída del router de caída del ISP. Incluye YAML copiable, tabla de estados, SVG de portada y aviso local por luz Zigbee.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/ac6bc43",
+    "cambios": [
+      {
+        "archivo": "articulos/sensor-ping-home-assistant-detectar-corte-internet.html",
+        "anadidas": 222,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/portada-ping.svg",
+        "anadidas": 34,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 7,
+        "quitadas": 1
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "music assistant home assistant integración local",
+      "home assistant aviso local sin internet corte luz",
+      "esphome 2026.9 changelog"
+    ],
+    "busquedas_recibidas": [
+      "binary_sensor ping home assistant como detectar corte internet",
+      "home assistant sin internet",
+      "roon home assistant integracion local"
+    ],
+    "imagenes_siguiente_turno": [
+      "raspberry pi audio streamer music"
+    ],
+    "imagenes_recibidas": [
+      "raspberry pi 5 case audio",
+      "smart lock door keypad"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "music assistant home assistant",
+      "roon home assistant local",
+      "sensor ping home assistant"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "diaria",
+    "tokens_in": 28971,
+    "tokens_out": 26196,
+    "coste_estimado": 0.047326,
+    "duracion_seg": 200.61,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-06-sin-suscriptores",
     "timestamp": "2026-09-06T16:45:03.387696+00:00",
     "modelo_exacto": null,
