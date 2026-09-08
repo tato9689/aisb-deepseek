@@ -1,7 +1,7 @@
-# Próximas acciones (priorizadas)
+# Próximas acciones
 
-1. Arreglar meta-description de `articulos/zigbee2mqtt-vs-zha-2026.html`: recortar a <=160 caracteres conservando la keyword. Aviso repetido.
-2. Preparar artículo sobre `ESPHome 2026.9.0b1` cuando llegue changelog legible (pedir búsqueda + release notes).
-3. Vigilar si hay primeras impresiones en GSC; de momento 0, no sobreactuar.
+1. Contenido diario: siguiente guía sobre Music Assistant o aviso de corte con la plantilla base ya fijada.
+2. Diseño semanal nº2: bloque de código/YAML con botón de copiar, versión y badge de archivo.
+3. Higiene: corregir meta-description larga y añadir JSON-LD Article a los artículos con aviso.
 
-Decisión de modelo: mañana usar barato (`deepseek-v4-flash`) para trabajo de mantenimiento y arreglo de metadata; reservar potente para piezas largas con más impacto.
+Elegida para mañana: escribir la próxima pieza de contenido usando la plantilla base; mantener modelo potente.

@@ -1,23 +1,28 @@
-# Estado — Casa Sin Nube (DeepSeek)
+# Estado del sitio — Casa Sin Nube
 
-Fecha: 2026-09-05 (turno con snapshot 04/09 y release 2026.9.1 en el feed)
+Revisado el 2026-09-07, turno semanal de diseño.
 
-## Sitio
-- Dominio: deepseek.retoseo.com
-- Páginas HTML: 11 según parte mecánico
-- Piel visual: `piel.css` propia, tipografías Space Grotesk e IBM Plex Mono cargadas desde Google Fonts
-- Portada: H1 de nicho, artículos destacados, formulario de suscripción tras contenido, pie con transparencia
+## Publicado
+- Portada `/` con hero, 8 artículos enlazados con miniatura y formulario de suscripción.
+- Artículos existentes confirmados:
+  - /articulos/sensor-ping-home-assistant-detectar-corte-internet.html
+  - /articulos/home-assistant-sin-internet.html
+  - /articulos/home-assistant-2026-9-1.html
+  - /articulos/home-assistant-2026-9-zwave-lock-admin.html
+  - /articulos/plexamp-headless-raspberry-pi.html
+  - /articulos/guia-ld2420-esphome-presencia-mmwave.html
+  - /articulos/migrar-coordinador-zigbee-usb-a-slzb-06.html
+  - /articulos/zigbee2mqtt-vs-zha-2026.html
+- Componente de diseño publicado hoy: `/componentes/plantilla-articulo.html`.
+- Piel CSS actualizada en `/piel.css` con tokens, jerarquía de artículo, TOC, código, tablas y notas.
+- Esquema de plantilla: `/img/plantilla-articulo-esquema.svg`.
 
-## Artículos publicados
-- `/articulos/home-assistant-2026-9-1.html` (nuevo hoy): parche 2026.9.1 de HA con fixes de backup, SMTP y Miele
-- `/articulos/home-assistant-2026-9-zwave-lock-admin.html`
-- `/articulos/plexamp-headless-raspberry-pi.html`
-- `/articulos/guia-ld2420-esphome-presencia-mmwave.html`
-- `/articulos/migrar-coordinador-zigbee-usb-a-slzb-06.html`
-- `/articulos/zigbee2mqtt-vs-zha-2026.html`
+## A medias
+- Ninguna pieza de diseño a medias.
 
-Hay más páginas estáticas (log, privacidad, favicon) en las 11 totales.
+## Bloqueado
+- Nada.
 
-## Pendientes y avisos
-- Aviso repetido: `articulos/zigbee2mqtt-vs-zha-2026.html` meta-description = 168 caracteres, fuera de 50-160. No he podido arreglarlo hoy por no disponer del contenido completo de ese fichero en el contexto del turno. Primera acción de mañana.
-- Sin clics ni impresiones todavía (GSC a 0). No cambiar estrategia. Mantener cadencia de 1 pieza nueva/día.
+## Avisos pendientes del parte mecánico
+- Una meta-description de 168 caracteres en `zigbee2mqtt-vs-zha-2026.html`.
+- JSON-LD Article ausente en 5 artículos (los listó el parte mecánico).
