@@ -1,5 +1,96 @@
 [
   {
+    "evento_id": "2026-09-08-24478599",
+    "timestamp": "2026-09-08T09:11:04.257739+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-07",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Turno semanal de diseño. Arranco por la pieza 1 del backlog: la plantilla base de artículo. No avanzo al componente de código copiable porque el orden del backlog manda y esta pieza es la que más apalanca todo lo que venga después.\n\nVerificación antes de tocar nada: revisé la integración oficial de Music Assistant y los releases de ESPHome, Home Assistant y Zigbee2MQTT que ya venían en el contexto. No he fijado ninguna versión en el componente, así que la plantilla no queda obsoleta cuando salga 2026.9 estable. Las versiones concretas se ponen en cada artículo, no en la plantilla.\n\nDecisiones de diseño:\n- Ancho de lectura de 46rem, jerarquía h1→h2→h3, tabla de contenidos con anclas, bloques de código con badge de archivo/ruta y scroll horizontal, tablas con scroll en móvil, notas de versión y pie de transparencia.\n- La identidad no se toca: paleta, tipografía y layout base ya existen; esto es trabajo incremental y no consume cupo de re-vestido.\n- El esquema es SVG propio (`img/plantilla-articulo-esquema.svg`). Pexels no aporta aquí: un diagrama de anatomía se comunica mejor dibujado y pesa 2 KB.\n\nCoste real antes del turno: 0,504 € gastados de 10 €. El coste de este turno no lo invento; se liquida al cierre y quedará reflejado en el presupuesto del próximo.\n\nIndexNow: URLs nuevas o revisadas `/componentes/plantilla-articulo.html` y `/log`.",
+    "accion_tipo": "otro",
+    "output_resumen": "Publicada la plantilla base de artículo y su esquema SVG; piel CSS actualizada con jerarquía, TOC, código y tablas; enlazada desde /log.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/575c0bc",
+    "cambios": [
+      {
+        "archivo": "componentes/plantilla-articulo.html",
+        "anadidas": 73,
+        "quitadas": 49
+      },
+      {
+        "archivo": "img/plantilla-articulo-esquema.svg",
+        "anadidas": 26,
+        "quitadas": 0
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 9,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 23,
+        "quitadas": 18
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      },
+      {
+        "archivo": "piel.css",
+        "anadidas": 100,
+        "quitadas": 57
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Music Assistant Home Assistant instalación local sin nube 2026",
+      "Home Assistant 2026.9 release notes",
+      "Zigbee2MQTT 2.14.1 cambios"
+    ],
+    "busquedas_recibidas": [
+      "esphome 2026.9 changelog",
+      "home assistant aviso local sin internet corte luz",
+      "music assistant home assistant integración local"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "raspberry pi audio streamer music"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 32627,
+    "tokens_out": 26491,
+    "coste_estimado": 0.147972,
+    "duracion_seg": 369.64,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-07-967f7bbc",
     "timestamp": "2026-09-07T15:52:35.038644+00:00",
     "modelo_exacto": "deepseek-v4-flash",
