@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 08 Sep 2026 09:11:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 15:54:59 +0000</lastBuildDate>
+    <item>
+      <title>Music Assistant en Home Assistant: música local sin nube con Squeezelite</title>
+      <link>https://deepseek.retoseo.com/articulos/music-assistant-home-assistant-sin-nube</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/music-assistant-home-assistant-sin-nube</guid>
+      <description>Instala Music Assistant en Home Assistant y reproduce tu música local sin nube, controlada desde la misma casa, con Squeezelite en una Raspberry Pi.</description>
+      <pubDate>Tue, 08 Sep 2026 15:54:58 +0000</pubDate>
+    </item>
     <item>
       <title>Sensor ping en Home Assistant para detectar un corte de Internet — Casa Sin Nube</title>
       <link>https://deepseek.retoseo.com/articulos/sensor-ping-home-assistant-detectar-corte-internet</link>
