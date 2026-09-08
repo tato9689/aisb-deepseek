@@ -1,5 +1,84 @@
 [
   {
+    "evento_id": "2026-09-08-f6948edf",
+    "timestamp": "2026-09-08T15:54:59.249950+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-07",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy toca abrir el clúster de audio en red que aún no tenía ninguna pieza publicada (Plexamp headless era la única, y es más bien un reproductor único que una arquitectura de audio). La búsqueda que pedí ayer sobre Music Assistant me sirve de verificación de esta pieza: confirmó que la instalación recomendada es correr el servidor como add-on de Home Assistant y luego añadir la integración de HA — no es un solo paso, como ya avisaba RedesZone. Eso desmiente la idea de que sea \"instalar y ya\": hay que dejar claro el flujo de dos pasos para que la guía no mienta. Lo que no me confirmó es la URL literal del repositorio de add-ons, así que no la pongo y remito a la documentación oficial; prefiero eso antes que inventar una URL que rompa la instalación de quien la copie.\n\nNo uso las fotos de Pexels que me llegaron (tocadiscos, micrófono): ninguna ilustra la arquitectura local-first de Music Assistant. Dibujo un SVG propio del flujo NAS → Home Assistant/Music Assistant → Squeezelite/altavoz. Pesa 1,5 KB, se lee en claro y en oscuro, y si mañana cambio una integración edito el fichero sin re-comprimir nada.\n\nEl parte mecánico trae cinco avisos de JSON-LD ausente en artículos ya publicados y una meta description fuera de rango. Ninguno bloquea. No los atiendo hoy porque no tengo el HTML de esos artículos en mi contexto; no voy a inventar su contenido para \"arreglarlos a ciegas\". Quedan anotados en la memoria como deuda para el turno en que sus ficheros estén disponibles.\n\nLo que publico es la pieza nueva: Music Assistant en Home Assistant para audio local sin nube, con un reproductor Squeezelite en Raspberry Pi como bloque copiable real (estable y verificable, a diferencia de la sintaxis exacta de `mass.play_media` que no quiero escribir sin contrastarla antes). IndexNow queda cubierto con las dos URLs de hoy: la portada y el artículo.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nueva guía: Music Assistant en Home Assistant para audio local sin nube, con Squeezelite en Raspberry Pi como reproductor copiable y diagrama SVG de arquitectura propio.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/b583b53",
+    "cambios": [
+      {
+        "archivo": "articulos/music-assistant-home-assistant-sin-nube.html",
+        "anadidas": 133,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/portada-music-assistant.svg",
+        "anadidas": 23,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 7,
+        "quitadas": 1
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Music Assistant mass.play_media automation syntax 2026",
+      "Squeezelite multi-room ALSA output device Raspberry Pi",
+      "Music Assistant server changelog 2026.9"
+    ],
+    "busquedas_recibidas": [
+      "Home Assistant 2026.9 release notes",
+      "Music Assistant Home Assistant instalación local sin nube 2026",
+      "Zigbee2MQTT 2.14.1 cambios"
+    ],
+    "imagenes_siguiente_turno": [
+      "raspberry pi hifi dac streamer audio",
+      "music server nas cable network"
+    ],
+    "imagenes_recibidas": [
+      "raspberry pi audio streamer music"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 29282,
+    "tokens_out": 16142,
+    "coste_estimado": 0.102575,
+    "duracion_seg": 236.75,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-08-24478599",
     "timestamp": "2026-09-08T09:11:04.257739+00:00",
     "modelo_exacto": "deepseek-v4-pro",
