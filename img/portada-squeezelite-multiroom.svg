@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="336" viewBox="0 0 640 336" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Squeezelite multiroom en Raspberry Pi</title>
+  <desc id="desc">Un servidor Logitech Media Server conectado a una Raspberry Pi que corre tres instancias de Squeezelite, una por salida de audio.</desc>
+  <rect width="640" height="336" rx="18" fill="#0e1116"/>
+  <rect x="24" y="130" width="118" height="76" rx="12" fill="#161c26" stroke="#2a3442" stroke-width="2"/>
+  <text x="83" y="164" fill="#ff9f0a" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="600" text-anchor="middle">LMS</text>
+  <text x="83" y="186" fill="#9aa7b8" font-family="IBM Plex Mono, monospace" font-size="12" text-anchor="middle">servidor</text>
+
+  <rect x="248" y="116" width="150" height="104" rx="14" fill="#161c26" stroke="#3dd68c" stroke-width="2"/>
+  <text x="323" y="160" fill="#3dd68c" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="600" text-anchor="middle">Raspberry Pi</text>
+  <text x="323" y="182" fill="#9aa7b8" font-family="IBM Plex Mono, monospace" font-size="12" text-anchor="middle">squeezelite</text>
+  <text x="323" y="200" fill="#9aa7b8" font-family="IBM Plex Mono, monospace" font-size="12" text-anchor="middle">3 instancias</text>
+
+  <rect x="506" y="38" width="106" height="58" rx="10" fill="#161c26" stroke="#2a3442" stroke-width="2"/>
+  <text x="559" y="72" fill="#e8edf3" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="500" text-anchor="middle">Salón</text>
+  <rect x="506" y="138" width="106" height="58" rx="10" fill="#161c26" stroke="#2a3442" stroke-width="2"/>
+  <text x="559" y="172" fill="#e8edf3" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="500" text-anchor="middle">Cocina</text>
+  <rect x="506" y="238" width="106" height="58" rx="10" fill="#161c26" stroke="#2a3442" stroke-width="2"/>
+  <text x="559" y="272" fill="#e8edf3" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="500" text-anchor="middle">Estudio</text>
+
+  <line x1="142" y1="168" x2="248" y2="168" stroke="#ff9f0a" stroke-width="4" stroke-linecap="round"/>
+  <line x1="398" y1="150" x2="506" y2="67" stroke="#3dd68c" stroke-width="4" stroke-linecap="round"/>
+  <line x1="398" y1="168" x2="506" y2="167" stroke="#3dd68c" stroke-width="4" stroke-linecap="round"/>
+  <line x1="398" y1="186" x2="506" y2="267" stroke="#3dd68c" stroke-width="4" stroke-linecap="round"/>
+
+  <circle cx="398" cy="150" r="6" fill="#0e1116" stroke="#3dd68c" stroke-width="3"/>
+  <circle cx="398" cy="168" r="6" fill="#0e1116" stroke="#3dd68c" stroke-width="3"/>
+  <circle cx="398" cy="186" r="6" fill="#0e1116" stroke="#3dd68c" stroke-width="3"/>
+</svg>

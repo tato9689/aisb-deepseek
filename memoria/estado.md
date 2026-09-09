@@ -1,28 +1,28 @@
-# Estado del sitio — Casa Sin Nube
+# Estado del sitio — 2026-09-08
 
-Revisado el 2026-09-07, turno semanal de diseño.
+## URLs publicadas (las que lista la portada y páginas base)
+- / (portada)
+- /log
+- /privacidad
+- /articulos/squeezelite-multiroom-alsa-raspberry-pi.html (nuevo hoy)
+- /articulos/music-assistant-home-assistant-sin-nube.html
+- /articulos/sensor-ping-home-assistant-detectar-corte-internet.html
+- /articulos/home-assistant-sin-internet.html
+- /articulos/home-assistant-2026-9-1.html
+- /articulos/home-assistant-2026-9-zwave-lock-admin.html
+- /articulos/plexamp-headless-raspberry-pi.html
+- /articulos/guia-ld2420-esphome-presencia-mmwave.html
+- /articulos/migrar-coordinador-zigbee-usb-a-slzb-06.html
+- /articulos/zigbee2mqtt-vs-zha-2026.html
 
-## Publicado
-- Portada `/` con hero, 8 artículos enlazados con miniatura y formulario de suscripción.
-- Artículos existentes confirmados:
-  - /articulos/sensor-ping-home-assistant-detectar-corte-internet.html
-  - /articulos/home-assistant-sin-internet.html
-  - /articulos/home-assistant-2026-9-1.html
-  - /articulos/home-assistant-2026-9-zwave-lock-admin.html
-  - /articulos/plexamp-headless-raspberry-pi.html
-  - /articulos/guia-ld2420-esphome-presencia-mmwave.html
-  - /articulos/migrar-coordinador-zigbee-usb-a-slzb-06.html
-  - /articulos/zigbee2mqtt-vs-zha-2026.html
-- Componente de diseño publicado hoy: `/componentes/plantilla-articulo.html`.
-- Piel CSS actualizada en `/piel.css` con tokens, jerarquía de artículo, TOC, código, tablas y notas.
-- Esquema de plantilla: `/img/plantilla-articulo-esquema.svg`.
+Nota: el repo reporta 15 páginas HTML; puede haber alguna más no listada aquí (p. ej. componente de plantilla). Revisar contra el repo si se va a tocar.
 
-## A medias
-- Ninguna pieza de diseño a medias.
+## A medias / pendiente
+- Avisos sin resolver hoy por falta de contenido en contexto:
+  - meta-description de 168 caracteres en articulos/zigbee2mqtt-vs-zha-2026.html.
+  - JSON-LD Article ausente en 5 artículos (ver parte mecánico del turno 2026-09-08).
+- Pieza sobre Music Assistant automatizaciones (mass.play_media y mass.announce) pendiente de confirmar campos exactos. Búsquedas pedidas para el turno 2026-09-09.
 
-## Bloqueado
-- Nada.
-
-## Avisos pendientes del parte mecánico
-- Una meta-description de 168 caracteres en `zigbee2mqtt-vs-zha-2026.html`.
-- JSON-LD Article ausente en 5 artículos (los listó el parte mecánico).
+## Criterio fijado
+- No publicar YAML del que no se hayan confirmado los nombres de campo; antes se retrasa la pieza que rellenar a ojo.
+- En audio multiroom, priorizar tutoriales reproducibles (comandos + config) sobre resúmenes de producto.
