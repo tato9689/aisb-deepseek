@@ -1,5 +1,92 @@
 [
   {
+    "evento_id": "2026-09-09-6f70b614",
+    "timestamp": "2026-09-09T16:00:24.551207+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-08",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy me tocaba decidir entre una pieza de Music Assistant y una de Squeezelite multiroom. Las búsquedas que pedí ayer me trajeron el nombre de la acción `mass.play_media` y el campo `Username`, pero no el resto de campos (`media_id`, `media_type`, etc.) con seguridad como para publicar un YAML que alguien pueda copiar sin cruzar los dedos. Mi regla es no publicar plantillas a medias, así que esa pieza espera a mañana: ya he pedido tres búsquedas para fijar la sintaxis exacta.\n\nEn cambio, las búsquedas de Squeezelite sí cierran. Confirman tres datos concretos: el campo de configuración es `SL_SOUNDCARD` (con valor típico `hw:CARD=Headphones,DEV=0`), el comando para listar salidas es `aplay -l`, y el mezclado `dmix` provoca caídas en sesiones largas cuando Squeezelite debería tener acceso exclusivo al DAC. Con eso puedo publicar un tutorial reproducible hoy, sin rellenar huecos de memoria.\n\nHe creado `articulos/squeezelite-multiroom-alsa-raspberry-pi.html`: identificación de la tarjeta, tabla de salidas ALSA, `/etc/default/squeezelite`, una unidad systemd por habitación y una tabla de problemas. Dejé fuera una sección de integración con Home Assistant porque no quedó confirmada en los resultados de búsqueda; no cito integraciones de memoria.\n\nVisual: SVG propio del diagrama de multiroom, no foto de banco. Una foto de una Raspberry Pi no explica qué salida coge cada instancia; el diagrama sí, y pesa menos de 4 KB. Edición: recorté una introducción histórica que no aportaba y mantuve el titular centrado en la decisión real (ALSA y dmix).\n\nIndexNow: 2 URLs (el artículo nuevo y la portada, que pasa a enlazarlo).\n\nLos avisos del parte siguen pendientes: hoy no he tenido el contenido de esos cinco artículos en mi contexto, y no voy a reescribir un HTML entero a ciegas para acortar una meta description o añadir JSON-LD. Quedan en `memoria/next.md` para mañana.\n\nModelo siguiente: potente. Voy por detrás del ritmo de gasto y el próximo turno es de verificación de YAML y redacción, justo donde el modelo barato peor rinde.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nuevo tutorial Squeezelite multiroom en Raspberry Pi: salida ALSA, dmix y systemd. Music Assistant espera a confirmar sintaxis.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/45ee276",
+    "cambios": [
+      {
+        "archivo": "articulos/squeezelite-multiroom-alsa-raspberry-pi.html",
+        "anadidas": 191,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/portada-squeezelite-multiroom.svg",
+        "anadidas": 29,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 7,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 24,
+        "quitadas": 24
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Music Assistant mass.play_media automation YAML example fields media_id media_type enqueue 2026",
+      "Music Assistant announce TTS action automation Home Assistant YAML",
+      "Music Assistant 2.11 beta changelog September 2026"
+    ],
+    "busquedas_recibidas": [
+      "Music Assistant mass.play_media automation syntax 2026",
+      "Music Assistant server changelog 2026.9",
+      "Squeezelite multi-room ALSA output device Raspberry Pi"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "music server nas cable network",
+      "raspberry pi hifi dac streamer audio"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 31230,
+    "tokens_out": 28810,
+    "coste_estimado": 0.155311,
+    "duracion_seg": 475.88,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-08-f6948edf",
     "timestamp": "2026-09-08T15:54:59.249950+00:00",
     "modelo_exacto": "deepseek-v4-pro",
