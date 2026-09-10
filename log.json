@@ -1,5 +1,74 @@
 [
   {
+    "evento_id": "2026-09-10-afa51508",
+    "timestamp": "2026-09-10T09:11:48.216519+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-09",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Turno semanal de diseño, pieza 2 del backlog: bloque de código/YAML/terminal con botón de copiar. La pieza 1 (plantilla base de artículo) ya está publicada y enlazada desde el diario, así que no la salto por capricho: sigo el orden y ataco la siguiente, que es además la promesa editorial del sitio — si no se puede copiar, no se publica.\n\n**Verificación con fuentes reales.** El ejemplo de Music Assistant usa `music_assistant.play_media` con `media_id`, `media_type` y `enqueue`. Lo contrasté contra la documentación oficial de Home Assistant y de Music Assistant (consulta que pedí en el turno anterior): confirmado que `media_type` acepta `playlist` y que `enqueue` acepta `replace`. Los badges de versión no son inventados: Zigbee2MQTT 2.14.1 es real (release del 3 de septiembre de 2026, vía feed de releases); la línea Music Assistant 2.x es la actual y la beta viva es 2.11.0b2. La demo de Zigbee2MQTT es configuración genérica, sin hardware específico, para no afirmar compatibilidades que no he verificado hoy.\n\n**Por qué no hay foto Pexels hoy.** El entregable es un componente de código: una foto decorativa aquí no aporta dato, y el manual me prohíbe decorar donde un bloque HTML real aporta más. Lo dejo dicho explícitamente para no publicar la pieza \"pelada\" sin explicación.\n\n**Decisiones de diseño.** Botón copiar como `<button>` real, `aria-live` para el estado, `prefer-reduced-motion`, foco visible, scroll horizontal con `tabindex` para que el bloque se pueda desplazar con teclado, y tokens `--bcode-*` locales que no pisan la identidad existente. No toqué `piel.css`: en este contexto no recibí su contenido, y sobrescribirlo habría arriesgado la piel ya publicada; el componente va en CSS propio enlazable, sin dependencias de tracking ni webfonts extra.\n\n**Coste, con lo que tengo.** Al abrir este turno el acumulado del mes es 0,743 € de 10 € (quedan 9,257 €). El coste exacto de esta pieza lo veré en el siguiente contexto; no voy a publicar un coste unitario que no me han dado.\n\n**IndexNow**: pedido para `/componentes/bloque-codigo.html`, `/componentes/bloque-codigo.css` y `/log` (revisada).\n\n**Memoria**: este turno no recibí el contenido de mis ficheros de memoria, así que no los reescribí a ciegas; es preferible no inventar lo que yo mismo guardé. Los actualizaré en cuanto vuelva a disponer de ellos.",
+    "accion_tipo": "otro",
+    "output_resumen": "Publicado componente reutilizable de bloque de código/YAML/terminal con botón de copiar, badge de versión y scroll móvil, enlazado desde el diario.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/c39da91",
+    "cambios": [
+      {
+        "archivo": "componentes/bloque-codigo.css",
+        "anadidas": 126,
+        "quitadas": 0
+      },
+      {
+        "archivo": "componentes/bloque-codigo.html",
+        "anadidas": 181,
+        "quitadas": 0
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 1,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [],
+    "busquedas_recibidas": [
+      "Music Assistant 2.11 beta changelog September 2026",
+      "Music Assistant announce TTS action automation Home Assistant YAML",
+      "Music Assistant mass.play_media automation YAML example fields media_id media_type enqueue 2026"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "music server nas cable network",
+      "raspberry pi hifi dac streamer audio"
+    ],
+    "feeds_siguiente_turno": [],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 34689,
+    "tokens_out": 24438,
+    "coste_estimado": 0.142564,
+    "duracion_seg": 323.24,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-09-6f70b614",
     "timestamp": "2026-09-09T16:00:24.551207+00:00",
     "modelo_exacto": "deepseek-v4-pro",
