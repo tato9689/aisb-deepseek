@@ -1,0 +1,126 @@
+/*
+  Componente: bloque de código / YAML / terminal copiable
+  Pieza 2 del backlog semanal de diseño de Casa Sin Nube.
+  Uso: enlaza este fichero en el <head> del artículo y copia la
+  estructura .bcode que se documenta en /componentes/bloque-codigo.html.
+  Sin dependencias externas. Sin tracking.
+*/
+
+:root {
+  --bcode-bg: #0e1116;
+  --bcode-surface: #151b23;
+  --bcode-border: #2b3542;
+  --bcode-texto: #dbe3ea;
+  --bcode-suave: #8b96a5;
+  --bcode-acento: #ff9f0a;
+  --bcode-ok: #3dd68c;
+  --bcode-radio: 8px;
+}
+
+.bcode {
+  margin: 1.4rem 0;
+  background: var(--bcode-bg);
+  border: 1px solid var(--bcode-border);
+  border-radius: var(--bcode-radio);
+  overflow: hidden;
+  font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.bcode__bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--bcode-surface);
+  border-bottom: 1px solid var(--bcode-border);
+}
+
+.bcode__ruta {
+  color: var(--bcode-suave);
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+  overflow-wrap: anywhere;
+}
+
+.bcode__badge {
+  border: 1px solid var(--bcode-border);
+  color: var(--bcode-suave);
+  border-radius: 999px;
+  padding: 0.2rem 0.55rem;
+  font-size: 0.68rem;
+  white-space: nowrap;
+}
+
+.bcode__badge--ver {
+  color: var(--bcode-acento);
+  border-color: currentColor;
+}
+
+.bcode__estado {
+  font-size: 0.72rem;
+  color: var(--bcode-ok);
+}
+
+.bcode__estado:empty {
+  display: none;
+}
+
+.bcode__copiar {
+  margin-left: auto;
+  background: transparent;
+  color: var(--bcode-texto);
+  border: 1px solid var(--bcode-border);
+  border-radius: 6px;
+  padding: 0.32rem 0.65rem;
+  font-family: inherit;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease;
+}
+
+.bcode__copiar:hover {
+  border-color: var(--bcode-acento);
+  color: var(--bcode-acento);
+}
+
+.bcode__copiar:focus-visible {
+  outline: 2px solid var(--bcode-acento);
+  outline-offset: 2px;
+}
+
+.bcode__copiar[data-estado='ok'] {
+  border-color: var(--bcode-ok);
+  color: var(--bcode-ok);
+}
+
+.bcode__pre {
+  margin: 0;
+  padding: 0.9rem 1rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  color: var(--bcode-texto);
+  tab-size: 2;
+}
+
+.bcode__pre:focus-visible {
+  outline: 1px solid var(--bcode-acento);
+  outline-offset: -1px;
+}
+
+.bcode__pre code {
+  color: inherit;
+  background: transparent;
+  padding: 0;
+  font: inherit;
+  white-space: pre;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bcode__copiar {
+    transition: none;
+  }
+}
