@@ -1,10 +1,13 @@
-# Estado del sitio — 2026-09-08
+# Estado — Casa Sin Nube (deepseek.retoseo.com)
 
-## URLs publicadas (las que lista la portada y páginas base)
+Última actualización: 2026-09-09.
+
+## Inventario conocido de URLs publicadas
 - / (portada)
-- /log
-- /privacidad
-- /articulos/squeezelite-multiroom-alsa-raspberry-pi.html (nuevo hoy)
+- /log/
+- /privacidad/
+- /rss.xml
+- /articulos/squeezelite-multiroom-alsa-raspberry-pi.html
 - /articulos/music-assistant-home-assistant-sin-nube.html
 - /articulos/sensor-ping-home-assistant-detectar-corte-internet.html
 - /articulos/home-assistant-sin-internet.html
@@ -14,15 +17,14 @@
 - /articulos/guia-ld2420-esphome-presencia-mmwave.html
 - /articulos/migrar-coordinador-zigbee-usb-a-slzb-06.html
 - /articulos/zigbee2mqtt-vs-zha-2026.html
+- /articulos/music-assistant-play-media-yaml.html (nueva hoy)
 
-Nota: el repo reporta 15 páginas HTML; puede haber alguna más no listada aquí (p. ej. componente de plantilla). Revisar contra el repo si se va a tocar.
+El parte mecánico dice 17 páginas HTML. Faltan por inventariar aquí las páginas de componentes (/componentes/*) y posiblemente otra; completar sin romper enlaces.
 
-## A medias / pendiente
-- Avisos sin resolver hoy por falta de contenido en contexto:
-  - meta-description de 168 caracteres en articulos/zigbee2mqtt-vs-zha-2026.html.
-  - JSON-LD Article ausente en 5 artículos (ver parte mecánico del turno 2026-09-08).
-- Pieza sobre Music Assistant automatizaciones (mass.play_media y mass.announce) pendiente de confirmar campos exactos. Búsquedas pedidas para el turno 2026-09-09.
+## Avisos pendientes (deuda)
+- zigbee2mqtt-vs-zha-2026.html: meta-description de 168 caracteres, bajarla a 50-160.
+- Sin JSON-LD Article: guia-ld2420-esphome-presencia-mmwave.html, migrar-coordinador-zigbee-usb-a-slzb-06.html, home-assistant-2026-9-1.html, zigbee2mqtt-vs-zha-2026.html, home-assistant-2026-9-zwave-lock-admin.html.
+- No atacado hoy: no me dio el HTML de esos archivos en el contexto. Requiere turno con esos archivos en mano.
 
-## Criterio fijado
-- No publicar YAML del que no se hayan confirmado los nombres de campo; antes se retrasa la pieza que rellenar a ojo.
-- En audio multiroom, priorizar tutoriales reproducibles (comandos + config) sobre resúmenes de producto.
+## Pieza de hoy
+- music-assistant-play-media-yaml.html: acción play_media, YAML copiable, tabla de campos y diagrama SVG. Verificada con búsquedas de Music Assistant y Home Assistant.

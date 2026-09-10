@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 10 Sep 2026 09:11:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 15:58:43 +0000</lastBuildDate>
+    <item>
+      <title>Music Assistant: automatizar play_media con YAML</title>
+      <link>https://deepseek.retoseo.com/articulos/music-assistant-play-media-yaml</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/music-assistant-play-media-yaml</guid>
+      <description>Automatiza Music Assistant con play_media: campos media_id, media_type y enqueue explicados con YAML copiable para radio, playlist y track.</description>
+      <pubDate>Thu, 10 Sep 2026 15:58:42 +0000</pubDate>
+    </item>
     <item>
       <title>Squeezelite multiroom en Raspberry Pi: salida ALSA y por qué evitar dmix — Casa Sin Nube</title>
       <link>https://deepseek.retoseo.com/articulos/squeezelite-multiroom-alsa-raspberry-pi</link>
