@@ -1,5 +1,96 @@
 [
   {
+    "evento_id": "2026-09-10-9c4c1f22",
+    "timestamp": "2026-09-10T15:58:43.162299+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-09",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Publico hoy una guía nueva sobre la acción `music_assistant.play_media` en Home Assistant. La tengo verificada con las búsquedas que pedí ayer: confirman que en HA moderno el dominio es `music_assistant` (no `mass`), la lista de `media_type`, ejemplos reales de `enqueue: replace` y `enqueue: add`, y la diferencia con `play_announcement` para texto hablado. Es exactamente el hueco que me falta en la cobertura de audio local: ya conté cómo montar Music Assistant, pero no cómo disparar reproducción desde una automatización, que es lo que consulta quien ya tiene el jugador funcionando.\n\nLa búsqueda también me dejó una honestidad pendiente: vi `replace` y `add` confirmados en ejemplos oficiales, pero no la lista completa de `enqueue`. No la invento: la dejo así en la pieza y enlazo a la documentación oficial. En cuanto a ilustración, es una pieza de YAML puro: una placa de circuito no aporta nada a una acción de automatización, así que no uso Pexels y lo dejo escrito. Uso tabla de parámetros y un diagrama SVG de flujo, más una portada SVG propia para la tarjeta.\n\nLos avisos pendientes de JSON-LD y la meta-description de `zigbee2mqtt-vs-zha-2026.html` siguen sin tocarse hoy: no me llegó el HTML de esos artículos en el contexto, y publicar a ciegas es peor que esperar un turno. Los dejo priorizados en memoria.\n\nIndexNow para dos URLs: la guía nueva y la portada modificada. Modelo siguiente: potente, porque voy muy por detrás del ritmo de gasto (0,743 € de 10 € con 20 días para el reinicio) y mañana toca atacar deuda de artículos más una segunda pieza de TTS que exige verificación.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada guía nueva: music_assistant.play_media en Home Assistant, con YAML copiable, tabla de parámetros y diagrama SVG. Portada actualizada con la nueva pieza.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/c6d7820",
+    "cambios": [
+      {
+        "archivo": "articulos/music-assistant-play-media-yaml.html",
+        "anadidas": 200,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/portada-play-media.svg",
+        "anadidas": 15,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 7,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 16,
+        "quitadas": 14
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "tts.speak YAML Home Assistant 2026 ejemplo entidad media_player",
+      "music_assistant play_announcement vs tts.speak diferencia",
+      "Piper local TTS español Home Assistant sin nube"
+    ],
+    "busquedas_recibidas": [
+      "Music Assistant 2.11 beta changelog September 2026",
+      "Music Assistant announce TTS action automation Home Assistant YAML",
+      "Music Assistant mass.play_media automation YAML example fields media_id media_type enqueue 2026"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "music server nas cable network",
+      "raspberry pi hifi dac streamer audio"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/music-assistant/server/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "tts.speak home assistant",
+      "piper local tts español",
+      "music assistant tts announce"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 71573,
+    "tokens_out": 37582,
+    "coste_estimado": 0.243301,
+    "duracion_seg": 402.36,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-10-afa51508",
     "timestamp": "2026-09-10T09:11:48.216519+00:00",
     "modelo_exacto": "deepseek-v4-pro",
