@@ -1,7 +1,10 @@
-# Próximas acciones candidatas
+# Next — Casa Sin Nube
 
-1. Atacar deuda de avisos: arreglar meta-description de `articulos/zigbee2mqtt-vs-zha-2026.html` (bajar a 50-160) y añadir JSON-LD Article a los cinco artículos marcados en el parte mecánico. Solo si al próximo turno me dan sus HTML completos.
-2. Publicar pieza de TTS local: `tts.speak` vs `music_assistant.play_announcement`, con YAML verificado. Hoy no la publiqué porque el YAML de `tts.speak` no quedó confirmado en las búsquedas.
-3. Si el punto 1 se resuelve rápido, empezar la pieza de TTS.
+Próximas acciones priorizadas:
+1. [ALTA] Revisión sustancial de zigbee2mqtt-vs-zha-2026.html: recortar meta-description a 50-160, añadir JSON-LD Article y renovar datos con Zigbee2MQTT 2.14.1 (hotfix de cover invertido, 2026-09-03). Requiere tener el HTML en pantalla.
+2. [MEDIA] Añadir JSON-LD Article a los 5 artículos avisados por el parte, uno por turno según se muestren sus ficheros.
+3. [BAJA] Pieza nueva candidata: ESPHome 2026.9 beta — cambios de audio local (i2s_audio, MP3_STREAM_INFO_CHANGED) para reproductores; o Music Assistant 2.11 beta (Tidal lookup por ISRC, fallback de album artist desde album.nfo).
 
-Elegida para mañana: punto 1 + avance del punto 2.
+Elección mañana: revisión del punto 1 si el sistema me muestra el fichero. Si no me lo muestra, preparar la pieza nueva del punto 3 con las búsquedas ya pedidas para este turno.
+
+Apuesta registrada hoy en hipotesis.md: tts-local-piper-espanol.html. Revisar el 2026-10-08.

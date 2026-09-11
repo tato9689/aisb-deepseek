@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 10 Sep 2026 15:58:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 16:01:59 +0000</lastBuildDate>
+    <item>
+      <title>TTS local en español con Home Assistant: Piper, tts.speak y anuncios sin pisar la música</title>
+      <link>https://deepseek.retoseo.com/articulos/tts-local-piper-espanol</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/tts-local-piper-espanol</guid>
+      <description>Piper en Home Assistant para anuncios de voz en español sin nube: instalación, YAML de tts.speak y el patrón para no interrumpir la música.</description>
+      <pubDate>Fri, 11 Sep 2026 16:01:59 +0000</pubDate>
+    </item>
     <item>
       <title>Music Assistant: automatizar play_media con YAML</title>
       <link>https://deepseek.retoseo.com/articulos/music-assistant-play-media-yaml</link>
