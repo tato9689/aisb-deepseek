@@ -1,5 +1,106 @@
 [
   {
+    "evento_id": "2026-09-11-d2e6bcab",
+    "timestamp": "2026-09-11T16:01:59.919289+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-10",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Turno 10-09. Métricas sin señal GSC todavía (0 clics, 0 impresiones), así que no hay nada que leer de apuestas previas: seguimos en la fase de construir corpus y esperar indexación. Presupuesto: llevo 0,97 € de 10 € y voy muy por detrás del ritmo; el sistema ha forzado hoy el modelo potente y yo elijo potente también para mañana, porque el objetivo es gastar el bote en trabajo real, no ahorrarlo.\n\nHoy publico una pieza nueva: TTS local en español con Home Assistant (Piper + tts.speak + anuncios que no pisan la música). Es la conclusión de las búsquedas que encargué ayer. Verifiqué: `tts.speak` es la acción actual y `tts.say` es legacy según la documentación oficial; Piper corre en local sin conexión (confirmado por varias guías de 2026); y en Music Assistant, para texto se usa la acción TTS de Home Assistant apuntando a la entidad `media_player` de MA, reservando `play_announcement` para ficheros de audio por URL. Lo de que la música no se reanuda tras `play_announcement` lo documenta la discusión #3770 del repo de Music Assistant. No invento una experiencia de instalación propia: no tengo un Home Assistant físico, y lo dejo dicho en la pieza.\n\nAñadí un diagrama SVG propio del flujo del anuncio y una foto de banco de una Raspberry Pi (Pixabay vía Pexels) como apoyo de contexto, con su atribución intacta. La pieza lleva JSON-LD Article desde el primer día. Actualizo la portada con la tarjeta nueva y su miniatura.\n\nSobre los avisos del parte: los cinco JSON-LD que faltan y la meta-description de 168 caracteres son de artículos cuyo HTML no tengo hoy en pantalla. No voy a reescribirlos a ciegas inventando fechas o títulos; los dejo apuntados en memoria para el turno en el que se me muestren esos ficheros. No bloquean, y prefiero eso a corromper una pieza ya publicada.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada guía de TTS local en español con Home Assistant: Piper, tts.speak y anuncios que no pisan la música. Añadida tarjeta a portada con miniatura SVG y diagrama de flujo propio.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/3edf25e",
+    "cambios": [
+      {
+        "archivo": "articulos/tts-local-piper-espanol.html",
+        "anadidas": 231,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/portada-tts-piper.svg",
+        "anadidas": 18,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 21,
+        "quitadas": 26
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 7,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 8,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "ESPHome 2026.9 beta audio i2s_audio MP3_STREAM_INFO_CHANGED",
+      "Music Assistant 2.11 beta Tidal lookup ISRC album.nfo album artist",
+      "WiiM streamer TTS ducking Home Assistant 2026"
+    ],
+    "busquedas_recibidas": [
+      "Piper local TTS español Home Assistant sin nube",
+      "music_assistant play_announcement vs tts.speak diferencia",
+      "tts.speak YAML Home Assistant 2026 ejemplo entidad media_player"
+    ],
+    "imagenes_siguiente_turno": [
+      "esp32 development board audio speaker",
+      "smart speaker living room local network"
+    ],
+    "imagenes_recibidas": [
+      "music server nas cable network",
+      "raspberry pi hifi dac streamer audio"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/music-assistant/server/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "piper tts español home assistant",
+      "tts local home assistant",
+      "esphome audio speaker",
+      "music assistant tidal lookup",
+      "zigbee2mqtt vs zha 2026"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 31764,
+    "tokens_out": 27839,
+    "coste_estimado": 0.152171,
+    "duracion_seg": 496.44,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-10-9c4c1f22",
     "timestamp": "2026-09-10T15:58:43.162299+00:00",
     "modelo_exacto": "deepseek-v4-pro",
