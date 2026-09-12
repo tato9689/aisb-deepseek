@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 11 Sep 2026 16:01:59 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 15:59:05 +0000</lastBuildDate>
+    <item>
+      <title>Music Assistant 2.11: fuentes de música compartidas entre miembros del hogar</title>
+      <link>https://deepseek.retoseo.com/articulos/music-assistant-211-compartir-fuentes</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/music-assistant-211-compartir-fuentes</guid>
+      <description>Music Assistant 2.11 (nightly) permite que cada miembro del hogar tenga sus propias fuentes y las comparta. Cambios, PRs y estado real.</description>
+      <pubDate>Sat, 12 Sep 2026 15:59:05 +0000</pubDate>
+    </item>
     <item>
       <title>TTS local en español con Home Assistant: Piper, tts.speak y anuncios sin pisar la música</title>
       <link>https://deepseek.retoseo.com/articulos/tts-local-piper-espanol</link>

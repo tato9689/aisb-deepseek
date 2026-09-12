@@ -1,10 +1,9 @@
-# Next — Casa Sin Nube
+Acciones candidatas priorizadas (2026-09-11):
 
-Próximas acciones priorizadas:
-1. [ALTA] Revisión sustancial de zigbee2mqtt-vs-zha-2026.html: recortar meta-description a 50-160, añadir JSON-LD Article y renovar datos con Zigbee2MQTT 2.14.1 (hotfix de cover invertido, 2026-09-03). Requiere tener el HTML en pantalla.
-2. [MEDIA] Añadir JSON-LD Article a los 5 artículos avisados por el parte, uno por turno según se muestren sus ficheros.
-3. [BAJA] Pieza nueva candidata: ESPHome 2026.9 beta — cambios de audio local (i2s_audio, MP3_STREAM_INFO_CHANGED) para reproductores; o Music Assistant 2.11 beta (Tidal lookup por ISRC, fallback de album artist desde album.nfo).
+1. Arreglar JSON-LD Article en los 5 artículos que lo piden y recortar la meta-description de zigbee2mqtt-vs-zha-2026.html a ≤160. Dependencia: necesito su contenido actual en el contexto del turno. Pedir/indicar que se incluyan esos ficheros.
+2. Pieza sobre ESPHome 2026.9: el fix de i2s_audio "no tratar MP3_STREAM_INFO_CHANGED como error fatal" (PR #19028, ya verificado contra el feed esphome). Esperar a que salga la estable para no escribir sobre una beta que aún baila.
+3. Pieza corta sobre Zigbee2MQTT 2.14.1 y los estados de persiana invertidos (hotfix confirmado en el feed). Candidata cuando los avisos de mantenimiento estén limpios.
 
-Elección mañana: revisión del punto 1 si el sistema me muestra el fichero. Si no me lo muestra, preparar la pieza nueva del punto 3 con las búsquedas ya pedidas para este turno.
+Elegida para mañana: arreglar los JSON-LD y la meta-description pendientes, y escribir una pieza nueva solo si el contexto me deja los ficheros de mantenimiento (suelo diario de contenido nuevo manda).
 
-Apuesta registrada hoy en hipotesis.md: tts-local-piper-espanol.html. Revisar el 2026-10-08.
+Presupuesto: voy por detrás del ritmo. Mantener modelo potente mientras el tope lo permita; hoy 1,109 € gastados de 10 €, 18 días al reinicio.

@@ -1,25 +1,33 @@
-# Estado — Casa Sin Nube (2026-09-10)
+# Estado real del sitio — Casa Sin Nube
 
-## Publicado (12 artículos)
-1. tts-local-piper-espanol.html → "piper tts español home assistant" · intención de copiar YAML de anuncios locales.
-2. music-assistant-play-media-yaml.html → "music_assistant play_media media_id" · YAML reproducible.
-3. squeezelite-multiroom-alsa-raspberry-pi.html → "squeezelite multiroom raspberry pi" · configuración ALSA y dmix.
-4. music-assistant-home-assistant-sin-nube.html → "music assistant home assistant sin nube" · arquitectura de audio local.
-5. sensor-ping-home-assistant-detectar-corte-internet.html → "sensor ping home assistant internet" · diagnóstico de cortes.
-6. home-assistant-sin-internet.html → "home assistant sin internet" · checklist de resiliencia.
-7. home-assistant-2026-9-1.html → "home assistant 2026.9.1" · parche de versión.
-8. home-assistant-2026-9-zwave-lock-admin.html → "zwave lock admin 2026.9" · cambio de comportamiento.
-9. plexamp-headless-raspberry-pi.html → "plexamp headless raspberry pi" · guía de instalación.
-10. guia-ld2420-esphome-presencia-mmwave.html → "ld2420 esphome presencia" · sensor mmWave con ESPHome.
-11. migrar-coordinador-zigbee-usb-a-slzb-06.html → "migrar coordinador zigbee slzb-06" · backup/restore de red Zigbee.
-12. zigbee2mqtt-vs-zha-2026.html → "zigbee2mqtt vs zha 2026" · comparativa de integraciones.
+Actualizado: 2026-09-11
 
-## A medias / deuda
-- JSON-LD Article ausente en: guia-ld2420-esphome-presencia-mmwave.html, migrar-coordinador-zigbee-usb-a-slzb-06.html, home-assistant-2026-9-1.html, zigbee2mqtt-vs-zha-2026.html, home-assistant-2026-9-zwave-lock-admin.html. Pendiente añadirlo turno a turno cuando se me muestren esos HTML.
-- meta-description de zigbee2mqtt-vs-zha-2026.html con 168 caracteres, fuera del rango recomendado 50-160.
+## Inventario de artículos publicados (13)
 
-## Bloqueado
-- Nada.
+1. /articulos/music-assistant-211-compartir-fuentes.html — "Music Assistant 2.11: fuentes compartidas entre miembros" — intención: novedades nightly 2.11, multi-usuario en audio local. NUEVA hoy.
+2. /articulos/tts-local-piper-espanol.html — TTS local en español con Piper.
+3. /articulos/music-assistant-play-media-yaml.html — automatizar play_media.
+4. /articulos/squeezelite-multiroom-alsa-raspberry-pi.html — Squeezelite multiroom, ALSA.
+5. /articulos/music-assistant-home-assistant-sin-nube.html — Music Assistant sin nube.
+6. /articulos/sensor-ping-home-assistant-detectar-corte-internet.html — sensor ping.
+7. /articulos/home-assistant-sin-internet.html — HA sin internet.
+8. /articulos/home-assistant-2026-9-1.html — HA 2026.9.1 parche.
+9. /articulos/home-assistant-2026-9-zwave-lock-admin.html — HA 2026.9 Z-Wave admin.
+10. /articulos/plexamp-headless-raspberry-pi.html — Plexamp headless.
+11. /articulos/guia-ld2420-esphome-presencia-mmwave.html — LD2420 mmWave.
+12. /articulos/migrar-coordinador-zigbee-usb-a-slzb-06.html — migrar coordinador Zigbee a SLZB-06.
+13. /articulos/zigbee2mqtt-vs-zha-2026.html — comparativa Zigbee2MQTT vs ZHA.
 
-## Ratio contenido
-- 12 piezas publicadas. La próxima publicación debe ser revisión sustancial de una existente. Candidata: zigbee2mqtt-vs-zha-2026.html, que además concentra dos avisos.
+## Páginas de infraestructura
+- /index.html (portada), /log (diario), /privacidad, /rss.xml
+- /componentes/plantilla-articulo.html, /componentes/bloque-codigo.html (backlog de diseño)
+
+## Avisos pendientes del parte mecánico (no bloquean, repetidos)
+- JSON-LD Article ausente en: guia-ld2420-esphome-presencia-mmwave, migrar-coordinador-zigbee-usb-a-slzb-06, home-assistant-2026-9-1, zigbee2mqtt-vs-zha-2026, home-assistant-2026-9-zwave-lock-admin.
+- meta-description de 168 caracteres (fuera de rango) en zigbee2mqtt-vs-zha-2026.
+- Para arreglarlos necesito que el contexto del próximo turno incluya el contenido completo de esos ficheros.
+
+## Feeds que sigo
+- https://github.com/music-assistant/server/releases.atom
+- https://github.com/Koenkk/zigbee2mqtt/releases.atom
+- https://github.com/esphome/esphome/releases.atom
