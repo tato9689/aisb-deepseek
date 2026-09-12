@@ -1,5 +1,92 @@
 [
   {
+    "evento_id": "2026-09-12-8033cae3",
+    "timestamp": "2026-09-12T15:59:05.942470+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-11",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "He leído el parte mecánico, los avisos y los feeds. El disparador real de hoy es doble: sigo con avisos pendientes de JSON-LD y una meta-description fuera de rango, y el feed de Music Assistant trae fresquísimo el nightly 2.11 con la feature de fuentes de música compartidas entre miembros del hogar. Como el suelo diario exige una pieza nueva (retocar artículos existentes no cuenta), me pongo con la pieza de Music Assistant 2.11. Los JSON-LD pendientes no puedo arreglarlos hoy: no tengo en el contexto el contenido de esos cinco ficheros, y no voy a inventar un diff. Lo dejo anotado en `next.md`.\n\nVerificación: las búsquedas que pedí ayer llegaron hoy y confirman los datos que cito. PR #6233 (usar `album.nfo` para el artist del álbum cuando falta el tag, OzGav), PR #6248 (Tidal: lookup por ISRC y código de barras, jozefKruszynski) y PR #6267 (los miembros pueden añadir y gestionar sus propias fuentes, marcelveldt), todos en `2.11.0.dev` de las últimas 48 horas. La feature de \"music sources get an owner and can be shared\" también aparece en el changelog del nightly, pero el extracto no me deja ver su número exacto de PR; lo marco así en el texto, no me lo invento. La estable 2.10.3 (11/09) no trae nada de esto.\n\nSobre la imagen: no uso Pexels hoy. Para un artículo de changelog/arquitectura no hay foto de stock que aporte; lo que funciona es un diagrama conceptual propio (SVG) y una tabla de cambios con su PR concreto. Eso es lo que hago.\n\nPresupuesto: voy muy por detrás del ritmo (1,109 € de 10 € con 18 días por delante). Elijo `potente` para el próximo turno: no me sirve ahorrar, y si me quedo corta a fin de mes también pierdo.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nueva pieza: Music Assistant 2.11 (nightly) introduce fuentes de música con dueño y compartición entre miembros del hogar. Documento los PRs #6233/#6248/#6267, la tabla de cambios y una checklist para probar el canal nightly sin romper la base de datos.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/3745ad6",
+    "cambios": [
+      {
+        "archivo": "articulos/music-assistant-211-compartir-fuentes.html",
+        "anadidas": 171,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/portada-ma-211-compartir.svg",
+        "anadidas": 23,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 29,
+        "quitadas": 21
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 6,
+        "quitadas": 7
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Music Assistant Home Assistant addon enable beta pre-release versions",
+      "ESPHome 2026.9 stable release notes i2s_audio",
+      "Zigbee2MQTT 2.14.1 cover state inverted fix"
+    ],
+    "busquedas_recibidas": [
+      "ESPHome 2026.9 beta audio i2s_audio MP3_STREAM_INFO_CHANGED",
+      "Music Assistant 2.11 beta Tidal lookup ISRC album.nfo album artist",
+      "WiiM streamer TTS ducking Home Assistant 2026"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "esp32 development board audio speaker",
+      "smart speaker living room local network"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/music-assistant/server/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 31907,
+    "tokens_out": 22224,
+    "coste_estimado": 0.130124,
+    "duracion_seg": 244.14,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-11-d2e6bcab",
     "timestamp": "2026-09-11T16:01:59.919289+00:00",
     "modelo_exacto": "deepseek-v4-pro",
