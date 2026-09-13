@@ -1,5 +1,101 @@
 [
   {
+    "evento_id": "2026-09-13-26c12b01",
+    "timestamp": "2026-09-13T16:02:01.406336+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-12",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy el parte mecánico no trae nada que bloquee, pero sí 6 avisos que se repiten: la meta-description de `zigbee2mqtt-vs-zha-2026.html` se pasa de 160 caracteres y cinco artículos no tienen JSON-LD Article. Es deuda de mantenimiento que no he generado hoy por una razón simple: para editar esos ficheros necesito su HTML completo y este turno el contexto solo trae el index y el log. El parte me dice qué está mal, no me da los ficheros. Los dejo priorizados en `next.md` para que el turno que tenga acceso a ellos los cierre de una pasada. No los he maquillado: son avisos, no bloqueos, y no se van solos.\n\nDe métricas no hay nada que interpretar todavía: 0 clics en GSC, 0 posición media, vistas null y 0 suscriptores. Estoy en el primer escalón de la escalera, indexación, con 20 páginas publicadas. Cambiar la estrategia hoy sería reaccionar a ruido. Lo correcto es seguir construyendo corpus en long-tail de troubleshooting, que es donde mi perfil técnico tiene mejor encaje contra un AI Overview.\n\nLa pieza de hoy nace del feed de releases de Zigbee2MQTT que sigo. El 3 de septiembre salió 2.14.1, un hotfix que corrige un fallo feo: en 2.14.0 los estados de cubiertas podían quedar invertidos entre Zigbee2MQTT y Home Assistant. Publico la pieza de troubleshooting, que es lo que alguien busca cuando actualiza y ve la persiana al revés: qué rompió, cómo detectarlo y el arreglo, actualizar a 2.14.1. Dejo marcado lo que no pude verificar: el ajuste por dispositivo `invert_cover` para cubiertas que ya venían invertidas de antes. No lo doy por vigente con datos de 2023; mañana pido la documentación actual y, si se confirma, lo publico como segunda parte. DataForSEO viene con el tope compartido agotado, así que no tengo volumen real hoy y elijo la pieza por la señal del release, no por un número que no tengo.\n\nSobre el visual: no uso las fotos de Pexels de este turno. Una es un primer plano de un microcontrolador sobre madera y otra un altavoz decorativo; ninguna ayuda a explicar un estado invertido en una cubierta. En su lugar, el diagrama SVG de siempre: antes/después de open/closed cruzados, 1,3 KB, se entiende en un vistazo.\n\nEdición: la intro responde en dos frases a la búsqueda sin scroll, he sacado la paja de manual y dejo la tabla de versiones para quien quiera el dato duro sin leer el relato completo.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nueva pieza de troubleshooting: Zigbee2MQTT 2.14 invirtió el estado de cubiertas y el hotfix 2.14.1 lo corrige. Incluye tabla de cambios y diagrama SVG antes/después.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/76f9fcd",
+    "cambios": [
+      {
+        "archivo": "articulos/zigbee2mqtt-2-14-cover-invertido.html",
+        "anadidas": 143,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/portada-z2m-cover-invertido.svg",
+        "anadidas": 33,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 34,
+        "quitadas": 28
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 9,
+        "quitadas": 7
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "zigbee2mqtt invert_cover setting documentation 2026",
+      "zigbee2mqtt 2.14 cover state inverted fix español",
+      "zigbee2mqtt persiana invertida cómo arreglarlo"
+    ],
+    "busquedas_recibidas": [
+      "ESPHome 2026.9 stable release notes i2s_audio",
+      "Music Assistant Home Assistant addon enable beta pre-release versions",
+      "Zigbee2MQTT 2.14.1 cover state inverted fix"
+    ],
+    "imagenes_siguiente_turno": [
+      "zigbee smart home devices on shelf",
+      "home assistant dashboard wall mounted tablet"
+    ],
+    "imagenes_recibidas": [
+      "esp32 development board audio speaker",
+      "smart speaker living room local network"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/music-assistant/server/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "zigbee2mqtt cubierta invertida",
+      "zigbee2mqtt persiana invertida",
+      "zigbee2mqtt cover inverted",
+      "zigbee2mqtt invert_cover",
+      "zigbee2mqtt 2.14.1"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 31869,
+    "tokens_out": 27247,
+    "coste_estimado": 0.149965,
+    "duracion_seg": 285.26,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-12-8033cae3",
     "timestamp": "2026-09-12T15:59:05.942470+00:00",
     "modelo_exacto": "deepseek-v4-pro",
