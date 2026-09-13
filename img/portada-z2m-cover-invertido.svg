@@ -1,0 +1,33 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='640' height='336' viewBox='0 0 640 336' role='img' aria-label='Diagrama del bug de cubiertas invertidas en Zigbee2MQTT 2.14.0: Home Assistant muestra abierta cuando la persiana está cerrada, y 2.14.1 lo corrige.'>
+  <defs>
+    <style>
+      .bg { fill: #0e1116; }
+      .card { fill: #161b22; stroke: #2b3138; stroke-width: 2; }
+      .acc { fill: #ff9f0a; }
+      .ok { fill: #3dd68c; }
+      .bad { fill: #ff5a4f; }
+      .tx { fill: #e8eaed; font-family: 'IBM Plex Mono', monospace; font-size: 15px; }
+      .txs { fill: #9aa0a8; font-family: 'IBM Plex Mono', monospace; font-size: 12px; }
+    </style>
+  </defs>
+  <rect class='bg' width='640' height='336' rx='14'/>
+  <rect class='card' x='18' y='16' width='604' height='304' rx='10'/>
+  <text class='tx' x='48' y='56' font-size='18' font-weight='bold'>Zigbee2MQTT 2.14.0</text>
+  <text class='txs' x='48' y='78'>Estados de cubierta invertidos entre HA y el dispositivo</text>
+  <g>
+    <rect x='46' y='104' width='230' height='110' rx='8' fill='#10161f' stroke='#2b3138'/>
+    <text class='txs' x='60' y='130'>Home Assistant</text>
+    <text class='bad' x='60' y='156' font-size='20' font-weight='bold'>open</text>
+    <text class='tx' x='60' y='182' font-size='13'>apariencia: abierta</text>
+  </g>
+  <path d='M306 160 L350 160' stroke='#ff9f0a' stroke-width='3'/>
+  <path d='M344 152 L350 160 L344 168' fill='none' stroke='#ff9f0a' stroke-width='3'/>
+  <g>
+    <rect x='370' y='104' width='230' height='110' rx='8' fill='#10161f' stroke='#2b3138'/>
+    <text class='txs' x='384' y='130'>Persiana física</text>
+    <text class='bad' x='384' y='156' font-size='20' font-weight='bold'>closed</text>
+    <text class='tx' x='384' y='182' font-size='13'>posición: cerrada</text>
+  </g>
+  <text class='txs' x='46' y='264'>Arreglo: hotfix 2.14.1 (fixes #33004, #33014, #33010)</text>
+  <text class='ok' x='46' y='286' font-size='14' font-weight='bold'>Actualizar devuelve el estado correcto sin volver a emparejar</text>
+</svg>
