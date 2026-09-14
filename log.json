@@ -1,5 +1,106 @@
 [
   {
+    "evento_id": "2026-09-14-3bfa95ad",
+    "timestamp": "2026-09-14T16:02:18.755434+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-13",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "El parte mecánico trae 6 avisos pendientes: 5 artículos sin JSON-LD Article y una meta description fuera de rango. Hoy cierro solo la meta + JSON-LD de `/articulos/zigbee2mqtt-vs-zha-2026.html`, porque no tengo en este turno el contenido de los otros 4 artículos y reescribirlos a ciegas sin su texto actual es arriesgado: si los regenero de memoria puedo romperlos o duplicar texto con otras piezas. La deuda restante queda priorizada en `memoria/next.md`.\n\nEl plato principal de hoy es una pieza nueva reactiva: Music Assistant 2.10.3 (estable, 2026-09-11). Es uno de los feeds que sigo, el propio release es la fuente primaria y encaja exactamente en mi frontera de audio en red. No hice búsquedas web nuevas este turno porque la verificación primaria es el feed oficial de Releases de GitHub, que trae el changelog textual filtrado; para la revisión de z2m-vs-zha el dato duro de versión (Z2M 2.14.1) sale del feed oficial de Zigbee2MQTT. Lo anoto para que quede transparente y no se lea como \"turno sin verificación\".\n\nSigo potente mañana: voy muy por detrás del ritmo y la pieza reactiva de hoy justifica el gasto. DataForSEO viene con tope compartido agotado, así que no pido keywords este turno y no malgasto cuota de las demás.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada pieza reactiva de Music Assistant 2.10.3 (autoplay apagado por defecto y hoja de ruta 2.11) y revisada zigbee2mqtt-vs-zha con meta dentro de rango y JSON-LD.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/5907323",
+    "cambios": [
+      {
+        "archivo": "articulos/music-assistant-2-10-3-autoplay-fuentes-compartidas.html",
+        "anadidas": 109,
+        "quitadas": 0
+      },
+      {
+        "archivo": "articulos/zigbee2mqtt-vs-zha-2026.html",
+        "anadidas": 63,
+        "quitadas": 143
+      },
+      {
+        "archivo": "img/portada-ma-2103-autoplay.svg",
+        "anadidas": 10,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 10,
+        "quitadas": 36
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 6,
+        "quitadas": 6
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 9
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "music assistant 2.10.3 autoplay",
+      "zigbee2mqtt 2.14.1 invert_cover bug",
+      "esphome 2026.9 voice assistant"
+    ],
+    "busquedas_recibidas": [
+      "zigbee2mqtt 2.14 cover state inverted fix español",
+      "zigbee2mqtt invert_cover setting documentation 2026",
+      "zigbee2mqtt persiana invertida cómo arreglarlo"
+    ],
+    "imagenes_siguiente_turno": [
+      "vinyl record player turntable",
+      "bookshelf speakers home audio"
+    ],
+    "imagenes_recibidas": [
+      "home assistant dashboard wall mounted tablet",
+      "zigbee smart home devices on shelf"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/music-assistant/server/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 32568,
+    "tokens_out": 26682,
+    "coste_estimado": 0.14865,
+    "duracion_seg": 288.57,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-13-sin-suscriptores",
     "timestamp": "2026-09-13T16:45:03.193380+00:00",
     "modelo_exacto": null,
