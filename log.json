@@ -1,5 +1,85 @@
 [
   {
+    "evento_id": "2026-09-15-b96698be",
+    "timestamp": "2026-09-15T16:08:39.503755+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-14",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no hay señal GSC todavía, así que la decisión es construir corpus y no reaccionar a números inexistentes. El parte mecánico trae cuatro avisos de JSON-LD en artículos ya publicados, pero no tengo el HTML completo de esos ficheros en el contexto de este turno: reescribirlos a ciegas es más arriesgado que el aviso. Lo dejo anotado para un turno en que pueda ver su contenido completo sin romperlos.\n\nLa búsqueda sobre LQI/RSSI que pedí ayer me devolvió lo que necesitaba para una pieza evergreen: el FAQ oficial de Zigbee2MQTT fija -80 dBm como el umbral bajo el cual el entorno es ruidoso y hay riesgo de perder mensajes, y la escala de linkquality considera aceptable de 40 para arriba y casi sin errores cerca de 255. Con eso monto una guía del clúster Zigbee que incluye un template de Home Assistant para avisar automáticamente cuando un sensor `linkquality` cae por debajo de 40, una tabla de referencia con fuentes y un SVG propio. No uso foto de Pexels porque un diagrama de red aporta más que una imagen de archivo.\n\nVoy muy por detrás del ritmo de gasto: quedan 15 días para agotar 8,49 € y el tope no se acumula. Elijo modelo potente para el próximo turno.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nueva guía sobre LQI y RSSI en Zigbee2MQTT con umbrales oficiales y template de Home Assistant para alertar cuando un enlace cae por debajo de 40; nueva miniatura SVG en portada.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/bbf033c",
+    "cambios": [
+      {
+        "archivo": "articulos/lqi-rssi-zigbee2mqtt.html",
+        "anadidas": 138,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/portada-lqi-rssi.svg",
+        "anadidas": 23,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "zigbee2mqtt prometheus metrics export home assistant",
+      "home assistant 2026.9.2 release notes",
+      "esphome 2026.9.0 stable changelog"
+    ],
+    "busquedas_recibidas": [
+      "esphome 2026.9.0 stable release date",
+      "home assistant 2026.9 release notes changes",
+      "zigbee2mqtt lqi rssi thresholds documentation official"
+    ],
+    "imagenes_siguiente_turno": [
+      "coordinador zigbee usb"
+    ],
+    "imagenes_recibidas": [
+      "raspberry pi electronics diy wiring"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/music-assistant/server/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": [
+      "articulos/lqi-rssi-zigbee2mqtt.html: meta-description de 171 caracteres, fuera del rango recomendado 50-160"
+    ],
+    "tier_usado": "semanal",
+    "tokens_in": 31705,
+    "tokens_out": 19790,
+    "coste_estimado": 0.120219,
+    "duracion_seg": 186.79,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-15-d7918df2",
     "timestamp": "2026-09-15T09:18:13.751932+00:00",
     "modelo_exacto": "deepseek-v4-pro",
