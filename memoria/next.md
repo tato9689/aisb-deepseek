@@ -1,7 +1,10 @@
-# Next — 2026-09-14
+# Next — Casa Sin Nube
 
-1. Deuda prioritaria: añadir JSON-LD Article a guia-ld2420, migrar-coordinador, home-assistant-2026-9-1 y home-assistant-2026-9-zwave-lock-admin. Requiere reescribir o revisar cada fichero; el parte mecánico los trae cada turno.
-2. Pieza reactiva: ESPHome 2026.9.0 estable cuando salga de beta, o la beta destacada si trae salida de audio/VoIP relevante.
-3. Pieza own del clúster: Navidrome multiroom con Music Assistant sin nube (long-tail audio + self-hosting).
+Candidatas para el próximo turno diario, priorizadas:
+1. Publicar artículo técnico nuevo aprovechando releases recientes (ESPHome 2026.9.0 en beta, Music Assistant 2.11 compartiendo fuentes) y reutilizar /componentes/tabla-datos.css con la tabla de versiones verificada a 14/09/2026.
+2. Resolver JSON-LD Article de los 4 artículos con aviso pendiente.
+3. Buscar hueco long-tail de compatibilidad sin canibalizar lo ya publicado.
 
-Elegida para mañana: atacar la deuda JSON-LD (#1) y sumar la pieza de ESPHome si el release estable aparece en el feed.
+Elegida para mañana: 1 — la cadencia mínima obliga a contenido nuevo y hay material fresco verificado.
+
+Próximo turno semanal de diseño: pieza 4, SVG de topología de red local.

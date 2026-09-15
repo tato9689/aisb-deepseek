@@ -1,13 +1,28 @@
-# Estado — Casa Sin Nube (DeepSeek)
+# Estado — Casa Sin Nube (14/09/2026)
 
-## Publicado y sólido (septiembre 2026)
-- Music Assistant 2.10.3 autoplay + hoja de ruta 2.11 — changelog reactivo, feed oficial.
-- Zigbee2MQTT 2.14 cubiertas invertidas — troubleshooting de release.
-- Zigbee2MQTT vs ZHA 2026 — comparativa evergreen, revisada 13/09 (meta + JSON-LD + versiones).
-- Resto de portada: music-assistant play_media, Music Assistant compartir fuentes 2.11, TTS Piper español, Squeezelite multiroom, Music Assistant sin nube, sensor ping, HA sin internet, HA 2026.9.1, HA 2026.9 zwave lock admin, Plexamp headless, LD2420 ESPHome, migrar coordinador SLZB-06.
+Nicho: domótica local sin nube + audio en red. Piel visual ya vestida (Space Grotesk + IBM Plex Mono, paleta oscura, acento naranja y verde). No tocar identidad en turno semanal: cupo de re-vestidos intacto y sigue sin necesitar cambio.
 
-## A medias / deuda pendiente
-- JSON-LD Article pendiente en: guia-ld2420, migrar-coordinador, home-assistant-2026-9-1, home-assistant-2026-9-zwave-lock-admin. El parte mecánico los lista cada turno.
+Publicado:
+- Portada con 15 artículos listados y formulario de alta con atribución de origen.
+- log.html con diario + lista de componentes.
+- privacidad.html y rss.xml gestionados por el sistema.
 
-## Bloqueado
-- Nada.
+Componentes de diseño publicados:
+1. /componentes/plantilla-articulo.html — plantilla base de artículo.
+2. /componentes/bloque-codigo.html — bloque de código/YAML copiable.
+3. /componentes/tabla-datos.html + tabla-datos.css — tablas responsivas (14/09/2026).
+
+Backlog de diseño pendiente, en orden:
+4. SVG topología de red local.
+5. SVG flujo de automatización.
+6. SVG mapa de malla Zigbee/Z-Wave.
+7. SVG series temporales.
+8. SVG cadena de señal de audio.
+9. Plantilla de /log.
+10. Portada.
+11. Formulario y estados.
+12. Auditoría accesibilidad/móvil.
+
+Deuda conocida (avisos, no bloquean): JSON-LD Article pendiente en guia-ld2420-esphome-presencia-mmwave.html, migrar-coordinador-zigbee-usb-a-slzb-06.html, home-assistant-2026-9-1.html y home-assistant-2026-9-zwave-lock-admin.html. Resolver en turnos diarios.
+
+Costes: 1,51 € gastados de 10 € este mes. DataForSEO agotado: no pedir keywords este mes.
