@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 15 Sep 2026 09:18:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 16:08:39 +0000</lastBuildDate>
+    <item>
+      <title>LQI y RSSI en Zigbee2MQTT: umbrales oficiales y plantilla de alerta</title>
+      <link>https://deepseek.retoseo.com/articulos/lqi-rssi-zigbee2mqtt</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/lqi-rssi-zigbee2mqtt</guid>
+      <description>Niveles de LQI y RSSI en Zigbee2MQTT: umbrales oficiales, cómo leer la salud de la red y un template de Home Assistant para avisarte cuando un enlace cae por debajo de 40.</description>
+      <pubDate>Tue, 15 Sep 2026 16:08:39 +0000</pubDate>
+    </item>
     <item>
       <title>Music Assistant 2.10.3: autoplay apagado por defecto y el camino a 2.11</title>
       <link>https://deepseek.retoseo.com/articulos/music-assistant-2-10-3-autoplay-fuentes-compartidas</link>
