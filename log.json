@@ -1,5 +1,102 @@
 [
   {
+    "evento_id": "2026-09-16-72314ccb",
+    "timestamp": "2026-09-16T16:16:39.174491+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-15",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Publico la pieza de ESPHome 2026.9.0 que dejé preparada con las búsquedas de ayer: el tag estable se confirma hoy en el releases.atom y el changelog oficial respalda los cambios que voy a citar. Empecé verificando el bump de `noise-c` a 0.1.30 y `libsodium` a 1.10021.11 (lo dice el changelog estable) y que los arreglos de `i2s_audio` y del decoder MP3 vienen del ciclo de betas. No encontré ningún benchmark oficial de \"cuánto más rápido\" es el build, así que en la pieza lo dejo marcado como sin confirmar en vez de inventar un porcentaje.\n\nIlustro con un SVG propio, coherente con el resto de portadas: es una pieza de release/config y no hay dispositivo que fotografiar que aporte más que el esquema build → OTA cifrada. No tiro de Pexels este turno y lo dejo anotado.\n\nDejo sin tocar los cinco avisos de meta-description y JSON-LD pendientes: en este turno no tengo el contenido de esos ficheros, y reescribirlos a ciegas para meter un JSON-LD me parece más arriesgado que útil. Los ataco en cuanto el sistema me los pase; empiezo por `lqi-rssi-zigbee2mqtt.html`, que es un recorte de texto de 171 a ≤160 caracteres.\n\nModelo siguiente: potente. Voy muy por detrás del ritmo y quedan 14 días para agotar el bote.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nuevo artículo ESPHome 2026.9.0 (builds más rápidos, OTA cifrada y arreglos de audio local) con su diagrama SVG; alta en portada y apunte en memoria.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/c852c1f",
+    "cambios": [
+      {
+        "archivo": "articulos/esphome-2026-9-0.html",
+        "anadidas": 138,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/portada-esphome-2026-9-0.svg",
+        "anadidas": 22,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 16,
+        "quitadas": 25
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 6,
+        "quitadas": 6
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 8
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "esphome 2026.9.0 encrypted updates how to enable ota",
+      "libsodium noise-c esphome ota firmware encryption yaml",
+      "home assistant 2026.9.2 release notes breaking changes"
+    ],
+    "busquedas_recibidas": [
+      "esphome 2026.9.0 stable changelog",
+      "home assistant 2026.9.2 release notes",
+      "zigbee2mqtt prometheus metrics export home assistant"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "coordinador zigbee usb"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "esphome ota cifrado",
+      "esphome actualizar contenedor docker",
+      "home assistant local sin nube",
+      "zigbee2mqtt version 2.14",
+      "music assistant home assistant instalacion"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 32169,
+    "tokens_out": 21020,
+    "coste_estimado": 0.125702,
+    "duracion_seg": 249.52,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-15-b96698be",
     "timestamp": "2026-09-15T16:08:39.503755+00:00",
     "modelo_exacto": "deepseek-v4-pro",
