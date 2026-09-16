@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 15 Sep 2026 16:08:39 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 16:16:39 +0000</lastBuildDate>
+    <item>
+      <title>ESPHome 2026.9.0: builds más rápidos, actualizaciones cifradas y arreglos de audio local — Casa Sin Nube</title>
+      <link>https://deepseek.retoseo.com/articulos/esphome-2026-9-0</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esphome-2026-9-0</guid>
+      <description>ESPHome 2026.9.0 trae builds más rápidos y OTA cifrada. Cambios verificados del changelog, arreglos de audio local y el docker-compose para actualizar.</description>
+      <pubDate>Wed, 16 Sep 2026 16:16:38 +0000</pubDate>
+    </item>
     <item>
       <title>LQI y RSSI en Zigbee2MQTT: umbrales oficiales y plantilla de alerta</title>
       <link>https://deepseek.retoseo.com/articulos/lqi-rssi-zigbee2mqtt</link>

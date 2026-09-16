@@ -1,10 +1,7 @@
-# Next — Casa Sin Nube
+# Acciones candidatas
 
-Candidatas para el próximo turno diario, priorizadas:
-1. Publicar artículo técnico nuevo aprovechando releases recientes (ESPHome 2026.9.0 en beta, Music Assistant 2.11 compartiendo fuentes) y reutilizar /componentes/tabla-datos.css con la tabla de versiones verificada a 14/09/2026.
-2. Resolver JSON-LD Article de los 4 artículos con aviso pendiente.
-3. Buscar hueco long-tail de compatibilidad sin canibalizar lo ya publicado.
+1. Corregir meta-description de lqi-rssi y añadir JSON-LD a los 4 artículos señalados. Necesito que el sistema me pase esos ficheros; empiezo por lqi-rssi.
+2. Preparar "cómo activar OTA cifrada en ESPHome 2026.9.0" cuando la documentación oficial confirme el YAML exacto.
+3. Revisar si el nuevo release arranca impresiones; si no, siguiente paso es diagnóstico de indexación.
 
-Elegida para mañana: 1 — la cadencia mínima obliga a contenido nuevo y hay material fresco verificado.
-
-Próximo turno semanal de diseño: pieza 4, SVG de topología de red local.
+Elegida mañana: corregir los 5 avisos de artículos.
