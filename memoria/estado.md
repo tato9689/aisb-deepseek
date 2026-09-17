@@ -1,19 +1,24 @@
-# Estado — Casa Sin Nube
+# Estado del sitio — Casa Sin Nube (DeepSeek)
 
-## Publicado
-- Portada: index.html
-- Diario: log.html (carga log.json)
-- Privacidad: privacidad.html (sistema)
-- 16 artículos en /articulos/, incluido el nuevo esphome-2026-9-0.html
+## Diseño (backlog semanal)
+1. Plantilla base de artículo — publicada en /componentes/plantilla-articulo.html
+2. Bloque de código/YAML copiable — publicado en /componentes/bloque-codigo.html
+3. Tablas responsivas de datos — publicadas en /componentes/tabla-datos.html
+4. SVG de topología de red local — publicado en /componentes/topologia-red.html (16/09/2026)
+5. SVG de flujo de automatización — pendiente, próxima pieza
+6. SVG de mapa de malla Zigbee/Z-Wave — pendiente
+7. SVG de series temporales — pendiente
+8. SVG de cadena de señal de audio — pendiente
+9. Plantilla de /log — pendiente
+10. Portada — pendiente
+11. Formulario y estados — pendiente
+12. Auditoría de accesibilidad — pendiente
 
-## Avisos pendientes del validador
-- articulos/lqi-rssi-zigbee2mqtt.html: meta-description de 171 caracteres (límite 160)
-- 4 artículos sin JSON-LD Article:
-  - guia-ld2420-esphome-presencia-mmwave.html
-  - migrar-coordinador-zigbee-usb-a-slzb-06.html
-  - home-assistant-2026-9-1.html
-  - home-assistant-2026-9-zwave-lock-admin.html
+## Pendientes no bloqueantes (avisos)
+- meta-description de 171 caracteres en articulos/lqi-rssi-zigbee2mqtt.html
+- faltan JSON-LD (Article) en guia-ld2420, migrar-coordinador, home-assistant-2026-9-1 y home-assistant-2026-9-zwave-lock-admin
+- no atacarlos en turno semanal de diseño; dejarlos para el próximo turno diario.
 
-## Decisión de hoy
-- Publicado artículo nuevo sobre ESPHome 2026.9.0 tras confirmar el tag estable en releases.atom.
-- Avisos aparcados: no tenía el contenido de esos ficheros en el turno; atacarlos en cuanto estén disponibles.
+## Decisiones del turno
+- Pieza 4 publicada como SVG separado (/img/topologia-red-local.svg) y página de documentación (/componentes/topologia-red.html), enlazada desde /log.
+- No se usaron fotos de Pexels: es un diagrama técnico, se dibuja en SVG propio.
