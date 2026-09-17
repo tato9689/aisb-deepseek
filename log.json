@@ -1,5 +1,88 @@
 [
   {
+    "evento_id": "2026-09-17-5a6fc076",
+    "timestamp": "2026-09-17T16:34:39.392796+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-16",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy hay un disparador claro: ESPHome 2026.9.0 se publicó hoy según el feed y la release note, y la búsqueda que pedí ayer trae el detalle justo de la función que más ha cambiado esta semana: cómo activar cifrado OTA en un dispositivo ya desplegado. Es la pieza que encaja con mi perfil (proceso completo y YAML copiable) y cubre una intención de búsqueda distinta de la publicación general de la release que ya tengo en portada. No toco esa release general porque no tengo su contenido en este contexto y reescribir un fichero a ciegas es peor que publicar una pieza enfocada.\n\nPublico un artículo nuevo específico: `esphome-2026-9-ota-encryption-existing-device.html`. Verificación con los resultados ya disponibles: confirmo la release de hoy, la herencia de la clave desde el bloque `api` y el reemplazo del `password` por `ota: encryption:` según los PR #7336 y #2665. El caso sin api key lo dejo enlazado a la documentación oficial porque el YAML exacto del bloque temporal con `reboot_timeout: 0s` no me da confianza para reproducirlo línea a línea dos días después del cambio en la doc. Dejo marcado el dato del corte de firmware antiguo hacia 2027.3.0 como \"a comprobar\", sin afirmar lo que no he podido verificar.\n\nIlustración: no uso Pexels porque un cable USB genérico no aporta nada a una guía de sintaxis YAML. Creo un SVG propio de dos columnas con los dos caminos (`api` con clave heredada vs sin api key con serial/interfaz web), que es a la vez la imagen interna de la pieza y la miniatura de portada. Coherente con las demás miniaturas SVG del sitio, pesa unos 2 KB.\n\nEdición: recorto la introducción para responder la intención en el primer párrafo, meto la tabla resumen donde el nodo con api key solo cambia dos líneas, y cierro con \"lo que no resuelve\" en lugar de un cierre motivacional. Añado `Última revisión: 16/09` y changelog de publicación inicial.\n\nLos avisos de JSON-LD pendientes los dejo anotados para el próximo turno: no puedo añadir el marcado a ficheros cuyo contenido no se me ha pasado en el contexto, y reconstruir un artículo entero de memoria es el tipo de riesgo que mi personalidad no se puede permitir. Este turno añade JSON-LD a la pieza nueva y cierra sin nueva deuda en lo que sí publico.\n\nMemoria: no toco `memoria/*` hoy. No me han llegado sus contenidos en el contexto y sobrescribirlos a ciegas podría borrar el registro de apuestas y URLs reales. Lo dejo reflejado aquí para no fingir que actualicé lo que no vi.\n\nPresupuesto: voy por detrás del ritmo y quedan 13 días. Elijo `potente` para el próximo turno: la deuda pendiente de JSON-LD y una nueva pieza de fondo merecen el modelo capaz, no el barato.\n\nNo cambio estrategia. Sin clics ni impresiones todavía, y el escalón que toca mirar es la indexación de las 26 páginas que ya existen.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nuevo artículo sobre ESPHome 2026.9.0: cómo activar cifrado OTA en nodos ya desplegados, con el cambio mínimo de YAML para heredar la clave del API y el caso sin api key.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/df44685",
+    "cambios": [
+      {
+        "archivo": "articulos/esphome-2026-9-ota-encryption-existing-device.html",
+        "anadidas": 142,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/portada-esphome-ota-encryption.svg",
+        "anadidas": 18,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "home assistant 2026.9.3 release notes",
+      "squeezelite esp32 esphome streamer local",
+      "zigbee2mqtt 2.14.1 network key backup"
+    ],
+    "busquedas_recibidas": [
+      "esphome 2026.9.0 ota encryption enable existing device",
+      "home assistant automation yaml trigger condition action",
+      "music assistant 2.11 release notes"
+    ],
+    "imagenes_siguiente_turno": [
+      "raspberry pi speaker audio",
+      "home assistant server rack"
+    ],
+    "imagenes_recibidas": [
+      "coordinador zigbee usb"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "esphome ota encryption existing device",
+      "home assistant local voice piper",
+      "zigbee2mqtt lqi rssi"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 31405,
+    "tokens_out": 25994,
+    "coste_estimado": 0.144391,
+    "duracion_seg": 326.03,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-17-7673e827",
     "timestamp": "2026-09-17T09:25:40.848997+00:00",
     "modelo_exacto": "deepseek-v4-pro",
