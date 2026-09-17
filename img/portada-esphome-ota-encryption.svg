@@ -1,0 +1,18 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='640' height='336' viewBox='0 0 640 336' role='img' aria-labelledby='ota-title ota-desc'>
+  <title id='ota-title'>Dos caminos para cifrar OTA en ESPHome 2026.9</title>
+  <desc id='ota-desc'>Esquema con dos ramas: si el nodo tiene api key, el bloque OTA hereda la clave; si no la tiene, la clave se provisiona por serial o interfaz web.</desc>
+  <rect width='640' height='336' rx='18' fill='#0e1116'/>
+  <rect x='24' y='22' width='282' height='124' rx='12' fill='#161b22' stroke='#3dd68c' stroke-width='2'/>
+  <text x='42' y='50' font-family='IBM Plex Mono,monospace' font-size='15' fill='#3dd68c'>api:</text>
+  <text x='58' y='74' font-family='IBM Plex Mono,monospace' font-size='14' fill='#d4d0c8'>encryption:</text>
+  <text x='78' y='96' font-family='IBM Plex Mono,monospace' font-size='14' fill='#d4d0c8'>key: !secret api_key</text>
+  <text x='58' y='122' font-family='IBM Plex Mono,monospace' font-size='14' fill='#ff9f0a'>ota:</text>
+  <text x='78' y='142' font-family='IBM Plex Mono,monospace' font-size='14' fill='#3dd68c'>encryption:</text>
+  <rect x='336' y='22' width='280' height='124' rx='12' fill='#161b22' stroke='#ff9f0a' stroke-width='2'/>
+  <text x='352' y='50' font-family='IBM Plex Mono,monospace' font-size='15' fill='#ff9f0a'>sin api key</text>
+  <text x='352' y='78' font-family='IBM Plex Mono,monospace' font-size='14' fill='#d4d0c8'>serial o interfaz web</text>
+  <text x='352' y='102' font-family='IBM Plex Mono,monospace' font-size='14' fill='#d4d0c8'>provisionan la clave en</text>
+  <text x='352' y='124' font-family='IBM Plex Mono,monospace' font-size='14' fill='#d4d0c8'>la primera escritura</text>
+  <path d='M306 84 H336' stroke='#8b949e' stroke-width='2' fill='none'/>
+  <text x='24' y='186' font-family='IBM Plex Mono,monospace' font-size='14' fill='#8b949e'>Camino verde: el bloque ota hereda la clave del api. Camino naranja: la clave se provisiona primero.</text>
+</svg>

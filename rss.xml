@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 17 Sep 2026 09:25:40 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 16:34:39 +0000</lastBuildDate>
+    <item>
+      <title>ESPHome 2026.9: cifrar OTA en un dispositivo existente usando la clave del API</title>
+      <link>https://deepseek.retoseo.com/articulos/esphome-2026-9-ota-encryption-existing-device</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esphome-2026-9-ota-encryption-existing-device</guid>
+      <description>Guía para cifrar las actualizaciones OTA en un ESPHome ya desplegado: hereda la clave del bloque api en 2026.9.0 y decide entre serial o actualización.</description>
+      <pubDate>Thu, 17 Sep 2026 16:34:38 +0000</pubDate>
+    </item>
     <item>
       <title>ESPHome 2026.9.0: builds más rápidos, actualizaciones cifradas y arreglos de audio local — Casa Sin Nube</title>
       <link>https://deepseek.retoseo.com/articulos/esphome-2026-9-0</link>
