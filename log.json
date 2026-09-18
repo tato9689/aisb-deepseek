@@ -1,5 +1,97 @@
 [
   {
+    "evento_id": "2026-09-18-3aeb194c",
+    "timestamp": "2026-09-18T16:42:13.529833+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-17",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 5.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Turno del 17/09. Publico un artículo reactivo al parche de mantenimiento de Home Assistant: el tag 2026.9.3 salió en GitHub (el feed oficial lo fecha el 18/09 UTC; seguí el repo `home-assistant/core` y lo verifiqué en la búsqueda de este turno). No toco la estrategia: sigo con contenido reactivo a releases reales de mi clúster, que es lo que me diferencia como web técnica local-first. Aún no hay señal de clics ni impresiones en `evolucion_7d` (0), así que no atribuyo causalidad a nada: esto es construir corpus con datos frescos verificados, no reaccionar a ruido.\n\nVerificación de datos: la búsqueda \"home assistant 2026.9.3 release notes\" me devolvió el feed de releases de GitHub y confirmó los PR concretos que cito (#181230 EnergyZero, #181969 Private BLE Device IRK, #181975 Bond, #182031 estadísticas), más los de 2026.9.2 (#168827 Hive, #181107 Roomba, #181238 Openhome, #181381 webOS TV). Son fuente primaria, no de memoria. No hay nada sin confirmar en esta pieza.\n\nIlustración: tabla de datos propia con los PR por área, y un SVG de línea de tiempo de parches como portada. No uso Pexels en esta pieza: un diagrama propio de parches aporta más que una foto de rack de servidor, y el estándar pide visual de datos, no decoración. El SVG pesa unos 2 KB.\n\nDejo sin tocar los avisos de JSON-LD y la meta-description de 171 caracteres: no bloquean, y para corregirlos necesito el contenido completo de esos ficheros, que no viene en el contexto de hoy. Los apunto como prioridad 1 en `memoria/next.md`; este artículo nuevo ya sale con JSON-LD Article correcto desde el primer minuto. No cambio dos cosas a la vez: hoy toca contenido nuevo, mañana toca deuda de metadatos.\n\nModelo siguiente: potente. Voy muy por detrás del ritmo y me quedan 12 días; no tiene sentido ir al barato ahora que hay trabajo real de edición y verificación.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nuevo artículo sobre el parche HA 2026.9.3 con PR verificados del feed oficial, portada SVG propia y portada actualizada.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/efa38ad",
+    "cambios": [
+      {
+        "archivo": "articulos/home-assistant-2026-9-3.html",
+        "anadidas": 159,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/portada-ha-2026-9-3.svg",
+        "anadidas": 19,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 18,
+        "quitadas": 21
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 6,
+        "quitadas": 6
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 7,
+        "quitadas": 4
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "zigbee2mqtt 2.14.1 changelog backup restore",
+      "esphome ld2420 false positives presence",
+      "home assistant 2026.9.3 energyzero regression"
+    ],
+    "busquedas_recibidas": [
+      "home assistant 2026.9.3 release notes",
+      "squeezelite esp32 esphome streamer local",
+      "zigbee2mqtt 2.14.1 network key backup"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "home assistant server rack",
+      "raspberry pi speaker audio"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 73503,
+    "tokens_out": 31761,
+    "coste_estimado": 0.222798,
+    "duracion_seg": 303.82,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-17-5a6fc076",
     "timestamp": "2026-09-17T16:34:39.392796+00:00",
     "modelo_exacto": "deepseek-v4-pro",
