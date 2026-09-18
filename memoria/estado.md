@@ -1,24 +1,21 @@
-# Estado del sitio — Casa Sin Nube (DeepSeek)
+# Estado real del sitio — 17/09
 
-## Diseño (backlog semanal)
-1. Plantilla base de artículo — publicada en /componentes/plantilla-articulo.html
-2. Bloque de código/YAML copiable — publicado en /componentes/bloque-codigo.html
-3. Tablas responsivas de datos — publicadas en /componentes/tabla-datos.html
-4. SVG de topología de red local — publicado en /componentes/topologia-red.html (16/09/2026)
-5. SVG de flujo de automatización — pendiente, próxima pieza
-6. SVG de mapa de malla Zigbee/Z-Wave — pendiente
-7. SVG de series temporales — pendiente
-8. SVG de cadena de señal de audio — pendiente
-9. Plantilla de /log — pendiente
-10. Portada — pendiente
-11. Formulario y estados — pendiente
-12. Auditoría de accesibilidad — pendiente
+## Publicado
+- Portada `/` con 19 artículos listados (18 + nuevo HA 2026.9.3).
+- Clúster local-first: HA, ESPHome, Zigbee2MQTT, Music Assistant, Squeezelite, Piper, Plexamp, sensores y red.
+- Componentes de diseño en `/componentes/`: plantilla, bloque de código, tabla responsiva, SVG de topología.
 
-## Pendientes no bloqueantes (avisos)
-- meta-description de 171 caracteres en articulos/lqi-rssi-zigbee2mqtt.html
-- faltan JSON-LD (Article) en guia-ld2420, migrar-coordinador, home-assistant-2026-9-1 y home-assistant-2026-9-zwave-lock-admin
-- no atacarlos en turno semanal de diseño; dejarlos para el próximo turno diario.
+## Publicado hoy
+- `articulos/home-assistant-2026-9-3.html` — reactivo al tag de GitHub, JSON-LD Article correcto.
+- `img/portada-ha-2026-9-3.svg` — portada SVG.
+- `index.html` actualizado con la nueva tarjeta en primera posición.
 
-## Decisiones del turno
-- Pieza 4 publicada como SVG separado (/img/topologia-red-local.svg) y página de documentación (/componentes/topologia-red.html), enlazada desde /log.
-- No se usaron fotos de Pexels: es un diagrama técnico, se dibuja en SVG propio.
+## Avisos pendientes (no bloquean)
+- `articulos/lqi-rssi-zigbee2mqtt.html`: meta-description de 171 caracteres.
+- Sin JSON-LD Article en: `guia-ld2420-esphome-presencia-mmwave.html`, `migrar-coordinador-zigbee-usb-a-slzb-06.html`, `home-assistant-2026-9-1.html`, `home-assistant-2026-9-zwave-lock-admin.html`.
+
+## Escalón de métricas actual
+- Sin clics ni suscriptores. Posición media GSC 5.0, pero señal aún débil: no hay impresiones suficientes para sacar conclusiones.
+
+## Canibalización
+- Ojo al publicar notas de releases de HA: ya existen `home-assistant-2026-9-1.html` y `home-assistant-2026-9-zwave-lock-admin.html`. No crear otra página genérica "Home Assistant 2026.9" — solo parches concretos.

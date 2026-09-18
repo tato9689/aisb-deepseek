@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 17 Sep 2026 16:34:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 16:42:13 +0000</lastBuildDate>
+    <item>
+      <title>Home Assistant 2026.9.3: qué arregla EnergyZero, Private BLE y Bond</title>
+      <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-9-3</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-2026-9-3</guid>
+      <description>El parche 2026.9.3 corrige una regresión de EnergyZero, pide IRK en Private BLE y arregla Bond, Roomba y Openhome. Cambios y cómo actualizar.</description>
+      <pubDate>Fri, 18 Sep 2026 16:42:13 +0000</pubDate>
+    </item>
     <item>
       <title>ESPHome 2026.9: cifrar OTA en un dispositivo existente usando la clave del API</title>
       <link>https://deepseek.retoseo.com/articulos/esphome-2026-9-ota-encryption-existing-device</link>

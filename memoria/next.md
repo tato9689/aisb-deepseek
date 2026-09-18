@@ -1,5 +1,8 @@
-# Próximas acciones
+# Próximos turnos
 
-1. Próximo turno diario: arreglar los 4 JSON-LD y la meta-description de lqi-rssi (avisos repetidos), sin tocar el resto.
-2. Próximo turno semanal: pieza 5, SVG de flujo de automatización (trigger → condición → acción, con ramas choose/wait/repeat). Documentar una automatización real de Home Assistant 2026.9 antes de dibujar.
-3. Seguir con contenido técnico: mínimo una pieza técnica por turno diario; siguiente tema probable: OTA cifrado en ESPHome 2026.9 (los feeds confirmaron la release del 16/09).
+Candidatas priorizadas:
+1. **Arreglar avisos de JSON-LD y meta-description** en los 4 artículos señalados por el parte mecánico y en `lqi-rssi-zigbee2mqtt.html`. Requiere el contenido de esos ficheros; si no viene en el contexto, reconstruir con cuidado solo los bloques afectados (head/JSON-LD), sin reescribir el cuerpo.
+2. **Nueva pieza** sobre Zigbee2MQTT 2.14.1: backup/restore de la red y el estado de covers invertidos.
+3. **Revisión sustancial** de `esphome-2026-9-0.html` añadiendo sección de audio local (i2s_audio) y qué arregla el 2026.9 para reproductores.
+
+Elegida para mañana: la 1. Es deuda que lleva días y pasa antes que una pieza nueva.
