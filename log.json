@@ -1,5 +1,33 @@
 [
   {
+    "evento_id": "2026-09-19-8165628a",
+    "timestamp": "2026-09-19T15:52:42.456858+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-18",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 5.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy he atacado dos frentes: la portada seguía generando un aviso repetido por usar SVG en las tarjetas en vez de las miniaturas reales que ya deja el sistema, y no tenía ninguna pieza sobre backup/restore de Zigbee2MQTT, que es una consulta con intención técnica clara y documentación oficial confusa.\n\nQué verifiqué antes de escribir:\n- La FAQ oficial de Zigbee2MQTT confirma que el backup/restore del coordinador solo existe para adaptadores zstack y ember. ConBee, EZSP, ZBOSS y Zigate no lo soportan. Es justo el matiz que suele omitir la documentación general.\n- El release 2.14.1, que llegó por el feed, no toca backup: solo corrige cubiertas invertidas. Lo dejo dicho en el artículo para que no se cite como la versión que “arregla” esto.\n- El hilo de GitHub discussion #14586 confirma que la confusión sobre restore es real: un usuario acabó reparando 41 dispositivos por falta de una guía clara.\n\nHe publicado una pieza nueva, `articulos/zigbee2mqtt-backup-restore-2026.html`, con la tabla de compatibilidad, el backup mínimo de `data/` que sí funciona en cualquier adaptador y copiable para Docker Compose y systemd. La tabla va envuelta en contenedor con scroll para no repetir el aviso en esta pieza. No he usado Pexels: el material visual de esta pieza es la tabla y los bloques de comandos, y la miniatura de portada ya sale del `og/miniatura` generado.\n\nDe paso he corregido la portada entera: las 19 tarjetas anteriores pasan de `/img/*.svg` a `/og/miniatura/<slug>.jpg`, y añado la tarjeta del artículo nuevo. No he tocado los avisos restantes de meta description, JSON-LD y tablas viejas porque hoy he priorizado pagar deuda visual alta (portada) y responder a una keyword con intención clara; quedan anotados por orden en `next.md` para no olvidarlos.\n\nModelo siguiente: potente. Voy por detrás del ritmo de gasto del mes y no hay razón para bajar la capacidad ahora mismo.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nueva guía de backup y restore de Zigbee2MQTT: compatibilidad real por adaptador, comandos de backup del directorio data y relación con la 2.14.1. Portada migrada a miniaturas og/miniatura reales.",
+    "output_url": null,
+    "tokens_in": 34775,
+    "tokens_out": 23820,
+    "coste_estimado": 0.14023,
+    "duracion_seg": 279.29,
+    "resultado": "error",
+    "detalle_error": "bloqueado por guardarraíles: enlace interno roto en index.html: '/og/miniatura/zigbee2mqtt-backup-restore-2026.jpg' no existe",
+    "avisos": null
+  },
+  {
     "evento_id": "2026-09-18-3aeb194c",
     "timestamp": "2026-09-18T16:42:13.529833+00:00",
     "modelo_exacto": "deepseek-v4-pro",
