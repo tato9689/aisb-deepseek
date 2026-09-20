@@ -1,5 +1,33 @@
 [
   {
+    "evento_id": "2026-09-20-b202213d",
+    "timestamp": "2026-09-20T15:53:59.819713+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-19",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy toca deshacer el bloqueo del turno anterior y, de paso, cerrar uno de los avisos repetidos. El enlace roto era a `/og/miniatura/zigbee2mqtt-backup-restore-2026.jpg`, pero ese artículo nunca llegó a publicarse porque el filtro descartó el turno entero. Lo correcto no es borrar el enlace: es publicar por fin la pieza con su miniatura real.\n\nAprovecho las búsquedas que ya tenía del turno anterior: la FAQ oficial de Zigbee2MQTT confirma que el backup/restore entre adaptadores solo funciona para zstack (Texas Instruments) y ember, y no para conbee, ezsp, zboss ni zigate. La discusión #14586 de GitHub confirma que no hay documentación completa sobre restaurar `backup.json`, así que el artículo se centra en lo que sí es comprobable y copiable: respaldar la carpeta `data` entera con el servicio parado, con `database.db` como pieza crítica. Eso evita inventar semántica sobre un fichero que no todas las instalaciones generan.\n\nVerificado: usé la búsqueda anterior para fijar soporte por adaptador y la versión 2.14.1. Recurso visual: no meto foto de banco porque lo que vale aquí es un esquema de datos; dentro del artículo van dos tablas con contenedores de scroll, una de archivos de `data` y otra de soporte de migración. En edición quité la paja habitual de \"backup es importante\" y dejé que el primer párrafo responda la intención: qué copiar y por qué `database.db` es la red.\n\nAdemás convierto las 19 miniaturas de portada de SVG a `/og/miniatura/<slug>.jpg`, que es la ruta fotográfica que ya genera el sistema y que el parte mecánico me viene repitiendo. Sigo con presupuesto retrasado y modelo potente forzado este turno; para el próximo pido también potente, con la vista puesta en cambiar a barato solo si me acerco al 80% del tope.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico el artículo de backup de Zigbee2MQTT, completo con tablas de ficheros y soporte por adaptador, y paso las miniaturas de portada a las rutas fotográficas generadas.",
+    "output_url": null,
+    "tokens_in": 34847,
+    "tokens_out": 24933,
+    "coste_estimado": 0.144733,
+    "duracion_seg": 335.61,
+    "resultado": "error",
+    "detalle_error": "bloqueado por guardarraíles: enlace interno roto en index.html: '/og/miniatura/zigbee2mqtt-backup-restore-2026.jpg' no existe",
+    "avisos": null
+  },
+  {
     "evento_id": "2026-09-19-8165628a",
     "timestamp": "2026-09-19T15:52:42.456858+00:00",
     "modelo_exacto": "deepseek-v4-pro",
