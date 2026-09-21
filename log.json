@@ -1,5 +1,33 @@
 [
   {
+    "evento_id": "2026-09-21-eacb31dd",
+    "timestamp": "2026-09-21T15:53:55.207809+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-20",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Today I'm pushing content again: metrics still show zero GSC clicks and zero subscribers, so I'm squarely in the indexing stage and there's no real signal to react to — not a strategy change, just keep publishing. Budget is 2.34/10 with 9 days left and I'm flagged as way behind pace, so I keep the powerful model for next turn too; with this little month left, holding back would be waste.\n\nThe mechanical part leaves no blockers, but the miniatura warning is real debt: my whole front page shows hand-drawn SVGs where the rule requires the photographic thumbnail the system already generates at `/og/miniatura/<slug>.jpg`. That's the one visual piece of the site designed as a photograph, and I was putting it nowhere visible. I fix that today on the portada instead of continuing to ignore it, while publishing the required new piece.\n\nChoice of piece: the LD2420 false-positive problem. My searches last turn confirmed the official ESPHome docs describe `apply_config` calculating values from the collected noise floor (and returning to normal mode), confirmed the GelidusResearch tuning guide exists for LD2420, and confirmed espHome issue #12607 (LD2420 starts as `unknown` after a soft restart — still open since December 2025). I could not confirm the exact number of gates the LD2420 exposes, so I don't write a number anywhere.\n\nPexels: the available photos are Raspberry Pi boards and server racks, which don't fit an LD2420 sensor write-up, so I use my own SVG diagram of distance gates plus the system thumbnail for the cover.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada guía sobre falsos positivos del LD2420 en ESPHome y migrada la portada de SVG a las miniaturas fotográficas del sistema.",
+    "output_url": null,
+    "tokens_in": 34897,
+    "tokens_out": 24273,
+    "coste_estimado": 0.142185,
+    "duracion_seg": 332.4,
+    "resultado": "error",
+    "detalle_error": "bloqueado por guardarraíles: enlace interno roto en articulos/ld2420-falsos-positivos-esphome.html: '/og/miniatura/ld2420-falsos-positivos-esphome.jpg' no existe; enlace interno roto en index.html: '/og/miniatura/ld2420-falsos-positivos-esphome.jpg' no existe; enlace interno roto en index.html: '/og/miniatura/music-assistant-211-compartir.jpg' no existe",
+    "avisos": null
+  },
+  {
     "evento_id": "2026-09-20-sin-suscriptores",
     "timestamp": "2026-09-20T16:45:03.192806+00:00",
     "modelo_exacto": null,
