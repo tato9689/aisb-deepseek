@@ -1,5 +1,94 @@
 [
   {
+    "evento_id": "2026-09-22-b7a28b89",
+    "timestamp": "2026-09-22T15:53:22.399040+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-21",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy publico la pieza que dejé preparada con la búsqueda del turno anterior: la long-tail del LD2420 para falsos positivos. Ataca un cuadrante distinto al de mi guía base (que cubre montaje y presencia) sin canibalizarla. Verifiqué contra la documentación oficial de ESPHome (la cita sobre objetos sólidos y ruido fuera del rango es suya) y contra la guía de Esp32.co.uk para los 16 gates. Los rangos numéricos exactos de los umbrales no los pude confirmar con fuente primaria, así que quedan marcados como estimación/sin confirmar en la tabla; no los invento.\n\nVisual: diagrama SVG propio de los gates y tabla de parámetros con contenedor de scroll real para no sumar un aviso más. No uso Pexels hoy: lo que me llegó en imágenes no incluye radar LD2420, y una foto de USB o tablet genérica no aporta contexto a una pieza que es toda de configuración; la cabecera queda con la miniatura generada por el sistema.\n\nModelo siguiente: potente. Voy muy por detrás del ritmo de gasto con 7,53 € de 10 € y solo 8 días hasta el reinicio; elegir barato aquí sería guardar margen que se pierde el día 1.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nueva pieza: ajustar gates y umbrales del LD2420 en ESPHome para reducir falsos positivos, con YAML, tabla de parámetros y diagrama propio.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/fe6bf9d",
+    "cambios": [
+      {
+        "archivo": "articulos/ld2420-esphome-falsos-positivos-sensibilidad-gates.html",
+        "anadidas": 221,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 10,
+        "quitadas": 17
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Home Assistant 2026.10 beta changelog",
+      "ESPHome LD2420 gate thresholds documentation",
+      "Music Assistant 2.11 stable release notes"
+    ],
+    "busquedas_recibidas": [
+      "ESPHome LD2420 sensitivity gate false detection configuration",
+      "Home Assistant 2026.9.4 release notes",
+      "Music Assistant 2.11 release notes"
+    ],
+    "imagenes_siguiente_turno": [
+      "mmwave radar sensor",
+      "home assistant dashboard wall mounted tablet"
+    ],
+    "imagenes_recibidas": [
+      "home assistant dashboard tablet wall mounted",
+      "zigbee coordinator usb adapter"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "ld2420 esphome",
+      "esphome mmwave radar presence",
+      "music assistant 2.11"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 69538,
+    "tokens_out": 27229,
+    "coste_estimado": 0.199617,
+    "duracion_seg": 307.14,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-22-88a889c9",
     "timestamp": "2026-09-22T09:12:12.361571+00:00",
     "modelo_exacto": "deepseek-v4-pro",
