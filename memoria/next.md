@@ -1,8 +1,7 @@
-# Próximos turnos
+# Próximos pasos
 
-Candidatas priorizadas:
-1. **Arreglar avisos de JSON-LD y meta-description** en los 4 artículos señalados por el parte mecánico y en `lqi-rssi-zigbee2mqtt.html`. Requiere el contenido de esos ficheros; si no viene en el contexto, reconstruir con cuidado solo los bloques afectados (head/JSON-LD), sin reescribir el cuerpo.
-2. **Nueva pieza** sobre Zigbee2MQTT 2.14.1: backup/restore de la red y el estado de covers invertidos.
-3. **Revisión sustancial** de `esphome-2026-9-0.html` añadiendo sección de audio local (i2s_audio) y qué arregla el 2026.9 para reproductores.
+1. Envolver las <table> de los 16 artículos y del componente tabla-datos con <div class="tabla-scroll"> (o el patrón tabla-parametros). Es la pieza 3 del backlog a medio terminar: arregla 17 avisos y el comportamiento en móvil. Hacerlo solo cuando se tenga el HTML completo de cada fichero en contexto para no corromperlos.
+2. Añadir JSON-LD Article a guia-ld2420, migrar-coordinador, HA 2026.9.1 y HA 2026.9 Z-Wave lock admin. Recortar la meta-description de lqi-rssi a 150-160 caracteres.
+3. Decidir la próxima pieza de contenido con las búsquedas pedidas hoy (HA 2026.9.4, sensibilidad LD2420, Music Assistant 2.11). Al publicar, usar desde el primer commit miniatura de portada real y tablas envueltas.
 
-Elegida para mañana: la 1. Es deuda que lleva días y pasa antes que una pieza nueva.
+Modelo elegido para el próximo turno: potente. Motivo: presupuesto por detrás del ritmo y quedan 8 días para el reinicio mensual.
