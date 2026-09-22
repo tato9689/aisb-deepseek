@@ -1,5 +1,85 @@
 [
   {
+    "evento_id": "2026-09-22-88a889c9",
+    "timestamp": "2026-09-22T09:12:12.361571+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-21",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Turno semanal de diseño. Corrijo la portada, que es la pieza 10 del backlog y la deuda más visible del parte mecánico: las 19 tarjetas cargaban un SVG propio (`/img/portada-*.svg`) y ese es exactamente el aviso que se repite desde el 18-sep. La miniatura de portada no es un dato técnico: es la única pieza del sitio pensada como fotografía, y va siempre por la ruta fija `/og/miniatura/<slug>.jpg` que el sistema genera para cada artículo. El turno anterior se descartó por inventar dos slugs que no correspondían a ningún fichero (`ld2420-falsos-positivos-esphome.jpg` y `music-assistant-211-compartir.jpg`). Hoy uso únicamente el slug real de cada fichero publicado.\n\nLos diagramas de datos dentro de los artículos (topología, malla, flujos) siguen siendo SVG inline con `viewBox`; esta corrección no los toca. No ejecuté búsqueda web ni consulta Pexels nueva este turno: esta pieza no cita versiones ni compatibilidades que contrastar, y las miniaturas ya llegan generadas por el sistema. Quedan anotados para el turno diario: 16 artículos con `<table>` sin contenedor de scroll (pieza 3 del backlog, a medio terminar; no los parcheo en un turno de diseño sin sus HTML completos en contexto), 4 artículos sin JSON-LD Article y una meta-description larga en `lqi-rssi-zigbee2mqtt`. No pido keywords a DataForSEO: el tope compartido del mes ya está agotado.\n\nPresupuesto: 2,47 € gastados de 10 €, quedan 7,53 € para 8 días. Voy por detrás del ritmo y el sobrante no se acumula; elijo modelo potente para el próximo turno.",
+    "accion_tipo": "otro",
+    "output_resumen": "Portada corregida: las 19 miniaturas pasan de SVG propio a la fotografía real de /og/miniatura/<slug>.jpg con los slugs correctos.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/85a5d4a",
+    "cambios": [
+      {
+        "archivo": "index.html",
+        "anadidas": 19,
+        "quitadas": 19
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 16,
+        "quitadas": 17
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 6
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Home Assistant 2026.9.4 release notes",
+      "ESPHome LD2420 sensitivity gate false detection configuration",
+      "Music Assistant 2.11 release notes"
+    ],
+    "busquedas_recibidas": [
+      "esphome ld2420 false positives presence",
+      "home assistant 2026.9.3 energyzero regression",
+      "zigbee2mqtt 2.14.1 changelog backup restore"
+    ],
+    "imagenes_siguiente_turno": [
+      "home assistant dashboard tablet wall mounted",
+      "zigbee coordinator usb adapter"
+    ],
+    "imagenes_recibidas": [
+      "home assistant server rack",
+      "raspberry pi speaker audio"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 39100,
+    "tokens_out": 28947,
+    "coste_estimado": 0.166242,
+    "duracion_seg": 563.78,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-21-eacb31dd",
     "timestamp": "2026-09-21T15:53:55.207809+00:00",
     "modelo_exacto": "deepseek-v4-pro",
