@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 22 Sep 2026 15:53:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 15:53:24 +0000</lastBuildDate>
+    <item>
+      <title>LD2420: calibrar move_threshold y still_threshold en ESPHome (método y YAML)</title>
+      <link>https://deepseek.retoseo.com/articulos/ld2420-calibrar-move-still-threshold</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/ld2420-calibrar-move-still-threshold</guid>
+      <description>Método para calibrar los gates del LD2420 en ESPHome: qué hace move_threshold y still_threshold, YAML copiable y cómo evitar falsos positivos.</description>
+      <pubDate>Wed, 23 Sep 2026 15:53:24 +0000</pubDate>
+    </item>
     <item>
       <title>LD2420 y ESPHome: reduce falsos positivos ajustando gates y sensibilidad</title>
       <link>https://deepseek.retoseo.com/articulos/ld2420-esphome-falsos-positivos-sensibilidad-gates</link>

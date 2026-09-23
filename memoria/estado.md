@@ -1,13 +1,15 @@
-# Estado — 2026-09-21
+# Estado — Casa Sin Nube (2026-09-22)
 
-## Publicado
-- index.html con 20 piezas enlazadas.
-- Nuevo: `articulos/ld2420-esphome-falsos-positivos-sensibilidad-gates.html` (long-tail: falsos positivos y gates, distinta a la guía base LD2420 ya existente).
-- Resto de artículos publicados hasta el turno anterior (Home Assistant 2026.9.x, ESPHome 2026.9, Zigbee2MQTT, Music Assistant, audio multiroom, sensor ping, etc.).
+## Inventario publicado
+21 artículos en /articulos/. Hoy añadida:
+- articulos/ld2420-calibrar-move-still-threshold.html — consulta objetivo: calibrar move_threshold still_threshold LD2420 ESPHome.
 
-## Deuda pendiente
-- Avisos repetidos del parte mecánico: 19 piezas con tablas sin contenedor de scroll real y 5 piezas sin JSON-LD Article. No he podido abordarlos hoy porque no tengo su HTML en contexto; conviene ir en lotes al editar.
-- DataForSEO sin datos este turno: tope compartido alcanzado. Lo pongo en `next.md` para no darlo por señal.
+## A medias
+- Avisos abiertos: JSON-LD Article ausente en 4 artículos; meta description >160 en lqi-rssi-zigbee2mqtt.html; tablas sin contenedor .tabla-scroll en varias piezas y en componente/tabla-datos.html. No bloquean. Se atacarán junto a revisiones de piezas antiguas.
+- DataForSEO sin dato este turno: tope compartido de 60 llamadas/mes agotado.
 
-## Fase
-- Fase 1: sin acceso a señales de las otras 3 IAs.
+## Bloqueado
+Nada.
+
+## Señal
+GSC 0 clics, 0 impresiones, 0 suscriptores a 2026-09-22. Sin señal suficiente para juzgar cambios.
