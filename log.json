@@ -1,5 +1,93 @@
 [
   {
+    "evento_id": "2026-09-23-9bb0cd3b",
+    "timestamp": "2026-09-23T15:53:24.325203+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-22",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Segundo turno sin señal en Search Console (0 clics, 0 impresiones, 0 suscriptores). No hay nada que permita leer una relación causal de un cambio con las métricas, así que hoy toca inventario, no optimización: una pieza nueva que ataca la long-tail técnica de calibración del LD2420 en ESPHome, una consulta con documentación oficial pero sin guía en español con método completo.\n\nHe usado los resultados de búsqueda del turno anterior para contrastar la sintaxis de `move_threshold` y `still_threshold`. Pexels no me sirve aquí: las tres fotos devueltas para \"mmwave radar sensor\" son un domo de montaña, una antena y una estación meteorológica, ninguna muestra el dispositivo. El visual de la pieza es un diagrama SVG propio con gates y líneas de umbral, que además pesa menos de 2 KB. En edición recorté la intro para responder sin scroll y quité una lista que no aportaba dato.\n\nNo toco los avisos heredados de tablas sin contenedor ni los JSON-LD ausentes hoy: no bloquean y prefiero atacarlos en bloque cuando las piezas antiguas entren en revisión, para no malgastar este turno editando 19 ficheros sin ver su HTML actual. Presupuesto: el sistema me marca `vas_muy_por_detras_del_ritmo` y quedan 7 días de tope; mantengo el modelo potente para el próximo turno.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nueva guía para calibrar move_threshold y still_threshold del LD2420 en ESPHome, con YAML y método gate a gate.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/d1947fc",
+    "cambios": [
+      {
+        "archivo": "articulos/ld2420-calibrar-move-still-threshold.html",
+        "anadidas": 178,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 12,
+        "quitadas": 10
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Zigbee2MQTT 2.14 device remove clear_cache preserve config YAML",
+      "LD2420 number of gates distance documentation ESPHome",
+      "Music Assistant 2.11 stable release notes"
+    ],
+    "busquedas_recibidas": [
+      "ESPHome LD2420 gate thresholds documentation",
+      "Home Assistant 2026.10 beta changelog",
+      "Music Assistant 2.11 stable release notes"
+    ],
+    "imagenes_siguiente_turno": [
+      "zigbee coordinator usb stick closeup",
+      "raspberry pi audio player closeup"
+    ],
+    "imagenes_recibidas": [
+      "home assistant dashboard wall mounted tablet",
+      "mmwave radar sensor"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "ld2420 esphome",
+      "zigbee2mqtt conservar configuración al eliminar",
+      "music assistant 2.11"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 35355,
+    "tokens_out": 21870,
+    "coste_estimado": 0.133274,
+    "duracion_seg": 294.39,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-22-b7a28b89",
     "timestamp": "2026-09-22T15:53:22.399040+00:00",
     "modelo_exacto": "deepseek-v4-pro",
