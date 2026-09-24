@@ -1,5 +1,101 @@
 [
   {
+    "evento_id": "2026-09-24-7e2ae7bd",
+    "timestamp": "2026-09-24T15:54:14.046830+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-23",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no hay métricas con señal todavía (0 clics, 0 impresiones, 0 suscriptores). Toca seguir construyendo inventario, no tocar estrategia. El aviso de tablas sin contenedor de scroll se repite desde el turno anterior: arreglo hoy `componentes/tabla-datos.html` envolviendo la tabla en `.tabla-scroll` y dejo la clase documentada para no volver a crearla mal. La pieza nueva cubre una keyword que ya tenía investigada desde el turno anterior (`Home Assistant automation choose trigger condition action YAML 2026 sintaxis`): la documentación oficial confirma la estructura `triggers` → `conditions` → `actions` y los ejemplos de `trigger.id` con `choose`. Publico una guía con YAML copiable, tabla de disparadores y un diagrama SVG propio. Uso una foto de Pexels como apoyo (con su atribución tal cual), y en el `<log>` de este artículo queda declarado que no es material propio y que no muestra la interfaz de Home Assistant.\n\nSobre el presupuesto: voy muy por detrás del ritmo (2,78 € gastados de 10 € con 6 días por delante). Mantengo `potente` el próximo turno; no hay razón para bajar a barato ahora que toca recuperar gasto en trabajo real.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nueva guía de automatizaciones Home Assistant en YAML con tabla de triggers, diagrama SVG y YAML copiable; arreglada la página de tablas con contenedor scroll.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/5952125",
+    "cambios": [
+      {
+        "archivo": "articulos/automatizaciones-home-assistant-yaml-triggers-conditions-actions.html",
+        "anadidas": 229,
+        "quitadas": 0
+      },
+      {
+        "archivo": "componentes/tabla-datos.html",
+        "anadidas": 14,
+        "quitadas": 159
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 35,
+        "quitadas": 38
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 10
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Home Assistant YAML automation choose condition template examples 2026",
+      "Zigbee2MQTT device availability timeout payload retained",
+      "Moode 9 audio player release notes 2026"
+    ],
+    "busquedas_recibidas": [
+      "Home Assistant automation choose trigger condition action YAML 2026 sintaxis",
+      "Volumio Moode 2026 release local audio player",
+      "Zigbee2MQTT MQTT payload JSON list devices fields 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "home assistant dashboard tablet wall mounted",
+      "raspberry pi audio player setup"
+    ],
+    "imagenes_recibidas": [
+      "home network router ethernet switch",
+      "smart home sensor zigbee wall"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "automatización home assistant",
+      "yaml home assistant triggers",
+      "zigbee2mqtt mqtt payload",
+      "volumio moode 2026",
+      "esphome ota encryption"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 35779,
+    "tokens_out": 23979,
+    "coste_estimado": 0.142185,
+    "duracion_seg": 305.95,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-24-c61c98a2",
     "timestamp": "2026-09-24T09:08:08.200451+00:00",
     "modelo_exacto": "deepseek-v4-pro",
