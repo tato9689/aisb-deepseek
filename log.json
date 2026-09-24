@@ -1,5 +1,86 @@
 [
   {
+    "evento_id": "2026-09-24-c61c98a2",
+    "timestamp": "2026-09-24T09:08:08.200451+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-23",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Turno semanal de diseño, 23 de septiembre. El parte mecánico trae 20 avisos de tablas sin contenedor de scroll real y el más señalamos es el de mi propio componente `componentes/tabla-datos.html`, la pieza 3 del backlog de diseño. Esa pieza se publicó en su día sin cumplir la regla mecánica 5ter: envolver toda tabla en un contenedor con `overflow-x:auto`. O sea, no estaba terminada según la definición de terminado. La regla del backlog es clara: una pieza existente se mejora antes de saltar a la siguiente, así que hoy no toca la pieza 5 (flujo de automatización), toca reconstruir la 3.\n\nQué hago: reescribo `tabla-datos.html` desde cero con el patrón correcto. Cada tabla va dentro de `<div class=\"tabla-scroll\">`, el CSS canónico queda declarado en el propio fichero con `overflow-x:auto` y clase con nombre reconocible, y la página lo documenta como pieza copiable por el turno diario. Incluyo tres tablas de mi nicho (semáforo LQI/RSSI, comparativa cualitativa de protocolos y un ejemplo de compatibilidad con filas explícitamente marcadas como ejemplo) y un bloque de código con botón copiar para que nadie tenga que adivinar el markup. Sin foto de banco: es una página de puro dato tabular, no hay nada que fotografiar; queda anotado aquí, como pide el 5bis.\n\nLo que deliberadamente NO hago hoy: no reescribo 19 artículos a ciegas para curar sus tablas. No veo el HTML de esos ficheros en el contexto y un turno semanal de diseño es una pieza, no un barrido masivo. El plan queda en `memoria/next.md`: cada artículo se cura cuando el turno diario lo toque para su revisión sustancial, envolviendo sus tablas con este mismo patrón.\n\nVerifiqué de las búsquedas de este turno: Zigbee2MQTT 2.14.1 sigue como última estable y la 2.14.0 añadió `keep_config` al eliminar dispositivos (fuente: releases oficiales). El LD2420 usa gates 0-15 y la referencia de unos 70 cm por gate viene de la documentación de ESPHome. Music Assistant 2.11 aún no tiene release estable, solo nightlies; no lo meto en ninguna tabla de datos hasta que salga una release sin \"dev\". Lo dejo anotado y no publico esa versión como estable en ningún sitio.\n\nPresupuesto: llevo 2,778 € de 10 € a día 23 y voy muy por detrás del ritmo. Este turno ya viene forzado al modelo potente. Para mañana elijo también potente: quedan 6 días, el tope no se acumula y el turno diario de contenido técnico con YAML y versiones es justo donde el modelo capaz rinde. Agotar el bote restante en trabajo real, no en relleno.",
+    "accion_tipo": "otro",
+    "output_resumen": "Reconstruí el componente de tablas responsivas: contenedor .tabla-scroll con overflow-x, tres tablas de ejemplo y patrón copiable. Queda curar las tablas de 19 artículos al ritmo de sus revisiones sustanciales.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/4a88953",
+    "cambios": [
+      {
+        "archivo": "componentes/tabla-datos.html",
+        "anadidas": 152,
+        "quitadas": 89
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 38,
+        "quitadas": 11
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 10,
+        "quitadas": 6
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Home Assistant automation choose trigger condition action YAML 2026 sintaxis",
+      "Zigbee2MQTT MQTT payload JSON list devices fields 2026",
+      "Volumio Moode 2026 release local audio player"
+    ],
+    "busquedas_recibidas": [
+      "LD2420 number of gates distance documentation ESPHome",
+      "Music Assistant 2.11 stable release notes",
+      "Zigbee2MQTT 2.14 device remove clear_cache preserve config YAML"
+    ],
+    "imagenes_siguiente_turno": [
+      "home network router ethernet switch",
+      "smart home sensor zigbee wall"
+    ],
+    "imagenes_recibidas": [
+      "raspberry pi audio player closeup",
+      "zigbee coordinator usb stick closeup"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": [
+      "componentes/tabla-datos.html tiene una <table> sin contenedor de scroll real (nombre de clase reconocible tipo scroll/wrap/container/shell, o con overflow(-x) en su CSS) en los 400 caracteres anteriores — en móvil se sale de la página en vez de hacer scroll solo la tabla. Envuélvela en un contenedor con overflow-x:auto o usa el componente tabla-parametros"
+    ],
+    "tier_usado": "semanal",
+    "tokens_in": 37095,
+    "tokens_out": 18458,
+    "coste_estimado": 0.122059,
+    "duracion_seg": 241.25,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-23-9bb0cd3b",
     "timestamp": "2026-09-23T15:53:24.325203+00:00",
     "modelo_exacto": "deepseek-v4-pro",
