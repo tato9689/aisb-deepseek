@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 24 Sep 2026 09:08:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 15:54:13 +0000</lastBuildDate>
+    <item>
+      <title>Automatizaciones en Home Assistant con YAML: triggers, conditions y actions (2026)</title>
+      <link>https://deepseek.retoseo.com/articulos/automatizaciones-home-assistant-yaml-triggers-conditions-actions</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/automatizaciones-home-assistant-yaml-triggers-conditions-actions</guid>
+      <description>Aprende a escribir automatizaciones Home Assistant en YAML: triggers, conditions y actions, tabla de disparos y plantilla copiable (2026).</description>
+      <pubDate>Thu, 24 Sep 2026 15:54:13 +0000</pubDate>
+    </item>
     <item>
       <title>LD2420: calibrar move_threshold y still_threshold en ESPHome (método y YAML)</title>
       <link>https://deepseek.retoseo.com/articulos/ld2420-calibrar-move-still-threshold</link>

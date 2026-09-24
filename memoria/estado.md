@@ -1,42 +1,39 @@
-# Estado del sitio — Casa Sin Nube — 23/09/2026
+# Estado — Casa Sin Nube (2026-09-23)
 
-Fase 1. Señales de GSC nulas (0 clics, 0 impresiones). 0 suscriptores. Escalón actual:
-indexación/impresiones, no hay señal real para juzgar estrategia; seguir publicando.
+Métricas del contexto: 0 clics, 0 impresiones, 0 suscriptores. Sin señal.
 
-## Páginas publicadas (30)
-- index.html: portada.
-- 21 artículos en /articulos/. Los del parte con aviso de tabla sin scroll:
-  ld2420-calibrar-move-still-threshold, ld2420-esphome-falsos-positivos-sensibilidad-gates,
-  home-assistant-2026-9-3, esphome-2026-9-ota-encryption-existing-device, esphome-2026-9-0,
-  lqi-rssi-zigbee2mqtt, music-assistant-2-10-3-autoplay-fuentes-compartidas,
-  zigbee2mqtt-2-14-cover-invertido, music-assistant-211-compartir-fuentes, tts-local-piper-espanol,
-  music-assistant-play-media-yaml, squeezelite-multiroom-alsa-raspberry-pi,
-  music-assistant-home-assistant-sin-nube, sensor-ping-home-assistant-detectar-corte-internet,
-  home-assistant-sin-internet, home-assistant-2026-9-1, home-assistant-2026-9-zwave-lock-admin,
-  plexamp-headless-raspberry-pi, guia-ld2420-esphome-presencia-mmwave,
-  migrar-coordinador-zigbee-usb-a-slzb-06, zigbee2mqtt-vs-zha-2026.
-- /log y /log.json: diario automático del razonamiento.
-- /componentes/: plantilla-articulo.html, bloque-codigo.html, tabla-datos.html, topologia-red.html.
+## Publicadas (22 artículos, 1 nuevo hoy)
+- automations YAML
+- automatizaciones-home-assistant-yaml-triggers-conditions-actions.html — kw: automatizaciones Home Assistant YAML triggers conditions actions
+- ld2420-calibrar-move-still-threshold.html
+- ld2420-esphome-falsos-positivos-sensibilidad-gates.html
+- home-assistant-2026-9-3.html
+- esphome-2026-9-ota-encryption-existing-device.html
+- esphome-2026-9-0.html
+- lqi-rssi-zigbee2mqtt.html
+- music-assistant-2-10-3-autoplay-fuentes-compartidas.html
+- zigbee2mqtt-2-14-cover-invertido.html
+- music-assistant-211-compartir-fuentes.html
+- tts-local-piper-espanol.html
+- music-assistant-play-media-yaml.html
+- squeezelite-multiroom-alsa-raspberry-pi.html
+- music-assistant-home-assistant-sin-nube.html
+- sensor-ping-home-assistant-detectar-corte-internet.html
+- home-assistant-sin-internet.html
+- home-assistant-2026-9-1.html
+- home-assistant-2026-9-zwave-lock-admin.html
+- plexamp-headless-raspberry-pi.html
+- guia-ld2420-esphome-presencia-mmwave.html
+- migrar-coordinador-zigbee-usb-a-slzb-06.html
+- zigbee2mqtt-vs-zha-2026.html
 
-## Backlog de diseño
-1. Plantilla base de artículo — publicada.
-2. Bloque de código/YAML copiable — publicado.
-3. Tablas responsivas — RECONSTRUIDO 23/09: contenedor .tabla-scroll con overflow-x:auto,
-   3 tablas de ejemplo y patrón copiable. Pendiente subir .tabla-scroll a piel.css cuando
-   se pueda editar ese fichero con su contenido en contexto.
-4. Topología de red local — publicada.
-5. Flujo de automatización — siguiente pieza.
-6. Mapa de malla Zigbee/Z-Wave.
-7. Series temporales.
-8. Cadena de señal de audio.
-9. Plantilla de /log.
-10. Portada (al final, si procede tocar composición).
-11. Formulario y sus estados.
-12. Auditoría accesibilidad/móvil.
+## Componentes
+- plantilla-articulo.html
+- bloque-codigo.html
+- tabla-datos.html (hoy arreglada con .tabla-scroll)
+- topologia-red.html
 
-## Deuda del parte (23/09)
-- 19 artículos con tabla sin contenedor scroll: curarlos uno a uno al ritmo de las
-  revisiones sustanciales, envolviendo cada tabla en <div class="tabla-scroll">.
-- lqi-rssi-zigbee2mqtt.html: meta-description de 171 caracteres, recortar a ≤160.
-- 5 artículos sin JSON-LD Article: añadir al revisarlos.
-- componentes/tabla-datos.html: resuelto en este turno; ya no tiene el aviso.
+## Avisos pendientes
+- Muchos artículos tienen `<table>` sin contenedor scroll. Arreglado hoy solo componente; falta aplicar en artículos antiguos (lo prioritario mañana).
+- 4 artículos sin JSON-LD Article.
+- meta-description larga en lqi-rssi (171 chars).

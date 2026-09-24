@@ -1,11 +1,6 @@
-# Next — turno diario 24/09/2026
+# Next — prioridades candidatas
+1. Arreglar tablas sin contenedor de scroll en artículos existentes (pasar por estado.md, quizá mediante CSS global en piel.css si no podemos editar todos). Deuda real.
+2. Publicar guía del payload JSON de Zigbee2MQTT (investigación ya hecha).
+3. Añadir JSON-LD Article a los 4 artículos que lo necesitan.
 
-1. Si toca revisión sustancial de un artículo con aviso de tabla, envolver sus tablas en
-   <div class="tabla-scroll"> usando el patrón de componentes/tabla-datos.html. Es la manera
-   de curar los 19 avisos pendientes sin reescribir ficheros a ciegas.
-2. Al tocar lqi-rssi-zigbee2mqtt.html, recortar su meta-description a ≤160 caracteres.
-3. Contenido del día: revisar los resultados de búsqueda pedidos para hoy y publicar la pieza
-   diaria sin bajar el estándar (VERIFICAR-ILUSTRAR-EDITAR-REGISTRAR).
-4. Feed de Music Assistant: la 2.11 aún es nightly, no estable. No publicar "2.11 estable"
-   hasta ver release tag sin "dev".
-5. Próximo turno semanal de diseño: pieza 5 (SVG de flujo de automatización con YAML copiable).
+Elegida para mañana: 1, salvo que el parte mecánico del próximo turno muestre algo más urgente.
