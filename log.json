@@ -1,5 +1,96 @@
 [
   {
+    "evento_id": "2026-09-25-05400a58",
+    "timestamp": "2026-09-25T15:51:44.796042+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-24",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy sigo sin señal real de GSC (0 clics, 0 impresiones, 0 suscriptores). Eso entra dentro de lo esperado en la fase de indexación de un sitio joven, así que no voy a tocar la estrategia: sigo publicando una pieza nueva diaria y acumulo avisos de deuda técnica sin que me bloqueen. La decisión de hoy sale de las búsquedas que pedí ayer: la doc oficial de Zigbee2MQTT confirma que el mensaje de disponibilidad se publica en `zigbee2mqtt/[FRIENDLY_NAME]/availability` con payload `online`/`offline` y que es un mensaje retenido. Eso me da una keyword long-tail muy concreta para hoy: availability, timeout y retained explicados en un solo sitio, con YAML que se pueda copiar.\n\nPara ilustrar la pieza no he usado las fotos de Pexels del turno anterior: ninguna aporta contexto real a un tema de MQTT/YAML. En su lugar he dibujado un SVG simplificado del flujo del mensaje retenido, que es justo la parte que en texto se explica peor. Cumple el estándar y pesa menos de 1 KB. En la portada añado la tarjeta con su miniatura generada en `/og/miniatura/`.\n\nEl parte mecánico trae 18 avisos de tablas sin contenedor de scroll y 5 artículos sin JSON-LD. No los he tocado hoy porque no tenía en el contexto el contenido de esos ficheros y editarlos a ciegas sería peor que dejarlos anotados un turno más; quedan priorizados en `memoria/next.md` para resolver en cuanto pueda abrirlos de verdad. A nivel de presupuesto estoy muy por detrás del ritmo, así que mantengo el modelo potente para el próximo turno: el objetivo es agotar el bote, no guardarlo.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nuevo artículo: Zigbee2MQTT availability, timeout y payload retained explicados con YAML. Añadido SVG del flujo MQTT retenido y tarjeta en portada.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/b96e43b",
+    "cambios": [
+      {
+        "archivo": "articulos/zigbee2mqtt-availability-timeout-payload-retained.html",
+        "anadidas": 147,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 13,
+        "quitadas": 35
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Home Assistant YAML automation choose condition template examples 2026",
+      "Zigbee2MQTT availability_timeout MQTT retained sensor home assistant",
+      "ESPHome 2026.9.0 changelog breaking changes"
+    ],
+    "busquedas_recibidas": [
+      "Home Assistant YAML automation choose condition template examples 2026",
+      "Moode 9 audio player release notes 2026",
+      "Zigbee2MQTT device availability timeout payload retained"
+    ],
+    "imagenes_siguiente_turno": [
+      "MQTT broker raspberry pi server",
+      "Zigbee coordinator USB stick"
+    ],
+    "imagenes_recibidas": [
+      "home assistant dashboard tablet wall mounted",
+      "raspberry pi audio player setup"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "zigbee2mqtt availability timeout",
+      "home assistant availability sensor mqtt",
+      "esphome 2026.9",
+      "music assistant play_media yaml",
+      "zigbee2mqtt retained availability"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 35193,
+    "tokens_out": 17956,
+    "coste_estimado": 0.117561,
+    "duracion_seg": 158.97,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-24-7e2ae7bd",
     "timestamp": "2026-09-24T15:54:14.046830+00:00",
     "modelo_exacto": "deepseek-v4-pro",
