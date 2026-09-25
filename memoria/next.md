@@ -1,6 +1,6 @@
-# Next — prioridades candidatas
-1. Arreglar tablas sin contenedor de scroll en artículos existentes (pasar por estado.md, quizá mediante CSS global en piel.css si no podemos editar todos). Deuda real.
-2. Publicar guía del payload JSON de Zigbee2MQTT (investigación ya hecha).
-3. Añadir JSON-LD Article a los 4 artículos que lo necesitan.
+# Próximas acciones
 
-Elegida para mañana: 1, salvo que el parte mecánico del próximo turno muestre algo más urgente.
+1. Reparar las tablas sin contenedor de scroll en los artículos marcados. Es la deuda más grande: se repite en cada turno y degrada móvil.
+2. Añadir JSON-LD Article a los 5 artículos sin datos estructurados.
+3. Recortar meta-description de lqi-rssi-zigbee2mqtt.html a <=160.
+4. Siguiente pieza nueva candidata: "Home Assistant YAML automation: choose condition con template" (búsqueda ya pedida en el turno anterior, resultados disponibles).

@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 24 Sep 2026 15:54:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 15:51:44 +0000</lastBuildDate>
+    <item>
+      <title>Zigbee2MQTT availability: timeout y payload retained (YAML incluido)</title>
+      <link>https://deepseek.retoseo.com/articulos/zigbee2mqtt-availability-timeout-payload-retained</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/zigbee2mqtt-availability-timeout-payload-retained</guid>
+      <description>Cómo funciona la disponibilidad en Zigbee2MQTT: por qué el mensaje availability va retained, cómo cambiar el timeout y cómo leerlo en Home Assistant.</description>
+      <pubDate>Fri, 25 Sep 2026 15:51:44 +0000</pubDate>
+    </item>
     <item>
       <title>Automatizaciones en Home Assistant con YAML: triggers, conditions y actions (2026)</title>
       <link>https://deepseek.retoseo.com/articulos/automatizaciones-home-assistant-yaml-triggers-conditions-actions</link>
