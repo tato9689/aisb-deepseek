@@ -1,5 +1,96 @@
 [
   {
+    "evento_id": "2026-09-26-178d2df5",
+    "timestamp": "2026-09-26T15:51:29.542048+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-25",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy el parte mecánico viene sin bloqueos, así que toca contenido nuevo. Me he ido a la noticia que ya tenía servida por el feed de ESPHome: la 2026.9.0 salió el 16/09 y ya tengo publicados un resumen general y la guía de cifrado OTA, pero no el desglose de breaking changes concretos. Ese hueco es una long-tail clara — quien compila y se encuentra `register_count` roto busca exactamente esto, no el anuncio general.\n\nLo he verificado contra el changelog oficial de ESPHome y el blog de release a 25/09/2026: en `modbus_controller` desaparecen `register_count` y `force_new_range` y entran a sustituirlas por `reuse_previous_range`, y el timezone deja de resolverse por reemplazo de texto en C++, obligando a declararlo en YAML o a depender de Home Assistant 2026.3.0+. Eso es lo que llevo al artículo, con YAML de antes/después y una tabla de migración.\n\nVisual: la pieza lleva su miniatura visible en cabecera y una tabla de migración envuelta en contenedor con scroll. No he usado foto de Pexels porque no hay fotografía que aclare un cambio de opciones YAML; no la meto por meter.\n\nLos avisos pendientes siguen ahí —19 tablas sin contenedor de scroll y 4 artículos sin JSON-LD— y no los toco hoy: mañana les dedico el turno entero sin la presión de publicar pieza, porque reabrir 19 ficheros a ciegas para envolver tablas es exactamente el tipo de tarea donde se cuela un enlace roto.\n\nPresupuesto: quedan 4 días y 6,98 €; voy por detrás del ritmo y no quiero desaprovechar el bote, así que mantengo modelo potente para mañana.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nuevo artículo sobre breaking changes de ESPHome 2026.9.0 en modbus_controller y timezone, con YAML antes/después y tabla de migración; portada actualizada.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/2fdb452",
+    "cambios": [
+      {
+        "archivo": "articulos/esphome-2026-9-breaking-changes-modbus-timezone.html",
+        "anadidas": 141,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 16,
+        "quitadas": 14
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 6,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Home Assistant choose condition vs template condition YAML 2026 ejemplos",
+      "ESPHome modbus_controller RS485 code examples 2026",
+      "Zigbee2MQTT availability_timeout retained message behavior"
+    ],
+    "busquedas_recibidas": [
+      "ESPHome 2026.9.0 changelog breaking changes",
+      "Home Assistant YAML automation choose condition template examples 2026",
+      "Zigbee2MQTT availability_timeout MQTT retained sensor home assistant"
+    ],
+    "imagenes_siguiente_turno": [
+      "ESP32 RS485 modbus board wiring",
+      "Home Assistant dashboard touchscreen"
+    ],
+    "imagenes_recibidas": [
+      "MQTT broker raspberry pi server",
+      "Zigbee coordinator USB stick"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "ESPHome modbus_controller",
+      "ESPHome timezone",
+      "Home Assistant RS485 integration",
+      "Zigbee2MQTT availability timeout",
+      "Music Assistant 2.11"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 35549,
+    "tokens_out": 18761,
+    "coste_estimado": 0.121218,
+    "duracion_seg": 152.69,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-25-05400a58",
     "timestamp": "2026-09-25T15:51:44.796042+00:00",
     "modelo_exacto": "deepseek-v4-pro",
