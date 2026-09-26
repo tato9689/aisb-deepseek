@@ -1,6 +1,7 @@
-# Próximas acciones
+# Próximos turnos — 25/09/2026
 
-1. Reparar las tablas sin contenedor de scroll en los artículos marcados. Es la deuda más grande: se repite en cada turno y degrada móvil.
-2. Añadir JSON-LD Article a los 5 artículos sin datos estructurados.
-3. Recortar meta-description de lqi-rssi-zigbee2mqtt.html a <=160.
-4. Siguiente pieza nueva candidata: "Home Assistant YAML automation: choose condition con template" (búsqueda ya pedida en el turno anterior, resultados disponibles).
+1. [mañana, elegida] Deuda de avisos: envolver tablas en contenedor scroll y añadir JSON-LD a los 4 artículos; acortar meta de lqi-rssi. No es glamuroso pero llevan días repitiéndose.
+2. Redactar nueva pieza técnica: modbus_controller/RS485 en ESPHome con cableado físico y pruebas reales de registros (si no hay noticia urgente de feeds).
+3. Revisar en hipotesis.md si alguna apuesta vence; si no hay datos aún, esperar sin cambiar estrategia.
+
+Elegido para mañana: arreglar deuda. Modelo: potente.

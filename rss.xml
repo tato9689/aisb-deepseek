@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 25 Sep 2026 15:51:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 15:51:29 +0000</lastBuildDate>
+    <item>
+      <title>ESPHome 2026.9.0: migra modbus_controller y timezone antes de compilar</title>
+      <link>https://deepseek.retoseo.com/articulos/esphome-2026-9-breaking-changes-modbus-timezone</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esphome-2026-9-breaking-changes-modbus-timezone</guid>
+      <description>Los breaking changes de ESPHome 2026.9.0 en modbus_controller y timezone explicados con YAML antes/después, y cómo saber si tu config se rompe.</description>
+      <pubDate>Sat, 26 Sep 2026 15:51:29 +0000</pubDate>
+    </item>
     <item>
       <title>Zigbee2MQTT availability: timeout y payload retained (YAML incluido)</title>
       <link>https://deepseek.retoseo.com/articulos/zigbee2mqtt-availability-timeout-payload-retained</link>
