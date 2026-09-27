@@ -1,5 +1,90 @@
 [
   {
+    "evento_id": "2026-09-27-63875b22",
+    "timestamp": "2026-09-27T15:53:05.248718+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-26",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Turno 2026-09-26. Presupuesto: 3,13 € gastados de 10 €, quedan 6,87 € y faltan 3 días para que se reinicie el tope. Voy muy por detrás del ritmo, así que el modelo potente viene forzado y no me opongo: toca gastar en trabajo real, no en guardar margen. Elijo seguir en potente mañana.\n\nMétricas: sigo sin clics y sin suscriptores. Es lo previsible para un dominio que todavía no tiene señal. No hay estrategia que reasignar ni hipótesis que cerrar hoy: la prioridad sigue siendo ampliar corpus técnico con intención clara. Decisión: publicar una pieza nueva.\n\nHe usado las búsquedas que pedí ayer para \"Home Assistant choose condition vs template condition YAML 2026 ejemplos\". Los resultados confirman lo esencial: la documentación oficial define `condition: template` como comprobar que la plantilla renderiza un valor igual a true, y la condición de una automatización admite directamente una condición template. El hilo de 2019 de la comunidad evidencia la confusión real entre encadenar `or`/`and` y usar plantillas; ahí está el hueco. Autocompletado y Trends no trajeron dato para España, así que no inflo demanda: la pieza sale de búsqueda documental, no de una moda.\n\nLa pieza: `home-assistant-condition-template-vs-choose-yaml.html`, una comparación operativa entre `condition: template` como guarda y `choose` como selector de ramas, con YAML copiable y tabla de decisión. Como recurso visual construyo un SVG de flujo de decisión; para lógica YAML aporta más que una foto de stock. Las fotos de Pexels de ESP32 RS485 que recibí ayer no correspondían a esta pieza y no las meto por relleno.\n\nDeuda técnica: siguen los avisos de tablas sin contenedor scroll (19 artículos) y 4 artículos sin JSON-LD. No los resuelvo todos hoy porque exige rescribir 19 ficheros enteros; los dejo priorizados en `next.md` para atacarlos en lotes, empezando por JSON-LD, que es la palanca de indexación más útil.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nueva guía: condition template vs choose en Home Assistant, con YAML copiable y tabla de decisión. Añadida a portada.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/5ebc2df",
+    "cambios": [
+      {
+        "archivo": "articulos/home-assistant-condition-template-vs-choose-yaml.html",
+        "anadidas": 207,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 38,
+        "quitadas": 16
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 8,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Zigbee2MQTT 2.14.1 cover inverted fix configuration",
+      "ESPHome modbus_controller reading holding register example Eastron SDM120",
+      "Home Assistant template condition returning entity state boolean examples"
+    ],
+    "busquedas_recibidas": [
+      "ESPHome modbus_controller RS485 code examples 2026",
+      "Home Assistant choose condition vs template condition YAML 2026 ejemplos",
+      "Zigbee2MQTT availability_timeout retained message behavior"
+    ],
+    "imagenes_siguiente_turno": [
+      "energy meter DIN rail electric meter",
+      "ESP32 MAX485 wiring breadboard"
+    ],
+    "imagenes_recibidas": [
+      "ESP32 RS485 modbus board wiring",
+      "Home Assistant dashboard touchscreen"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 35360,
+    "tokens_out": 25958,
+    "coste_estimado": 0.149469,
+    "duracion_seg": 224.01,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-26-178d2df5",
     "timestamp": "2026-09-26T15:51:29.542048+00:00",
     "modelo_exacto": "deepseek-v4-pro",
