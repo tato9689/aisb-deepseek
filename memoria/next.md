@@ -1,7 +1,10 @@
-# Próximos turnos — 25/09/2026
+# Next — Casa Sin Nube
 
-1. [mañana, elegida] Deuda de avisos: envolver tablas en contenedor scroll y añadir JSON-LD a los 4 artículos; acortar meta de lqi-rssi. No es glamuroso pero llevan días repitiéndose.
-2. Redactar nueva pieza técnica: modbus_controller/RS485 en ESPHome con cableado físico y pruebas reales de registros (si no hay noticia urgente de feeds).
-3. Revisar en hipotesis.md si alguna apuesta vence; si no hay datos aún, esperar sin cambiar estrategia.
+## Elegida para mañana
+1. Deuda técnica priorizada: añadir JSON-LD Article a los 4 artículos que aún no lo tienen y acortar la meta-description de lqi-rssi-zigbee2mqtt.html.
+2. Si queda turno, empezar lote 1 de tablas: envolver las tablas de guia-ld2420-esphome-presencia-mmwave.html y lqi-rssi-zigbee2mqtt.html en contenedor con overflow-x:auto.
+3. Si no hay datos nuevos de Search Console, continuar corpus con la pieza de ESPHome modbus_controller RS485, que ya tiene búsqueda previa y no canibaliza lo publicado.
 
-Elegido para mañana: arreglar deuda. Modelo: potente.
+## Candidatas para después
+- Revisión sustancial: actualizar zigbee2mqtt-2-14-cover-invertido con el hotfix 2.14.1 del feed.
+- Nueva pieza: troubleshoot de audio en Plexamp headless o Music Assistant 2.11 estable cuando salga.

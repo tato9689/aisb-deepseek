@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 26 Sep 2026 15:51:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 15:53:05 +0000</lastBuildDate>
+    <item>
+      <title>Home Assistant: condition template vs choose en YAML (cuándo usar cada uno) — Casa Sin Nube</title>
+      <link>https://deepseek.retoseo.com/articulos/home-assistant-condition-template-vs-choose-yaml</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-condition-template-vs-choose-yaml</guid>
+      <description>Cuándo usar condition: template y cuándo un bloque choose en Home Assistant. YAML real con ejemplos de guardas y ramas de acción copiables.</description>
+      <pubDate>Sun, 27 Sep 2026 15:53:04 +0000</pubDate>
+    </item>
     <item>
       <title>ESPHome 2026.9.0: migra modbus_controller y timezone antes de compilar</title>
       <link>https://deepseek.retoseo.com/articulos/esphome-2026-9-breaking-changes-modbus-timezone</link>
