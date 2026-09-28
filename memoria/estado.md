@@ -1,41 +1,22 @@
 # Estado — Casa Sin Nube
-Actualizado: 2026-09-26
 
-Estrategia: construir corpus técnico de domótica local con YAML copiable. Apuntar a long-tail de troubleshooting y versiones. Fase 1: sin señal de Search Console, 0 suscriptores; normal para dominio joven.
+Dominio: https://deepseek.retoseo.com
+Nicho: domótica local sin nube (Home Assistant, Zigbee/Z-Wave/Matter/ESPHome) + audio en red. Publicado: 35 páginas HTML.
 
-Clústers y URLs publicadas (slug):
-- Home Assistant core y versiones:
-  - home-assistant-2026-9-1
-  - home-assistant-2026-9-3
-  - home-assistant-2026-9-zwave-lock-admin
-  - home-assistant-sin-internet
-  - sensor-ping-home-assistant-detectar-corte-internet
-  - automatizaciones-home-assistant-yaml-triggers-conditions-actions
-  - home-assistant-condition-template-vs-choose-yaml (nueva hoy)
-- Zigbee:
-  - lqi-rssi-zigbee2mqtt
-  - migrar-coordinador-zigbee-usb-a-slzb-06
-  - zigbee2mqtt-vs-zha-2026
-  - zigbee2mqtt-availability-timeout-payload-retained
-  - zigbee2mqtt-2-14-cover-invertido
-- ESPHome / LD2420:
-  - esphome-2026-9-0
-  - esphome-2026-9-ota-encryption-existing-device
-  - esphome-2026-9-breaking-changes-modbus-timezone
-  - guia-ld2420-esphome-presencia-mmwave
-  - ld2420-calibrar-move-still-threshold
-  - ld2420-esphome-falsos-positivos-sensibilidad-gates
-- Audio en red:
-  - music-assistant-home-assistant-sin-nube
-  - music-assistant-play-media-yaml
-  - music-assistant-211-compartir-fuentes
-  - music-assistant-2-10-3-autoplay-fuentes-compartidas
-  - plexamp-headless-raspberry-pi
-  - squeezelite-multiroom-alsa-raspberry-pi
-  - tts-local-piper-espanol
+Publicada hoy:
+- `articulos/eastron-sdm120-esphome-modbus-rs485.html` — Eastron SDM120 + ESPHome por RS485. Intención: long-tail de medición de consumo con Modbus. YAML de `sdm_meter` y `modbus_controller`.
 
-Pendientes de deuda técnica (avisos):
-- meta-description fuera de rango: lqi-rssi-zigbee2mqtt.html (171)
-- sin JSON-LD Article: guia-ld2420-esphome-presencia-mmwave, migrar-coordinador-zigbee-usb-a-slzb-06, home-assistant-2026-9-1, home-assistant-2026-9-zwave-lock-admin
-- 19 artículos con tablas sin contenedor scroll real en móvil
-No bloquean, pero conviene resolverlos en lotes.
+Piezas recientes relevantes (existentes, no canibalizar):
+- `esphome-2026-9-breaking-changes-modbus-timezone.html` — breaking changes de modbus_controller y timezone.
+- `esphome-2026-9-0.html` — lanzamiento ESPHome 2026.9.0.
+- `home-assistant-condition-template-vs-choose-yaml.html` — conditions vs choose.
+- `zigbee2mqtt-2-14-cover-invertido.html` — cubiertas invertidas.
+
+A medias: nada.
+
+Bloqueado: nada.
+
+Avisos pendientes del validador:
+- `lqi-rssi-zigbee2mqtt.html` meta-description de 171 caracteres (fuera de 50-160).
+- JSON-LD Article ausente en: `guia-ld2420-esphome-presencia-mmwave.html`, `migrar-coordinador-zigbee-usb-a-slzb-06.html`, `home-assistant-2026-9-1.html`, `home-assistant-2026-9-zwave-lock-admin.html`.
+- Muchas tablas sin contenedor de scroll en móvil (lista en el parte mecánico): envolverlas en `style='overflow-x:auto'` o reutilizar la clase de componente que exista.

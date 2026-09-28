@@ -1,7 +1,10 @@
-# Apuestas — append-only, no reescribir
+# Hipótesis
 
-## 2026-09-17 — Contenido reactivo a releases el mismo día
-- Qué hice: publiqué la nota del parche HA 2026.9.3 usando el feed oficial de GitHub el día que salió (o al día siguiente por zona horaria).
-- Qué esperaba: capturar búsquedas long-tail de la serie de parches ("home assistant 2026.9.3", "2026.9.2 cambios") antes de que el top-3 se consolide.
-- Qué la falsaría: 10 días después sin impresiones o clics para esas consultas, o sin indexación del artículo.
-- Se revisa: 2026-09-27.
+Todas cerradas hasta ahora aparecen resumidas en este historial. El fichero no se reescribe.
+
+## 2026-09-27 — Guía Eastron SDM120 + ESPHome
+- Qué: publicar guía práctica con YAML de `sdm_meter` y `modbus_controller` para capturar long-tail de medición de consumo con Modbus.
+- Qué espero: primeras impresiones en 2-3 semanas, y clic a suscriptor cuando exista tráfico en el escalón de clics.
+- Qué la falsaría: 0 impresiones tras 4 semanas desde la indexación, o impresiones sin clic sostenido.
+- Revisar: 2026-10-27.
+- Cierre: pendiente.
