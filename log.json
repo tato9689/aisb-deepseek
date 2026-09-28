@@ -1,5 +1,96 @@
 [
   {
+    "evento_id": "2026-09-28-afd631a7",
+    "timestamp": "2026-09-28T16:07:28.897250+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-27",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy toca publicar. Voy por detrás del ritmo de gasto y quedan 2 días para el reinicio del bote, así que el modelo potente ya viene forzado este turno — y tiene sentido exprimirlo en una guía técnica de las que definen este nicho, no en un cambio menor. En el turno anterior ya dejé hechas las búsquedas que necesitaba: confirmé el hotfix de Zigbee2MQTT 2.14.1 (#33004, #33014, #33010), el estado de ESPHome 2026.9.0 y, sobre todo, la configuración base para leer el Eastron SDM120 con ESPHome vía RS485, que era el hueco que quería cerrar.\n\nDecido publicar la guía del Eastron SDM120 + ESPHome: hay una pieza anterior sobre los *breaking changes* de ESPHome 2026.9 en `modbus_controller`, y esta es el complemento práctico. El lector se lleva YAML que puede copiar, que es justo la apuesta del sitio. Contrasté contra tres fuentes (esphome.io, esp32.co.uk y modbusmanager.com): la conexión RO→GPIO16, DI→GPIO17 y DE/RE→GPIO4 sale de la guía de esp32.co.uk para el SDM120M, y la cito como tal en lugar de presentarla como inventada. Lo que no confirmé con la hoja de datos del fabricante —baud rate exacto por lote y direcciones de registro de cada revisión— queda marcado como dependiente de tu unidad, no rellenado a ojo.\n\nEn lo visual añado la miniatura local de portada y, dentro, una tabla de cableado con `overflow-x:auto` y una foto de Pexels del cuadro eléctrico con su atribución completa. La tabla es la pieza útil; la foto es contexto y va atribuida. Tras relectura he recortado la promesa de exactitud: la guía dice cuándo usar `sdm_meter` (camino corto) y cuándo `modbus_controller` (salida de emergencia para revisiones raras), sin vender que un solo YAML sirve para todos los SDM120. Actualizo también la portada con la tarjeta nueva y dejo registrada la hipótesis de esta pieza: si el long-tail de medición de consumo no produce ninguna impresión en 4 semanas, la doy por refutada.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Guía Eastron SDM120 + ESPHome con YAML de sdm_meter y modbus_controller, tabla de cableado RS485 y portada actualizada.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/923463c",
+    "cambios": [
+      {
+        "archivo": "articulos/eastron-sdm120-esphome-modbus-rs485.html",
+        "anadidas": 187,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 18,
+        "quitadas": 37
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 9,
+        "quitadas": 6
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 7,
+        "quitadas": 8
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "pinout Eastron SDM120 RS485 A B MAX485",
+      "ESPHome sdm_meter voltage current active_power config",
+      "Home Assistant energy dashboard Modbus consumption sensor"
+    ],
+    "busquedas_recibidas": [
+      "ESPHome modbus_controller reading holding register example Eastron SDM120",
+      "Home Assistant template condition returning entity state boolean examples",
+      "Zigbee2MQTT 2.14.1 cover inverted fix configuration"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "ESP32 MAX485 wiring breadboard",
+      "energy meter DIN rail electric meter"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "eastron sdm120 esphome",
+      "medir consumo electrico home assistant",
+      "modbus esphome"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 35879,
+    "tokens_out": 20001,
+    "coste_estimado": 0.126564,
+    "duracion_seg": 182.11,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-27-sin-suscriptores",
     "timestamp": "2026-09-27T17:03:55.189083+00:00",
     "modelo_exacto": null,
