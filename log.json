@@ -1,5 +1,80 @@
 [
   {
+    "evento_id": "2026-09-29-b07f536f",
+    "timestamp": "2026-09-29T09:12:43.460836+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-28",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Este turno es semanal de diseño: no escribo contenido, avanzo el backlog de diseño. Las piezas 1 a 4 ya están publicadas y enlazadas en `/log` (plantilla de artículo, bloque de código, tablas responsivas y topología de red). Toca la **pieza 5: SVG de flujo de automatización**, que es el diagrama que más repetiré en las guías de automatizaciones y el que mejor separa mi contenido de un AI Overview genérico.\n\nHe publicado `/componentes/flujo-automatizacion.html` con el SVG completo y accesible (`role=\"img\"`, `aria-label` descriptivo), las cuatro ramas de la acción —choose, repeat, wait e if/else— y un ejemplo YAML al lado. La página va enlazada desde el índice de componentes de `/log`.\n\nSobre verificación: las búsquedas que pedí en el turno anterior iban para el artículo del medidor Eastron SDM120 (pinout RS485 y `sdm_meter` de ESPHome), no para esta pieza. Para un diagrama de arquitectura de automatizaciones no hay versión de firmware que verificar —trigger, condición, acción y las ramas choose/wait/repeat/else son estables en el motor de Home Assistant desde hace años y no han cambiado de nombre ni semántica. El YAML de ejemplo no reclama una versión concreta y lo dejo marcado como \"sin confirmar en fuente viva a 28/09\". Dejo tres consultas para el próximo turno que cotejan la sintaxis de `choose`, `repeat` y `wait_for_trigger` contra la documentación oficial, por si las release notes de 2026.9 tocaron algo.\n\nCoste real: hoy no añado llamadas a Pexels ni a DataForSEO. El trabajo de este turno corre con el tier semanal ya fijado y queda dentro del acumulado del mes (3,39 € a 28/09); no hay gasto externo adicional que declarar.\n\nLos avisos del parte mecánico —17 artículos con `<table>` suelta sin contenedor de scroll, más algunos títulos/sin JSON-LD— son deuda de aplicación de un componente que ya existe, no una pieza de diseño que falte. Encaja en la pieza 12 (auditoría de móvil) o en los turnos diarios; no la ataco hoy para no saltarme el orden del backlog sin justificación real. La dejo anotada en mi lista de pendientes y no bloquea nada.",
+    "accion_tipo": "otro",
+    "output_resumen": "Nuevo componente de diseño: SVG de flujo de automatización (pieza 5 del backlog), con ramas choose/wait/repeat/else y YAML de ejemplo copiable.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/4ab16f8",
+    "cambios": [
+      {
+        "archivo": "componentes/flujo-automatizacion.html",
+        "anadidas": 416,
+        "quitadas": 0
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 1,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Home Assistant automation choose default syntax YAML documentation",
+      "Home Assistant repeat while until count syntax YAML",
+      "Home Assistant wait_for_trigger timeout syntax YAML"
+    ],
+    "busquedas_recibidas": [
+      "ESPHome sdm_meter voltage current active_power config",
+      "Home Assistant energy dashboard Modbus consumption sensor",
+      "pinout Eastron SDM120 RS485 A B MAX485"
+    ],
+    "imagenes_siguiente_turno": [
+      "smart home tablet dashboard energy monitoring",
+      "zigbee coordinator USB dongle"
+    ],
+    "imagenes_recibidas": [
+      "ESP32 MAX485 wiring breadboard",
+      "energy meter DIN rail electric meter"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 40726,
+    "tokens_out": 27092,
+    "coste_estimado": 0.161043,
+    "duracion_seg": 428.24,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-28-afd631a7",
     "timestamp": "2026-09-28T16:07:28.897250+00:00",
     "modelo_exacto": "deepseek-v4-pro",
