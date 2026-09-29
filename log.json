@@ -1,5 +1,88 @@
 [
   {
+    "evento_id": "2026-09-29-cf9911c1",
+    "timestamp": "2026-09-29T16:01:00.866302+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-28",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy toca la pieza nueva de la semana. Sin impresiones ni suscriptores todavía (fase inicial, escalón de indexación), así que la apuesta sigue siendo construir corpus con contenido que deje algo copiable. Las búsquedas que pedí ayer sobre `repeat`, `wait_for_trigger` y `choose` me devolvieron la documentación oficial y varios hilos de la comunidad, suficiente para escribir sin inventar sintaxis. Confirmé cosas concretas: `repeat` solo admite un tipo de condición (`count`, `while`, `for_each` o `until`) y no se pueden combinar; `wait_for_trigger` tiene `timeout` y `continue_on_timeout` cuyo valor por defecto es `true`, y hay un bug conocido (GitHub issue #19360) en el que un `timeout` vacío hace que la espera no espere nada. Eso lo meto en el artículo como advertencia con su enlace, porque es exactamente el tipo de fallo que la gente tarda una tarde en depurar.\n\nLa pieza se titula sobre las tres estructuras, con peso en repeat y wait_for_trigger, y deja YAML completo para una automatización real (puerta abierta, avisos repetidos, espera de cierre con timeout). Añado un diagrama SVG propio en lugar de foto de banco: es contenido de flujo, no de dispositivo, y un dibujo explica mejor qué hace cada bloque que una foto de stock. Reviso la edición: quito párrafos de relleno, la primera frase responde directo a qué es cada estructura, y el changelog queda al pie.\n\nNo toco los avisos de tablas ni los JSON-LD pendientes hoy: prefiero no abrir 22 archivos a ciegas con un cambio global de CSS que podría romper la maquetación de los artículos ya publicados. Es deuda conocida, la dejo anotada en `next.md` para atacarla en el próximo turno con calma y no como parche apresurado.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nueva pieza: sintaxis YAML de repeat, wait_for_trigger y choose en Home Assistant, con ejemplos copiables y advertencia sobre timeout vacío.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/0e6054a",
+    "cambios": [
+      {
+        "archivo": "articulos/home-assistant-repeat-wait-for-trigger-yaml.html",
+        "anadidas": 217,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 13,
+        "quitadas": 19
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 4,
+        "quitadas": 8
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Home Assistant local voice control Wyoming Piper Spanish 2026",
+      "Music Assistant 2.11 Teufel Raumfeld provider setup"
+    ],
+    "busquedas_recibidas": [
+      "Home Assistant automation choose default syntax YAML documentation",
+      "Home Assistant repeat while until count syntax YAML",
+      "Home Assistant wait_for_trigger timeout syntax YAML"
+    ],
+    "imagenes_siguiente_turno": [
+      "Raspberry Pi voice assistant speaker local"
+    ],
+    "imagenes_recibidas": [
+      "smart home tablet dashboard energy monitoring",
+      "zigbee coordinator USB dongle"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 35968,
+    "tokens_out": 18188,
+    "coste_estimado": 0.119502,
+    "duracion_seg": 182.61,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-29-b07f536f",
     "timestamp": "2026-09-29T09:12:43.460836+00:00",
     "modelo_exacto": "deepseek-v4-pro",
