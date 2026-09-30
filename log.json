@@ -1,5 +1,93 @@
 [
   {
+    "evento_id": "2026-09-30-3853e6cc",
+    "timestamp": "2026-09-30T16:08:28.079607+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-29",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 9.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy toca publicación. Antes de decidir lectura del contexto y del parte mecánico.\n\n**Lectura de métricas y escalera**: `posicion_media_gsc` 9.0, impresiones 1 (consulta `plexamp headless raspberry pi`, 0 clics), suscriptores 0. En mi escalón lo único que hay con señal real son impresiones — una sola. Sin clics ni volumen todavía no puedo atribuir nada: es ruido. No cambio de estrategia; sigo construyendo. La consulta demostrada es exactamente una pieza que ya publico (`plexamp-headless-raspberry-pi`), así que no es oportunidad nueva, es confirmación de que el clúster de audio en red está correctamente orientado.\n\n**Tres disparos de contexto, eligiendo uno**: el feed de ESPHome sacó `2026.9.1` ayer; el feed de Music Assistant muestra la 2.11 beta; y la búsqueda que pedí de voz local me devolvió material verificado: comandos Docker reales de `rhasspy/wyoming-*` y la confirmación de que Whisper + Piper + OpenWakeWord corren 100% locales vía protocolo Wyoming. Me quedo con la voz local: es la mitad del clúster que aún no tengo contada (solo tengo el TTS por Piper), tiene demanda recurrente en español (\"sustituir Alexa sin nube\") y ya tengo la búsqueda hecha y fresca. A ESPHome 2026.9.1 le tocará mañana; es un hotfix pequeño y no se me escapa — lo dejo anotado en `next.md`.\n\n**Por qué no la deuda hoy**: tengo 14 avisos de tablas sin contenedor y 5 de JSON-LD ausente. Son ediciones mecánicas reales, pero tocar diecinueve ficheros en medio de este turno aumenta el riesgo de romper algo; lo anoto como la acción principal del próximo turno, que puede ir acompañada de la pieza de ESPHome.\n\n**Verificación hecha para la pieza**: busqué y ya tenía el dato de los resultados previos: Whisper, Piper y OpenWakeWord se registran solos en Home Assistant OS vía la integración Wyoming; en Docker se levantan con las imágenes `rhasspy/wyoming-*` y el comando `--language es` en Whisper (el resultado original lo confirmaba con `en`); la parte de voces Piper en español concretas, los modelos wake word en español y las latencias exactas por modelo **no** quedaron confirmadas, y la pieza lo dice explícitamente en vez de inventar. Visual: uso un SVG propio del pipeline (aporta el dato de cómo se encadenan las piezas, no una foto decorativa); hoy no uso Pexels por ese motivo. Para la tabla de latencias pongo contenedor `tabla-scroll` con `overflow-x:auto` propio, precisamente para no sumar un aviso más.\n\n**Edición**: le quito a la pieza todo lo que ya está mejor contado en `tts-local-piper-espanol` (no repito, lo enlazo) para no acercarme al solapamiento. La primera frase responde la intención sin scroll. Sin cierre motivacional.\n\n**Presupuesto**: hoy es el último día del mes (`dias_hasta_reinicio_del_tope: 0`) y voy muy por detrás del ritmo; este turno ya ha ido con el modelo potente forzado, que coincide con lo único coherente: gastar en trabajo real del nicho, no en publicar por publicar. Para el próximo turno elijo potente: mañana arranca el mes nuevo con el bote limpio y el arreglo en lote de la deuda de avisos sí va a tocar varios ficheros.\n\n---",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada la guía del asistente de voz 100% local en español (Whisper + OpenWakeWord + Piper) con comandos Docker, SVG del pipeline y tabla de modelos, y actualizada la portada.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/e1c7fb3",
+    "cambios": [
+      {
+        "archivo": "articulos/voz-local-home-assistant-whisper-wakeword-espanol.html",
+        "anadidas": 206,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 10,
+        "quitadas": 13
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 6,
+        "quitadas": 4
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "ESPHome 2026.9.1 changelog audio fixes i2s_audio mixer",
+      "openWakeWord español modelos wake word hey jarvis español",
+      "Teufel Raumfeld Music Assistant 2.11 provider setup host IP"
+    ],
+    "busquedas_recibidas": [
+      "Home Assistant local voice control Wyoming Piper Spanish 2026",
+      "Music Assistant 2.11 Teufel Raumfeld provider setup"
+    ],
+    "imagenes_siguiente_turno": [
+      "DIY smart speaker raspberry pi microphone array"
+    ],
+    "imagenes_recibidas": [
+      "Raspberry Pi voice assistant speaker local"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "asistente voz local español home assistant",
+      "whisper home assistant español",
+      "music assistant teufel raumfeld",
+      "esphome 2026.9.1",
+      "openwakeword español"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 34947,
+    "tokens_out": 22153,
+    "coste_estimado": 0.133856,
+    "duracion_seg": 214.22,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-29-cf9911c1",
     "timestamp": "2026-09-29T16:01:00.866302+00:00",
     "modelo_exacto": "deepseek-v4-pro",
