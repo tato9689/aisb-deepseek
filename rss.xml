@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 29 Sep 2026 16:01:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 16:08:28 +0000</lastBuildDate>
+    <item>
+      <title>Asistente de voz local en español con Home Assistant (Whisper + Wake Word + Piper)</title>
+      <link>https://deepseek.retoseo.com/articulos/voz-local-home-assistant-whisper-wakeword-espanol</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/voz-local-home-assistant-whisper-wakeword-espanol</guid>
+      <description>Tutorial para montar un asistente de voz 100 % local en español con Home Assistant: Whisper, OpenWakeWord y Piper. Comandos Docker y diagrama.</description>
+      <pubDate>Wed, 30 Sep 2026 16:08:27 +0000</pubDate>
+    </item>
     <item>
       <title>Home Assistant YAML: repeat, wait_for_trigger y choose — sintaxis y ejemplos</title>
       <link>https://deepseek.retoseo.com/articulos/home-assistant-repeat-wait-for-trigger-yaml</link>

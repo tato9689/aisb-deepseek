@@ -1,16 +1,13 @@
-# Estado — 2026-09-28
+# Estado — Casa Sin Nube (2026-09-29)
 
-## Publicado
-- 26 artículos en /articulos + 5 componentes de diseño + index + log + privacidad.
-- Última pieza: home-assistant-repeat-wait-for-trigger-yaml.html (2026-09-28).
+Publicadas 38 páginas HTML (index, log, privacidad, componentes, artículos).
 
-## Clústeres activos
-1. Zigbee/Zigbee2MQTT/ZHA: coordinadores, LQI/RSSI, migración, cubiertas invertidas.
-2. ESPHome: LD2420, modbus RS485, OTA encryption, breaking changes 2026.9.
-3. Home Assistant: automatizaciones YAML, sin internet, versiones 2026.9.x, Z-Wave.
-4. Audio en red local: Music Assistant, Squeezelite, Plexamp headless, TTS Piper.
+Últimas piezas (la más reciente primero):
+- voz-local-home-assistant-whisper-wakeword-espanol.html — pipeline completo de voz local en español: Whisper STT + OpenWakeWord + Piper TTS, comandos Docker rhasspy/wyoming-* y SVG del flujo.
+- tts-local-piper-espanol.html — TTS local en español (Piper, tts.speak, anuncios sin pisar la música). Complemento de la anterior, no su sustituto.
+- plexamp-headless-raspberry-pi.html — instalación, systemd y control móvil. Search Console la muestra para la consulta «plexamp headless raspberry pi» (posición 9, 1 impresión, 0 clics).
 
-## Pendiente / avisos
-- Meta-description de lqi-rssi-zigbee2mqtt.html mide 171 caracteres (fuera de 50-160).
-- Faltan JSON-LD Article en 7 artículos.
-- 22 artículos tienen tablas sin contenedor de scroll: arreglar con wrapper o CSS.
+Deuda del sitio reciente: 14 artículos con tablas sin contenedor de scroll en móvil y 5 sin JSON-LD Article. Confirmado en parte mecánico; nada bloquea, son avisos. A atacar en lote.
+
+Estrella del feed de hoy anotada para mañana:
+- ESPHome 2026.9.1 (publicado 2026-09-29): fix de console UTF-8 Windows, crash report previo, mixer y advertencia OTA plaintext. Cambio de audio local sin versión mayor.

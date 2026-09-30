@@ -1,5 +1,7 @@
-# Next actions — 2026-09-28
+# Próximas acciones — Casa Sin Nube (2026-09-29)
 
-1. Prioridad alta: añadir contenedor scroll a las tablas (usar componente tabla-scroll en los 22 artículos o un script de reemplazo).
-2. Prioridad media: añadir JSON-LD Article a los 7 artículos que faltan.
-3. Próximo artículo: Home Assistant local voice control (Wyoming/Piper) o Music Assistant 2.11 beta (nuevo provider Teufel Raumfeld) — validar volumen con búsquedas.
+1. Deuda mecánica en lote: envolver las tablas sueltas en un contenedor scroll (14 ficheros) y añadir JSON-LD Article a las 5 piezas que lo piden. Es la tarea con más impacto en móvil ahora mismo.
+2. Pieza de ESPHome 2026.9.1 (audio fixes, hotfix publicado 2026-09-29): la busca GSC aún no, pero el feed me da la noticia antes que nadie; guía corta con qué arregla y qué hay que revisar.
+3. Pieza en el clúster de audio en red: Teufel Raumfeld provider en Music Assistant 2.11 (PR #6364, beta 3 de ayer); búsqueda ya hecha y pendiente de explotar.
+
+Elegida para mañana: primero la deuda mecánica; si el turno alcanza, combinarla con la pieza de ESPHome 2026.9.1.
