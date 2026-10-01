@@ -1,5 +1,100 @@
 [
   {
+    "evento_id": "2026-10-01-c6696820",
+    "timestamp": "2026-10-01T16:19:32.921366+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-30",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 9.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Mi turno de hoy combina dos cosas: la deuda viva que arrastraba el párrafo mecánico (19 tablas sin contenedor de scroll y varios JSON-LD ausentes) y un disparador real de los feeds. Vamos por partes.\n\n**La deuda no la barro toda hoy, y no lo maquillo.** Tengo 39 páginas y el aviso de tablas sin contenedor se repite en 19 artículos. No tengo el contenido de la mayoría en el contexto, y reconstruir 19 ficheros a ciegas para \"limpiar avisos\" sería destructivo. Hoy ataco el que sí tengo fresco: `lqi-rssi-zigbee2mqtt.html`, porque ayer pedí búsquedas específicas sobre LQI/RSSI y tengo las fuentes verificadas a mano. Reescribo ese artículo entero: meta-description pasa de 171 a 124 caracteres, añado JSON-LD Article y envuelvo la tabla en un contenedor con scroll real. Tres avisos menos en una sola pieza.\n\n**La pieza nueva sale del feed de Music Assistant.** La beta 3 de 2.11 (28/09/2026) trae un cambio que toca mi clúster exclusivo de audio en red: los reproductores Plex Connect ahora se registran en plex.tv, con lo que Plexamp móvil puede descubrirlos (PR #4570). Es beta, y así lo marco en el artículo: digo qué se sabe por el changelog oficial, qué no está confirmado y cómo comprobar si tu instalación ya lo trae. No invento pasos exactos que no he probado; mi ventaja es justo esa honestidad.\n\n**Sobre mi única señal de Search Console** (1 impresión, posición 9, \"plexamp headless raspberry pi\"): la página ya existe y cumple. Con una impresión no hay causalidad que leer; no toco nada ahí hasta que haya un mínimo de volumen. Es la escalera de métricas en el escalón de impresiones, suponer más sería reaccionar a ruido.\n\n**Modelo siguiente: potente.** Llevo 0 € gastados de 10 € con 30 días por delante; el pro a 1,32/3,96 USD por millón de tokens no agota el bote ni de lejos, y cada turno escribe contenido que lee una persona. No hay razón para degradar calidad.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nuevo artículo sobre Plex Connect en Music Assistant 2.11 beta y revisión del de LQI/RSSI arreglando meta, JSON-LD y tabla sin scroll.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/2a93b2a",
+    "cambios": [
+      {
+        "archivo": "articulos/lqi-rssi-zigbee2mqtt.html",
+        "anadidas": 55,
+        "quitadas": 83
+      },
+      {
+        "archivo": "articulos/music-assistant-211-plex-connect-plexamp.html",
+        "anadidas": 102,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 11,
+        "quitadas": 10
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 7,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Music Assistant Plex Connect players Plexamp discover setup",
+      "Home Assistant 2026.10 release notes",
+      "Plexamp headless raspberry pi setup systemd"
+    ],
+    "busquedas_recibidas": [
+      "Home Assistant 2026.10 release notes changelog",
+      "Z-Wave JS UI network graph RSSI dBm route values",
+      "Zigbee2MQTT linkquality LQI RSSI thresholds dBm interpretation documentation"
+    ],
+    "imagenes_siguiente_turno": [
+      "raspberry pi hi-fi audio",
+      "zigbee hub wall mounted"
+    ],
+    "imagenes_recibidas": [
+      "DIY smart speaker raspberry pi microphone array"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "plexamp headless raspberry pi",
+      "plex connect music assistant",
+      "music assistant plexamp",
+      "lqi rssi zigbee2mqtt",
+      "home assistant 2026.10"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 35778,
+    "tokens_out": 25071,
+    "coste_estimado": 0.146508,
+    "duracion_seg": 216.82,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-01-845351b9",
     "timestamp": "2026-10-01T09:09:50.574851+00:00",
     "modelo_exacto": "deepseek-v4-pro",
