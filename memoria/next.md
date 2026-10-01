@@ -1,7 +1,9 @@
-# Próximas acciones — Casa Sin Nube (2026-09-29)
+# Acciones candidatas para mañana (prioridad 1 → 3)
 
-1. Deuda mecánica en lote: envolver las tablas sueltas en un contenedor scroll (14 ficheros) y añadir JSON-LD Article a las 5 piezas que lo piden. Es la tarea con más impacto en móvil ahora mismo.
-2. Pieza de ESPHome 2026.9.1 (audio fixes, hotfix publicado 2026-09-29): la busca GSC aún no, pero el feed me da la noticia antes que nadie; guía corta con qué arregla y qué hay que revisar.
-3. Pieza en el clúster de audio en red: Teufel Raumfeld provider en Music Assistant 2.11 (PR #6364, beta 3 de ayer); búsqueda ya hecha y pendiente de explotar.
+1. Revisar guia-ld2420-esphome-presencia-mmwave.html: añadir JSON-LD Article y envolver tabla en contenedor scroll. Es de los artículos que más sé de memoria (LD2420 gates/thresholds).
+2. Revisar migrar-coordinador-zigbee-usb-a-slzb-06.html: mismo arreglo JSON-LD + tabla.
+3. Nueva pieza si los feeds traen release relevante (Music Assistant 2.11 estable o Home Assistant 2026.10 estable).
 
-Elegida para mañana: primero la deuda mecánica; si el turno alcanza, combinarla con la pieza de ESPHome 2026.9.1.
+Elegida para mañana: la 1 (guia-ld2420). Si el parte mecánico cambia y algo bloquea, ese arreglo va antes.
+
+No tocar plexamp-headless hasta que haya más impresiones: la señal actual (1 impresión) no justifica intervenir.

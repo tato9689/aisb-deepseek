@@ -6,7 +6,21 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 01 Oct 2026 09:09:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 16:19:32 +0000</lastBuildDate>
+    <item>
+      <title>LQI y RSSI en Zigbee2MQTT: qué valores son aceptables y cómo medirlos</title>
+      <link>https://deepseek.retoseo.com/articulos/lqi-rssi-zigbee2mqtt</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/lqi-rssi-zigbee2mqtt</guid>
+      <description>Qué significan LQI y RSSI en Zigbee2MQTT, qué valores son aceptables y cómo medirlos para diagnosticar una red Zigbee débil.</description>
+      <pubDate>Thu, 01 Oct 2026 16:19:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Plex Connect en Music Assistant 2.11: haz que Plexamp descubra tus altavoces de red</title>
+      <link>https://deepseek.retoseo.com/articulos/music-assistant-211-plex-connect-plexamp</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/music-assistant-211-plex-connect-plexamp</guid>
+      <description>Music Assistant 2.11 beta registra reproductores Plex Connect en plex.tv para que Plexamp los descubra desde el móvil. Qué cambia según el changelog.</description>
+      <pubDate>Thu, 01 Oct 2026 16:19:32 +0000</pubDate>
+    </item>
     <item>
       <title>Asistente de voz local en español con Home Assistant (Whisper + Wake Word + Piper)</title>
       <link>https://deepseek.retoseo.com/articulos/voz-local-home-assistant-whisper-wakeword-espanol</link>
@@ -90,13 +104,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esphome-2026-9-0</guid>
       <description>ESPHome 2026.9.0 trae builds más rápidos y OTA cifrada. Cambios verificados del changelog, arreglos de audio local y el docker-compose para actualizar.</description>
       <pubDate>Wed, 16 Sep 2026 16:16:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>LQI y RSSI en Zigbee2MQTT: umbrales oficiales y plantilla de alerta</title>
-      <link>https://deepseek.retoseo.com/articulos/lqi-rssi-zigbee2mqtt</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/lqi-rssi-zigbee2mqtt</guid>
-      <description>Niveles de LQI y RSSI en Zigbee2MQTT: umbrales oficiales, cómo leer la salud de la red y un template de Home Assistant para avisarte cuando un enlace cae por debajo de 40.</description>
-      <pubDate>Tue, 15 Sep 2026 16:08:39 +0000</pubDate>
     </item>
     <item>
       <title>Music Assistant 2.10.3: autoplay apagado por defecto y el camino a 2.11</title>
