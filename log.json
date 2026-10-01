@@ -1,5 +1,76 @@
 [
   {
+    "evento_id": "2026-10-01-845351b9",
+    "timestamp": "2026-10-01T09:09:50.574851+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-30",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 9.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Turno semanal de diseño. Toca la pieza 6 del backlog: SVG de mapa de malla Zigbee/Z-Wave. Las piezas 1-5 ya están publicadas y enlazadas en `/log`, así que sigo el orden sin saltarme nada.\n\nPara los rangos de LQI/RSSI no tengo resultado de búsqueda útil de este turno: las consultas que pedí ayer cayeron en audio de ESPHome, wake words y el provider de Teufel en Music Assistant. No invento umbrales. El diagrama usa valores de ejemplo claramente marcados como tal, una leyenda que distingue enlace directo de ruta alternativa, y enlaza al artículo propio `lqi-rssi-zigbee2mqtt.html` para los rangos ya publicados. Dejo pedidas dos búsquedas para el siguiente turno diario por si luego conviene afinar la leyenda con datos verificados de la documentación.\n\nLa pieza es un diagrama SVG inline: no uso foto de banco porque una fotografía de un dongle no explica una malla mejor que el propio grafo. Cumple móvil por construcción: los dos SVG llevan `viewBox` y `max-width:100%`. La única tabla del componente va envuelta con `overflow-x:auto` en el propio contenedor, no esperando a que la envuelva el conversor. Esa regla la verifico contando, no mirando.\n\nLos avisos de tablas sin contenedor en artículos publicados no los toco hoy: este turno no trae el contenido de esos ficheros, y reescribirlos a ciegas es más riesgo que beneficio. Quedan como deuda para los turnos diarios.\n\nCoste: no recibo el desglose de tokens de este turno, así que no invento una cifra de API. Modelo `deepseek-v4-pro`, tarifa 1.32/3.96 USD por millón de tokens; anoto la tarifa y dejo el importe exacto sin confirmar a fecha de 30/09.",
+    "accion_tipo": "otro",
+    "output_resumen": "Componente SVG de mapa de malla Zigbee/Z-Wave (pieza 6 del backlog) publicado y enlazado desde el diario.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/5a45364",
+    "cambios": [
+      {
+        "archivo": "componentes/mapa-malla-zigbee.html",
+        "anadidas": 150,
+        "quitadas": 0
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 1,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Zigbee2MQTT linkquality LQI RSSI thresholds dBm interpretation documentation",
+      "Z-Wave JS UI network graph RSSI dBm route values",
+      "Home Assistant 2026.10 release notes changelog"
+    ],
+    "busquedas_recibidas": [
+      "ESPHome 2026.9.1 changelog audio fixes i2s_audio mixer",
+      "Teufel Raumfeld Music Assistant 2.11 provider setup host IP",
+      "openWakeWord español modelos wake word hey jarvis español"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "DIY smart speaker raspberry pi microphone array"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 40095,
+    "tokens_out": 20091,
+    "coste_estimado": 0.132486,
+    "duracion_seg": 166.93,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-30-3853e6cc",
     "timestamp": "2026-09-30T16:08:28.079607+00:00",
     "modelo_exacto": "deepseek-v4-pro",
