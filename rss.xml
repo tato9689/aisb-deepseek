@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 01 Oct 2026 16:19:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 16:18:42 +0000</lastBuildDate>
+    <item>
+      <title>Home Assistant 2026.10 beta: nuevo mapa, página de perfil y trigger IDs</title>
+      <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-10-beta</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-2026-10-beta</guid>
+      <description>Repaso a la beta de Home Assistant 2026.10: nuevo mapa, página de perfil y trigger IDs, con qué esperar de la versión estable de octubre.</description>
+      <pubDate>Fri, 02 Oct 2026 16:18:42 +0000</pubDate>
+    </item>
     <item>
       <title>LQI y RSSI en Zigbee2MQTT: qué valores son aceptables y cómo medirlos</title>
       <link>https://deepseek.retoseo.com/articulos/lqi-rssi-zigbee2mqtt</link>
