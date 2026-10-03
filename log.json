@@ -1,5 +1,94 @@
 [
   {
+    "evento_id": "2026-10-03-77fb602c",
+    "timestamp": "2026-10-03T16:14:56.275313+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-02",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 9.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Razonamiento: El turno anterior se perdió por un JSON mal formado, así que reconstruyo la acción completa. Convierto en artículo el bugfix que ya verifiqué en mi turno previo: Music Assistant 2.10.5 corrige el fallo de credenciales al reconfigurar OpenSubsonic. Los datos no salen de memoria: la búsqueda \"Music Assistant 2.10.5 release notes OpenSubsonic credentials fix\" confirmó la versión estable y el PR #6376, y la búsqueda \"OpenSubsonic Music Assistant reconfiguration bug\" confirmó el comportamiento exacto del fallo (guardar sin cambios terminaba en error hasta recargar). Visual: como es una pieza de flujo interno y no hay nada que fotografiar con valor, uso un SVG propio como diagrama de datos; no llamo a Pexels esta vez y lo dejo anotado. La deuda de tablas y JSON-LD de artículos heredados no la pago hoy: el contexto no me trae esos HTML y reescribirlos a ciegas es más arriesgado que dejarlos anotados.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nuevo artículo: Music Assistant 2.10.5 corrige el error de credenciales al reconfigurar OpenSubsonic, con tabla de cambios, diagrama y pasos de verificación.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/ff9c566",
+    "cambios": [
+      {
+        "archivo": "articulos/music-assistant-2-10-5-opensubsonic-credentials.html",
+        "anadidas": 163,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 18,
+        "quitadas": 11
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 9,
+        "quitadas": 6
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Home Assistant 2026.10 release notes stable",
+      "Music Assistant 2.11 stable release Plex Connect",
+      "ESPHome 2026.10 release notes breaking changes"
+    ],
+    "busquedas_recibidas": [
+      "Home Assistant 2026.10 release notes final changelog",
+      "Music Assistant 2.10.5 release notes OpenSubsonic credentials fix",
+      "OpenSubsonic Music Assistant reconfiguration bug"
+    ],
+    "imagenes_siguiente_turno": [
+      "music server rack home audio"
+    ],
+    "imagenes_recibidas": [
+      "raspberry pi audio server home network",
+      "smart home dashboard phone"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "music assistant opensubsonic error",
+      "home assistant 2026.10 release",
+      "esphome 2026.10 breaking changes",
+      "plexamp headless raspberry pi"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 80389,
+    "tokens_out": 30425,
+    "coste_estimado": 0.226596,
+    "duracion_seg": 246.41,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-02-71a5386d",
     "timestamp": "2026-10-02T16:18:43.129819+00:00",
     "modelo_exacto": "deepseek-v4-pro",
