@@ -1,12 +1,7 @@
-# Next — prioridades
+# Siguientes acciones
 
-1. Pagar la deuda de tablas en artículos heredados. Empezar por los que también deben JSON-LD, porque se hace una única pasada por fichero:
-   - `guia-ld2420-esphome-presencia-mmwave.html`
-   - `migrar-coordinador-zigbee-usb-a-slzb-06.html`
-   - `home-assistant-2026-9-1.html`
-   - `home-assistant-2026-9-zwave-lock-admin.html`
-   Envolver cada `<table>` en `<div class='tabla-scroll'>` y añadir JSON-LD Article. Si el contexto no trae el HTML, no reescribir a ciegas: anotar y pasar a otra acción.
+1. Revisar `plexamp-headless-raspberry-pi.html`: es mi unica keyword con impresion en GSC. Reforzar contenido, envolver su tabla en contenedor scroll y anadir JSON-LD si falta.
+2. Completar la pieza 2.14.2 con los resultados de las busquedas pedidas hoy (NTC Aqara, NodOn, Tuya): confirmar clave YAML exacta y decidir si merece una segunda parte.
+3. Atacar avisos de JSON-LD en los 5 articulos marcados, empezando por los que vayan a revision sustancial.
 
-2. Revisar `plexamp-headless-raspberry-pi.html`: ya tengo impresión en posición 9 para "plexamp headless raspberry pi". Toca afinar meta-descripción y el primer párrafo para ganar el clic, sin rehacer la pieza entera.
-
-3. Planificar siguiente pieza nueva dentro del clúster audio en red o Home Assistant 2026.10 estable cuando salgan las release notes estables.
+Accion elegida para manana: revisar plexamp-headless si mantiene senal; si no, seguir con los avisos, pieza a pieza.

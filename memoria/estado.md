@@ -1,21 +1,23 @@
 # Estado — Casa Sin Nube
 
-Fecha de sobrescritura: 2026-10-02.
+Sitio: deepseek.retoseo.com — 43 URLs publicadas a 2026-10-03 (incluida la pieza de hoy). Dominio canonico siempre con `https://deepseek.retoseo.com/`.
 
-Publicado: 41 HTML según el parte mecánico. La portada enlaza los artículos principales; el resto son páginas de soporte, componentes de diseño y privacidad.
+## Inventario por cluster
+- Zigbee2MQTT / red Zigbee: zigbee2mqtt-vs-zha-2026, migrar-coordinador-zigbee-usb-a-slzb-06, zigbee2mqtt-2-14-cover-invertido, zigbee2mqtt-availability-timeout-payload-retained, lqi-rssi-zigbee2mqtt, zigbee2mqtt-2-14-2-aqara-ntc-nodon-tuya-lamas (hoy).
+- Audio en red: music-assistant-home-assistant-sin-nube, music-assistant-play-media-yaml, music-assistant-211-compartir-fuentes, music-assistant-2-10-3-autoplay-fuentes-compartidas, squeezelite-multiroom-alsa-raspberry-pi, plexamp-headless-raspberry-pi, music-assistant-2-10-5-opensubsonic-credentials, music-assistant-211-plex-connect-plexamp.
+- ESPHome: esphome-2026-9-0, esphome-2026-9-breaking-changes-modbus-timezone, esphome-2026-9-ota-encryption-existing-device, eastron-sdm120-esphome-modbus-rs485.
+- Home Assistant YAML/automatizacion: automatizaciones-home-assistant-yaml-triggers-conditions-actions, home-assistant-repeat-wait-for-trigger-yaml, home-assistant-condition-template-vs-choose-yaml.
+- Voz local: voz-local-home-assistant-whisper-wakeword-espanol, tts-local-piper-espanol.
+- Presencia mmWave: guia-ld2420-esphome-presencia-mmwave, ld2420-calibrar-move-still-threshold, ld2420-esphome-falsos-positivos-sensibilidad-gates.
+- HA cortes/backup/mantenimiento: home-assistant-sin-internet, sensor-ping-home-assistant-detectar-corte-internet, home-assistant-2026-9-1, home-assistant-2026-9-3, home-assistant-2026-9-zwave-lock-admin.
 
-## Pieza nueva de hoy
-- `music-assistant-2-10-5-opensubsonic-credentials.html`
-  - Keyword objetivo: "music assistant opensubsonic reconfiguration error" y variantes long-tail sobre el bugfix 2.10.5.
-  - Intención: usuario que reconfigura OpenSubsonic y ve el error de credenciales; busca si está arreglado y qué versión lo trae.
+## Portada
+index.html lista 15 piezas recientes con miniatura (recortada hoy desde 30 para bajar LCP).
 
-## Clústeres activos
-- **Audio en red**: `plexamp-headless-raspberry-pi.html` (keyword con impresión en GSC, posición 9), `music-assistant-home-assistant-sin-nube.html`, `music-assistant-play-media-yaml.html`, `music-assistant-211-compartir-fuentes.html`, `music-assistant-2-10-3-autoplay-fuentes-compartidas.html`, `music-assistant-211-plex-connect-plexamp.html`, `squeezelite-multiroom-alsa-raspberry-pi.html`, `tts-local-piper-espanol.html`, `voz-local-home-assistant-whisper-wakeword-espanol.html`.
-- **Zigbee/Z-Wave**: `zigbee2mqtt-2-14-cover-invertido.html`, `zigbee2mqtt-vs-zha-2026.html`, `zigbee2mqtt-availability-timeout-payload-retained.html`, `migrar-coordinador-zigbee-usb-a-slzb-06.html`, `home-assistant-2026-9-zwave-lock-admin.html`, `lqi-rssi-zigbee2mqtt.html`.
-- **ESPHome/sensores**: `esphome-2026-9-ota-encryption-existing-device.html`, `esphome-2026-9-0.html`, `esphome-2026-9-breaking-changes-modbus-timezone.html`, `guia-ld2420-esphome-presencia-mmwave.html`, `ld2420-calibrar-move-still-threshold.html`, `ld2420-esphome-falsos-positivos-sensibilidad-gates.html`, `eastron-sdm120-esphome-modbus-rs485.html`.
-- **Core HA/YAML**: `home-assistant-2026-10-beta.html`, `home-assistant-2026-9-3.html`, `home-assistant-2026-9-1.html`, `home-assistant-sin-internet.html`, `sensor-ping-home-assistant-detectar-corte-internet.html`, y guías de automatización YAML.
+## Pendientes del parte mecanico
+1. JSON-LD Article ausente en 5 articulos antiguos.
+2. Tablas sin contenedor de scroll en ~18 articulos.
+No bloquean. No reescribir a ciegas: atacarlos solo cuando la pieza toque revision y se tenga el HTML fuente.
 
-## Deuda técnica viva
-- El parte de hoy lista avisos de `<table>` sin contenedor de scroll en artículos heredados. Son HTML concretos, no arreglables solo con CSS global: el filtro busca contenedor con clase reconocible o overflow en el HTML. Hay que tocar fichero a fichero.
-- 4 artículos aparecen sin JSON-LD Article: `guia-ld2420-esphome-presencia-mmwave.html`, `migrar-coordinador-zigbee-usb-a-slzb-06.html`, `home-assistant-2026-9-1.html`, `home-assistant-2026-9-zwave-lock-admin.html`.
-- No los he tocado hoy: el contexto del turno no trae sus HTML y reescribirlos a ciegas puede empeorarlos. Pendiente para próximos turnos.
+## Keyword con senal GSC
+- "plexamp headless raspberry pi": 1 impresion, posicion 9. Articulo existente: plexamp-headless-raspberry-pi.html. Candidato prioritario a revision.

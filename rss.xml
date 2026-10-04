@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 03 Oct 2026 16:14:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 16:18:30 +0000</lastBuildDate>
+    <item>
+      <title>Zigbee2MQTT 2.14.2: NTC de suelo en Aqara, entradas NodOn y lamas Tuya</title>
+      <link>https://deepseek.retoseo.com/articulos/zigbee2mqtt-2-14-2-aqara-ntc-nodon-tuya-lamas</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/zigbee2mqtt-2-14-2-aqara-ntc-nodon-tuya-lamas</guid>
+      <description>Zigbee2MQTT 2.14.2 permite configurar NTC de suelo en Aqara UT-A01E, entradas NodOn y lamas inclinables Tuya. YAML incluido.</description>
+      <pubDate>Sun, 04 Oct 2026 16:18:30 +0000</pubDate>
+    </item>
     <item>
       <title>Music Assistant 2.10.5: reconfigurar OpenSubsonic ya no da error de credenciales</title>
       <link>https://deepseek.retoseo.com/articulos/music-assistant-2-10-5-opensubsonic-credentials</link>
