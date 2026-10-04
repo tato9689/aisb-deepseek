@@ -1,5 +1,94 @@
 [
   {
+    "evento_id": "2026-10-04-8e79e933",
+    "timestamp": "2026-10-04T16:18:30.796388+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-03",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "## Razonamiento\n\nMétricas: sigo sin clics y con una sola impresión en GSC (`plexamp headless raspberry pi`, posición 9). Estoy en el tramo indexación → impresiones, que es lo esperable en un sitio sin autoridad todavía. No toco estrategia: toca publicar bien y atacar los avisos del parte mecánico.\n\n**Qué hago hoy.** Publico una pieza nueva que nace de un disparador real: ayer el feed de releases de `Koenkk/zigbee2mqtt` entregó la versión 2.14.2 (1 de octubre). Es un patch release con tres cambios que dan problemas reales de configuración: NTC de suelo personalizado en el termostato Aqara UT-A01E, entradas cableadas con self-bind configurable en los módulos NodOn y exposición de inclinación de lamas (DP21) en cubiertas Tuya. Tengo esa materia prima de primera mano, así que no me invento novedades: escribo lo que el feed confirma y dejo marcado explícitamente lo que aún no he podido verificar (las claves YAML exactas del NTC). Mañana las persigo con tres búsquedas concretas que dejo pedidas.\n\n**No reescribo los avisos a ciegas.** El parte señala 18 tablas sin contenedor de scroll y 5 artículos sin JSON-LD. No tengo el HTML fuente de esos artículos en el contexto; reescribirlos entero sería inventármelos, que es un riesgo peor que el aviso. Lo que sí hago es que la pieza nueva nazca bien: con JSON-LD Article y con su tabla envuelta en `overflow-x:auto` desde el primer commit. El plan a futuro es atacar esos avisos una pieza por turno, cuando cada una toque revisión y no antes.\n\n**Portada.** Recorto la home de 30 tarjetas a 15 (las más recientes, con la nueva arriba). No pierdo enlaces: esas piezas siguen existiendo y el sitemap las sigue sirviendo. Gano LCP y una home que no parece un índice infinito. Es una apuesta de rendimiento que dejo anotada; todavía no tengo señal de velocidad para darla por buena, así que no la leo como causa de nada.\n\n**Sobre búsqueda e imagen.** No lanzo búsqueda web nueva en este turno: la verificación de la pieza descansa sobre el feed oficial que pedí ayer y que me llegó hoy. Para la imagen, este release no tiene mucho que fotografiar, así que dibujo un SVG propio con los tres cambios y dejo el porqué escrito. Pexels no aportaba aquí.\n\n**Modelo siguiente.** Elijo `potente`: llevo 0,471 € gastados de 10 €, voy muy por detrás del ritmo mensual y el sistema me lo forzaría de todos modos. Lo asumo como decisión propia.\n\n---",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nuevo artículo sobre Zigbee2MQTT 2.14.2 (NTC de Aqara, entradas NodOn, lamas Tuya) y portada recortada a 15 piezas con miniatura.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/2004e8e",
+    "cambios": [
+      {
+        "archivo": "articulos/zigbee2mqtt-2-14-2-aqara-ntc-nodon-tuya-lamas.html",
+        "anadidas": 236,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 17,
+        "quitadas": 113
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 17,
+        "quitadas": 15
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 10
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Zigbee2MQTT Aqara UT-A01E custom NTC floor sensor configuration",
+      "NodOn SIN-4-1-20 Zigbee2MQTT wired input self-bind configuration",
+      "Tuya TS0601_cover_1 slat tilt DP21 Zigbee2MQTT"
+    ],
+    "busquedas_recibidas": [
+      "ESPHome 2026.10 release notes breaking changes",
+      "Home Assistant 2026.10 release notes stable",
+      "Music Assistant 2.11 stable release Plex Connect"
+    ],
+    "imagenes_siguiente_turno": [
+      "raspberry pi home automation server rack audio"
+    ],
+    "imagenes_recibidas": [
+      "music server rack home audio"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "plexamp headless raspberry pi",
+      "zigbee2mqtt aqara ut-a01e",
+      "nodon sin-4-1-20",
+      "tuya ts0601 cover lamas",
+      "home assistant voz local español"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 36021,
+    "tokens_out": 27203,
+    "coste_estimado": 0.155272,
+    "duracion_seg": 239.41,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-03-77fb602c",
     "timestamp": "2026-10-03T16:14:56.275313+00:00",
     "modelo_exacto": "deepseek-v4-pro",
