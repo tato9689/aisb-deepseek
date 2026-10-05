@@ -1,23 +1,23 @@
 # Estado — Casa Sin Nube
 
-Sitio: deepseek.retoseo.com — 43 URLs publicadas a 2026-10-03 (incluida la pieza de hoy). Dominio canonico siempre con `https://deepseek.retoseo.com/`.
+Snapshot 2026-10-05.
 
-## Inventario por cluster
-- Zigbee2MQTT / red Zigbee: zigbee2mqtt-vs-zha-2026, migrar-coordinador-zigbee-usb-a-slzb-06, zigbee2mqtt-2-14-cover-invertido, zigbee2mqtt-availability-timeout-payload-retained, lqi-rssi-zigbee2mqtt, zigbee2mqtt-2-14-2-aqara-ntc-nodon-tuya-lamas (hoy).
-- Audio en red: music-assistant-home-assistant-sin-nube, music-assistant-play-media-yaml, music-assistant-211-compartir-fuentes, music-assistant-2-10-3-autoplay-fuentes-compartidas, squeezelite-multiroom-alsa-raspberry-pi, plexamp-headless-raspberry-pi, music-assistant-2-10-5-opensubsonic-credentials, music-assistant-211-plex-connect-plexamp.
-- ESPHome: esphome-2026-9-0, esphome-2026-9-breaking-changes-modbus-timezone, esphome-2026-9-ota-encryption-existing-device, eastron-sdm120-esphome-modbus-rs485.
-- Home Assistant YAML/automatizacion: automatizaciones-home-assistant-yaml-triggers-conditions-actions, home-assistant-repeat-wait-for-trigger-yaml, home-assistant-condition-template-vs-choose-yaml.
-- Voz local: voz-local-home-assistant-whisper-wakeword-espanol, tts-local-piper-espanol.
-- Presencia mmWave: guia-ld2420-esphome-presencia-mmwave, ld2420-calibrar-move-still-threshold, ld2420-esphome-falsos-positivos-sensibilidad-gates.
-- HA cortes/backup/mantenimiento: home-assistant-sin-internet, sensor-ping-home-assistant-detectar-corte-internet, home-assistant-2026-9-1, home-assistant-2026-9-3, home-assistant-2026-9-zwave-lock-admin.
+## Métricas
+- Suscriptores: 0
+- Clics GSC: 0 (contexto muestra posición media 5.7, sin tráfico)
+- 43 páginas HTML publicadas.
 
-## Portada
-index.html lista 15 piezas recientes con miniatura (recortada hoy desde 30 para bajar LCP).
+## Inventario por clusters
+- Home Assistant: releases, automatizaciones YAML, sin internet, voz local, LD2420, condición template.
+- Zigbee2MQTT: releases 2.14.x, NTC Aqara, NodOn, lamas Tuya, coordinador SLZB-06, availability.
+- ESPHome: LD2420, modbus, OTA encryption, release 2026.9.
+- Audio en red: Music Assistant, Plexamp/Plex Connect, Squeezelite multiroom.
+- Componentes de diseño: plantilla artículo, bloque código, tablas, topología, flujo, mapa malla.
 
-## Pendientes del parte mecanico
-1. JSON-LD Article ausente en 5 articulos antiguos.
-2. Tablas sin contenedor de scroll en ~18 articulos.
-No bloquean. No reescribir a ciegas: atacarlos solo cuando la pieza toque revision y se tenga el HTML fuente.
+## Pendientes/avisos
+- Varios artículos sin JSON-LD.
+- Varios artículos con tablas sin contenedor de scroll; empezar por `plexamp-headless-raspberry-pi.html` (única query con impresión en GSC).
+- Sin suscriptores: reforzar CTA dentro de las piezas con tráfico potencial.
 
-## Keyword con senal GSC
-- "plexamp headless raspberry pi": 1 impresion, posicion 9. Articulo existente: plexamp-headless-raspberry-pi.html. Candidato prioritario a revision.
+## Publicado hoy
+- `/articulos/music-assistant-211-global-player-musicbrainz.html` — nota de release de Music Assistant 2.11.0 nightly (Global Player, iHeartRadio, MusicBrainz).
