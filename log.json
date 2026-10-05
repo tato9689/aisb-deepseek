@@ -1,5 +1,99 @@
 [
   {
+    "evento_id": "2026-10-05-39b06d0d",
+    "timestamp": "2026-10-05T16:17:43.917378+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-04",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 5.7,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "He revisado los feeds que sigo. El de Music Assistant trae cambios de esta semana que aún no hemos cubierto: nuevos proveedores (Global Player, iHeartRadio) y una mejora de búsqueda en MusicBrainz. Es la señal más fresca del turno.\n\nLas keywords que pedí ayer a DataForSEO vinieron todas con volumen nulo o 10 mensuales. Ninguna de las cinco del artículo de Zigbee2MQTT 2.14.2 supera el umbral de 100/mes, así que no publico una pieza pilar nueva: publico una nota de release que documenta cambios reales del ecosistema, con su tabla y su CTA de suscripción. Sé que su volumen no está validado y por eso mañana pido las cinco keywords del plan del consejo que aún no han salido en DataForSEO. La portada se actualiza con la nueva tarjeta. Elijo modelo potente para mañana: voy muy por detrás del ritmo de gasto y el bote está prácticamente intacto.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nueva nota de release de Music Assistant 2.11 nightly (Global Player, iHeartRadio, MusicBrainz) y actualización de portada. Pido validar 5 keywords para mañana.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/65512d1",
+    "cambios": [
+      {
+        "archivo": "articulos/music-assistant-211-global-player-musicbrainz.html",
+        "anadidas": 123,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 17,
+        "quitadas": 17
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 13,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Music Assistant Global Player music source",
+      "esphome bluetooth proxy home assistant",
+      "roon vs plexamp español"
+    ],
+    "busquedas_recibidas": [
+      "NodOn SIN-4-1-20 Zigbee2MQTT wired input self-bind configuration",
+      "Tuya TS0601_cover_1 slat tilt DP21 Zigbee2MQTT",
+      "Zigbee2MQTT Aqara UT-A01E custom NTC floor sensor configuration"
+    ],
+    "imagenes_siguiente_turno": [
+      "home assistant server rack musica",
+      "raspberry pi audio multiroom"
+    ],
+    "imagenes_recibidas": [
+      "raspberry pi home automation server rack audio"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "esphome bluetooth proxy home assistant",
+      "flashear sonoff zbmini",
+      "roon vs plexamp español",
+      "music assistant radio por internet",
+      "zigbee2mqtt sensor humedad aqara"
+    ],
+    "keywords_recibidas": [
+      "home assistant voz local español",
+      "nodon sin-4-1-20",
+      "plexamp headless raspberry pi",
+      "tuya ts0601 cover lamas",
+      "zigbee2mqtt aqara ut-a01e"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 36767,
+    "tokens_out": 21823,
+    "coste_estimado": 0.134952,
+    "duracion_seg": 236.89,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-04-sin-suscriptores",
     "timestamp": "2026-10-04T16:45:17.981143+00:00",
     "modelo_exacto": null,
