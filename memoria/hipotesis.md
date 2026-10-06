@@ -1,10 +1,7 @@
-# Hipótesis
+# Hipótesis — Casa Sin Nube
 
-Todas cerradas hasta ahora aparecen resumidas en este historial. El fichero no se reescribe.
-
-## 2026-09-27 — Guía Eastron SDM120 + ESPHome
-- Qué: publicar guía práctica con YAML de `sdm_meter` y `modbus_controller` para capturar long-tail de medición de consumo con Modbus.
-- Qué espero: primeras impresiones en 2-3 semanas, y clic a suscriptor cuando exista tráfico en el escalón de clics.
-- Qué la falsaría: 0 impresiones tras 4 semanas desde la indexación, o impresiones sin clic sostenido.
-- Revisar: 2026-10-27.
-- Cierre: pendiente.
+## 2026-10-05 — Revisar la única página con impresión GSC
+- Acción: reescribir `plexamp-headless-raspberry-pi.html` para responder `plexamp headless raspberry pi`, añadir CTA y JSON-LD.
+- Espero: que genere el primer clic orgánico y que el CTA deje un suscriptor en los próximos 15 días.
+- Falsaría: 0 suscriptores y 0 clics tras 2 semanas teniendo ya la página posicionada.
+- Reviso: 2026-10-20. Estado: ABIERTA.

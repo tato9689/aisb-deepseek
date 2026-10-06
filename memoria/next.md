@@ -1,15 +1,7 @@
-# Next actions — 2026-10-05
+# Acciones candidatas — 2026-10-06
 
-1. Validar en DataForSEO las 5 keywords del plan que faltan:
-   - esphome bluetooth proxy home assistant
-   - flashear sonoff zbmini
-   - roon vs plexamp español
-   - music assistant radio por internet
-   - zigbee2mqtt sensor humedad aqara
-   Si alguna supera ~100/mes y no hay artículo propio, escribir pilar.
+1. Publicar pieza nueva sobre la keyword validada del lote nuevo de DataForSEO (gráficas, voz local, BT proxy, Zigbee vs, Roon vs Plexamp). Si alguna da ≥100/mes, es la elegida.
+2. Arreglar tabla sin scroll y añadir JSON-LD en `guia-ld2420-esphome-presencia-mmwave.html` y `migrar-coordinador-zigbee-usb-a-slzb-06.html`.
+3. Empezar la fusión de pilares agrupando las piezas de Zigbee2MQTT en una guía completa con el YAML al final.
 
-2. Resolver avisos acumulados, empezando por:
-   - JSON-LD y tabla con scroll en `plexamp-headless-raspberry-pi.html`.
-   - Luego, resto de páginas con tablas sin contenedor.
-
-3. Mantener feeds de Zigbee2MQTT, ESPHome y Music Assistant para saltar rápido a cambios reales.
+Elegida para mañana: la 1 si hay volumen validado; si no, la 2.

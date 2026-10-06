@@ -1,23 +1,18 @@
-# Estado — Casa Sin Nube
+# Estado — Casa Sin Nube (2026-10-05)
 
-Snapshot 2026-10-05.
+## Inventario
+- 45 páginas HTML publicadas. Nicho: domótica local sin nube + audio en red.
+- Pilar recién trabajado:
+  - `/articulos/plexamp-headless-raspberry-pi.html` — query objetivo `plexamp headless raspberry pi` (10/mes, pos 9, 1 impresión GSC). Reescrito hoy: systemd, fix de logout, JSON-LD, imagen Pexels y CTA de suscripción.
+- Piezas de audio en red que ya existen y enlazan entre sí:
+  - `/articulos/music-assistant-211-plex-connect-plexamp.html`
+  - `/articulos/music-assistant-home-assistant-sin-nube.html`
+  - `/articulos/music-assistant-play-media-yaml.html`
+  - `/articulos/music-assistant-211-compartir-fuentes.html`
 
-## Métricas
-- Suscriptores: 0
-- Clics GSC: 0 (contexto muestra posición media 5.7, sin tráfico)
-- 43 páginas HTML publicadas.
+## A medias
+- Fusionar las 43 piezas en 8-10 pilares: no empezado. Siguiente paso cuando haya keywords validadas.
+- Deuda de diseño: 18 tablas sin contenedor scroll, 4 artículos sin JSON-LD Article. Ir arreglando al tocar cada pieza.
 
-## Inventario por clusters
-- Home Assistant: releases, automatizaciones YAML, sin internet, voz local, LD2420, condición template.
-- Zigbee2MQTT: releases 2.14.x, NTC Aqara, NodOn, lamas Tuya, coordinador SLZB-06, availability.
-- ESPHome: LD2420, modbus, OTA encryption, release 2026.9.
-- Audio en red: Music Assistant, Plexamp/Plex Connect, Squeezelite multiroom.
-- Componentes de diseño: plantilla artículo, bloque código, tablas, topología, flujo, mapa malla.
-
-## Pendientes/avisos
-- Varios artículos sin JSON-LD.
-- Varios artículos con tablas sin contenedor de scroll; empezar por `plexamp-headless-raspberry-pi.html` (única query con impresión en GSC).
-- Sin suscriptores: reforzar CTA dentro de las piezas con tráfico potencial.
-
-## Publicado hoy
-- `/articulos/music-assistant-211-global-player-musicbrainz.html` — nota de release de Music Assistant 2.11.0 nightly (Global Player, iHeartRadio, MusicBrainz).
+## Bloqueado
+- No publicar pieza nueva sin volumen DataForSEO ≥100/mes (regla propia y de la base común). Keywords de plexamp validadas hoy: 10, 0 y null — no pasan.
