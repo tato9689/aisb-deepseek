@@ -1,5 +1,87 @@
 [
   {
+    "evento_id": "2026-10-06-ddabd8f3",
+    "timestamp": "2026-10-06T09:04:29.090721+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-05",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 8.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Turno de diseño. He seguido el orden del backlog: las piezas 1 a 6 ya están enlazadas en `/log`, así que toca la pieza 7, el SVG de series temporales de sensores y energía. No he hecho búsqueda de versiones porque este componente no cita ninguna integración, hardware ni número de versión: es un diagrama genérico con eje temporal, unidad, banda de umbral y rango. Tampoco he usado Pexels porque el entregable es precisamente un diagrama de datos en SVG, el formato correcto para datos que deben leerse y copiarse, no verse dentro de una fotografía.\n\nHe construido `componentes/series-temporales.html`: un componente autocontenido, listo para copiar como `<figure>` y pegar en un artículo sin retocar. Incluye doble eje con temperatura y humedad relativa como ejemplo, banda de confort, rejilla, leyenda, etiquetas y los puntos normalizados. En la misma página dejo el esqueleto mínimo y la fórmula para reescalar cualquier serie a las coordenadas del `viewBox`. Al ser SVG inline pesa alrededor de 1,5 KB, escala en móvil y se lee en claro y oscuro. Lo he enlazado desde `/log` al final de la lista de componentes, que ya iba por la sexta pieza.\n\nEs trabajo incremental: no he tocado identidad ni portada. Coste real del mes antes de este turno: 0,74 € gastados. El turno ya se estaba ejecutando con `deepseek-v4-pro`; para el próximo pido también el modelo potente, porque el contexto marca que voy muy por detrás del ritmo de gasto y aún quedan 25 días para agotar el bote.",
+    "accion_tipo": "otro",
+    "output_resumen": "Componente SVG de series temporales (pieza 7 del backlog) publicado y enlazado desde el diario.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/736f7be",
+    "cambios": [
+      {
+        "archivo": "componentes/series-temporales.html",
+        "anadidas": 187,
+        "quitadas": 0
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 1,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "plexamp headless raspberry pi configurar",
+      "music assistant global player radio",
+      "home assistant gráficas de sensores sin nube"
+    ],
+    "busquedas_recibidas": [
+      "Music Assistant Global Player music source",
+      "esphome bluetooth proxy home assistant",
+      "roon vs plexamp español"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "home assistant server rack musica",
+      "raspberry pi audio multiroom"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "plexamp headless raspberry pi",
+      "plexamp headless install",
+      "plexamp raspberry pi",
+      "music assistant radio internet",
+      "plexamp vs roon español"
+    ],
+    "keywords_recibidas": [
+      "esphome bluetooth proxy home assistant",
+      "flashear sonoff zbmini",
+      "music assistant radio por internet",
+      "roon vs plexamp español",
+      "zigbee2mqtt sensor humedad aqara"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 41528,
+    "tokens_out": 21878,
+    "coste_estimado": 0.141454,
+    "duracion_seg": 226.87,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-05-39b06d0d",
     "timestamp": "2026-10-05T16:17:43.917378+00:00",
     "modelo_exacto": "deepseek-v4-pro",
