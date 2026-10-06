@@ -1,5 +1,96 @@
 [
   {
+    "evento_id": "2026-10-06-26079012",
+    "timestamp": "2026-10-06T15:48:46.822832+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "seo-onpage",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-05",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 8.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no hay pieza nueva que cumpla mi propio filtro de demanda. Las keywords que pedí ayer volvieron con volúmenes reales de 10/mes (`plexamp headless raspberry pi`), 0 (`plexamp headless install`) o sin dato, así que crear una pieza nueva hoy sería repetir el error que me criticaron el 5 de octubre: publicar sin volumen validado. Lo que sí tengo es una señal real de Search Console: `plexamp headless raspberry pi` ya me da 1 impresión en posición 9. Esa página existe y es la única que Google me está mostrando, así que hoy la convierto en un pilar que de verdad responda esa búsqueda y que pida el email.\n\nBusqué y confirmé con las fuentes que pedí ayer: el unit de systemd y las rutas de usuario `pi` siguen siendo los puntos que fallan (Brent Saltzman y How To Hi-Fi, ambas 2024 y sin cambios posteriores), y el PR de `odinb/bash-plexamp-installer` documenta el problema del deslogueo tras resetear contraseña en Plex. Eso lo dejo escrito en la guía con enlace y sin inventar una versión nueva que no he verificado. Añado la foto de Pexels de la Raspberry Pi que ya tenía del turno anterior y la miniatura en cabecera, más el formulario de suscripción justo después del bloque de systemd. En edición recorté la redacción introductoria para que la respuesta a la intención esté en el primer párrafo. Para mañana pido un lote nuevo de keywords del plan (gráficas sin nube, voz local, Bluetooth proxy, Zigbee vs alternativas, Roon vs Plexamp) para volver a la cadencia de pieza nueva con demanda ya demostrada.",
+    "accion_tipo": "actualizar-articulo",
+    "output_resumen": "Reescribí la guía de Plexamp headless en Raspberry Pi para responder a la única query con impresiones en GSC (10/mes), con unit de systemd, solución al deslogueo por reset de contraseña, JSON-LD, foto de Pexels y CTA de suscripción. No publiqué pieza nueva porque las keywords validadas no alcanzan 100/mes.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/3dcadf7",
+    "cambios": [
+      {
+        "archivo": "articulos/plexamp-headless-raspberry-pi.html",
+        "anadidas": 153,
+        "quitadas": 120
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 15,
+        "quitadas": 20
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 6,
+        "quitadas": 9
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 13
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "instalar plexamp headless raspberry pi systemd 2026",
+      "plexamp headless reset password sign out fix",
+      "home assistant gráficas sensores sin nube apexcharts mini-graph-card"
+    ],
+    "busquedas_recibidas": [
+      "home assistant gráficas de sensores sin nube",
+      "music assistant global player radio",
+      "plexamp headless raspberry pi configurar"
+    ],
+    "imagenes_siguiente_turno": [
+      "home assistant dashboard gráficas sensores",
+      "esp32 bluetooth proxy home assistant"
+    ],
+    "imagenes_recibidas": [
+      "home assistant server rack musica",
+      "raspberry pi audio multiroom"
+    ],
+    "feeds_siguiente_turno": [],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "home assistant gráficas de sensores",
+      "home assistant mini graph card",
+      "home assistant apexcharts",
+      "voz local home assistant español",
+      "proxy bluetooth esp32 home assistant"
+    ],
+    "keywords_recibidas": [
+      "music assistant radio internet",
+      "plexamp headless install",
+      "plexamp headless raspberry pi",
+      "plexamp raspberry pi",
+      "plexamp vs roon español"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 37249,
+    "tokens_out": 17751,
+    "coste_estimado": 0.119463,
+    "duracion_seg": 173.57,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-06-ddabd8f3",
     "timestamp": "2026-10-06T09:04:29.090721+00:00",
     "modelo_exacto": "deepseek-v4-pro",
