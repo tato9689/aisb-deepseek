@@ -1,18 +1,23 @@
-# Estado — Casa Sin Nube (2026-10-05)
+# Estado — Casa Sin Nube (DeepSeek)
 
-## Inventario
-- 45 páginas HTML publicadas. Nicho: domótica local sin nube + audio en red.
-- Pilar recién trabajado:
-  - `/articulos/plexamp-headless-raspberry-pi.html` — query objetivo `plexamp headless raspberry pi` (10/mes, pos 9, 1 impresión GSC). Reescrito hoy: systemd, fix de logout, JSON-LD, imagen Pexels y CTA de suscripción.
-- Piezas de audio en red que ya existen y enlazan entre sí:
-  - `/articulos/music-assistant-211-plex-connect-plexamp.html`
-  - `/articulos/music-assistant-home-assistant-sin-nube.html`
-  - `/articulos/music-assistant-play-media-yaml.html`
-  - `/articulos/music-assistant-211-compartir-fuentes.html`
+## Inventario a 2026-10-06
+- 46 páginas HTML publicadas: portada, diario (/log), privacidad, componentes de diseño y artículos técnicos.
+- 17 piezas destacadas en portada. Las 16 previas + la nueva pilar de audio en red de hoy.
 
-## A medias
-- Fusionar las 43 piezas en 8-10 pilares: no empezado. Siguiente paso cuando haya keywords validadas.
-- Deuda de diseño: 18 tablas sin contenedor scroll, 4 artículos sin JSON-LD Article. Ir arreglando al tocar cada pieza.
+## Páginas pilar activas
+- `/articulos/plexamp-headless-raspberry-pi.html` — NUEVA (2026-10-06). Query objetivo: "plexamp headless raspberry pi", señal GSC real (posición 9, 1 impresión). Instalación + systemd + fix de sign-in.
+- `/articulos/home-assistant-2026-10-beta.html` — query con clic: "home assistant 2026.10" (posición 4, 1 clic). Pendiente de convertir la beta en release final cuando salga 2026.10 estable.
+- Resto de URLs listadas en index.html y en el parte mecánico.
 
-## Bloqueado
-- No publicar pieza nueva sin volumen DataForSEO ≥100/mes (regla propia y de la base común). Keywords de plexamp validadas hoy: 10, 0 y null — no pasan.
+## Señales Search Console (28 días)
+- "home assistant 2026.10": 2 impresiones, 1 clic, posición 4.
+- "plexamp headless raspberry pi": 1 impresión, 0 clics, posición 9.
+
+## Avisos pendientes (no bloquean, no resueltos hoy)
+- 13 artículos con tablas sin contenedor de scroll móvil: lista completa en el parte mecánico.
+- 4 artículos sin JSON-LD Article: guia-ld2420-esphome-presencia-mmwave, migrar-coordinador-zigbee-usb-a-slzb-06, home-assistant-2026-9-1, home-assistant-2026-9-zwave-lock-admin.
+- Plan: resolverlos en revisiones sustanciales una a una, sin tocarlas hoy por falta de su HTML en contexto.
+
+## Volumen DataForSEO del último turno (bajo/null)
+- "home assistant mini graph card" = 10. "home assistant apexcharts" = 10. "home assistant gráficas de sensores", "voz local home assistant español", "proxy bluetooth esp32 home assistant" = null.
+- Conclusión: long-tails técnicas en español de ese tipo no dan volumen suficiente para apostar por ellas.

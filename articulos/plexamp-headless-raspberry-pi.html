@@ -4,15 +4,15 @@
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <meta name='theme-color' content='#0e1116'>
-  <title>Plexamp headless en Raspberry Pi: systemd y el deslogueo que te deja sin música (2026)</title>
-  <meta name='description' content='Instala Plexamp headless en una Raspberry Pi, configúralo con systemd y recupera el servicio cuando Plex te desloguea tras resetear la contraseña.'>
+  <title>Plexamp Headless en Raspberry Pi: systemd y arreglo del sign-in tras resetear contraseña</title>
+  <meta name='description' content='Instala Plexamp Headless en una Raspberry Pi, crea su servicio systemd y soluciona el sign-in tras resetear la contraseña de Plex.'>
   <link rel='canonical' href='https://deepseek.retoseo.com/articulos/plexamp-headless-raspberry-pi.html'>
   <link rel='alternate' type='application/rss+xml' title='Casa Sin Nube — RSS' href='/rss.xml'>
   <link rel='icon' href='/favicon.svg' type='image/svg+xml'>
   <meta property='og:type' content='article'>
   <meta property='og:url' content='https://deepseek.retoseo.com/articulos/plexamp-headless-raspberry-pi.html'>
-  <meta property='og:title' content='Plexamp headless en Raspberry Pi: systemd y el deslogueo que te deja sin música'>
-  <meta property='og:description' content='Instala Plexamp headless en una Raspberry Pi, configúralo con systemd y recupera el servicio cuando Plex te desloguea tras resetear la contraseña.'>
+  <meta property='og:title' content='Plexamp Headless en Raspberry Pi: systemd y arreglo del sign-in'>
+  <meta property='og:description' content='Instalación, servicio systemd y el fix cuando Plex te obliga a resetear la contraseña y el headless pierde la sesión.'>
   <meta property='og:image' content='https://deepseek.retoseo.com/og/miniatura/plexamp-headless-raspberry-pi.jpg'>
   <meta name='twitter:card' content='summary_large_image'>
   <link rel='preconnect' href='https://fonts.googleapis.com'>
@@ -21,36 +21,38 @@
   <link rel='stylesheet' href='/reset.css'>
   <link rel='stylesheet' href='/piel.css'>
   <style>
-    main { max-width: 72ch; margin: 0 auto; padding: 1rem; }
-    .portada-articulo img { width: 100%; height: auto; display: block; border-radius: 6px; }
-    h1 { font-size: clamp(1.7rem, 5vw, 2.4rem); line-height: 1.15; }
-    h2 { margin-top: 2rem; }
-    p, li { line-height: 1.6; }
-    .nota { background: #1a2029; padding: .8rem; border-left: 3px solid #ff9f0a; margin: 1rem 0; }
-    .tabla-scroll { overflow-x: auto; max-width: 100%; margin: 1rem 0; }
-    table { border-collapse: collapse; width: 100%; min-width: 560px; }
-    th, td { border: 1px solid #39424e; padding: .5rem; text-align: left; vertical-align: top; }
-    th { background: #111820; }
-    pre { max-width: 100%; overflow-x: auto; display: block; background: #11151c; padding: .8rem; border-radius: 6px; }
-    code { font-family: 'IBM Plex Mono', monospace; }
-    .cta { border: 1px solid #3dd68c; padding: 1rem; border-radius: 8px; margin: 1.5rem 0; }
-    .cta form { display: grid; gap: .5rem; }
-    .cta input[type=email] { padding: .5rem; }
-    .cta button { padding: .6rem; background: #3dd68c; color: #0e1116; border: 0; border-radius: 6px; font-weight: 600; cursor: pointer; }
-    .pie-foto { font-size: .85rem; color: #9aa4b2; margin-top: .3rem; }
-    .cambio { font-size: .9rem; color: #9aa4b2; margin-top: 2rem; border-top: 1px solid #39424e; padding-top: .8rem; }
+    .articulo { max-width: 760px; margin: 0 auto; padding: 0 1rem 3rem; }
+    .articulo nav a { color: #8b949e; text-decoration: none; }
+    .articulo nav a:hover { color: #ff9f0a; }
+    .articulo img { max-width: 100%; height: auto; border-radius: 8px; display: block; }
+    .atribucion { font-size: .8rem; color: #8b949e; margin: .35rem 0 1.5rem; }
+    .tabla-scroll { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 1rem 0; border: 1px solid #2a3038; border-radius: 8px; }
+    .tabla-scroll table { border-collapse: collapse; width: 100%; min-width: 660px; }
+    .tabla-scroll th, .tabla-scroll td { border-bottom: 1px solid #2a3038; padding: .6rem .8rem; text-align: left; vertical-align: top; }
+    .tabla-scroll th { background: #161b22; font-family: 'Space Grotesk', sans-serif; }
+    pre { max-width: 100%; overflow-x: auto; background: #0d1117; border: 1px solid #2a3038; border-radius: 8px; padding: 1rem; font-family: 'IBM Plex Mono', monospace; font-size: .85rem; line-height: 1.5; }
+    code { font-family: 'IBM Plex Mono', monospace; background: #161b22; padding: .1rem .3rem; border-radius: 4px; }
+    .bloque-suscripcion { margin: 2rem 0; padding: 1.25rem; border: 1px solid #30363d; border-radius: 10px; background: #161b22; }
+    .bloque-suscripcion form { display: grid; gap: .6rem; margin-top: .8rem; }
+    .bloque-suscripcion input[type=email] { padding: .6rem .8rem; border: 1px solid #30363d; border-radius: 8px; background: #0d1117; color: #e6edf3; }
+    .bloque-suscripcion button { padding: .6rem 1rem; border: 0; border-radius: 8px; background: #ff9f0a; color: #0e1116; font-weight: 600; cursor: pointer; }
+    .checkbox-line { display: flex; gap: .5rem; align-items: flex-start; font-size: .85rem; }
+    .cta-final { margin: 1.5rem 0; padding: 1rem; border-left: 3px solid #ff9f0a; background: #161b22; border-radius: 0 8px 8px 0; }
   </style>
-  <script type="application/ld+json">
+  <script type='application/ld+json'>
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Plexamp headless en Raspberry Pi: systemd y el deslogueo que te deja sin música (2026)",
-    "description": "Instala Plexamp headless en una Raspberry Pi, configúralo con systemd y recupera el servicio cuando Plex te desloguea tras resetear la contraseña.",
-    "image": "https://deepseek.retoseo.com/og/miniatura/plexamp-headless-raspberry-pi.jpg",
-    "author": {"@type": "Organization", "name": "Casa Sin Nube"},
-    "publisher": {"@type": "Organization", "name": "Casa Sin Nube"},
-    "datePublished": "2026-10-05",
-    "dateModified": "2026-10-05",
+    "headline": "Plexamp Headless en Raspberry Pi: systemd y arreglo del sign-in tras resetear contraseña",
+    "description": "Instala Plexamp Headless en una Raspberry Pi, crea su servicio systemd y soluciona el sign-in tras resetear la contraseña de Plex.",
+    "datePublished": "2026-10-06",
+    "dateModified": "2026-10-06",
+    "author": { "@type": "Organization", "name": "Casa Sin Nube" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Casa Sin Nube",
+      "logo": { "@type": "ImageObject", "url": "https://deepseek.retoseo.com/favicon.svg" }
+    },
     "mainEntityOfPage": "https://deepseek.retoseo.com/articulos/plexamp-headless-raspberry-pi.html"
   }
   </script>
@@ -62,115 +64,141 @@
       <span>Casa Sin Nube</span>
     </a>
   </header>
-  <main>
-    <article>
-      <header class='portada-articulo'>
-        <img src='/og/miniatura/plexamp-headless-raspberry-pi.jpg' alt='Raspberry Pi preparada como reproductor de audio headless con Plexamp' width='640' height='336'>
-      </header>
+  <main class='articulo'>
+    <nav aria-label='Ruta'><a href='/'>Inicio</a> › <a href='/articulos/'>Artículos</a> › Plexamp Headless</nav>
+    <h1>Plexamp Headless en Raspberry Pi: systemd y arreglo del sign-in tras resetear contraseña</h1>
+    <p class='atribucion'>Última revisión: 06/10/2026</p>
 
-      <h1>Plexamp headless en Raspberry Pi: systemd y el deslogueo que te deja sin música</h1>
+    <img src='https://images.pexels.com/photos/35652456/pexels-photo-35652456.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' width='940' height='627' alt='Placa microcontrolador con destornillador sobre superficie oscura, el tipo de hardware de una Raspberry Pi para audio headless'>
+    <p class='atribucion'>Foto de <a href='https://www.pexels.com/es-es/@tanhatamannasyed'>Tanha Tamanna  Syed</a> en <a href='https://www.pexels.com/es-es/foto/microcontrolador-y-herramientas-en-superficie-oscura-35652456/'>Pexels</a></p>
 
-      <p>Plexamp headless convierte una Raspberry Pi en un reproductor de audio que controlas desde el móvil y que saca sonido por tu DAC, tu amplificador o tus altavoces activos. Sin monitor, sin escritorio y sin nube: la Pi aparece como un endpoint más en Plexamp y la música se manda por la red local. Aquí está el proceso completo y el fallo que más se repite: tras resetear la contraseña de Plex, el servicio deja de responder y hay que reiniciarlo a mano.</p>
+    <p>Plexamp Headless convierte una Raspberry Pi sin pantalla en un reproductor de tu biblioteca Plex. Lo instalas, lo dejas enchufado a un amplificador o a unos altavoces y lo manejas desde el móvil con la app de Plexamp. El punto débil es doble: el servicio de arranque falla cuando Node no está donde systemd espera, y en cuanto Plex te obliga a cambiar la contraseña, el headless pierde la sesión y desaparece como reproductor. Aquí está la instalación, el unit de systemd y los dos arreglos.</p>
 
-      <figure>
-        <img src='https://images.pexels.com/photos/163073/raspberry-pi-computer-linux-163073.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' alt='Placa Raspberry Pi con caja transparente y componentes visibles sobre una mesa' width='940' height='650' loading='lazy'>
-        <figcaption class='pie-foto'>Foto de <a href="https://www.pexels.com/es-es/@pixabay">Pixabay</a> en <a href="https://www.pexels.com/es-es/foto/placa-de-circuito-verde-con-caja-de-vidrio-transparente-163073/">Pexels</a></figcaption>
-      </figure>
+    <p>Lo que sigue sale de leer el instalador de <a href='https://github.com/odinb/bash-plexamp-installer'>odinb/bash-plexamp-installer</a>, el <a href='https://gist.github.com/tgp-2/fc34c5389bc3e4ef332e28d9430b0ebf'>gist</a> de configuración de un usuario, la entrada de <a href='https://howtohifi.com/install-headless-plexamp-endpoint-home-network-raspberry-pi/'>How To Hi-Fi</a> (noviembre 2024) y la guía de <a href='https://pimylifeup.com/raspberry-pi-plexamp/'>Pi My Life Up</a> (mayo 2026).</p>
 
-      <h2>Qué necesitas</h2>
-      <ul>
-        <li>Una Raspberry Pi 3B+ o superior (la 4 o la 5 te dan más margen de CPU, aunque el audio por USB no lo notará demasiado).</li>
-        <li>Raspberry Pi OS Lite de 64 bits.</li>
-        <li>Un Plex Media Server en tu red local, con tu biblioteca ya montada.</li>
-        <li>Un DAC USB, un HAT de audio o un amplificador con entrada USB.</li>
-        <li>Cuenta de Plex activa.</li>
-      </ul>
+    <h2>Qué vas a conseguir</h2>
+    <ul>
+      <li>Un reproductor headless: cualquier altavoz pasa a ser endpoint de Plex sin pantalla conectada, como explica Pi My Life Up.</li>
+      <li>Interfaz web de control en el puerto 32500 del Pi, por si no quieres depender solo del móvil.</li>
+      <li>Control remoto desde cualquier cliente Plexamp, seleccionando el reproductor headless con el icono Cast.</li>
+      <li>Un servicio systemd que arranca Plexamp al reiniciar, con el fallo de Node ya resuelto.</li>
+    </ul>
 
-      <h2>Instalación</h2>
-      <p>Descarga el build oficial de Headless Plexamp para Linux/ARM desde la página de Plexamp, extrae el contenido en <code>/opt/plexamp</code> y dale los permisos al usuario que lo va a ejecutar.</p>
+    <h2>Instalación</h2>
+    <p>El instalador que más guías enlazan es <code>bash-plexamp-installer</code>, pensado para Raspberry Pi con ARM64 y para gestionar Node con nvm. Clónalo y ejecuta su instalación:</p>
+    <pre><code>git clone https://github.com/odinb/bash-plexamp-installer
+cd bash-plexamp-installer
+bash install.sh</code></pre>
+    <p>No repito aquí cada pregunta del script porque cambian entre versiones. Sigue el README del repo, que está pensado para dejar el servicio funcionando al final.</p>
+    <p>Si vienes de una instalación antigua y el instalador nota Node obsoleto, lo sube con nvm y fija la versión en <code>.nvmrc</code>. El gist recoge estos dos pasos seguidos de un reinicio:</p>
+    <pre><code>nvm install 24
+echo "v24" &gt; .nvmrc
+reboot</code></pre>
 
-      <pre><code>sudo mkdir -p /opt/plexamp
-sudo tar -xzf plexamp-headless-*.tar.gz -C /opt/plexamp
-sudo chown -R pi:pi /opt/plexamp</code></pre>
-
-      <p>El nombre exacto del tarball cambia según la versión y la arquitectura; usa el patrón <code>plexamp-headless-*</code> para no depender de una versión concreta en la instrucción. La versión actual del build a fecha de 05/10/2026 no ha cambiado de ruta respecto a las guías de 2024 (<a href='https://brentsaltzman.com/install-plexamp-headless/'>Brent Saltzman</a> y <a href='https://howtohifi.com/install-headless-plexamp-endpoint-home-network-raspberry-pi/'>How To Hi-Fi</a>), pero si tu build trae su propio binario de Node, sustituye <code>/usr/bin/node</code> por la ruta de ese binario.</p>
-
-      <h2>El unit de systemd</h2>
-      <p>Crea un unit de usuario para que Plexamp arranque sin sesión y se reinicie solo si falla.</p>
-
-      <pre><code>mkdir -p ~/.config/systemd/user
-nano ~/.config/systemd/user/plexamp.service</code></pre>
-
-      <pre><code>[Unit]
+    <h2>El servicio systemd y el fallo de Node «no encontrado»</h2>
+    <p>El instalador registra <code>plexamp.service</code> como unidad de usuario. Se gestiona así:</p>
+    <pre><code>systemctl --user enable plexamp.service
+systemctl --user start plexamp.service</code></pre>
+    <p>El unit que deja queda parecido a esto, con las rutas dependiendo de dónde tengas cada cosa:</p>
+    <pre><code>[Unit]
 Description=Plexamp Headless
-After=network-online.target sound.target
-Wants=network-online.target sound.target
+After=network-online.target
 
 [Service]
-Type=simple
-WorkingDirectory=/opt/plexamp
-ExecStart=/usr/bin/node /opt/plexamp/js/index.js
+ExecStart=/ruta/a/node /ruta/a/plexamp/js/index.js
 Restart=on-failure
 RestartSec=5
 
 [Install]
 WantedBy=default.target</code></pre>
+    <p>El fallo real más repetido lo documenta How To Hi-Fi: el unit sale con <code>/usr/bin/node</code> en <code>ExecStart</code> cuando Node lo instaló nvm en otra ruta. El servicio muere al arrancar y la web del puerto 32500 no responde. La solución que publicó el autor fue cambiar <code>ExecStart</code> para usar la versión explícita de nvm en lugar de la ruta genérica. Compruébalo tú con:</p>
+    <pre><code>which node</code></pre>
+    <p>Y pon esa ruta delante de <code>/ruta/a/plexamp/js/index.js</code>. Si cambias el unit, recárgalo:</p>
+    <pre><code>systemctl --user daemon-reload
+systemctl --user restart plexamp.service</code></pre>
 
-      <p>Comprueba antes con <code>which node</code> que <code>/usr/bin/node</code> es la ruta correcta en tu sistema. Si usas un unit de sistema en vez de uno de usuario, añade <code>User=pi</code> y <code>Group=pi</code> dentro de <code>[Service]</code>, algo que la guía de Saltzman pide revisar porque el usuario por defecto no siempre coincide.</p>
+    <h2>Reset de contraseña: por qué se rompe y cómo arreglarlo</h2>
+    <p>Plex avisa a veces de que debes cambiar la contraseña y cierra sesión en todos los dispositivos. El headless no es una excepción, y como no tiene pantalla, no se puede reautenticar desde él. El hilo del <a href='https://forums.plex.tv/t/plexs-lack-of-security-has-revealed-how-broken-the-sign-in-process-is-for-headless-plexamp/930887'>foro de Plex</a> de septiembre de 2025 lo llama directamente "non-functional". La secuencia que lo devuelve a la vida, según el gist y ese hilo:</p>
+    <ol>
+      <li>Abre <code>http://IP_DEL_PI:32500</code> (o <code>pi.local:32500</code> en red local).</li>
+      <li>Ve a <strong>Settings &gt; Account</strong>. Pulsa <strong>sign out</strong> y vuelve a <strong>sign in</strong>.</li>
+      <li>En la app de Plexamp del cliente, pulsa el icono <strong>Cast</strong> y re-selecciona el reproductor headless.</li>
+      <li>Repasa los ajustes de reproducción: tras el sign-in algunos vuelven a valores por defecto, y el gist lo avisa explícitamente.</li>
+    </ol>
+    <p>Un foro de 2022 documenta un arranque manual alternativo, sin pasar por systemd, para salir del paso:</p>
+    <pre><code>cd plexamp/
+node js/index.js</code></pre>
 
-      <pre><code>systemctl --user daemon-reload
-systemctl --user enable --now plexamp.service
-journalctl --user -u plexamp.service -f</code></pre>
+    <h2>Tabla de averías</h2>
+    <div class='tabla-scroll'>
+      <table>
+        <caption>Averías comunes de Plexamp Headless y su arreglo</caption>
+        <thead>
+          <tr><th scope='col'>Síntoma</th><th scope='col'>Causa probable</th><th scope='col'>Arreglo</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>El servicio no arranca y :32500 no carga</td>
+            <td><code>ExecStart</code> apunta a <code>/usr/bin/node</code>, pero Node lo instaló nvm</td>
+            <td>Pon en <code>ExecStart</code> la ruta que devuelve <code>which node</code> y recarga con <code>daemon-reload</code> (How To Hi-Fi)</td>
+          </tr>
+          <tr>
+            <td>La web no responde tras una actualización del headless</td>
+            <td>El servicio quedó parado</td>
+            <td><code>systemctl --user restart plexamp.service</code> (gist de tgp-2)</td>
+          </tr>
+          <tr>
+            <td>Tras resetear la contraseña de Plex, no aparece el reproductor</td>
+            <td>Plex cerró sesión en todos los dispositivos, incluido el headless</td>
+            <td>Sign out y sign in en <code>:32500</code> y re-selección desde el icono Cast (gist y foro de Plex)</td>
+          </tr>
+          <tr>
+            <td>Tras el sign-in, el volumen o el modo cambian solos</td>
+            <td>Ajustes de playback que vuelven a sus valores por defecto</td>
+            <td>Revisa los ajustes de reproducción después de reautenticar (gist de tgp-2)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-      <p>En el log del primer arranque aparece el código de emparejamiento. Ábrelo desde Plexamp en tu móvil, en el apartado de endpoints headless, y pega el código. A partir de ahí la Pi se controla como un reproductor más.</p>
+    <section class='bloque-suscripcion' aria-labelledby='suscripcion-heading' id='suscribete'>
+      <h2 id='suscripcion-heading'>El YAML y los avisos de rotura, cada domingo</h2>
+      <p>La newsletter de los domingos reúne los YAML nuevos de Home Assistant, ESPHome y audio en red, y avisa cuando una integración se rompe tras una actualización. Nada de boletín genérico.</p>
+      <form action='https://panel.retoseo.com/subscription/form' method='post'>
+        <label for='email'>Correo electrónico</label>
+        <input type='email' id='email' name='email' required autocomplete='email'>
+        <input type='hidden' name='l' value='bc6011d5-0fae-489d-9fa9-d92d72d1032a'>
+        <input type='hidden' name='attribs_origen' id='origen' value='directo'>
+        <p class='checkbox-line'>
+          <input type='checkbox' id='consentimiento' name='consentimiento' required>
+          <label for='consentimiento'>He leído y acepto la
+            <a href='/privacidad'>política de privacidad</a>. Recibiré un
+            email para confirmar mi suscripción (doble opt-in) y podré darme
+            de baja cuando quiera desde cualquier envío.</label>
+        </p>
+        <button type='submit'>Suscribirme</button>
+      </form>
+    </section>
 
-      <h2>El deslogueo que te deja sin música</h2>
-      <p>Si resetas la contraseña de Plex o cierras sesión en todos los dispositivos, Plex invalida los tokens y el servicio headless no se reautentica solo. El síntoma es que la Pi sigue corriendo pero no responde desde Plexamp. La solución documentada en el instalador de <a href='https://github.com/odinb/bash-plexamp-installer'>odinb/bash-plexamp-installer</a> es reiniciar el servicio:</p>
+    <h2>Control desde el móvil u otro equipo</h2>
+    <p>Una vez autenticado, el reproductor headless sale en la app de Plexamp dentro del icono Cast. Lo eliges igual que un altavoz, y él estrena la música sobre los altavoces del Pi. Si además usas <a href='/articulos/music-assistant-211-plex-connect-plexamp.html'>Music Assistant con Plex Connect</a>, puedes cruzar ese altavoz con fuentes de otros servicios, pero ese es otro cableado.</p>
 
-      <pre><code>systemctl --user restart plexamp.service</code></pre>
+    <h2>Fuentes y lo que queda sin confirmar</h2>
+    <ul>
+      <li><a href='https://github.com/odinb/bash-plexamp-installer'>odinb/bash-plexamp-installer</a>: instalador ARM64, node v24 vía nvm y servicio de usuario.</li>
+      <li><a href='https://gist.github.com/tgp-2/fc34c5389bc3e4ef332e28d9430b0ebf'>Gist de configuración</a>: re-login en :32500 y re-selección por Cast.</li>
+      <li><a href='https://howtohifi.com/install-headless-plexamp-endpoint-home-network-raspberry-pi/'>How To Hi-Fi</a>: fix del ExecStart con la versión de nvm explícita.</li>
+      <li><a href='https://forums.plex.tv/t/plexs-lack-of-security-has-revealed-how-broken-the-sign-in-process-is-for-headless-plexamp/930887'>Foro de Plex</a> (sept 2025): síntomas tras el reset de contraseña.</li>
+      <li>Sin confirmar a fecha de 06/10: la versión exacta actual de Plexamp y si el instalador sigue llamando al script <code>install.sh</code>.</li>
+    </ul>
 
-      <p>Si sigue sin responder, reinicia la Pi. No es un fallo de tu configuración: es el comportamiento esperado después de un reset de credenciales.</p>
+    <p class='cta-final'>Si esta pieza te ha ahorrado una tarde, <a href='#suscribete'>apúntate a la newsletter</a>: el domingo trae el YAML cuando cambie y el aviso si Plex o una actualización rompen esta integración.</p>
 
-      <h2>Referencias que conviene tener a mano</h2>
-      <div class='tabla-scroll'>
-        <table>
-          <caption>Guías de referencia para Plexamp headless en Raspberry Pi</caption>
-          <thead>
-            <tr><th>Fuente</th><th>Qué aporta</th><th>Fecha aproximada</th></tr>
-          </thead>
-          <tbody>
-            <tr><td><a href='https://howtohifi.com/install-headless-plexamp-endpoint-home-network-raspberry-pi/'>How To Hi-Fi</a></td><td>Proceso paso a paso tras la salida del build oficial de Plex</td><td>Noviembre 2024</td></tr>
-            <tr><td><a href='https://brentsaltzman.com/install-plexamp-headless/'>Brent Saltzman</a></td><td>Unit de systemd y revisión de rutas/usuario <code>pi</code></td><td>Marzo 2024</td></tr>
-            <tr><td><a href='https://github.com/dustinrue/headless-plexamp'>dustinrue/headless-plexamp</a></td><td>Imagen con Headless Plexamp preinstalado y SSH activo</td><td>Sin confirmar a 05/10/2026</td></tr>
-            <tr><td><a href='https://github.com/odinb/bash-plexamp-installer'>odinb/bash-plexamp-installer</a></td><td>Recuperación tras reset de contraseña y auto sign-out</td><td>Sin confirmar a 05/10/2026</td></tr>
-          </tbody>
-        </table>
-      </div>
-
-      <aside class='cta' id='suscripcion'>
-        <h2>Los YAML, sin buscarlos cada vez</h2>
-        <p>Cada domingo mando los cambios que rompen integraciones de audio y domótica local —Music Assistant, Plex Connect, Zigbee2MQTT, ESPHome— con el YAML ya corregido. Sin resúmenes de novedades genéricas.</p>
-        <form action='https://panel.retoseo.com/subscription/form' method='post'>
-          <label for='email'>Correo electrónico</label>
-          <input type='email' id='email' name='email' required autocomplete='email'>
-          <input type='hidden' name='l' value='bc6011d5-0fae-489d-9fa9-d92d72d1032a'>
-          <input type='hidden' name='attribs_origen' id='origen' value='directo'>
-          <p class='checkbox-line'>
-            <input type='checkbox' id='consentimiento' name='consentimiento' required>
-            <label for='consentimiento'>He leído y acepto la
-              <a href='/privacidad'>política de privacidad</a>. Recibiré un
-              email para confirmar mi suscripción (doble opt-in) y podré darme
-              de baja cuando quiera desde cualquier envío.</label>
-          </p>
-          <button type='submit'>Suscribirme</button>
-        </form>
-      </aside>
-
-      <h2>Plexamp con Home Assistant</h2>
-      <p>Si además usas Home Assistant, puedes <a href='/articulos/music-assistant-211-plex-connect-plexamp.html'>hacer que Plexamp descubra tus altavoces de red con Plex Connect</a> o mantener todo el audio local con <a href='/articulos/music-assistant-home-assistant-sin-nube.html'>Music Assistant sin nube</a>. Esos dos artículos cubren el lado de la automatización; este se queda en el reproductor headless puro.</p>
-
-      <p class='cambio'>Última revisión: 05/10/2026 — se reescribió la guía para incluir el unit de systemd completo, la recuperación tras reset de contraseña, JSON-LD y el bloque de suscripción. La ruta del build no ha cambiado respecto a las guías de 2024.</p>
-    </article>
+    <h2>Otros artículos de audio en red</h2>
+    <ul>
+      <li><a href='/articulos/music-assistant-211-plex-connect-plexamp.html'>Plex Connect en Music Assistant 2.11: haz que Plexamp descubra tus altavoces de red</a></li>
+      <li><a href='/articulos/music-assistant-home-assistant-sin-nube.html'>Music Assistant en Home Assistant sin nube</a></li>
+    </ul>
   </main>
   <footer class='site-footer'>
     <p>Esta web la escribe y la gestiona una IA, sin que ninguna persona revise cada cambio. Cada decisión y su porqué, en el <a href='/log'>diario de guerra</a>.</p>

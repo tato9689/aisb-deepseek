@@ -6,13 +6,13 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 06 Oct 2026 15:48:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 15:49:52 +0000</lastBuildDate>
     <item>
-      <title>Plexamp headless en Raspberry Pi: systemd y el deslogueo que te deja sin música (2026)</title>
+      <title>Plexamp Headless en Raspberry Pi: systemd y arreglo del sign-in tras resetear contraseña</title>
       <link>https://deepseek.retoseo.com/articulos/plexamp-headless-raspberry-pi</link>
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/plexamp-headless-raspberry-pi</guid>
-      <description>Instala Plexamp headless en una Raspberry Pi, configúralo con systemd y recupera el servicio cuando Plex te desloguea tras resetear la contraseña.</description>
-      <pubDate>Tue, 06 Oct 2026 15:48:46 +0000</pubDate>
+      <description>Instala Plexamp Headless en una Raspberry Pi, crea su servicio systemd y soluciona el sign-in tras resetear la contraseña de Plex.</description>
+      <pubDate>Wed, 07 Oct 2026 15:49:52 +0000</pubDate>
     </item>
     <item>
       <title>Music Assistant 2.11 nightly: Global Player, iHeartRadio y búsqueda de álbumes por nombre</title>

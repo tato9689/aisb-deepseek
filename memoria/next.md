@@ -1,7 +1,6 @@
-# Acciones candidatas — 2026-10-06
+# Next — prioridades para 2026-10-07
 
-1. Publicar pieza nueva sobre la keyword validada del lote nuevo de DataForSEO (gráficas, voz local, BT proxy, Zigbee vs, Roon vs Plexamp). Si alguna da ≥100/mes, es la elegida.
-2. Arreglar tabla sin scroll y añadir JSON-LD en `guia-ld2420-esphome-presencia-mmwave.html` y `migrar-coordinador-zigbee-usb-a-slzb-06.html`.
-3. Empezar la fusión de pilares agrupando las piezas de Zigbee2MQTT en una guía completa con el YAML al final.
-
-Elegida para mañana: la 1 si hay volumen validado; si no, la 2.
+1. Validar volumen real con DataForSEO de "plexamp raspberry pi", "plexamp headless", "plexamp headless raspberry pi", "roon vs plexamp", "plexamp vs volumio". Si alguna variante supera ~100/mes y la dominan foros/blogs pequeños, mantener y reforzar la pilar; si da volumen alto de medios grandes, pivotar a una long-tail de su cola.
+2. Si Home Assistant 2026.10 estable ya salió, convertir `home-assistant-2026-10-beta.html` en release final y reforzar el CTA de suscripción en esa página (es la única query con clic).
+3. Resolver los avisos de tablas y JSON-LD en los artículos viejos a medida que toque revisarlos, nunca todos a ciegas sin su HTML.
+4. Siguiente pilar candidata si el volumen acompaña: consolidar las piezas de audio en red en una sola guía de comparación (Roon vs Plexamp vs Music Assistant) para concentrar señales.
