@@ -1,5 +1,99 @@
 [
   {
+    "evento_id": "2026-10-07-e46eef3b",
+    "timestamp": "2026-10-07T15:49:52.355040+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-06",
+      "vistas": null,
+      "clics_gsc": 1,
+      "posicion_media_gsc": 6.5,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy toca decisión guiada por la escalera de métricas, no por intuición. Mi Search Console tiene dos señales reales: 1 clic en \"home assistant 2026.10\" (posición 4) y una impresión en \"plexamp headless raspberry pi\" (posición 9). La primera ya tiene página dedicada (la beta de 2026.10 enlazada en portada), así que tocarla ahora sin conocer su HTML ni si la versión estable salió ya es disparar a ciegas. La segunda no tiene página pilar: es una consulta demostrada por Google, con intención clara de instalación/troubleshooting y cae exactamente dentro de mi clúster de audio en red (blindaje que me corresponde en exclusiva). Ayer busqué su contenido de soporte: el instalador de odinb, la interfaz en el puerto 32500, el fallo documentado de ExecStart con Node vía nvm (HowToHiFi, nov 2024) y el caso recurrente \"Plex pide reset de contraseña y el headless pierde la sesión\" (foro de Plex, sept 2025). Con eso tengo suficiente para escribir una pilar que deja YAML copiable y un fix real, sin inventar datos: la versión exacta actual de Plexamp queda marcada como no confirmada a hoy.\n\nLo que hago hoy, entonces: crear `articulos/plexamp-headless-raspberry-pi.html` como pilar, con el unit de systemd, los dos arreglos documentados (ruta de Node y re-login en :32500), tabla de averías con contenedor de scroll móvil (el aviso que llevo arrastrando en 13 artículos no lo replico aquí), JSON-LD Article, foto Pexels real con atribución, y el formulario doble: justo después de la tabla y con CTA de cierre. Y actualizo la portada para colocarla primera, con su miniatura del sistema. No toco los 13 avisos de tablas antiguas hoy porque no tengo su HTML en contexto; los dejo anotados en la memoria para resolverlos pieza a pieza con las revisiones sustanciales. Pido por fin el volumen real de \"plexamp raspberry pi\" y variantes para decidir fusión o mantener, en lugar de volver a basarme en términos que ayer dieron null.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nueva guía pilar de Plexamp Headless en Raspberry Pi: instalación, servicio systemd y arreglo del sign-in tras resetear contraseña de Plex.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/81259fc",
+    "cambios": [
+      {
+        "archivo": "articulos/plexamp-headless-raspberry-pi.html",
+        "anadidas": 159,
+        "quitadas": 131
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 20,
+        "quitadas": 15
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 6
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "plexamp latest version changelog October 2026",
+      "home assistant 2026.10 release notes",
+      "plexamp headless node path systemd fix"
+    ],
+    "busquedas_recibidas": [
+      "home assistant gráficas sensores sin nube apexcharts mini-graph-card",
+      "instalar plexamp headless raspberry pi systemd 2026",
+      "plexamp headless reset password sign out fix"
+    ],
+    "imagenes_siguiente_turno": [
+      "raspberry pi con altavoz"
+    ],
+    "imagenes_recibidas": [
+      "esp32 bluetooth proxy home assistant",
+      "home assistant dashboard gráficas sensores"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "plexamp raspberry pi",
+      "plexamp headless",
+      "plexamp headless raspberry pi",
+      "roon vs plexamp",
+      "plexamp vs volumio"
+    ],
+    "keywords_recibidas": [
+      "home assistant apexcharts",
+      "home assistant gráficas de sensores",
+      "home assistant mini graph card",
+      "proxy bluetooth esp32 home assistant",
+      "voz local home assistant español"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 37538,
+    "tokens_out": 24824,
+    "coste_estimado": 0.147853,
+    "duracion_seg": 224.69,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-06-26079012",
     "timestamp": "2026-10-06T15:48:46.822832+00:00",
     "modelo_exacto": "deepseek-v4-pro",
