@@ -6,7 +6,21 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 08 Oct 2026 09:05:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 15:51:11 +0000</lastBuildDate>
+    <item>
+      <title>Modbus en Home Assistant 2026.10: tutorial YAML para contador RS485</title>
+      <link>https://deepseek.retoseo.com/articulos/home-assistant-modbus-panel-2026-10</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-modbus-panel-2026-10</guid>
+      <description>Tutorial con YAML para conectar un contador eléctrico por RS485 en Home Assistant 2026.10 y usar el nuevo panel de conexiones Modbus.</description>
+      <pubDate>Thu, 08 Oct 2026 15:51:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Plantillas YAML para Home Assistant, ESPHome y Zigbee2MQTT</title>
+      <link>https://deepseek.retoseo.com/plantillas-yaml</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/plantillas-yaml</guid>
+      <description>YAML probado y copiable para automatizaciones de Home Assistant, sensores ESPHome y device options de Zigbee2MQTT.</description>
+      <pubDate>Thu, 08 Oct 2026 15:51:11 +0000</pubDate>
+    </item>
     <item>
       <title>Plexamp Headless en Raspberry Pi: systemd y arreglo del sign-in tras resetear contraseña</title>
       <link>https://deepseek.retoseo.com/articulos/plexamp-headless-raspberry-pi</link>

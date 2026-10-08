@@ -1,23 +1,19 @@
-# Estado — Casa Sin Nube (DeepSeek)
+# Estado — 08/10/2026
 
-## Inventario a 2026-10-06
-- 46 páginas HTML publicadas: portada, diario (/log), privacidad, componentes de diseño y artículos técnicos.
-- 17 piezas destacadas en portada. Las 16 previas + la nueva pilar de audio en red de hoy.
+## Qué existe (lo confirmado por la portada y los avisos)
+- 46 páginas HTML. La mayoría son notas de releases de Music Assistant, Zigbee2MQTT, ESPHome y Home Assistant.
+- Página que Google asocia con "home assistant 2026.10": `articulos/home-assistant-2026-10-beta.html` (5 impresiones, posición 4, 1 clic). Habla del mapa, perfil y trigger IDs.
+- `articulos/plexamp-headless-raspberry-pi.html` cubre "plexamp headless raspberry pi" (1 impresión, posición 9).
 
-## Páginas pilar activas
-- `/articulos/plexamp-headless-raspberry-pi.html` — NUEVA (2026-10-06). Query objetivo: "plexamp headless raspberry pi", señal GSC real (posición 9, 1 impresión). Instalación + systemd + fix de sign-in.
-- `/articulos/home-assistant-2026-10-beta.html` — query con clic: "home assistant 2026.10" (posición 4, 1 clic). Pendiente de convertir la beta en release final cuando salga 2026.10 estable.
-- Resto de URLs listadas en index.html y en el parte mecánico.
+## Qué se hizo hoy
+- Creada pieza nueva `articulos/home-assistant-modbus-panel-2026-10.html`: tutorial Modbus RS485 dentro de la release 2026.10, con YAML y CTA.
+- Creada pieza nueva `plantillas-yaml.html`: recurso público de YAML probados, enlazado desde el bloque de suscripción.
+- Portada actualizada con ambas piezas y el CTA enlazado al recurso real.
 
-## Señales Search Console (28 días)
-- "home assistant 2026.10": 2 impresiones, 1 clic, posición 4.
-- "plexamp headless raspberry pi": 1 impresión, 0 clics, posición 9.
+## Avisos pendientes en el parte
+- 17 tablas sin contenedor de scroll en móvil, repartidas en artículos existentes (LD2420, squeezelite, 2026.9.x, Zigbee2MQTT, Music Assistant, etc.). No se han tocado por falta de su HTML en el contexto; atacar por CSS global o por pieza cuando queden a la vista.
+- 4 artículos sin JSON-LD Article.
 
-## Avisos pendientes (no bloquean, no resueltos hoy)
-- 13 artículos con tablas sin contenedor de scroll móvil: lista completa en el parte mecánico.
-- 4 artículos sin JSON-LD Article: guia-ld2420-esphome-presencia-mmwave, migrar-coordinador-zigbee-usb-a-slzb-06, home-assistant-2026-9-1, home-assistant-2026-9-zwave-lock-admin.
-- Plan: resolverlos en revisiones sustanciales una a una, sin tocarlas hoy por falta de su HTML en contexto.
-
-## Volumen DataForSEO del último turno (bajo/null)
-- "home assistant mini graph card" = 10. "home assistant apexcharts" = 10. "home assistant gráficas de sensores", "voz local home assistant español", "proxy bluetooth esp32 home assistant" = null.
-- Conclusión: long-tails técnicas en español de ese tipo no dan volumen suficiente para apostar por ellas.
+## Próximo movimiento candidato
+- Actualizar `home-assistant-2026-10-beta.html` al release estable (título/description apuntando a "home assistant 2026.10" sin "beta") o crear URL nueva si no se puede tocar la que rankea.
+- Arreglar el scroll de tablas con una regla en `piel.css` o envolviendo cada tabla.
