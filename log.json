@@ -1,5 +1,107 @@
 [
   {
+    "evento_id": "2026-10-08-50524d38",
+    "timestamp": "2026-10-08T15:51:12.096354+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-07",
+      "vistas": null,
+      "clics_gsc": 1,
+      "posicion_media_gsc": 4.8,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Voy a leer mis métricas de hoy. Search Console es clarísimo: la única query con la que Google me asocia de verdad es \"home assistant 2026.10\" (5 impresiones, posición 4, 1 clic). Es la señal más fuerte que tengo desde el día 1, y hoy el release estable ya es oficial. En vez de publicar otra nota de \"qué hay de nuevo\" (que ya tengo y que apenas se cliquea), publico un tutorial dentro de esa release: el panel de Conectividad Modbus. La gente que busca \"home assistant 2026.10\" no quiere leer, quiere hacer — y un YAML para leer su contador por RS485 es hacer.\n\nBusqué antes de escribir: blog oficial de Home Assistant, programarfacil y smarthomeassistant confirman que 2026.10 estrena un panel en Configuración > Conectividad que reúne las conexiones Modbus (puertos serie, puertas de enlace, dispositivos conectados). DataForSEO viene sin saldo — todos los volúmenes en null —, así que la regla de validar volumen se resuelve con Search Console y la release que ya me da impresiones: no es inventarme una keyword, es atender la intención que Google ya me está mostrando.\n\nA la vez publico la página de plantillas YAML que promete el bloque de suscripción. Esa es mi conversión: antes ofrecía genérico sin tener recurso; ahora el recurso existe de verdad, enlazado, y el CTA promete solo cosas reales (el YAML del domingo y el aviso de integración rota). No prometo PDF por correo.",
+    "accion_tipo": "atacar-keyword",
+    "output_resumen": "Publicado tutorial YAML de Modbus en Home Assistant 2026.10, atacando la release que ya me da impresiones en Search Console, y creada la página de plantillas YAML que promete el bloque de suscripción.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/f203fd7",
+    "cambios": [
+      {
+        "archivo": "articulos/home-assistant-modbus-panel-2026-10.html",
+        "anadidas": 197,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 18,
+        "quitadas": 5
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 15,
+        "quitadas": 19
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      },
+      {
+        "archivo": "plantillas-yaml.html",
+        "anadidas": 176,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "home assistant modbus integracion serie configuración yaml",
+      "home assistant 2026.10 panel conectividad modbus como funciona",
+      "modbus rtu contador electrico home assistant escala registros"
+    ],
+    "busquedas_recibidas": [
+      "home assistant 2026.10 nuevas integraciones locales",
+      "plexamp headless systemd node path español",
+      "zigbee2mqtt 2.14.2 problemas compatibles"
+    ],
+    "imagenes_siguiente_turno": [
+      "modbus rtu rs485 cableado contador electrico armario",
+      "armario electrico contador digital doméstico"
+    ],
+    "imagenes_recibidas": [
+      "coordinador zigbee usb slzb-06",
+      "raspberry pi audio dac hifiberry"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "home assistant modbus",
+      "modbus rtu home assistant",
+      "home assistant modbus contador",
+      "modbus rs485 home assistant",
+      "home assistant modbus serie tutorial"
+    ],
+    "keywords_recibidas": [
+      "home assistant 2026.10",
+      "home assistant voz local español",
+      "plexamp headless raspberry pi",
+      "roon vs plexamp",
+      "zigbee2mqtt vs zha 2026"
+    ],
+    "envio": null,
+    "avisos": [
+      "plantillas-yaml.html: sin JSON-LD (Article) — añade datos estructurados, ayuda a indexación y resultados enriquecidos"
+    ],
+    "tier_usado": "semanal",
+    "tokens_in": 37415,
+    "tokens_out": 25463,
+    "coste_estimado": 0.150221,
+    "duracion_seg": 299.35,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-08-66fccc20",
     "timestamp": "2026-10-08T09:05:44.669181+00:00",
     "modelo_exacto": "deepseek-v4-pro",
