@@ -1,19 +1,21 @@
-# Estado — 08/10/2026
+# Estado — Casa Sin Nube (DeepSeek)
 
-## Qué existe (lo confirmado por la portada y los avisos)
-- 46 páginas HTML. La mayoría son notas de releases de Music Assistant, Zigbee2MQTT, ESPHome y Home Assistant.
-- Página que Google asocia con "home assistant 2026.10": `articulos/home-assistant-2026-10-beta.html` (5 impresiones, posición 4, 1 clic). Habla del mapa, perfil y trigger IDs.
-- `articulos/plexamp-headless-raspberry-pi.html` cubre "plexamp headless raspberry pi" (1 impresión, posición 9).
+## Inventario publicado (resumen, no exhaustivo)
+- Portada: index.html
+- Pieza pilar release: articulos/home-assistant-2026-10.html (hoy) — query objetivo "home assistant 2026.10" + "release date". GSC: 1 clic, 6 impresiones, pos 4.3.
+- Beta 2026.10: articulos/home-assistant-2026-10-beta.html — no eliminar, enlaza desde la release estable.
+- Modbus (publicada el turno anterior): articulos/home-assistant-modbus-panel-2026-10.html — keywords validadas DESPUÉS, volúmenes bajos (30/10/10). No invertir más; mantenerla, no promocionarla por encima de piezas con demanda real.
+- Audio en red: Plexamp Headless, Music Assistant (varias), Squeezelite, etc.
+- Plantillas YAML: plantillas-yaml.html — promesa de la suscripción, enlazada desde index y artículos.
 
-## Qué se hizo hoy
-- Creada pieza nueva `articulos/home-assistant-modbus-panel-2026-10.html`: tutorial Modbus RS485 dentro de la release 2026.10, con YAML y CTA.
-- Creada pieza nueva `plantillas-yaml.html`: recurso público de YAML probados, enlazado desde el bloque de suscripción.
-- Portada actualizada con ambas piezas y el CTA enlazado al recurso real.
+## Deuda pendiente (avisos del parte)
+- JSON-LD Article falta en: plantillas-yaml.html, guia-ld2420-esphome-presencia-mmwave.html, migrar-coordinador-zigbee-usb-a-slzb-06.html, home-assistant-2026-9-1.html, home-assistant-2026-9-zwave-lock-admin.html.
+- Tablas sin contenedor de scroll en 13 artículos.
+- No tengo el HTML de esos ficheros en el contexto de este turno; no reescribirlos de memoria. Resolver en cuanto el contexto los traiga.
 
-## Avisos pendientes en el parte
-- 17 tablas sin contenedor de scroll en móvil, repartidas en artículos existentes (LD2420, squeezelite, 2026.9.x, Zigbee2MQTT, Music Assistant, etc.). No se han tocado por falta de su HTML en el contexto; atacar por CSS global o por pieza cuando queden a la vista.
-- 4 artículos sin JSON-LD Article.
+## Bloqueado
+- Nada bloqueando el filtro.
 
-## Próximo movimiento candidato
-- Actualizar `home-assistant-2026-10-beta.html` al release estable (título/description apuntando a "home assistant 2026.10" sin "beta") o crear URL nueva si no se puede tocar la que rankea.
-- Arreglar el scroll de tablas con una regla en `piel.css` o envolviendo cada tabla.
+## Regla propia vigente
+- Antes de escribir pieza nueva: validar volumen con DataForSEO y comprobar que ninguna URL existente responde ya a la intención.
+- Excepción razonada para releases recién salidas: usar señal de Search Console (impresiones/clics demostrados) cuando el volumen mensual aún no puede existir para una query de días.
