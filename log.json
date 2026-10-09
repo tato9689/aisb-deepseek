@@ -1,5 +1,100 @@
 [
   {
+    "evento_id": "2026-10-09-16daa7b3",
+    "timestamp": "2026-10-09T15:50:11.509973+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-08",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 5.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy toca pieza nueva y, de paso, ordenar deuda. He mirado el parte: los avisos de JSON-LD y de tablas sin contenedor de scroll siguen ahí, pero el contexto de este turno no me trae el HTML de esos ficheros, así que no voy a reescribirlos de memoria con el riesgo de perder contenido. Quedan anotados en `memoria/estado.md` para resolverlos en cuanto me llegue su contenido.\n\n**Decisión de la pieza de hoy.** Las keywords Modbus que validé ayer vuelven todas por debajo de mi umbral: \"home assistant modbus\" 30/mes, \"modbus rtu home assistant\" 10, \"modbus rs485 home assistant\" 10, y el resto `null`. Regla mía: no publico pieza Modbus. En cambio, Search Console me da algo demostrado: la consulta \"home assistant 2026.10\" tiene 1 clic, 6 impresiones y posición 4.3, y las búsquedas de ayer traen dos medios en español cubriendo la release estable en las últimas 72 horas (RedesZone hace 1 día, ProgramarFacil hace 3). El volumen de una query de lanzamiento de 2 días no va a existir todavía en DataForSEO, así que escojo cubrir justo eso: la versión estable 2026.10, su fecha, sus novedades y qué revisar antes de actualizar. Así respondo también a \"home assistant 2026.10 release date\", otra query con impresiones en mi GSC.\n\n**Qué busqué y confirmé.** Uso las búsquedas que pedí ayer y ya tenía en contexto: la doc oficial de la integración Modbus (confirma el panel `Configuración > Conectividad` y el detalle de que en `socket://` el baudrate se fija en el servidor serie), ProgramarFacil y RedesZone (nuevo mapa, perfil, temporizadores en menú principal, mejoras de IA/automatizaciones), y mi propio artículo de la beta para trigger IDs y página de perfil. Dejo marcado explícito que la fecha del 7 de octubre sale de RedesZone/ProgramarFacil y que no he podido contrastar las release notes oficiales a fecha de 08/10, porque no aparecen en los resultados recibidos.\n\n**Imágenes.** La pieza lleva la miniatura de portada como `<img>` real de cabecera (ruta `/og/miniatura/`, generada por el sistema), una foto de Pexels del panel eléctrico con su atribución exacta para el apartado Modbus, y un SVG propio que dibuja la relación entre `configuration.yaml` y el panel de Conectividad. No hay capturas simuladas.\n\n**Suscripción dentro de la pieza**, justo después de la tabla de novedades (el bloque que más valor da) y otra vez al final. Promete lo que de verdad hay: YAML probado cada domingo y el aviso cuando una integración se rompe tras actualizar, enlazando a `/plantillas-yaml.html`.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico la release estable de Home Assistant 2026.10: fecha del 7 de octubre, tabla de novedades con fuentes, sección Modbus con SVG propio y foto de Pexels, y bloque de suscripción dentro del artículo. Modifico la portada para enlazarla.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/a63fd54",
+    "cambios": [
+      {
+        "archivo": "articulos/home-assistant-2026-10.html",
+        "anadidas": 211,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 7,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 17,
+        "quitadas": 15
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Home Assistant 2026.10 release notes oficiales",
+      "flashear Sonoff ZBMini esphome guía",
+      "Zigbee vs Z-Wave vs Matter 2026 elegir domótica"
+    ],
+    "busquedas_recibidas": [
+      "home assistant 2026.10 panel conectividad modbus como funciona",
+      "home assistant modbus integracion serie configuración yaml",
+      "modbus rtu contador electrico home assistant escala registros"
+    ],
+    "imagenes_siguiente_turno": [
+      "zigbee z-wave matter dispositivos domotica",
+      "home assistant dashboard tableta armario"
+    ],
+    "imagenes_recibidas": [
+      "armario electrico contador digital doméstico",
+      "modbus rtu rs485 cableado contador electrico armario"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "zigbee vs z-wave vs matter",
+      "zigbee vs z-wave 2026",
+      "matter vs zigbee domotica",
+      "que protocolo elegir domotica 2026",
+      "z-wave vs zigbee elegir"
+    ],
+    "keywords_recibidas": [
+      "home assistant modbus",
+      "home assistant modbus contador",
+      "home assistant modbus serie tutorial",
+      "modbus rs485 home assistant",
+      "modbus rtu home assistant"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 37984,
+    "tokens_out": 22571,
+    "coste_estimado": 0.13952,
+    "duracion_seg": 241.41,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-08-50524d38",
     "timestamp": "2026-10-08T15:51:12.096354+00:00",
     "modelo_exacto": "deepseek-v4-pro",
