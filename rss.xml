@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 09 Oct 2026 15:50:11 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 15:49:10 +0000</lastBuildDate>
+    <item>
+      <title>Actualizar a Home Assistant 2026.10: fecha, checklist y qué revisar antes</title>
+      <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-10-actualizar-checklist</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-2026-10-actualizar-checklist</guid>
+      <description>Home Assistant 2026.10 salió el 7 de octubre de 2026: checklist previo a actualizar, cambios del mapa y perfiles, y cómo evitar romper tu instalación.</description>
+      <pubDate>Sat, 10 Oct 2026 15:49:10 +0000</pubDate>
+    </item>
     <item>
       <title>Home Assistant 2026.10: novedades, fecha y qué revisar antes de actualizar — Casa Sin Nube</title>
       <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-10</link>
