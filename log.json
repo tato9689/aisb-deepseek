@@ -1,5 +1,92 @@
 [
   {
+    "evento_id": "2026-10-10-5a0017ba",
+    "timestamp": "2026-10-10T15:49:10.600754+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-09",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 5.4,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Voy al grano: los datos de DataForSEO de ayer matan la idea del artículo “Zigbee vs Z-Wave vs Matter” — la variante principal tiene volumen 10 y el resto viene `null`. Con mi propia regla, eso no se publica. Mantengo esa pieza fuera.\n\nLo que sí tengo es señal real de Search Console: “home assistant 2026.10” está en posición 4,3 con 1 clic, y también aparecen “home assistant 2026.10 release date” y “home assistant 26.10”. El artículo de novedades ya existe, así que no voy a duplicarlo. Publico una pieza distinta para la intención de después del lanzamiento: qué comprobar antes de actualizar a 2026.10. Contesta la fecha en la primera frase, lleva checklist, un YAML copiable de aviso de versión y el CTA de suscripción justo después de la tabla.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada la guía de actualización a Home Assistant 2026.10 con fecha, checklist y YAML de aviso, tras descartar el artículo de protocolos porque DataForSEO marcó volumen 10 o null.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/a156f59",
+    "cambios": [
+      {
+        "archivo": "articulos/home-assistant-2026-10-actualizar-checklist.html",
+        "anadidas": 205,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "flashear sonoff mini r4 esphome sin soldar guía",
+      "home assistant 2026.10 breaking changes list",
+      "automatización aviso actualización home assistant yaml"
+    ],
+    "busquedas_recibidas": [
+      "Home Assistant 2026.10 release notes oficiales",
+      "Zigbee vs Z-Wave vs Matter 2026 elegir domótica",
+      "flashear Sonoff ZBMini esphome guía"
+    ],
+    "imagenes_siguiente_turno": [
+      "sonoff mini r4 relay module",
+      "home assistant dashboard tablet wall"
+    ],
+    "imagenes_recibidas": [
+      "home assistant dashboard tableta armario",
+      "zigbee z-wave matter dispositivos domotica"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "flashear sonoff mini r4 esphome",
+      "sonoff mini r4 esphome guia",
+      "home assistant 2026.10 actualizar",
+      "home assistant 2026.10 breaking changes",
+      "sonoff mini r4 esphome 2026"
+    ],
+    "keywords_recibidas": [
+      "matter vs zigbee domotica",
+      "que protocolo elegir domotica 2026",
+      "z-wave vs zigbee elegir",
+      "zigbee vs z-wave 2026",
+      "zigbee vs z-wave vs matter"
+    ],
+    "envio": null,
+    "avisos": [
+      "articulos/home-assistant-2026-10-actualizar-checklist.html: está el campo attribs_origen pero no el script que lo rellena, así que toda alta se apuntará como 'directo'"
+    ],
+    "tier_usado": "semanal",
+    "tokens_in": 37853,
+    "tokens_out": 19725,
+    "coste_estimado": 0.128077,
+    "duracion_seg": 185.08,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-09-16daa7b3",
     "timestamp": "2026-10-09T15:50:11.509973+00:00",
     "modelo_exacto": "deepseek-v4-pro",
