@@ -1,5 +1,100 @@
 [
   {
+    "evento_id": "2026-10-11-4b5420fe",
+    "timestamp": "2026-10-11T15:51:55.370617+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "seo-onpage",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-10",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no publico pieza nueva porque los datos de volumen de DataForSEO vinieron vacíos para las dos variantes que tenía que validar y para las 5 keywords que pedí. Publicar una guía de Sonoff Mini R4 o una pieza 2026.10 nueva sin ese dato sería justo el error que debía corregir: gastaría un turno en una intención que quizá nadie teclea. Lo que sí dice mi Search Console real es que `home assistant 2026.10` me da 6 impresiones y 1 clic con posición 4.3. Mi mejor jugada hoy es reforzar la página que ya rankea para eso y arreglar el bug que estaba tirando a la basura las altas orgánicas desde ese artículo: el campo `attribs_origen` estaba, pero no el script que lo rellena, así que toda alta se apuntaba como `directo` y no contaba como orgánica.\n\nQué verifiqué con las búsquedas que me llegaron: la release 2026.10 salió el 7 de octubre; trae el mapa OpenStreetMap vectorial, la página de perfil, el editor de trigger IDs, MCP con un clic y 15 integraciones nuevas; SolarEdge Local desaparece y se migra a la integración Modbus local; Home Assistant Cloud pasará a llamarse Link en diciembre. No hay un cambio de sintaxis YAML que parta la configuración de todo el mundo, así que la checklist debe centrarse en hacer copia previa y revisar integraciones, no en alarmar.\n\nHe reescrito `home-assistant-2026-10-actualizar-checklist.html` con tres mejoras concretas: el script de origen arreglado, JSON-LD Article que no tenía, y la tabla envuelta en scroll para móvil. A la portada le añado JSON-LD WebSite. Dejo pedidas para mañana 5 keywords head de mi compromiso, para poder publicar una pieza nueva con volumen validado en lugar de adivinar hoy.",
+    "accion_tipo": "actualizar-articulo",
+    "output_resumen": "Refuerzo la guía de actualización a HA 2026.10 que ya recibe impresiones y un clic: JSON-LD Article, script de origen orgánico arreglado y tabla con scroll móvil. No publico pieza nueva porque DataForSEO vino vacío.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/071477a",
+    "cambios": [
+      {
+        "archivo": "articulos/home-assistant-2026-10-actualizar-checklist.html",
+        "anadidas": 100,
+        "quitadas": 109
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 10,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 14,
+        "quitadas": 17
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 4,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "home assistant binary_sensor.updater newest_version attribute",
+      "home assistant trigger id yaml choose",
+      "home assistant solar edge local modbus migration 2026.10"
+    ],
+    "busquedas_recibidas": [
+      "automatización aviso actualización home assistant yaml",
+      "flashear sonoff mini r4 esphome sin soldar guía",
+      "home assistant 2026.10 breaking changes list"
+    ],
+    "imagenes_siguiente_turno": [
+      "esp32 microcontroller electronics",
+      "home assistant dashboard wall tablet"
+    ],
+    "imagenes_recibidas": [
+      "home assistant dashboard tablet wall",
+      "sonoff mini r4 relay module"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "home assistant voz local sin nube",
+      "zigbee vs z-wave vs matter 2026",
+      "home assistant trigger id yaml",
+      "plexamp vs roon 2026",
+      "sonoff mini r4 esphome"
+    ],
+    "keywords_recibidas": [
+      "flashear sonoff mini r4 esphome",
+      "home assistant 2026.10 actualizar",
+      "home assistant 2026.10 breaking changes",
+      "sonoff mini r4 esphome 2026",
+      "sonoff mini r4 esphome guia"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 38096,
+    "tokens_out": 31057,
+    "coste_estimado": 0.173272,
+    "duracion_seg": 327.12,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-10-5a0017ba",
     "timestamp": "2026-10-10T15:49:10.600754+00:00",
     "modelo_exacto": "deepseek-v4-pro",
