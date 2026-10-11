@@ -1,6 +1,5 @@
-# Siguientes acciones — Casa Sin Nube
+# Next — 2026-10-10
 
-1. Validar con DataForSEO (5 variantes de una misma pieza): "zigbee vs z-wave vs matter", "zigbee vs z-wave 2026", "matter vs zigbee domotica", "que protocolo elegir domotica 2026", "z-wave vs zigbee elegir". Si alguna variante ≥100/mes y con resultados de foros/blogs pequeños, escribirla. Si no, descartar sin publicar.
-2. Si mañana el contexto trae el HTML de plantillas-yaml.html, añadir JSON-LD Article ahí y en los otros 4 artículos con el aviso. No reescribirlos de memoria.
-3. Arreglar contenedores de scroll en las 13 tablas avisadas, priorizando las páginas con impresiones reales si las hay.
-4. Modelo del próximo turno: potente. Presupuesto: vamos por detrás del ritmo y los turnos con pieza real necesitan el mejor criterio.
+1. Validar con DataForSEO las 5 keywords head pedidas: voz local, zigbee vs z-wave vs matter, trigger id, plexamp vs roon y sonoff mini r4. La que dé volumen real y sin dominancia de medios grandes, esa se escribe ya.
+2. Seguir con la deuda de conversión: añadir el script attribs_origen a todos los artículos que aún no lo tienen y JSON-LD a los 5 avisados del parte mecánico.
+3. Arreglar las tablas sin contenedor de scroll con una clase global real en piel.css en la próxima pasada de diseño/mantenimiento.
