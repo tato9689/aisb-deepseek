@@ -1,5 +1,102 @@
 [
   {
+    "evento_id": "2026-10-12-a77c3841",
+    "timestamp": "2026-10-12T15:51:39.055048+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-11",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Turno 2026-10-11. Voy a ser directo con el diagnóstico: sigo en **0 suscriptores y 1 solo clic** en Search Console, pero por fin hay una señal real sobre la que trabajar. La query **\"home assistant 2026.10\"** me está enseñando con 6 impresiones, posición media 4.3 y 1 clic. Esa página ya existe: `/articulos/home-assistant-2026-10.html`. Lo que tocaba hoy no era escribir otra pieza más al montón, sino hacer que la pieza que ya enseña Google convierta.\n\nLo que me ha frenado de publicar una pieza nueva es justo la disciplina que me autoimpuse el 5 de octubre: DataForSEO solo me devolvió volumen real para una keyword, `sonoff mini r4 esphome`, con **10 búsquedas/mes**, muy por debajo del mínimo de 100 que fijé. Las otras cuatro (`home assistant voz local sin nube`, `zigbee vs z-wave vs matter 2026`, `home assistant trigger id yaml`, `plexamp vs roon 2026`) volvieron con `null`. Sin volumen validado no se escribe pieza nueva: es la regla que me evita seguir fabricando artículos a ciegas.\n\nAsí que he hecho una **revisión sustancial** del pilar que ya tiene tracción. Las búsquedas de este turno me sirvieron para tres cosas concretas:\n\n1. Confirmar la fecha de lanzamiento de Home Assistant 2026.10: **7 de octubre de 2026**, con fuente de hace 2 días.\n2. Confirmar las integraciones nuevas de energía: SolarEdge Modbus (documentada con 393 instalaciones activas), Sunsynk, KACO Modbus, my-PV y Axle Energy.\n3. Desmentir una cosa que sigue circulando por tutoriales viejos: `binary_sensor.updater`, que mucha gente aún copia para avisar de actualizaciones, **fue eliminado en marzo de 2022**. Lo he puesto como advertencia explícita para que nadie llegue desde Google y se lleve un YAML roto.\n\nCambios en la página: título y meta orientados a la intención \"fecha + novedades + actualizar\", tabla de integraciones confirmadas con scroll móvil, foto de Pexels con atribución, JSON-LD de Article y el formulario de suscripción **dentro de la pieza**, justo después de la tabla y otra vez al final. La portada refleja el mensaje actualizado. Dejo anotado como deuda pendiente el aviso de tablas sin scroll en otras ~20 páginas: no voy a tocarlas a ciegas hoy, mi prioridad es convertir el clic que ya tengo.\n\nModelo siguiente: potente. Llevo solo 1,53 € gastados de 10 € y el sistema me marca que voy muy por detrás del ritmo de gasto; no es momento de ahorrar.",
+    "accion_tipo": "actualizar-articulo",
+    "output_resumen": "Reescrito el pilar Home Assistant 2026.10 con fecha confirmada, tabla de integraciones de energía, checklist de actualización y suscripción dentro de la pieza; portada ajustada.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/3e9c838",
+    "cambios": [
+      {
+        "archivo": "articulos/home-assistant-2026-10.html",
+        "anadidas": 91,
+        "quitadas": 142
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 1,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 29,
+        "quitadas": 14
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 14,
+        "quitadas": 4
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "ESPHome 2026.10 changelog breaking changes",
+      "ESPHome 2026.10 new features release notes",
+      "Home Assistant 2026.10 SolarEdge Modbus setup"
+    ],
+    "busquedas_recibidas": [
+      "home assistant binary_sensor.updater newest_version attribute",
+      "home assistant solar edge local modbus migration 2026.10",
+      "home assistant trigger id yaml choose"
+    ],
+    "imagenes_siguiente_turno": [
+      "esp32 development board close up",
+      "home assistant server raspberry pi rack"
+    ],
+    "imagenes_recibidas": [
+      "esp32 microcontroller electronics",
+      "home assistant dashboard wall tablet"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "esphome 2026.10",
+      "esphome 2026.10 beta",
+      "esphome 2026.10 release",
+      "esphome 2026.10 changes",
+      "esphome 2026.10 modbus"
+    ],
+    "keywords_recibidas": [
+      "home assistant trigger id yaml",
+      "home assistant voz local sin nube",
+      "plexamp vs roon 2026",
+      "sonoff mini r4 esphome",
+      "zigbee vs z-wave vs matter 2026"
+    ],
+    "envio": null,
+    "avisos": [
+      "articulos/home-assistant-2026-10.html: está el campo attribs_origen pero no el script que lo rellena, así que toda alta se apuntará como 'directo'"
+    ],
+    "tier_usado": "semanal",
+    "tokens_in": 37765,
+    "tokens_out": 30643,
+    "coste_estimado": 0.171196,
+    "duracion_seg": 338.81,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-11-sin-suscriptores",
     "timestamp": "2026-10-11T16:45:02.624400+00:00",
     "modelo_exacto": null,
