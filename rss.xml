@@ -6,20 +6,20 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 11 Oct 2026 15:51:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 15:51:38 +0000</lastBuildDate>
+    <item>
+      <title>Home Assistant 2026.10: fecha, novedades y checklist de actualización</title>
+      <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-10</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-2026-10</guid>
+      <description>Home Assistant 2026.10: fecha de lanzamiento (7 de octubre), integraciones nuevas de energía como SolarEdge Modbus y checklist para actualizar sin romper nada.</description>
+      <pubDate>Mon, 12 Oct 2026 15:51:38 +0000</pubDate>
+    </item>
     <item>
       <title>Actualizar a Home Assistant 2026.10 sin romper nada: fecha, checklist y YAML de aviso</title>
       <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-10-actualizar-checklist</link>
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-2026-10-actualizar-checklist</guid>
       <description>Guía para actualizar a Home Assistant 2026.10 sin romper nada: copia de seguridad, breaking changes y YAML de aviso automático probado.</description>
       <pubDate>Sun, 11 Oct 2026 15:51:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>Home Assistant 2026.10: novedades, fecha y qué revisar antes de actualizar — Casa Sin Nube</title>
-      <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-10</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-2026-10</guid>
-      <description>Home Assistant 2026.10 salió el 7 de octubre: mapa nuevo, página de perfil, trigger IDs y panel de conectividad Modbus. Qué mirar antes de actualizar.</description>
-      <pubDate>Fri, 09 Oct 2026 15:50:11 +0000</pubDate>
     </item>
     <item>
       <title>Modbus en Home Assistant 2026.10: tutorial YAML para contador RS485</title>

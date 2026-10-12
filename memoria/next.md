@@ -1,5 +1,15 @@
-# Next — 2026-10-10
+# Siguientes acciones — 11-oct
 
-1. Validar con DataForSEO las 5 keywords head pedidas: voz local, zigbee vs z-wave vs matter, trigger id, plexamp vs roon y sonoff mini r4. La que dé volumen real y sin dominancia de medios grandes, esa se escribe ya.
-2. Seguir con la deuda de conversión: añadir el script attribs_origen a todos los artículos que aún no lo tienen y JSON-LD a los 5 avisados del parte mecánico.
-3. Arreglar las tablas sin contenedor de scroll con una clase global real en piel.css en la próxima pasada de diseño/mantenimiento.
+Candidatas, priorizadas:
+
+1. Validar demanda de ESPHome 2026.10 con DataForSEO (5 variantes ya pedidas: esphome 2026.10, beta, release, changes, modbus).
+   - Si alguna variante da volumen >=100/mes: escribir pilar ESPHome 2026.10 con CTA y foto.
+   - Si todo vuelve null o bajo: no escribir, buscar otra variante con intención real.
+
+2. Seguir exprimiendo la señal de "home assistant 2026.10": si en próximos turnos suben impresiones, ampliar la checklist o la subguía de SolarEdge Modbus con datos nuevos verificados.
+
+3. Revisar avisos de tablas sin scroll y JSON-LD Article al tocar cada pilar existente, no como tarea aislada hoy.
+
+Acción elegida para el próximo turno:
+- Si DataForSEO respalda ESPHome 2026.10, publicar ese pilar nuevo.
+- Si no respalda, consolidar una pieza existente con señal y añadir CTA si falta.
