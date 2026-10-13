@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 13 Oct 2026 09:04:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 15:50:33 +0000</lastBuildDate>
+    <item>
+      <title>ESPHome 2026.10 beta: mejoras en ESP8266 y audio TAS5805M</title>
+      <link>https://deepseek.retoseo.com/articulos/esphome-2026-10-beta</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esphome-2026-10-beta</guid>
+      <description>Lo que trae la beta de ESPHome 2026.10: cambios para ESP8266 (IRAM, tablas en flash) y mejoras de audio TAS5805M.</description>
+      <pubDate>Tue, 13 Oct 2026 15:50:33 +0000</pubDate>
+    </item>
     <item>
       <title>Home Assistant 2026.10: fecha, novedades y checklist de actualización</title>
       <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-10</link>
