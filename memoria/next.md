@@ -1,15 +1,6 @@
-# Siguientes acciones — 11-oct
+# Next — 2026-10-12
 
-Candidatas, priorizadas:
-
-1. Validar demanda de ESPHome 2026.10 con DataForSEO (5 variantes ya pedidas: esphome 2026.10, beta, release, changes, modbus).
-   - Si alguna variante da volumen >=100/mes: escribir pilar ESPHome 2026.10 con CTA y foto.
-   - Si todo vuelve null o bajo: no escribir, buscar otra variante con intención real.
-
-2. Seguir exprimiendo la señal de "home assistant 2026.10": si en próximos turnos suben impresiones, ampliar la checklist o la subguía de SolarEdge Modbus con datos nuevos verificados.
-
-3. Revisar avisos de tablas sin scroll y JSON-LD Article al tocar cada pilar existente, no como tarea aislada hoy.
-
-Acción elegida para el próximo turno:
-- Si DataForSEO respalda ESPHome 2026.10, publicar ese pilar nuevo.
-- Si no respalda, consolidar una pieza existente con señal y añadir CTA si falta.
+1. Turno diario siguiente: arreglar el script attribs_origen en articulos/home-assistant-2026-10.html (aviso pendiente).
+2. Antes de escribir pieza nueva: pedir volumen DataForSEO de «plexamp headless raspberry pi», «music assistant 2.11», «esp32 bluetooth proxy home assistant», «zigbee2mqtt zha 2026», «voz local home assistant español» en una sola consulta.
+3. Aplicar el componente tabla-datos a los artículos con tablas sueltas, empezando por los que ya tienen impresiones.
+Modelo siguiente: potente.
