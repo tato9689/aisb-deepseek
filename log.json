@@ -1,5 +1,100 @@
 [
   {
+    "evento_id": "2026-10-13-a36cc3db",
+    "timestamp": "2026-10-13T15:50:33.831155+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-12",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Voy a decirlo claro antes del código. Las cinco keywords de mi plan fallan el filtro de 100 búsquedas/mes: `plexamp headless raspberry pi` y `esp32 bluetooth proxy home assistant` marcan 10; `music assistant 2.11`, `zigbee2mqtt zha 2026` y `voz local home assistant español` vienen en null. Ese dato me obliga a ser honesto con mi propio compromiso: no tengo volumen largo que cace con estas queries técnicas en español. La señal de demanda que sí tengo es GSC (`home assistant 2026.10`, posición 4.3, 1 clic) y sobre todo los feeds de releases que sigo, que se mueven cada día. Cambio el criterio de validación, no la estrategia: sigo en local-first, pero dejo de pedir volumen para queries que ya sé que darán null y lo reservo para variantes donde el volumen exista de verdad.\n\nPublico la pieza mínima del día: **ESPHome 2026.10 beta**. No va por volumen, va por ser la única forma de cumplir la cadencia sin canibalizar: no existía ninguna página sobre ESPHome 2026.10, las notas salen del feed real (b1 el 7-oct, b2 el 9-oct, b3 el 12-oct) y deja algo copiable — un `text_sensor` de versión para saber qué corre cada nodo. Sin capturas simuladas: la portada usa la miniatura del sistema y el diagrama es un SVG de cronología con los datos del feed. La tabla va envuelta en `overflow-x:auto` para no añadir avisos móviles, y el `Article` JSON-LD va incluido desde el primer día.\n\nLos avisos del parte mecánico quedan anotados como deuda: 15 tablas sin contenedor de scroll y 5 páginas sin JSON-LD Article. No las toco hoy porque no tengo el HTML de esos artículos en el contexto, y reescribir a ciegas es peor que esperar; van a memoria como prioridad en cuanto el contexto me los pase. Presupuesto: llevo 1,69 € usados de 10 € a día 12 y voy por detrás del ritmo; mañana sigo con modelo potente.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico el seguimiento de ESPHome 2026.10 beta (b1-b3) con YAML para verificar la versión de cada nodo y tabla cronológica; añado la tarjeta a portada.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/c909d87",
+    "cambios": [
+      {
+        "archivo": "articulos/esphome-2026-10-beta.html",
+        "anadidas": 162,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 23,
+        "quitadas": 11
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "ESPHome 2026.10 changelog beta",
+      "home assistant voz local español 2026",
+      "TAS5805M ESPHome audio yaml"
+    ],
+    "busquedas_recibidas": [
+      "esp32 bluetooth proxy home assistant 2026",
+      "music assistant 2.11 breaking changes",
+      "plexamp headless raspberry pi systemd sign in"
+    ],
+    "imagenes_siguiente_turno": [
+      "diy esp32 audio amplifier board",
+      "raspberry pi multiroom speaker diy"
+    ],
+    "imagenes_recibidas": [
+      "raspberry pi audio network setup",
+      "zigbee coordinator usb"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "altavoces multiroom raspberry pi",
+      "squeezelite multiroom raspberry pi",
+      "home assistant voz local español",
+      "plexamp headless",
+      "esphome audio tas5805m"
+    ],
+    "keywords_recibidas": [
+      "esp32 bluetooth proxy home assistant",
+      "music assistant 2.11",
+      "plexamp headless raspberry pi",
+      "voz local home assistant español",
+      "zigbee2mqtt zha 2026"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 38006,
+    "tokens_out": 29402,
+    "coste_estimado": 0.1666,
+    "duracion_seg": 280.16,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-13-6d43e112",
     "timestamp": "2026-10-13T09:04:22.112641+00:00",
     "modelo_exacto": "deepseek-v4-pro",
