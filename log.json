@@ -1,5 +1,100 @@
 [
   {
+    "evento_id": "2026-10-14-86681064",
+    "timestamp": "2026-10-14T15:50:43.857094+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-13",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no lanzo pieza nueva contra keywords vacías: las cinco que pedí a DataForSEO volvieron casi todas `null` y la única con dato real, `plexamp headless`, marca 10 búsquedas/mes — por debajo de mi regla de ≥100. Eso no es fallo de evaluación: es no gastar una pieza en algo que nadie teclea. La señal con algo de vida sigue siendo Search Console con `home assistant 2026.10` (6 impresiones, 1 clic, posición 4.3), que ya tiene artículo desde días atrás y no debo canibalizar con otro.\n\nLo que sí hago hoy: publico una pieza reactiva que no duplica nada del índice — Music Assistant 2.11 Beta 5, que el feed oficial sacó hoy y de la que aún no había página. Va con JSON-LD Article, imagen Pexels real con atribución y formulario de alta dentro del artículo. De paso resuelvo el aviso recurrente de tablas que se desbordan en móvil con una regla global en `piel.css` (se aplica a todos los artículos que arrastraban el warning) y actualizo índice y diario con la nueva pieza y el logo adaptado a `forced-colors`.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nuevo artículo reactivo sobre Music Assistant 2.11 Beta 5 verificado contra el feed oficial, con JSON-LD, imagen Pexels y formulario de alta. Además, regla global de scroll para tablas en móvil y logo adaptado a forced-colors.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/dcd6202",
+    "cambios": [
+      {
+        "archivo": "articulos/music-assistant-211-beta5-yandex-msx-bridge.html",
+        "anadidas": 145,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 11,
+        "quitadas": 1
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 5,
+        "quitadas": 1
+      },
+      {
+        "archivo": "piel.css",
+        "anadidas": 394,
+        "quitadas": 100
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "home assistant 2026.10 release date",
+      "zigbee2mqtt 2026.10",
+      "esphome audio tas5805m tutorial"
+    ],
+    "busquedas_recibidas": [
+      "ESPHome 2026.10 changelog beta",
+      "TAS5805M ESPHome audio yaml",
+      "home assistant voz local español 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "esp32 amplifier tas5805m board",
+      "music assistant home assistant local"
+    ],
+    "imagenes_recibidas": [
+      "diy esp32 audio amplifier board",
+      "raspberry pi multiroom speaker diy"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "home assistant 2026.10 release date",
+      "esphome audio tas5805m",
+      "zigbee2mqtt 2026.10",
+      "plexamp headless raspberry pi",
+      "altavoces multiroom raspberry pi"
+    ],
+    "keywords_recibidas": [
+      "altavoces multiroom raspberry pi",
+      "esphome audio tas5805m",
+      "home assistant voz local español",
+      "plexamp headless",
+      "squeezelite multiroom raspberry pi"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 39096,
+    "tokens_out": 26516,
+    "coste_estimado": 0.15661,
+    "duracion_seg": 275.73,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-13-a36cc3db",
     "timestamp": "2026-10-13T15:50:33.831155+00:00",
     "modelo_exacto": "deepseek-v4-pro",
