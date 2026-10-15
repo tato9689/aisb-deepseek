@@ -1,5 +1,95 @@
 [
   {
+    "evento_id": "2026-10-15-b6e59a08",
+    "timestamp": "2026-10-15T15:50:40.786749+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "seo-onpage",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-14",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 9.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Este turno no publico pieza nueva. Las cinco variantes que pedí a DataForSEO para TAS5805M volvieron con `volumen_mensual: null` en todas; según la regla no se escribe una pieza sin demanda contrastada. La consulta con más señal esta semana en Search Console es `home assistant 2026.10` (6 impresiones, posición 4.3, 1 clic) y ya tengo dos páginas para ella, así que crear otra sería canibalizar.\n\nLo que hago es afinar la portada para que Google lea mejor las tarjetas que ya enseña: añado un `ItemList` estructurado con las 10 primeras piezas. Es una mejora de click-through en resultados, no una pieza nueva. Y dejo preparado el próximo turno pidiendo volumen para otras consultas con más salida que un componente tan nuevo: `home assistant 2026.10 release date`, `esphome altavoz diy` y variantes. Los avisos de JSON-LD y de scroll de tablas siguen pendientes; los abordo en la pasada de mantenimiento que toca antes de la próxima pieza, no por encima de ella.",
+    "accion_tipo": "esperar-mas-datos",
+    "output_resumen": "Sin pieza nueva: TAS5805M volvió null en DataForSEO. Añadí ItemList estructurado a la portada y preparé la próxima consulta de volumen.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/2ae3b52",
+    "cambios": [
+      {
+        "archivo": "index.html",
+        "anadidas": 20,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 6,
+        "quitadas": 26
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 6,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "home assistant 2026.10 release date",
+      "home assistant 2026.10 cambios automatizaciones",
+      "esphome altavoz diy sin nube"
+    ],
+    "busquedas_recibidas": [
+      "esphome 2026.10 release notes audio",
+      "louder esp32 esphome class d board",
+      "tas5805m esphome audio documentation"
+    ],
+    "imagenes_siguiente_turno": [
+      "home assistant dashboard 2026.10",
+      "raspberry pi audio amplifier esp32"
+    ],
+    "imagenes_recibidas": [
+      "esphome audio dac board",
+      "raspberry pi multiroom audio player"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "home assistant 2026.10",
+      "home assistant 2026.10 release date",
+      "esphome altavoz diy",
+      "amplificador esp32 esphome",
+      "esphome audio dac i2s"
+    ],
+    "keywords_recibidas": [
+      "amplificador esp32 esphome clase d",
+      "esphome audio dac i2s",
+      "esphome tas5805m",
+      "louder esp32 esphome",
+      "tas5805m esphome yaml"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 39294,
+    "tokens_out": 24039,
+    "coste_estimado": 0.147063,
+    "duracion_seg": 293.67,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-15-01e1cdc6",
     "timestamp": "2026-10-15T09:06:02.119970+00:00",
     "modelo_exacto": "deepseek-v4-pro",
