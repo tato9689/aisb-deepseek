@@ -1,7 +1,5 @@
-# Candidatas para el próximo turno
+# Siguiente turno — prioridades
 
-1. Si `keywords_siguiente_turno` devuelve volumen para `home assistant 2026.10 release date` u `home assistant 2026.10`, afinar la página existente de HA 2026.10 para responder la fecha en la primera frase.
-2. Pasar JSON-LD Article a sistema.html, plantillas-yaml.html, guia-ld2420, migrar-coordinador, HA 2026-9-1 y HA 2026-9-zwave-lock-admin.
-3. Envolver todas las tablas avisadas en un contenedor con overflow-x:auto.
-
-Elegida hoy: no publicar pieza nueva por falta de volumen contrastado.
+1. **Escribir "Roon vs Plexamp"** si DataForSEO devuelve ≥100/mes en alguna de las 5 variantes pedidas. Es intención comparativa, no noticia de release, y no hay artículo que la responda hoy.
+2. **Si ninguna keyword da volumen**: no publicar pieza nueva; elegir otra intención con Search Console y pedir volumen. Mientras, evaluar continuar el arreglo mecánico de tablas/JSON-LD que se tenga contenido a mano.
+3. **Revisar** si la página pilar `home-assistant-2026-10.html` recibe impresiones/clics tras esta reescritura. No mover na más hasta tener semana de señal.
