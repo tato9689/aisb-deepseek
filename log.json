@@ -1,5 +1,95 @@
 [
   {
+    "evento_id": "2026-10-16-9129bdc5",
+    "timestamp": "2026-10-16T15:50:39.280292+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "seo-onpage",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-15",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 9.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no cierro el turno con una pieza nueva, y es una decisión deliberada, no pereza: las keywords que pedí en el turno anterior para validar demanda volvieron con 10, 0 y `null` búsquedas mensuales (`home assistant 2026.10` → 10, `home assistant 2026.10 release date` → 0, `esphome altavoz diy` y el resto → sin dato). Publicar una pieza nueva para eso violaría mi propia regla del compromiso del consejo: solo se escribe si hay intención y volumen real, preferiblemente ≥100/mes. Lo que sí tiene volumen real es lo que Search Console lleva días enseñándome: `home assistant 2026.10` con 6 impresiones, posición 4.3 y **1 clic**. Esa es la ficha que tengo que empujar hacia arriba y hacia la conversión.\n\nLo que hago hoy es concentrar y convertir: reescribo `articulos/home-assistant-2026-10.html` como pilar único de la intención \"home assistant 2026.10\". En el site tengo al menos cuatro páginas compitiendo por versiones de esa misma query (la principal, la de checklist, la beta y la de Modbus). No voy a editar las otras porque no me he traído su contenido y no debo inventarlo, pero esta página pilar pasa a responder la intención completa: fecha, cambios confirmados y checklist para actualizar. Recogí lo confirmado en la búsqueda de hoy: lanzamiento el 7 de octubre de 2026, mapa OpenStreetMap nuevo, perfil reorganizado, trigger IDs numéricos por defecto, panel propio de Modbus, MCP integrado con un clic y quince integraciones nuevas según el resumen de smarthomeassistant.co.uk. No detallo breaking changes uno a uno porque ninguna fuente me los enumeró; enlazo las release notes oficiales y digo que las revise, que es lo honesto.\n\nLa conversión va dentro del artículo, no solo al pie: primer bloque de suscripción justo después de la tabla de cambios y del checklist (el bloque que más valor suelta), y otro al final. Prometo lo que la newsletter sí trae: YAML probado cada domingo y aviso cuando una integración local se rompe tras actualizar. Y arreglo un problema del parte mecánico que me tocaba directo en la línea de meta del experimento: esta página tenía el campo `attribs_origen` pero no el script que lo rellena, así que cualquier alta desde ella se habría apuntado como \"directo\" en vez de orgánica. Ahora lo lleva.\n\nSobre imágenes: Pexels me devolvió tres fotos de gráficos financieros y una de un portátil con mate — ninguna es domótica, dispositivo, cableado ni diagrama conceptual. No voy a colgar un gráfico de bolsa en un artículo de Home Assistant: queda peor que el hueco. Uso la miniatura real de portada como foto visible en cabecera y añado un diagrama SVG propio de los cambios → revisión → checklist, que es el tipo de recurso que sí aporta y se lee bien en móvil.\n\nMañana quiero escribir la pieza comparativa Roon vs Plexamp, pero no hoy: primero le pido volumen a DataForSEO con cinco variantes en una sola consulta. Si alguna vuelve con ≥100/mes, se escribe; si no, busco otra variante. Eso es exactamente el guardarraíl de \"demanda antes de escribir\".",
+    "accion_tipo": "actualizar-articulo",
+    "output_resumen": "Refuerzo la página pilar 'home assistant 2026.10' con fecha, tabla de cambios confirmados, checklist de actualización, doble bloque de suscripción y el script que marca las altas como orgánicas.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/7b2dc81",
+    "cambios": [
+      {
+        "archivo": "articulos/home-assistant-2026-10.html",
+        "anadidas": 203,
+        "quitadas": 87
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 19,
+        "quitadas": 6
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 4,
+        "quitadas": 6
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "roon vs plexamp 2026",
+      "plexamp headless raspberry pi vs roon",
+      "roon server raspberry pi sin nube"
+    ],
+    "busquedas_recibidas": [
+      "esphome altavoz diy sin nube",
+      "home assistant 2026.10 cambios automatizaciones",
+      "home assistant 2026.10 release date"
+    ],
+    "imagenes_siguiente_turno": [
+      "roon core raspberry pi",
+      "plexamp headless raspberry pi"
+    ],
+    "imagenes_recibidas": [
+      "home assistant dashboard 2026.10",
+      "raspberry pi audio amplifier esp32"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "roon vs plexamp",
+      "plexamp vs roon",
+      "plexamp headless raspberry pi roon",
+      "roon server raspberry pi",
+      "plexamp roon cual elegir"
+    ],
+    "keywords_recibidas": [
+      "amplificador esp32 esphome",
+      "esphome altavoz diy",
+      "esphome audio dac i2s",
+      "home assistant 2026.10",
+      "home assistant 2026.10 release date"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 87348,
+    "tokens_out": 26311,
+    "coste_estimado": 0.219491,
+    "duracion_seg": 271.27,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-15-b6e59a08",
     "timestamp": "2026-10-15T15:50:40.786749+00:00",
     "modelo_exacto": "deepseek-v4-pro",
