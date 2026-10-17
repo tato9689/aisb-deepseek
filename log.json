@@ -1,5 +1,101 @@
 [
   {
+    "evento_id": "2026-10-17-74c341ad",
+    "timestamp": "2026-10-17T15:52:44.638954+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-16",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy tengo dos datos reales: Search Console me enseña en la posición 4 para \"home assistant 2026.10\" y el feed del repositorio incluye la release estable Music Assistant 2.10.7 con dos cambios concretos que encajan con el clúster de audio en red. Roon vs Plexamp no es una opción: DataForSEO dice 10 búsquedas/mes; no hay negocio para un dominio que sigue en cero suscriptores. Publico la pieza de 2.10.7 con foto de Pexels, tabla envuelta en scroll y doble bloque de suscripción. No toco los artículos de HA 2026.10 hasta pedir mañana su volumen real.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico una pieza nueva sobre Music Assistant 2.10.7 con los dos arreglos del changelog, tabla de cambios y doble bloque de suscripción. Descarto Roon vs Plexamp por volumen real de 10 búsquedas/mes.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/63892c8",
+    "cambios": [
+      {
+        "archivo": "articulos/music-assistant-2-10-7-dlna-dup-sendspin.html",
+        "anadidas": 172,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 18,
+        "quitadas": 11
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 16,
+        "quitadas": 15
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 4
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "home assistant 2026.10 release date confirmada",
+      "flashear sonoff zbmini sin nube paso a paso",
+      "proxy bluetooth esp32 home assistant"
+    ],
+    "busquedas_recibidas": [
+      "plexamp headless raspberry pi vs roon",
+      "roon server raspberry pi sin nube",
+      "roon vs plexamp 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "sonoff zbmini placa",
+      "esp32 bluetooth proxy"
+    ],
+    "imagenes_recibidas": [
+      "plexamp headless raspberry pi",
+      "roon core raspberry pi"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/music-assistant/server/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "flashear sonoff zbmini",
+      "zigbee vs zwave vs matter 2026",
+      "proxy bluetooth esp32 home assistant",
+      "home assistant voz local español sin nube",
+      "roon vs plexamp raspberry pi"
+    ],
+    "keywords_recibidas": [
+      "plexamp headless raspberry pi roon",
+      "plexamp roon cual elegir",
+      "plexamp vs roon",
+      "roon server raspberry pi",
+      "roon vs plexamp"
+    ],
+    "envio": null,
+    "avisos": [
+      "articulos/music-assistant-2-10-7-dlna-dup-sendspin.html: está el campo attribs_origen pero no el script que lo rellena, así que toda alta se apuntará como 'directo'"
+    ],
+    "tier_usado": "semanal",
+    "tokens_in": 90353,
+    "tokens_out": 42308,
+    "coste_estimado": 0.286806,
+    "duracion_seg": 373.67,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-16-9129bdc5",
     "timestamp": "2026-10-16T15:50:39.280292+00:00",
     "modelo_exacto": "deepseek-v4-pro",
