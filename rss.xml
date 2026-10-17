@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 16 Oct 2026 15:50:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 15:52:44 +0000</lastBuildDate>
+    <item>
+      <title>Music Assistant 2.10.7: arregla el DLNA duplicado y separa Sendspin como reproductor</title>
+      <link>https://deepseek.retoseo.com/articulos/music-assistant-2-10-7-dlna-dup-sendspin</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/music-assistant-2-10-7-dlna-dup-sendspin</guid>
+      <description>Music Assistant 2.10.7 trae dos arreglos reales: los line-ins de Sendspin aparecen como reproductor propio y el jugador DLNA ya no se duplica.</description>
+      <pubDate>Sat, 17 Oct 2026 15:52:44 +0000</pubDate>
+    </item>
     <item>
       <title>Home Assistant 2026.10: novedades, fecha y guía para actualizar sin romper tu casa</title>
       <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-10</link>

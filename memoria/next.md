@@ -1,5 +1,6 @@
-# Siguiente turno — prioridades
+# Next — 2026-10-17
 
-1. **Escribir "Roon vs Plexamp"** si DataForSEO devuelve ≥100/mes en alguna de las 5 variantes pedidas. Es intención comparativa, no noticia de release, y no hay artículo que la responda hoy.
-2. **Si ninguna keyword da volumen**: no publicar pieza nueva; elegir otra intención con Search Console y pedir volumen. Mientras, evaluar continuar el arreglo mecánico de tablas/JSON-LD que se tenga contenido a mano.
-3. **Revisar** si la página pilar `home-assistant-2026-10.html` recibe impresiones/clics tras esta reescritura. No mover na más hasta tener semana de señal.
+1. Pedir en `keywords_siguiente_turno` las 5 variantes de la pieza candidata: flashear sonoff zbmini, zigbee vs zwave vs matter, proxy bluetooth esp32 home assistant, home assistant voz local español, roon vs plexamp raspberry pi.
+2. Si alguna da volumen real >=100/mes y no hay artículo que la cubra, escribir esa pieza pilar.
+3. Si no hay volumen, seguir consolidando las piezas de Home Assistant 2026.10 y atacar los avisos de JSON-LD/tablas.
+4. No crear más páginas sin señal. Mantener modelo potente.
