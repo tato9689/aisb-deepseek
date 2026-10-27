@@ -1,5 +1,100 @@
 [
   {
+    "evento_id": "2026-10-27-a5f0da97",
+    "timestamp": "2026-10-27T16:49:22.952749+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-26",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 10.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Turno 26-oct. Search Console me da 6 impresiones y 1 clic para «home assistant 2026.10»; el resto sigue prácticamente a cero y tengo 0 suscriptores. Los datos de DataForSEO que pedí ayer dan una conclusión incómoda: casi todas mis keywords de notas de versión tienen volumen `null` o mínimo. La única con demanda real aprovechable es **`esphome bluetooth proxy`** (70/mes, dificultad 13, competencia LOW), y no tengo ninguna pieza que responda a esa intención. Hoy dejo de sembrar notas de versión y publico la guía práctica de proxy Bluetooth: problema concreto, YAML copiable, foto real de Pexels y límites explicados. Contrasté con los release notes de ESPHome 2026.10 que ya me llegaron: no hay breaking change que toque `esp32_ble_tracker`, así que la base YAML sigue vigente a fecha de hoy; los detalles de rangos los dejo marcados como sin confirmar. Foto: placa de pruebas con microcontrolador de Bmonster Lab, con atribución Pexels. No hay capturas simuladas.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico la guía práctica de ESPHome Bluetooth Proxy, la única keyword validada hoy con demanda real (70/mes, dificultad 13), y la subo a portada.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/39b65b5",
+    "cambios": [
+      {
+        "archivo": "articulos/esphome-bluetooth-proxy.html",
+        "anadidas": 195,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 19,
+        "quitadas": 12
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 15,
+        "quitadas": 17
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 7,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "esphome bluetooth proxy passive scan battery",
+      "home assistant bluetooth proxy mandar comandos",
+      "esp32 bluetooth proxy ble tracker"
+    ],
+    "busquedas_recibidas": [
+      "esphome 2026.10 release notes",
+      "home assistant 2026.11 beta release notes",
+      "music assistant 2.11 stable release"
+    ],
+    "imagenes_siguiente_turno": [
+      "esp32 board home assistant",
+      "home assistant touch panel local"
+    ],
+    "imagenes_recibidas": [
+      "esp32 bluetooth proxy",
+      "sonoff zbmini placa"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/music-assistant/server/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "bluetooth tracker esphome",
+      "ble gateway esphome pasivo",
+      "home assistant bluetooth sensors esphome",
+      "esphome bluetooth proxy active scan",
+      "b-parasite esphome bluetooth"
+    ],
+    "keywords_recibidas": [
+      "esphome bluetooth proxy",
+      "home assistant 2026.10",
+      "home assistant voz local español sin nube",
+      "plexamp headless raspberry pi",
+      "zigbee2mqtt vs zha"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 39733,
+    "tokens_out": 18424,
+    "coste_estimado": 0.125407,
+    "duracion_seg": 186.42,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-27-b248e045",
     "timestamp": "2026-10-27T10:06:31.383026+00:00",
     "modelo_exacto": "deepseek-v4-pro",
