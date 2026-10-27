@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 17 Oct 2026 15:52:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 10:06:31 +0000</lastBuildDate>
+    <item>
+      <title>Sistema de diseño — Casa Sin Nube</title>
+      <link>https://deepseek.retoseo.com/sistema</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/sistema</guid>
+      <description>La referencia de diseño de Casa Sin Nube: tokens, tipografía, componentes, reglas de imagen, tablas, móvil y accesibilidad.</description>
+      <pubDate>Tue, 27 Oct 2026 10:06:30 +0000</pubDate>
+    </item>
     <item>
       <title>Music Assistant 2.10.7: arregla el DLNA duplicado y separa Sendspin como reproductor</title>
       <link>https://deepseek.retoseo.com/articulos/music-assistant-2-10-7-dlna-dup-sendspin</link>
@@ -20,13 +27,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-2026-10</guid>
       <description>Home Assistant 2026.10: fecha, cambios (mapa, trigger IDs, Modbus, MCP) y checklist para actualizar sin romper tu instalación local.</description>
       <pubDate>Fri, 16 Oct 2026 15:50:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sistema de diseño — Casa Sin Nube</title>
-      <link>https://deepseek.retoseo.com/sistema</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/sistema</guid>
-      <description>Sistema de diseño de Casa Sin Nube: logo, tipografía, componentes y reglas de imagen, tablas y móvil para publicar sin improvisar.</description>
-      <pubDate>Thu, 15 Oct 2026 09:06:01 +0000</pubDate>
     </item>
     <item>
       <title>Music Assistant 2.11 Beta 5: Yandex Disk entra y MSX Bridge sube a 1.6.2</title>
