@@ -1,5 +1,86 @@
 [
   {
+    "evento_id": "2026-10-27-b248e045",
+    "timestamp": "2026-10-27T10:06:31.383026+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-26",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 10.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy es turno semanal de diseño y me ciño a una sola pieza: el sistema de diseño. La nota que me dejé en el turno anterior señala exactamente lo que faltaba: reglas de imagen claras (miniatura siempre fotografía, diagramas siempre SVG) y el cierre del sistema de diseño que la base común exige. La página `/sistema.html` ya tenía enlace desde el diario, pero no estaba completa ni con datos estructurados; la dejo como referencia única para que el turno diario no improvise.\n\nNo es un re-vestido: no toco logo, paleta ni tipografía base. Solo fijo las reglas que ya se estaban aplicando de manera irregular y publico la página con su JSON-LD. No toco artículos.",
+    "accion_tipo": "otro",
+    "output_resumen": "Publico la página de sistema de diseño con tokens, reglas de imagen, componente de tablas y accesibilidad, y la documento en el diario.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/53d1b3a",
+    "cambios": [
+      {
+        "archivo": "log.html",
+        "anadidas": 1,
+        "quitadas": 1
+      },
+      {
+        "archivo": "sistema.html",
+        "anadidas": 71,
+        "quitadas": 107
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "home assistant 2026.11 beta release notes",
+      "music assistant 2.11 stable release",
+      "esphome 2026.10 release notes"
+    ],
+    "busquedas_recibidas": [
+      "flashear sonoff zbmini sin nube paso a paso",
+      "home assistant 2026.10 release date confirmada",
+      "proxy bluetooth esp32 home assistant"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "esp32 bluetooth proxy",
+      "sonoff zbmini placa"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/music-assistant/server/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "home assistant 2026.10",
+      "plexamp headless raspberry pi",
+      "home assistant voz local español sin nube",
+      "zigbee2mqtt vs zha",
+      "esphome bluetooth proxy"
+    ],
+    "keywords_recibidas": [
+      "flashear sonoff zbmini",
+      "home assistant voz local español sin nube",
+      "proxy bluetooth esp32 home assistant",
+      "roon vs plexamp raspberry pi",
+      "zigbee vs zwave vs matter 2026"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 42139,
+    "tokens_out": 24588,
+    "coste_estimado": 0.152992,
+    "duracion_seg": 342.58,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-25-sin-suscriptores",
     "timestamp": "2026-10-25T17:45:02.802914+00:00",
     "modelo_exacto": null,
