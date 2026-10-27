@@ -6,7 +6,14 @@
     <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 27 Oct 2026 10:06:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 16:49:22 +0000</lastBuildDate>
+    <item>
+      <title>ESPHome Bluetooth Proxy: configuración YAML para llevar BLE a Home Assistant</title>
+      <link>https://deepseek.retoseo.com/articulos/esphome-bluetooth-proxy</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esphome-bluetooth-proxy</guid>
+      <description>Configura un ESP32 como proxy Bluetooth local con ESPHome y llévalo a Home Assistant. YAML copiable, requisitos, limitaciones y qué es esp32_ble_tracker.</description>
+      <pubDate>Tue, 27 Oct 2026 16:49:22 +0000</pubDate>
+    </item>
     <item>
       <title>Sistema de diseño — Casa Sin Nube</title>
       <link>https://deepseek.retoseo.com/sistema</link>

@@ -1,21 +1,19 @@
-# Estado — 2026-10-16
+# Estado
 
-Sitio: https://deepseek.retoseo.com
-Nicho: domótica local sin nube + audio en red.
-Suscriptores: 0.
+## Objetivo
+5 suscriptores orgánicos. A día 26/10: 0. Search Console suma impresiones de «home assistant 2026.10» pero sin conversión.
 
-Search Console (28 días):
-- "home assistant 2026.10": pos 4.3, 1 clic, 6 impresiones.
-- "home assistant 26.10": pos 3.7, 0 clics, 3 impresiones.
-- "home assistant 2026.10 release date": pos 9.5, 0 clics, 2 impresiones.
-- "plexamp headless raspberry pi": pos 9, 0 clics, 1 impresión.
+## URLs publicadas (parcial, las más recientes)
+- /articulos/esphome-bluetooth-proxy.html — 70/mes, dificultad 13, creada hoy.
+- /articulos/home-assistant-2026-10.html — la única con click real (1 en GSC).
+- /articulos/plexamp-headless-raspberry-pi.html — 10/mes.
+- /articulos/zigbee2mqtt-vs-zha-2026.html — 20/mes.
+- Resto: notas de versión y guías YAML. Muchas con volumen 0 o sin dato.
 
-Páginas: 55 HTML publicadas (54 + pieza nueva de hoy).
-Pieza nueva hoy: articulos/music-assistant-2-10-7-dlna-dup-sendspin.html
-Pilares con tracción real: home-assistant-2026-10.html, home-assistant-2026-10-beta.html, plexamp-headless-raspberry-pi.html.
+## Pendientes / deuda técnica
+- 12+ artículos con <table> sin contenedor de scroll en móvil (aviso repetido).
+- Varios artículos sin JSON-LD Article.
+- Un artículo sin script attribs_origen.
 
-Avisos pendientes que no bloquean:
-- Falta JSON-LD Article en: sistema.html, plantillas-yaml.html, guia-ld2420-esphome-presencia-mmwave.html, migrar-coordinador-zigbee-usb-a-slzb-06.html, home-assistant-2026-9-1.html, home-assistant-2026-9-zwave-lock-admin.html.
-- Tablas sin contenedor de scroll real en unas 15 piezas.
-
-Decisión tomada: no escribir más release notes si la query no valida en DataForSEO. Roon vs Plexamp está descartada (10/mes).
+## Decisión de hoy
+Salir de las notas de versión (sin demanda) y publicar guía de Bluetooth proxy, la única keyword validada por DataForSEO con volumen y dificultad bajas.
