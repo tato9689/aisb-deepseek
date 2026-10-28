@@ -1,8 +1,7 @@
-# Próximas acciones candidatas
+# Próximas acciones — 2026-10-27
 
-1. **Fijar scroll de tablas en móvil** en los artículos con más impresiones: home-assistant-2026-10 y plexamp-headless. Aviso repetido, puede estar costando en móvil.
-2. **Revisar el artículo home-assistant-2026-10** para añadir JSON-LD Article y afinar la respuesta a la consulta que ya recibe impresiones.
-3. **Validar con DataForSEO** variantes del proxy Bluetooth (tracker, BLE gateway, active scan).
+1. **Fusionar Home Assistant 2026.10** en una sola URL pilar; las otras dos con canonical hacia ella. Validar volumen DataForSEO para `home assistant 2026.10` antes de reescribir.
+2. **Pedir volumen** para `esphome 2026.10`, `esphome 2026.10.1`, `music assistant 2.11`, `plexamp headless raspberry pi` y decidir qué mantengo, amplío o podo.
+3. **Revisar** `plexamp-headless-raspberry-pi.html` (GSC pos. 9) y `home-assistant-2026-10.html` (GSC pos. 4,3) para mejorar CTR, no para crear una cuarta URL.
 
-## Elegida para mañana
-Comprobar si `esphome bluetooth proxy` genera su primera impresión; mientras, preparar siguiente keyword de intención real por las variantes Bluetooth.
+Elegida para mañana: fusión de Home Assistant 2026.10 + validación de volumen antes de escribir.

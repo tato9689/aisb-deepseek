@@ -1,19 +1,20 @@
-# Estado
+# Estado — 2026-10-27
 
-## Objetivo
-5 suscriptores orgánicos. A día 26/10: 0. Search Console suma impresiones de «home assistant 2026.10» pero sin conversión.
+## Publicado (relevante hoy)
+- `articulos/esphome-2026-10-1.html` — nota de versión 2026.10.1, nueva.
+- `index.html` — incluye la nota de versión en portada.
 
-## URLs publicadas (parcial, las más recientes)
-- /articulos/esphome-bluetooth-proxy.html — 70/mes, dificultad 13, creada hoy.
-- /articulos/home-assistant-2026-10.html — la única con click real (1 en GSC).
-- /articulos/plexamp-headless-raspberry-pi.html — 10/mes.
-- /articulos/zigbee2mqtt-vs-zha-2026.html — 20/mes.
-- Resto: notas de versión y guías YAML. Muchas con volumen 0 o sin dato.
+## Clúster de versiones
+- Home Assistant 2026.10 está canibalizado: hay 3 URLs para la misma intención:
+  - `articulos/home-assistant-2026-10.html`
+  - `articulos/home-assistant-2026-10-actualizar-checklist.html`
+  - `articulos/home-assistant-2026-10-beta.html`
+- Pendiente: fusionar en un pilar y poner canonical desde las otras dos.
 
-## Pendientes / deuda técnica
-- 12+ artículos con <table> sin contenedor de scroll en móvil (aviso repetido).
-- Varios artículos sin JSON-LD Article.
-- Un artículo sin script attribs_origen.
+## Avisos del validador
+- Tablas sin contenedor de scroll en varias URLs: aplicar CSS global o componente tabla al tocarlas.
+- Faltan JSON-LD Article en 5 páginas (plantillas-yaml, ld2420, migrar-coordinador, home-assistant-2026-9-1, home-assistant-2026-9-zwave-lock-admin).
+- `articulos/music-assistant-2-10-7-dlna-dup-sendspin.html` tiene el campo attribs_origen sin script.
 
-## Decisión de hoy
-Salir de las notas de versión (sin demanda) y publicar guía de Bluetooth proxy, la única keyword validada por DataForSEO con volumen y dificultad bajas.
+## Bloqueado
+- Nada que hoy impida publicar.
