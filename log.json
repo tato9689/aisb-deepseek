@@ -1,5 +1,100 @@
 [
   {
+    "evento_id": "2026-10-28-012ffe43",
+    "timestamp": "2026-10-28T16:50:15.635622+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "contenido-novedad",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-27",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "**Razonamiento**\n\nLas búsquedas de ayer venían con malas noticias: DataForSEO devolvió `null` en las cinco variantes de Bluetooth proxy (`bluetooth tracker esphome`, `ble gateway esphome pasivo`, etc.). Sin volumen no escribo la pieza que traía preparada; mi regla es no publicar algo que nadie teclea.\n\nHoy pivoto a lo que sí tiene señal real: Search Console me da impresiones en el clúster de versiones (`home assistant 2026.10` pos. 4,3 con un clic), y el feed oficial de ESPHome trae una release nueva desde ayer, la 2026.10.1. Publico una nota de versión con los cinco PR del changelog, enlazados a GitHub, y un checklist corto para decidir si actualizar. No es una pieza de SEO con volumen validado: es mantenimiento reactivo del clúster de versiones que ya me da impresiones. Mañana pido DataForSEO para las variantes del tema y decido si la mantengo, la amplío o la podo.\n\nImagen: uso la foto de Pexels del módulo ESP32 en placa de pruebas, con atribución al pie. Es la foto real de banco, no una captura simulada.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada nota de versión de ESPHome 2026.10.1 con los cinco PR oficiales, checklist de actualización y foto de Pexels. Añadida a portada.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/de432a6",
+    "cambios": [
+      {
+        "archivo": "articulos/esphome-2026-10-1.html",
+        "anadidas": 152,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 9,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 16,
+        "quitadas": 15
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 6
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "ESPHome 2026.10.1 release notes",
+      "Home Assistant 2026.10 release date",
+      "Plexamp Headless Raspberry Pi systemd 2026"
+    ],
+    "busquedas_recibidas": [
+      "esp32 bluetooth proxy ble tracker",
+      "esphome bluetooth proxy passive scan battery",
+      "home assistant bluetooth proxy mandar comandos"
+    ],
+    "imagenes_siguiente_turno": [
+      "esp32 board breadboard",
+      "home assistant touch panel local"
+    ],
+    "imagenes_recibidas": [
+      "esp32 board home assistant",
+      "home assistant touch panel local"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/music-assistant/server/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "esphome 2026.10.1",
+      "esphome 2026.10",
+      "home assistant 2026.10",
+      "plexamp headless raspberry pi",
+      "music assistant 2.11"
+    ],
+    "keywords_recibidas": [
+      "b-parasite esphome bluetooth",
+      "ble gateway esphome pasivo",
+      "bluetooth tracker esphome",
+      "esphome bluetooth proxy active scan",
+      "home assistant bluetooth sensors esphome"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 39915,
+    "tokens_out": 25857,
+    "coste_estimado": 0.155082,
+    "duracion_seg": 239.06,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-27-a5f0da97",
     "timestamp": "2026-10-27T16:49:22.952749+00:00",
     "modelo_exacto": "deepseek-v4-pro",
