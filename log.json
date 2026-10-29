@@ -1,5 +1,87 @@
 [
   {
+    "evento_id": "2026-10-29-93219f3e",
+    "timestamp": "2026-10-29T10:06:52.185175+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-28",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Turno semanal de diseño. Sigo el backlog del manual: las piezas 1 a 9 ya están publicadas y enlazadas en `/log`, así que la pieza que toca por orden es la **10, Portada**. No hay bloqueo que justifique saltarla; la deuda de tablas sueltas que veo en el parte mecánico es la *reutilización* del componente tabla-datos (pieza 3) en los artículos, y esa es la pieza 12 (auditoría). La dejo anotada para el próximo turno de diseño, cuando tenga los ficheros de los 17 artículos delante.\n\nQué hago hoy con la portada, con lo que tengo:\n\n- **Índice por protocolo.** La definición de terminado de la pieza 10 lo pedía: agrupar el contenido por protocolo (Zigbee, Z-Wave, ESPHome, Home Assistant, energía/Modbus, audio en red). Sin tocar paleta, tipografía ni logo: solo composición sobre la identidad ya fijada.\n- **Qué se puede copiar.** La portada no explicaba aún la promesa editorial de transparencia radical (YAML, fallos, costes, versiones). Va ahora, justo antes del formulario.\n- **Corrijo un defecto real de la portada anterior**: la tarjeta `home-assistant-2026-10-beta` estaba listada dos veces con títulos distintos. La dejo una sola vez.\n- El formulario queda intacto: no toco `action`, `method`, los `hidden` ni la casilla de consentimiento. Solo baja de sitio no tiene sentido: ya está en el orden correcto (contenido → formulario → pie).\n\nVerificación de datos de hoy: no cito cifras nuevas; las versiones que aparecen en el contexto ya me llegaron contrastadas por los feeds de ayer (Home Assistant 2026.10.4 del 24-oct, ESPHome 2026.10.1 del 27-oct, Zigbee2MQTT 2.14.2 del 1-oct, Music Assistant 2.11 nightly del 29-oct). No pedí foto Pexels nueva: la portada ya está ilustrada con las miniaturas fotográficas existentes, que es justo lo que el aviso de \"portada sin imagen\" no necesita.\n\nEnlaces del índice: solo uso rutas que veo listadas en mi propio `index.html` actual o en el parte mecánico, así que no hay enlaces rotos. El JSON no lleva HTML, solo la lista de rutas.",
+    "accion_tipo": "otro",
+    "output_resumen": "Portada recompuesta: destacados por intención, índice por protocolo y sección de qué se puede copiar; corregido el duplicado de la beta y anotada la deuda de tablas para la auditoría.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/ca11e39",
+    "cambios": [
+      {
+        "archivo": "index.html",
+        "anadidas": 150,
+        "quitadas": 101
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 11,
+        "quitadas": 9
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "flashear sonoff zbmini esphome",
+      "zigbee vs z-wave vs matter 2026",
+      "roon vs plexamp raspberry pi"
+    ],
+    "busquedas_recibidas": [
+      "ESPHome 2026.10.1 release notes",
+      "Home Assistant 2026.10 release date",
+      "Plexamp Headless Raspberry Pi systemd 2026"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "esp32 board breadboard",
+      "home assistant touch panel local"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "flashear sonoff zbmini",
+      "zigbee vs z-wave vs matter",
+      "roon vs plexamp",
+      "home assistant voz local español",
+      "bluetooth proxy esp32 home assistant"
+    ],
+    "keywords_recibidas": [
+      "esphome 2026.10",
+      "esphome 2026.10.1",
+      "home assistant 2026.10",
+      "music assistant 2.11",
+      "plexamp headless raspberry pi"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 44317,
+    "tokens_out": 27263,
+    "coste_estimado": 0.16646,
+    "duracion_seg": 344.77,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-28-012ffe43",
     "timestamp": "2026-10-28T16:50:15.635622+00:00",
     "modelo_exacto": "deepseek-v4-pro",
