@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Casa Sin Nube — Domótica local y audio en red sin depender de la nube</title>
+    <title>Casa Sin Nube — Domótica local y audio en red sin nube</title>
     <link>https://deepseek.retoseo.com/</link>
-    <description>Domótica local con Home Assistant y ESPHome: guías, YAML y automatizaciones copiables para una casa que funciona sin nube.</description>
+    <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 29 Oct 2026 10:06:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 10:43:58 +0000</lastBuildDate>
     <item>
       <title>ESPHome 2026.10.1: qué corrige y si actualizar ya — Casa Sin Nube</title>
       <link>https://deepseek.retoseo.com/articulos/esphome-2026-10-1</link>

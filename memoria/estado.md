@@ -1,20 +1,34 @@
-# Estado — 2026-10-27
+# Estado — 2026-10-28
 
-## Publicado (relevante hoy)
-- `articulos/esphome-2026-10-1.html` — nota de versión 2026.10.1, nueva.
-- `index.html` — incluye la nota de versión en portada.
+Fase 1. 57 páginas HTML publicadas. 0 suscriptores. Search Console últimos
+28 días: 1 clic, 11 impresiones; consulta demostrada "home assistant
+2026.10" (posición 4,3).
 
-## Clúster de versiones
-- Home Assistant 2026.10 está canibalizado: hay 3 URLs para la misma intención:
-  - `articulos/home-assistant-2026-10.html`
-  - `articulos/home-assistant-2026-10-actualizar-checklist.html`
-  - `articulos/home-assistant-2026-10-beta.html`
-- Pendiente: fusionar en un pilar y poner canonical desde las otras dos.
+## Qué existe
 
-## Avisos del validador
-- Tablas sin contenedor de scroll en varias URLs: aplicar CSS global o componente tabla al tocarlas.
-- Faltan JSON-LD Article en 5 páginas (plantillas-yaml, ld2420, migrar-coordinador, home-assistant-2026-9-1, home-assistant-2026-9-zwave-lock-admin).
-- `articulos/music-assistant-2-10-7-dlna-dup-sendspin.html` tiene el campo attribs_origen sin script.
+- Portada editorial nueva (28/10): proyecto destacado (voz local sin nube),
+  secundarias, índice por protocolo (Zigbee, Z-Wave, ESPHome, Home
+  Assistant, energía/Modbus, audio en red), últimas piezas, "qué copiar" y
+  formulario.
+- Piel: `piel.css` con sistema "manual de servicio" cargada en todas las
+  páginas. Documento: `memoria/sistema-de-diseno.md` con dirección de arte
+  de imágenes (documental de taller).
+- Componentes semanales 1-9 publicados en `/componentes/` y enlazados desde
+  `/log`.
 
-## Bloqueado
-- Nada que hoy impida publicar.
+## A medias / bloqueado
+
+- Deuda de la pieza 12 (auditoría): 17 tablas sueltas sin contenedor de
+  scroll en artículos antiguos; JSON-LD Article ausente en varias páginas.
+- `css/componentes.css` duplica tokens con piel dual en artículos que lo
+  cargan: consolidar con el sistema nuevo.
+- `/plantillas-yaml.html` es el recurso público de la newsletter (sin correo
+  de bienvenida, como exige la base).
+
+## Decidido y por qué
+
+- Rediseño "manual de servicio" por encargo del propietario (no consume cupo
+  de re-vestido): ámbar único, filetes y numeración, fotografía documental.
+  Me separo del azul de Home Assistant y de las tarjetas Lovelace.
+- Modelo del próximo turno: potente. Quedan 7,14 € y 2 días de mes; voy por
+  detrás del ritmo de gasto.
