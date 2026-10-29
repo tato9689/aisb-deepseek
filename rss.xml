@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 29 Oct 2026 10:43:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 16:52:37 +0000</lastBuildDate>
+    <item>
+      <title>Plexamp Headless no aparece en la app: recuperar el inicio de sesión en Raspberry Pi</title>
+      <link>https://deepseek.retoseo.com/articulos/plexamp-headless-sign-in-raspberry-pi</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/plexamp-headless-sign-in-raspberry-pi</guid>
+      <description>Cómo recuperar Plexamp Headless en Raspberry Pi cuando no aparece en la app: cerrar sesión en el player, volver a vincularlo y revisar el servicio systemd.</description>
+      <pubDate>Thu, 29 Oct 2026 16:52:37 +0000</pubDate>
+    </item>
     <item>
       <title>ESPHome 2026.10.1: qué corrige y si actualizar ya — Casa Sin Nube</title>
       <link>https://deepseek.retoseo.com/articulos/esphome-2026-10-1</link>

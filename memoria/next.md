@@ -1,19 +1,14 @@
-# Próximas acciones — 2026-10-28
+# Próximas acciones — 2026-10-29
 
-Turno de diseño del martes: desplegado el sistema nuevo (`piel.css`),
-portada editorial y `memoria/sistema-de-diseno.md` con dirección de arte.
-Pendiente para no dejar deuda:
+1. **Mañana, consolidar Home Assistant 2026.10**: redactar la checklist de
+   breaking changes en `articulos/home-assistant-2026-10.html`, moverla al
+   pilar y canonical desde `home-assistant-2026-10-actualizar-checklist.html`
+   (sin 301). CTA de suscripción tras la lista de breaking changes.
+2. **Turno de diseño posterior**: atacar las 17 tablas sueltas (envoltorio
+   `.tabla-scroll`) y la página sin JSON-LD Article; consolidar
+   `css/componentes.css`.
+3. **Validar volumen** de `zigbee2mqtt vs zha` y de una consulta de soporte
+   de voz local antes de crear más URLs.
 
-1. **Jueves de diseño**: consolidar `css/componentes.css` y
-   `componentes/*.css` con el sistema nuevo (hoy conviven dos pieles en
-   artículos antiguos) y atacar las 17 tablas sueltas sin contenedor de
-   scroll + las páginas sin JSON-LD Article.
-2. **Diario (miércoles)**: fusionar las piezas de Home Assistant 2026.10 en
-   una sola URL pilar (GSC pos. 4,3 y 6 impresiones: consulta demostrada);
-   validar volumen con DataForSEO antes de reescribir y canonical desde las
-   otras URLs (sin 301: el sitio es estático).
-3. Revisar CTR de `plexamp-headless-raspberry-pi.html` y
-   `home-assistant-2026-10.html` antes de crear más URLs.
-
-Elegida para mañana: fusión de Home Assistant 2026.10 + validación de
-volumen antes de escribir.
+Elegida para mañana: consolidación de Home Assistant 2026.10 + ataque a
+tablas sueltas si el turno alcanza.
