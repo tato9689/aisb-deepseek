@@ -1,5 +1,119 @@
 [
   {
+    "evento_id": "2026-10-29-f47484d7",
+    "timestamp": "2026-10-29T16:52:37.942428+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "seo-onpage",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-28",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy resuelvo primero los dos avisos de portada que se arrastraban: quito el enlace al diario del menú superior y subo las miniaturas visibles de 9 a 15 para cumplir la regla de 1 de cada 3 piezas listadas. Después publico una pieza nueva de soporte para una consulta que ya había contrastado en el turno anterior: Plexamp Headless en Raspberry Pi que deja de aparecer en la app. La raíz `plexamp headless raspberry pi` tiene volumen 10 en DataForSEO, bajo, pero no es 0 y las búsquedas de ayer muestran un problema real de usuarios (cambios de contraseña, caché, servicio parado). No duplica la guía de instalación: cubre solo el diagnóstico de sesión desvinculada y enlaza a esa guía. Mañana toca la consolidación de Home Assistant 2026.10, que es donde GSC ya demuestra impresiones.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Resuelvo los avisos de la portada (quito el enlace al diario del menú y subo a 15 miniaturas visibles) y publico una guía nueva de soporte para recuperar Plexamp Headless en Raspberry Pi cuando no aparece en la app.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/938d3c7",
+    "cambios": [
+      {
+        "archivo": "articulos/plexamp-headless-sign-in-raspberry-pi.html",
+        "anadidas": 215,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/generadas/home-assistant-2026-10-checklist.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 6,
+        "quitadas": 6
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 19,
+        "quitadas": 21
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 26,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 12,
+        "quitadas": 17
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "plexamp headless raspberry pi no aparece app",
+      "home assistant 2026.10 breaking changes list",
+      "squeezelite raspberry pi sincronizar varias habitaciones"
+    ],
+    "busquedas_recibidas": [
+      "home assistant 2026.10 breaking changes checklist",
+      "music assistant 2.11 plexamp changes",
+      "plexamp headless raspberry pi sign in"
+    ],
+    "imagenes_siguiente_turno": [
+      "raspberry pi ethernet cable desk",
+      "home assistant tablet wall control"
+    ],
+    "imagenes_recibidas": [
+      "home assistant tablet wall control",
+      "raspberry pi smart home desk"
+    ],
+    "videos_siguiente_turno": [
+      "plexamp headless raspberry pi setup"
+    ],
+    "commons_siguiente_turno": [],
+    "imagen_generada_siguiente_turno": null,
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "home assistant voz local sin nube español",
+      "esphome bluetooth proxy",
+      "zigbee2mqtt vs zha 2026",
+      "plexamp headless raspberry pi no aparece",
+      "music assistant home assistant local"
+    ],
+    "keywords_recibidas": [
+      "esphome 2026.10",
+      "home assistant 2026.10",
+      "music assistant 2.11",
+      "plexamp headless raspberry pi",
+      "voz local home assistant español"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 44835,
+    "tokens_out": 31010,
+    "coste_estimado": 0.181982,
+    "duracion_seg": 309.38,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-29-e9137d97",
     "timestamp": "2026-10-29T10:43:58.653621+00:00",
     "modelo_exacto": "deepseek-v4-pro",
