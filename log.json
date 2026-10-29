@@ -1,5 +1,117 @@
 [
   {
+    "evento_id": "2026-10-29-e9137d97",
+    "timestamp": "2026-10-29T10:43:58.653621+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-28",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Turno semanal de diseño (28/10, forzado a modelo potente). Pieza elegida: la piel entera del sitio vía `piel.css` —que ya cargan las 57 páginas— más la portada como escaparate editorial y el documento del sistema con su dirección de arte. Es el cuello de botella que marca el propietario: sitio correcto pero sin alma, miniaturas que cantan a IA y una portada-lista uniforme.\n\nIdea en una frase: **manual de servicio de una casa sin nube** — la estética del técnico que documenta antes que vender: filetes finos y numeración, metadatos en mono, un solo ámbar para toda la acción y fotografía documental de taller en vez de producto heroico.\n\nReferencias: la documentación oficial de Home Assistant, ESPHome y Zigbee2MQTT, y los dashboards de la comunidad. Me separo en tres decisiones concretas: ni azul corporativo de HA ni tarjetas Lovelace redondeadas con sombra; los datos siguen en HTML/SVG y nunca en captura; y las imágenes pasan a documental creíble con regla escrita (`## Dirección de arte`) más un tratamiento uniforme en CSS (marco de 1 px, ratio fijo, filtro suave que apaga el plástico de las generadas ya publicadas). Con eso las miniaturas existentes empiezan a parecer de la misma casa sin regenerarlas.\n\nPresupuesto: quedan 7,14 € y 2 días de mes; elijo `potente` para el próximo turno porque voy por detrás del ritmo y no toca ahorrar. Deuda que dejo apuntada en `next.md`: consolidar `css/componentes.css` con el sistema nuevo y atacar las 17 tablas sueltas + JSON-LD pendientes en el turno de diseño del jueves.",
+    "accion_tipo": "otro",
+    "output_resumen": "Rediseño 'manual de servicio': piel.css reescrito como sistema (tokens, tipografía servida, ámbar único, tablas con scroll), portada editorial con reportaje destacado e índice por protocolo, y documento de sistema con dirección de arte documental para las imágenes.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/ce934a7",
+    "cambios": [
+      {
+        "archivo": "index.html",
+        "anadidas": 145,
+        "quitadas": 159
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 30,
+        "quitadas": 16
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 17,
+        "quitadas": 5
+      },
+      {
+        "archivo": "memoria/sistema-de-diseno.md",
+        "anadidas": 94,
+        "quitadas": 0
+      },
+      {
+        "archivo": "piel.css",
+        "anadidas": 630,
+        "quitadas": 189
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "home assistant 2026.10 breaking changes checklist",
+      "music assistant 2.11 plexamp changes",
+      "plexamp headless raspberry pi sign in"
+    ],
+    "busquedas_recibidas": [
+      "flashear sonoff zbmini esphome",
+      "roon vs plexamp raspberry pi",
+      "zigbee vs z-wave vs matter 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "raspberry pi smart home desk",
+      "home assistant tablet wall control"
+    ],
+    "imagenes_recibidas": [
+      "esp32 board breadboard",
+      "home assistant touch panel local"
+    ],
+    "videos_siguiente_turno": [],
+    "commons_siguiente_turno": [
+      "raspberry pi 4 board"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "home-assistant-2026-10-checklist",
+      "descripcion": "Documentary photo of a wall-mounted tablet with a home automation dashboard next to a small shelf with a Raspberry Pi and a NAS, daylight from a window, cluttered hobbyist desk, muted warm colors, amateur framing, film grain"
+    },
+    "enriquecer_recibido": null,
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "home assistant 2026.10",
+      "esphome 2026.10",
+      "music assistant 2.11",
+      "plexamp headless raspberry pi",
+      "voz local home assistant español"
+    ],
+    "keywords_recibidas": [
+      "bluetooth proxy esp32 home assistant",
+      "flashear sonoff zbmini",
+      "home assistant voz local español",
+      "roon vs plexamp",
+      "zigbee vs z-wave vs matter"
+    ],
+    "envio": null,
+    "avisos": [
+      "tu portada todavía enseña el experimento por encima del <h1> (barra de transparencia o enlace al diario en el menú). Eso ya no va ahí: bájalo al pie, que es donde lo pide 'Jerarquía de portada y transparencia'. No bloquea el turno, pero se te repite hasta que la portada empiece por tu contenido.",
+      "tu portada lista 40 piezas y solo enseña 9 imagenes: hacen falta al menos 14 (1 de cada 3). Las miniaturas ya están hechas y recortadas, una por pieza, en /og/miniatura/<slug>.jpg — solo hay que enlazarlas con su alt real, width y height, y loading=\"lazy\" en las que no se vean al entrar"
+    ],
+    "tier_usado": "semanal",
+    "tokens_in": 64416,
+    "tokens_out": 41912,
+    "coste_estimado": 0.251001,
+    "duracion_seg": 425.07,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-29-93219f3e",
     "timestamp": "2026-10-29T10:06:52.185175+00:00",
     "modelo_exacto": "deepseek-v4-pro",
