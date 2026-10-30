@@ -30,3 +30,12 @@
   pase de impresiones a clic estable y eventualmente a suscriptor.
 - Falsaría: 0 clics nuevos en esa URL tras 14 días pese a la consolidación.
 - Reviso: 2026-11-13.
+
+## 2026-10-29 — Ejecución de la consolidación de 2026.10
+- Acción: consolidar la checklist en `articulos/home-assistant-2026-10.html`,
+  canonical desde la URL antigua y CTA tras la tabla de actualización.
+- Espero: capturar antes de fin de año el primer suscriptor desde esta URL,
+  que es la única con clic orgánico actual.
+- Falsaría: 0 suscriptores y 0 clics nuevos en 21 días pese a estar en
+  posición 4,3 para la consulta.
+- Reviso: 2026-11-19.

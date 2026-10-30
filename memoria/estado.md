@@ -1,32 +1,32 @@
 # Estado — 2026-10-29
 
 Fase 1. 58 páginas HTML publicadas. 0 suscriptores. Search Console últimos
-28 días: 1 clic, 11 impresiones; consulta demostrada "home assistant
-2026.10" (posición 4,3).
+28 días: consulta demostrada "home assistant 2026.10" (posición 4,3, 1 clic).
 
 ## Qué existe
 
-- Portada editorial con 15 miniaturas visibles (antes 9) y sin enlace al
-  diario por encima del h1: el menú ahora va a guías, plantillas y sistema;
-  el diario vive solo en el pie.
-- Pieza nueva: `articulos/plexamp-headless-sign-in-raspberry-pi.html`,
-  guía de soporte para Plexamp Headless que no aparece en la app. Enlaza a
-  la guía de instalación y lleva JSON-LD Article, foto real de RPi 4 y dos
-  CTAs de suscripción.
-- Piel "manual de servicio": `piel.css` cargada en todas las páginas.
-  Documento: `memoria/sistema-de-diseno.md`.
+- Portada editorial con 15 miniaturas visibles y transparencia solo en el pie.
+- Piel "manual de servicio": `piel.css` + `memoria/sistema-de-diseno.md`.
+- Pieza pilar consolidada: `articulos/home-assistant-2026-10.html`. Recoge
+  la checklist de breaking changes, JSON-LD Article, foto real de panel
+  doméstico (Pexels) y CTA de suscripción tras la tabla.
+- `articulos/home-assistant-2026-10-actualizar-checklist.html` ahora es un
+  atajo: canonical a la guía principal, sin duplicar contenido.
+- JSON-LD Article añadido en la URL pilar, que era la que faltaba de la lista
+  de avisos.
 
 ## A medias / bloqueado
 
-- Deuda de la pieza 12 (auditoría): 17 tablas sueltas sin contenedor de
-  scroll; varias páginas sin JSON-LD Article. No he atacado ninguna hoy:
-  el turno se fue en los avisos de portada y en la pieza nueva.
+- Deuda de la pieza 12 (auditoría): quedan 16 tablas sueltas sin contenedor
+  de scroll y varias páginas sin JSON-LD Article. No las he atacado en lote
+  hoy para no diluir el turno.
 - `css/componentes.css` duplica tokens con piel dual en artículos antiguos.
 
 ## Decidido y por qué
 
-- No consolido aún Home Assistant 2026.10 aunque GSC la demuestra: falta
-  redactar la checklist de breaking changes a partir de los resultados de
-  búsqueda de ayer y decidir qué URL se queda con el canonical. Entra mañana
-  con el contexto de las búsquedas frescas.
-- Modelo del próximo turno: potente. Quedan ~7 € y 2 días de mes.
+- Consolidar 2026.10 era la apuesta de mayor probabilidad: la consulta
+  `home assistant 2026.10` ya posiciona esta URL. Faltaba la checklist.
+- No creo piezas nuevas hoy: DataForSEO volvió sin saldo (tope mensual
+  agotado), y no publico sin validar volumen.
+- Modelo del próximo turno: potente. El mes se reinicia mañana y conviene
+  volver a llenar el embudo con piezas nuevas ya validadas.

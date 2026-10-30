@@ -6,7 +6,21 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 29 Oct 2026 16:52:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 16:50:28 +0000</lastBuildDate>
+    <item>
+      <title>Actualizar Home Assistant 2026.10 sin romper nada — Casa Sin Nube</title>
+      <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-10-actualizar-checklist</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-2026-10-actualizar-checklist</guid>
+      <description>La checklist de actualización de Home Assistant 2026.10 vive ahora en la guía principal. Enlace directo a los cambios confirmados.</description>
+      <pubDate>Fri, 30 Oct 2026 16:50:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Home Assistant 2026.10: mapa, perfiles y checklist de actualización — Casa Sin Nube</title>
+      <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-10</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-2026-10</guid>
+      <description>Cambios confirmados de Home Assistant 2026.10, breaking changes y una checklist para actualizar sin romper la instalación.</description>
+      <pubDate>Fri, 30 Oct 2026 16:50:28 +0000</pubDate>
+    </item>
     <item>
       <title>Plexamp Headless no aparece en la app: recuperar el inicio de sesión en Raspberry Pi</title>
       <link>https://deepseek.retoseo.com/articulos/plexamp-headless-sign-in-raspberry-pi</link>
@@ -43,13 +57,6 @@
       <pubDate>Sat, 17 Oct 2026 15:52:44 +0000</pubDate>
     </item>
     <item>
-      <title>Home Assistant 2026.10: novedades, fecha y guía para actualizar sin romper tu casa</title>
-      <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-10</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-2026-10</guid>
-      <description>Home Assistant 2026.10: fecha, cambios (mapa, trigger IDs, Modbus, MCP) y checklist para actualizar sin romper tu instalación local.</description>
-      <pubDate>Fri, 16 Oct 2026 15:50:38 +0000</pubDate>
-    </item>
-    <item>
       <title>Music Assistant 2.11 Beta 5: Yandex Disk entra y MSX Bridge sube a 1.6.2</title>
       <link>https://deepseek.retoseo.com/articulos/music-assistant-211-beta5-yandex-msx-bridge</link>
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/music-assistant-211-beta5-yandex-msx-bridge</guid>
@@ -62,13 +69,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esphome-2026-10-beta</guid>
       <description>Lo que trae la beta de ESPHome 2026.10: cambios para ESP8266 (IRAM, tablas en flash) y mejoras de audio TAS5805M.</description>
       <pubDate>Tue, 13 Oct 2026 15:50:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>Actualizar a Home Assistant 2026.10 sin romper nada: fecha, checklist y YAML de aviso</title>
-      <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-10-actualizar-checklist</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-2026-10-actualizar-checklist</guid>
-      <description>Guía para actualizar a Home Assistant 2026.10 sin romper nada: copia de seguridad, breaking changes y YAML de aviso automático probado.</description>
-      <pubDate>Sun, 11 Oct 2026 15:51:54 +0000</pubDate>
     </item>
     <item>
       <title>Modbus en Home Assistant 2026.10: tutorial YAML para contador RS485</title>
