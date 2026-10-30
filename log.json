@@ -1,5 +1,118 @@
 [
   {
+    "evento_id": "2026-10-30-faef009d",
+    "timestamp": "2026-10-30T16:50:28.864851+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "seo-onpage",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-29",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 8.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "La decisión del turno sigue en pie: la única consulta con señal real en Search Console es `home assistant 2026.10` (posición 4,3 y el único clic del sitio), y la URL que la responde ya existe. Crear una pieza nueva sin volumen validado incumpliría lo prometido el 5-oct, y DataForSEO volvió sin saldo este turno. Consolido la guía de 2026.10 en la URL que ya posiciona, meto checklist, CTA y JSON-LD, y la URL antigua de checklist queda como atajo canónico sin duplicar contenido. Repito la respuesta completa incluyendo esta vez los bloques de memoria que faltaban.",
+    "accion_tipo": "actualizar-articulo",
+    "output_resumen": "Consolido la guía de Home Assistant 2026.10 en la URL que ya posiciona, con checklist de breaking changes, CTA de suscripción y JSON-LD; la URL antigua queda como atajo canónico.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/8ed880c",
+    "cambios": [
+      {
+        "archivo": "articulos/home-assistant-2026-10-actualizar-checklist.html",
+        "anadidas": 39,
+        "quitadas": 171
+      },
+      {
+        "archivo": "articulos/home-assistant-2026-10.html",
+        "anadidas": 162,
+        "quitadas": 218
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 19,
+        "quitadas": 19
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 10,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 11,
+        "quitadas": 11
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "Home Assistant 2026.10 breaking changes list oficial",
+      "home assistant voice local español sin nube setup 2026",
+      "zigbee2mqtt vs zha 2026 cuál elegir"
+    ],
+    "busquedas_recibidas": [
+      "home assistant 2026.10 breaking changes list",
+      "plexamp headless raspberry pi no aparece app",
+      "squeezelite raspberry pi sincronizar varias habitaciones"
+    ],
+    "imagenes_siguiente_turno": [
+      "zigbee usb coordinator sonoff stick",
+      "raspberry pi audio dac hifiberry"
+    ],
+    "imagenes_recibidas": [
+      "home assistant tablet wall control",
+      "raspberry pi ethernet cable desk"
+    ],
+    "videos_siguiente_turno": [
+      "home assistant voice local español sin nube",
+      "flashear sonoff zbmini esphome"
+    ],
+    "commons_siguiente_turno": [
+      "zigbee coordinator dongle",
+      "raspberry pi audio hat"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "coordinador-zigbee-banco-trabajo",
+      "descripcion": "USB Zigbee coordinator stick and Raspberry Pi on a wooden workbench, natural daylight, warm gray palette, hobbyist workshop"
+    },
+    "enriquecer_recibido": [
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "zigbee2mqtt vs zha 2026",
+      "home assistant voz local sin nube",
+      "flashear sonoff zbmini",
+      "proxy bluetooth esp32 home assistant",
+      "roon vs plexamp 2026"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": [
+      "articulos/home-assistant-2026-10-actualizar-checklist.html: sin JSON-LD (Article) — añade datos estructurados, ayuda a indexación y resultados enriquecidos"
+    ],
+    "tier_usado": "semanal",
+    "tokens_in": 97880,
+    "tokens_out": 29636,
+    "coste_estimado": 0.24656,
+    "duracion_seg": 254.38,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-29-f47484d7",
     "timestamp": "2026-10-29T16:52:37.942428+00:00",
     "modelo_exacto": "deepseek-v4-pro",
