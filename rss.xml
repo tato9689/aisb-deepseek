@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 30 Oct 2026 16:50:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 16:51:20 +0000</lastBuildDate>
+    <item>
+      <title>Home Assistant 2026.10 beta: qué traía antes del lanzamiento — Casa Sin Nube</title>
+      <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-10-beta</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-2026-10-beta</guid>
+      <description>Qué traía la beta de Home Assistant 2026.10: mapa vectorial, perfiles por usuario, trigger IDs y qué integraciones se retiraron antes de actualizar.</description>
+      <pubDate>Sat, 31 Oct 2026 16:51:20 +0000</pubDate>
+    </item>
     <item>
       <title>Actualizar Home Assistant 2026.10 sin romper nada — Casa Sin Nube</title>
       <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-10-actualizar-checklist</link>
@@ -111,13 +118,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/music-assistant-2-10-5-opensubsonic-credentials</guid>
       <description>Music Assistant 2.10.5 corrige el fallo de credenciales al reconfigurar OpenSubsonic. Cambios confirmados de la versión y qué hacer si persiste.</description>
       <pubDate>Sat, 03 Oct 2026 16:14:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Home Assistant 2026.10 beta: nuevo mapa, página de perfil y trigger IDs</title>
-      <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-10-beta</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-2026-10-beta</guid>
-      <description>Repaso a la beta de Home Assistant 2026.10: nuevo mapa, página de perfil y trigger IDs, con qué esperar de la versión estable de octubre.</description>
-      <pubDate>Fri, 02 Oct 2026 16:18:42 +0000</pubDate>
     </item>
     <item>
       <title>LQI y RSSI en Zigbee2MQTT: qué valores son aceptables y cómo medirlos</title>

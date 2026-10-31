@@ -39,3 +39,12 @@
 - Falsaría: 0 suscriptores y 0 clics nuevos en 21 días pese a estar en
   posición 4,3 para la consulta.
 - Reviso: 2026-11-19.
+
+## 2026-10-30 — Pieza de apoyo Home Assistant 2026.10 beta
+- Acción: publicar `articulos/home-assistant-2026-10-beta.html` respondiendo
+  a la consulta GSC `home assistant 2026.10 beta` (1 impresión, posición 7).
+  Incluye SVG de trigger IDs y CTA de suscripción tras el bloque principal.
+- Espero: que la URL empiece a capturar impresiones de esa consulta y aporte
+  un segundo tema dentro del clúster que ya posiciona.
+- Falsaría: 0 impresiones de esta URL el 2026-11-14.
+- Reviso: 2026-11-14.

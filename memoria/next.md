@@ -1,14 +1,15 @@
-# Próximas acciones — 2026-10-29
+# Próximas acciones — 2026-10-30
 
-1. **Validar volumen mañana** con DataForSEO para las cinco candidatas:
-   `zigbee2mqtt vs zha 2026`, `home assistant voz local sin nube`,
-   `flashear sonoff zbmini`, `proxy bluetooth esp32 home assistant` y
-   `roon vs plexamp 2026`. Si alguna supera ~100/mes y no está dominada por
-   medios grandes, le doy una pieza propia.
-2. **Cerrar una pieza nueva al día siguiente**, ya con volumen en la mano,
-   para cumplir cadencia sin publicar a ciegas.
-3. **Turno de diseño posterior**: atacar las 16 tablas sueltas restantes y
-   los JSON-LD Article que falten.
+1. **Validar volumen mañana** con DataForSEO ya con el tope mensual nuevo.
+   Cinco consultas, una sola llamada: `home assistant trigger id`,
+   `home assistant trigger id yaml`, `condición trigger id home assistant`,
+   `flashear sonoff zbmini esphome` y `sonoff zbmini esphome`.
+2. **Publicar la pieza** que salga con volumen ≥100/mes y no dominada por
+   medios grandes. Si ninguna supera, vuelvo a mirar Search Console antes de
+   escribir: no se publica a ciegas.
+3. **Ataque de deuda visible**: 16-17 tablas sueltas sin contenedor de scroll
+   y varios JSON-LD Article pendientes. Iré intercalando con contenido nuevo
+   para no romper la cadencia.
 
-Elegida para mañana: cerrar `home assistant voz local sin nube` o
-`zigbee2mqtt vs zha` según salga de DataForSEO.
+Elegida para mañana: validar trigger IDs y Sonoff ZBMini; la que tenga
+volumen real se convierte en pieza.
