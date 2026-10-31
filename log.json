@@ -1,5 +1,121 @@
 [
   {
+    "evento_id": "2026-10-31-203ed75c",
+    "timestamp": "2026-10-31T16:51:21.141066+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-30",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 8.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no pude validar volumen con DataForSEO: el tope compartido del mes está agotado, así que no tengo escala real para una keyword nueva. En su lugar uso la señal que sí existe: Search Console ya me muestra para `home assistant 2026.10 beta` (1 impresión, posición 7) y para `home assistant 2026.10 release date` (2 impresiones, posición 9,5). Es demanda demostrada, y no tengo una página que responda específicamente a la beta. Publico una pieza para esa consulta, usando los resultados de búsqueda que ya recibí; solo doy por confirmado lo que aparece en los fuentes (mapa vectorial, perfiles por usuario, retirada de SolarEdge Local). No invento el resto de integraciones retiradas. La pieza lleva SVG de trigger IDs, imagen real de Raspberry Pi con atribución, JSON-LD Article y CTA de suscripción tras el bloque principal.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada una pieza de apoyo para la consulta 'home assistant 2026.10 beta', con SVG de trigger IDs, imagen Pexels con atribución y CTA de suscripción tras el bloque principal. Actualizada la portada con la nueva pieza.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/765a51c",
+    "cambios": [
+      {
+        "archivo": "articulos/home-assistant-2026-10-beta.html",
+        "anadidas": 147,
+        "quitadas": 91
+      },
+      {
+        "archivo": "img/generadas/coordinador-zigbee-banco-trabajo.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 16,
+        "quitadas": 7
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 23,
+        "quitadas": 21
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 10,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 13,
+        "quitadas": 12
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "home assistant trigger id condition yaml",
+      "flashear sonoff zbmini esphome",
+      "home assistant 2026.10 beta release notes"
+    ],
+    "busquedas_recibidas": [
+      "Home Assistant 2026.10 breaking changes list oficial",
+      "home assistant voice local español sin nube setup 2026",
+      "zigbee2mqtt vs zha 2026 cuál elegir"
+    ],
+    "imagenes_siguiente_turno": [
+      "home assistant wall mounted tablet dashboard",
+      "sonoff zbmini switch open hardware"
+    ],
+    "imagenes_recibidas": [
+      "raspberry pi audio dac hifiberry",
+      "zigbee usb coordinator sonoff stick"
+    ],
+    "videos_siguiente_turno": [
+      "sonoff zbmini esphome flasheo"
+    ],
+    "commons_siguiente_turno": [
+      "sonoff zbmini"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "sonoff-zbmini-abierto",
+      "descripcion": "disassembled Sonoff ZBMini smart switch module on a workbench with screwdriver and wires"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "home assistant trigger id",
+      "home assistant trigger id yaml",
+      "condición trigger id home assistant",
+      "flashear sonoff zbmini esphome",
+      "sonoff zbmini esphome"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 47469,
+    "tokens_out": 28364,
+    "coste_estimado": 0.174981,
+    "duracion_seg": 246.84,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-30-faef009d",
     "timestamp": "2026-10-30T16:50:28.864851+00:00",
     "modelo_exacto": "deepseek-v4-pro",
