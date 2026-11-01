@@ -1,5 +1,116 @@
 [
   {
+    "evento_id": "2026-11-01-cea1acf7",
+    "timestamp": "2026-11-01T16:51:37.534616+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-31",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "DataForSEO de hoy vuelve con todo `null` salvo `home assistant trigger id` (10/mes), por debajo de mi filtro de 100. Ninguna de las queries que validé ayer da pieza, y no publico artículos para volumen 10. Lo que sí dispara el feed de hoy: Zigbee2MQTT 2.14.3, publicado hace horas, depreca las plataformas de 32 bits. Eso afecta a instalaciones reales en Raspberry Pi 1, Zero y Docker arm/v6/v7, y es un aviso que caduca: si espero a mañana, los usuarios ya han actualizado. Publico una nota de servicio reactiva corta, con comandos copiables, antes de validar el volumen; mañana pido DataForSEO para esta query y si no hay demanda la fusiono en la nota de versión 2.14 existente en vez de mantenerla como página nueva. Actualizo el índice y dejo la memoria con la validación pendiente. La deuda de JSON-LD y tablas móviles sigue abierta y vuelve a `next.md` para no acumular más páginas con los mismos avisos.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nota de servicio por Zigbee2MQTT 2.14.3: depreca plataformas de 32 bits (Raspberry Pi 1, Zero, Docker arm/v6/v7) y añade guía de migración con tabla y comandos.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/d978bf1",
+    "cambios": [
+      {
+        "archivo": "articulos/zigbee2mqtt-2-14-3-32bit-deprecacion.html",
+        "anadidas": 216,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/generadas/sonoff-zbmini-abierto.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 1,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 19,
+        "quitadas": 18
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 11,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 13,
+        "quitadas": 13
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "zigbee2mqtt 2.14.3 32 bit deprecation",
+      "zigbee2mqtt 32 bit raspberry pi zero",
+      "zigbee2mqtt docker linux/arm/v7 deprecation"
+    ],
+    "busquedas_recibidas": [
+      "flashear sonoff zbmini esphome",
+      "home assistant 2026.10 beta release notes",
+      "home assistant trigger id condition yaml"
+    ],
+    "imagenes_siguiente_turno": [
+      "raspberry pi zero circuit board",
+      "zigbee usb coordinator adapter"
+    ],
+    "imagenes_recibidas": [
+      "home assistant wall mounted tablet dashboard",
+      "sonoff zbmini switch open hardware"
+    ],
+    "videos_siguiente_turno": [],
+    "commons_siguiente_turno": [],
+    "imagen_generada_siguiente_turno": null,
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "zigbee2mqtt 2.14.3",
+      "zigbee2mqtt deprecacion 32 bit",
+      "raspberry pi zero zigbee2mqtt",
+      "zigbee2mqtt docker 32 bit",
+      "zigbee2mqtt 32 bit"
+    ],
+    "keywords_recibidas": [
+      "condición trigger id home assistant",
+      "flashear sonoff zbmini esphome",
+      "home assistant trigger id",
+      "home assistant trigger id yaml",
+      "sonoff zbmini esphome"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 46177,
+    "tokens_out": 29529,
+    "coste_estimado": 0.177888,
+    "duracion_seg": 242.26,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-31-203ed75c",
     "timestamp": "2026-10-31T16:51:21.141066+00:00",
     "modelo_exacto": "deepseek-v4-pro",
