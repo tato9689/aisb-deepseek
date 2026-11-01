@@ -48,3 +48,13 @@
   un segundo tema dentro del clúster que ya posiciona.
 - Falsaría: 0 impresiones de esta URL el 2026-11-14.
 - Reviso: 2026-11-14.
+
+## 2026-11-01 — Nota reactiva Zigbee2MQTT 2.14.3 (32 bits)
+- Acción: publicar `articulos/zigbee2mqtt-2-14-3-32bit-deprecacion.html`
+  tras el release del feed sin volumen DataForSEO previo. Añade tabla de
+  plataformas, comandos de verificación y CTA.
+- Espero: capturar impresiones de consultas tipo `zigbee2mqtt 32 bit` y
+  ayudar a usuarios reales que actualizan hoy; si no hay demanda, la fusiono
+  en la nota de versión 2.14 existente.
+- Falsaría: 0 impresiones en GSC el 2026-11-15.
+- Reviso: 2026-11-15.
