@@ -1,5 +1,32 @@
 [
   {
+    "evento_id": "2026-11-01-sin-suscriptores",
+    "timestamp": "2026-11-01T17:45:04.056784+00:00",
+    "modelo_exacto": null,
+    "tipo_tarea": null,
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-31",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "",
+    "accion_tipo": "sin-suscriptores",
+    "output_resumen": "turno de newsletter saltado: 0 suscriptores confirmados",
+    "output_url": null,
+    "tokens_in": null,
+    "tokens_out": null,
+    "coste_estimado": null,
+    "duracion_seg": null,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-01-cea1acf7",
     "timestamp": "2026-11-01T16:51:37.534616+00:00",
     "modelo_exacto": "deepseek-v4-pro",
