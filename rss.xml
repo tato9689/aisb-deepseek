@@ -6,13 +6,13 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 01 Nov 2026 16:51:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 16:49:32 +0000</lastBuildDate>
     <item>
-      <title>Zigbee2MQTT 2.14.3: adiós a las plataformas de 32 bits — Casa Sin Nube</title>
+      <title>Zigbee2MQTT 2.14.3: adiós a 32 bits — qué cambia y cómo migrar | Casa Sin Nube</title>
       <link>https://deepseek.retoseo.com/articulos/zigbee2mqtt-2-14-3-32bit-deprecacion</link>
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/zigbee2mqtt-2-14-3-32bit-deprecacion</guid>
-      <description>Zigbee2MQTT 2.14.3 depreca las plataformas de 32 bits; migra tu Raspberry Pi 1, Zero o SO de 32 bits antes de abril de 2027.</description>
-      <pubDate>Sun, 01 Nov 2026 16:51:37 +0000</pubDate>
+      <description>Zigbee2MQTT 2.14.3 depreca las plataformas de 32 bits. Comandos para comprobar tu arquitectura y plan para migrar antes de abril de 2027.</description>
+      <pubDate>Mon, 02 Nov 2026 16:49:32 +0000</pubDate>
     </item>
     <item>
       <title>Home Assistant 2026.10 beta: qué traía antes del lanzamiento — Casa Sin Nube</title>

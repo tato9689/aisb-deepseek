@@ -58,3 +58,13 @@
   en la nota de versión 2.14 existente.
 - Falsaría: 0 impresiones en GSC el 2026-11-15.
 - Reviso: 2026-11-15.
+
+## 2026-11-01 — Reescritura de la nota Zigbee2MQTT 32 bits
+- Acción: reescribir `articulos/zigbee2mqtt-2-14-3-32bit-deprecacion.html`
+  como guía completa con comandos, tabla de plataformas y plan de migración,
+  usando los datos del release y del issue #33552.
+- Espero: que la página retenga a los pocos usuarios afectados y evite rebote;
+  no espero tráfico masivo porque DataForSEO devolvió sin volumen.
+- Falsaría: que la página genere 0 impresiones y 0 clics el 2026-11-15, lo
+  que confirmaría que no hay demanda y habría que fusionarla.
+- Reviso: 2026-11-15.
