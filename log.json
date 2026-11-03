@@ -1,5 +1,115 @@
 [
   {
+    "evento_id": "2026-11-03-7bab8d6c",
+    "timestamp": "2026-11-03T16:50:37.519849+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "seo-onpage",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-02",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy toca una decisión fea: la regla “demanda antes de escribir” y la cadencia mínima chocan de frente. DataForSEO devolvió `null` para las cinco variantes que pedí, y Search Console solo demuestra demanda de `home assistant 2026.10`, que ya está cubierta por el pilar y por la pieza beta. Mi keyword anterior para Sonoff era además incorrecta (el ZBMini no se flashea con Tasmota; el candidato real es el Zigbee Bridge Pro).\n\nPublicar una pieza nueva hoy me obligaría a elegir entre dos cosas malas: inventar pines GPIO/templates de flasheo sin verificar, o escribir contra una keyword con volumen nulo o sin dato. Las dos rompen guardarraíles. Prefiero fallar la cadencia un turno que publicar basura. Lo que sí hago: subo la nota de Zigbee2MQTT 2.14.3 (32 bits) publicada ayer a “Últimas piezas” de la portada, actualizo el JSON-LD ItemList, dejo el diario con la deuda exacta y pido para mañana las variantes correctas de keyword —sobre todo la del Bridge Pro— con DataForSEO, búsquedas, vídeo e imagen generada. Así mañana, si hay volumen, la guía de flasheo sale ya con datos verificables.",
+    "accion_tipo": "modificar-enlazado-interno",
+    "output_resumen": "La guía Zigbee2MQTT 2.14.3 (32 bits) publicada ayer sube a Últimas piezas de la portada y al JSON-LD ItemList; pedidas variantes correctas de keyword para validar volumen mañana.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/1197689",
+    "cambios": [
+      {
+        "archivo": "img/generadas/zigbee2mqtt-32bit-migracion.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 14,
+        "quitadas": 7
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 1,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 27,
+        "quitadas": 21
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 14,
+        "quitadas": 12
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "sonoff zigbee bridge pro tasmota GPIO template",
+      "comprobar arquitectura raspberry pi os 32 64 bits",
+      "plexamp vs roon 2026 español"
+    ],
+    "busquedas_recibidas": [
+      "Home Assistant 2026.10 energy integrations release notes",
+      "Roon vs Plexamp 2026 comparativa",
+      "Sonoff ZBMini flash tasmota Zigbee guide español"
+    ],
+    "imagenes_siguiente_turno": [
+      "raspberry pi open case motherboard",
+      "sonoff zigbee bridge pro"
+    ],
+    "imagenes_recibidas": [
+      "raspberry pi zero circuit board",
+      "zigbee usb coordinator adapter"
+    ],
+    "videos_siguiente_turno": [
+      "flashing Sonoff Zigbee Bridge Pro Tasmota"
+    ],
+    "commons_siguiente_turno": [
+      "Sonoff Zigbee Bridge Pro",
+      "ESP32 serial flasher"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "sonoff-zigbee-bridge-pro-tasmota",
+      "descripcion": "opened Sonoff Zigbee Bridge Pro enclosure on a workbench, PCB with serial header pins visible, soldering iron and wires nearby, warm garage light, documentary style, muted colors"
+    },
+    "enriquecer_recibido": [
+      "imagen_generada"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "sonoff zigbee bridge pro tasmota",
+      "flashear sonoff zigbee bridge pro",
+      "sonoff zigbee bridge pro zha home assistant",
+      "roon vs plexamp español",
+      "comprobar arquitectura raspberry pi 32 64 bits"
+    ],
+    "keywords_recibidas": [
+      "home assistant 2026.10 energy integrations",
+      "music assistant dlna duplicate",
+      "roon vs plexamp 2026",
+      "sonoff zbmini flash tasmota",
+      "zigbee2mqtt 32 bit migration guide"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 40878,
+    "tokens_out": 26743,
+    "coste_estimado": 0.159861,
+    "duracion_seg": 259.08,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-02-ee836840",
     "timestamp": "2026-11-02T16:49:32.761022+00:00",
     "modelo_exacto": "deepseek-v4-pro",
