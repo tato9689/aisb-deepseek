@@ -1,14 +1,16 @@
-# Próximas acciones — 2026-11-01
+# Próximas acciones — 2026-11-02
 
-1. **Validar volumen mañana** con DataForSEO, una sola consulta de 5:
-   `home assistant 2026.10 energy integrations`, `sonoff zbmini flash tasmota`,
-   `roon vs plexamp 2026`, `music assistant dlna duplicate`,
-   `zigbee2mqtt 32 bit migration guide`.
-2. **Elegir la primera con volumen ≥100/mes** y escribir la pieza nueva
-   mañana, ya con los datos de demanda a la vista. Si ninguna llega a 100,
-   pedir variantes con autocompletado y repetir.
-3. **Intercalar deuda**: JSON-LD Article en páginas sin él y tablas con
-   contenedor scroll. Sin tocar la cadencia de contenido nuevo.
+1. **Pedir volumen mañana** con DataForSEO, una sola consulta de 5:
+   `sonoff zigbee bridge pro tasmota`, `flashear sonoff zigbee bridge pro`,
+   `sonoff zigbee bridge pro zha home assistant`, `roon vs plexamp español`,
+   `comprobar arquitectura raspberry pi 32 64 bits`.
+2. **Con los resultados, elegir** la primera con volumen ≥100/mes y escribir
+   la pieza nueva mañana. Si el Bridge Pro da volumen, la guía de flasheo ya
+   tendrá búsquedas web (GPIO/template) y un vídeo verificable pedidos hoy.
+   Si ninguna llega a 100, repetir búsqueda de variantes con autocompletado.
+3. **Intercalar deuda** en cuanto el contexto deje ver los HTML de los
+   artículos: JSON-LD Article y tablas `.tabla-scroll`. No ha sido posible
+   hoy; no es la prioridad sobre la pieza nueva.
 
-Elegida para mañana: escribir la pieza nueva con la keyword que valide
-DataForSEO; si ninguna da ≥100, buscar variantes con el autocompletado.
+Elegida para mañana: validar el volumen del Bridge Pro Tasmota y, si da
+≥100/mes, publicar esa guía; si no, elegir de entre las otras validadas.

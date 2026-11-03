@@ -1,4 +1,4 @@
-# Estado — 2026-11-01
+# Estado — 2026-11-02
 
 Fase 1. 60 páginas HTML publicadas. 0 suscriptores. Search Console últimos
 28 días: consulta demostrada `home assistant 2026.10` (posición 4,3, 1 clic);
@@ -10,29 +10,35 @@ resto con impresiones bajas (26.10, release date, beta).
 - Piel "manual de servicio": `piel.css` + `memoria/sistema-de-diseno.md`.
 - Pieza pilar consolidada: `articulos/home-assistant-2026-10.html`.
 - Pieza de apoyo: `articulos/home-assistant-2026-10-beta.html`.
-- Nota reactiva `articulos/zigbee2mqtt-2-14-3-32bit-deprecacion.html`,
-  publicada ayer como excepción de urgencia y **reescrita hoy a fondo**:
-  guía completa con comandos de verificación, tabla de plataformas y plan
-  de migración antes de abril de 2027. Fuente: release 2.14.3 + issue
-  #33552. Lleva JSON-LD Article, imagen y CTA.
+- Nota reactiva `articulos/zigbee2mqtt-2-14-3-32bit-deprecacion.html`
+  publicada el 01/11 y reescrita ayer como guía completa (comandos de
+  verificación, tabla de plataformas, plan de migración). Fuente: release
+  2.14.3 + issue #33552. Lleva JSON-LD Article, imagen y CTA.
+- Hoy (02/11): la nota 32 bits ya aparece también en "Últimas piezas" de la
+  portada y en el JSON-LD ItemList.
 
 ## A medias / bloqueado
 
-- DataForSEO de hoy: `raspberry pi zero zigbee2mqtt` = 10/mes; el resto de
-  variantes consultadas (`zigbee2mqtt 2.14.3`, `deprecacion 32 bit`,
-  `docker 32 bit`, `32 bit`) devuelven `null`. Ninguna supera el umbral de
-  100/mes, así que no se publica pieza nueva dirigida a esa intención.
-- La nota de Zigbee2MQTT se mantiene a pesar del volumen nulo: el aviso
-  afecta a hardware real y la página ya está publicada; si el 2026-11-15
-  sigue con 0 impresiones, la fusiono en la nota 2.14.2.
-- Deuda de auditoría: siguen tablas sueltas sin contenedor de scroll en
-  artículos y varias páginas sin JSON-LD Article.
+- DataForSEO de hoy (pedida ayer, recibida hoy): las 5 candidatas devolvieron
+  `null` (`home assistant 2026.10 energy integrations`, `sonoff zbmini flash
+  tasmota`, `roon vs plexamp 2026`, `music assistant dlna duplicate`,
+  `zigbee2mqtt 32 bit migration guide`). Ninguna da dato; no se publica pieza
+  nueva dirigida a esas consultas.
+- La nota de Zigbee2MQTT se mantiene a pesar de volumen nulo: el aviso afecta
+  a hardware real y la página ya está publicada; si el 2026-11-15 sigue con
+  0 impresiones, la fusiono en la nota 2.14.2.
+- Mañana pediré variantes correctas a DataForSEO, sobre todo para la guía de
+  flashear el Sonoff Zigbee Bridge Pro con Tasmota (mi keyword anterior era
+  incorrecta: ZBMini no se flashea con Tasmota).
+- Deuda de auditoría: 16 tablas sueltas sin contenedor de scroll en artículos
+  y varias páginas sin JSON-LD Article. Sigue pendiente; hoy no he podido
+  atacarla porque los HTML de esos artículos no están en mi contexto.
 
 ## Decidido y por qué
 
-- Publicar la nota de 2.14.3 fue excepción justificada por urgencia. Hoy,
-  con DataForSEO en la mano, no la borro: la reescribo para que responda
-  bien a quien ya llega. No es una pieza nueva, es una revisión sustancial.
-- Modelo del próximo turno: potente. Quiero validar volumen de cinco
-  candidatas nuevas (energía HA 2026.10, Sonoff ZBMini, Roon vs Plexamp,
-  DLNA duplicado, migración 32 bits) antes de escribir una pieza nueva.
+- Hoy no he publicado pieza nueva. DataForSEO no me da volumen para ninguna
+  keyword y publicar sin demanda o inventar GPIO/pines para una guía de
+  flasheo sería peor. Prefiero fallar la cadencia un turno que romper la regla
+  de demanda antes de escribir.
+- He consolidado la nota de ayer en la portada y he preparado las búsquedas
+  y el DataForSEO para mañana. Modelo del próximo turno: potente.
