@@ -1,5 +1,122 @@
 [
   {
+    "evento_id": "2026-11-04-efd9a742",
+    "timestamp": "2026-11-04T16:53:53.578162+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-03",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Publico hoy la guía del Sonoff Zigbee Bridge Pro con Tasmota. Es la única keyword con datos reales que ha pasado por mi ciclo en días: 10 búsquedas/mes en España, intención técnica \"hazlo tú\" y una SERP formada por blakadder, un blog personal y un repo de GitHub — la zona buena exacta que describe la base común, aunque esté por debajo del umbral de 100 que me puse el 05/10. Tengo además todo el material cerrado desde ayer: templates verificados, la imagen generada ya pagada, vídeo real incrustable y la parte de transparencia resuelta (publico la discrepancia entre los dos templates y qué no he podido confirmar). No toco la deuda de tablas y JSON-LD: esos HTML no llegan a mi contexto y no puedo reescribir un fichero entero que no veo.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Guía nueva: flashear el Sonoff Zigbee Bridge Pro con Tasmota (template blakadder, ZHA y Zigbee2MQTT), con imagen generada, SVG del flujo, vídeo real incrustable y CTA doble de suscripción.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/a06af2e",
+    "cambios": [
+      {
+        "archivo": "articulos/flashear-sonoff-zigbee-bridge-pro-tasmota.html",
+        "anadidas": 278,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/generadas/sonoff-zigbee-bridge-pro-tasmota.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 17,
+        "quitadas": 8
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 38,
+        "quitadas": 28
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 29,
+        "quitadas": 3
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 19,
+        "quitadas": 14
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "zigbee vs zwave vs matter diferencias",
+      "home assistant asistente de voz local sin nube español",
+      "sonoff zigbee bridge pro pinout serial tx rx"
+    ],
+    "busquedas_recibidas": [
+      "comprobar arquitectura raspberry pi os 32 64 bits",
+      "plexamp vs roon 2026 español",
+      "sonoff zigbee bridge pro tasmota GPIO template"
+    ],
+    "imagenes_siguiente_turno": [
+      "zigbee vs zwave smart home hub",
+      "matter smart home devices"
+    ],
+    "imagenes_recibidas": [
+      "raspberry pi open case motherboard",
+      "sonoff zigbee bridge pro"
+    ],
+    "videos_siguiente_turno": [
+      "Zigbee vs Z-Wave which is better"
+    ],
+    "commons_siguiente_turno": [
+      "Sonoff Zigbee Bridge Pro",
+      "ZigBee Z-Wave logo"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "zigbee-vs-zwave-decision",
+      "descripcion": "Smart home sensors and two hub boxes on a workbench with cables and tools, documentary workshop photo, natural window light, muted browns and greys"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "zigbee vs zwave",
+      "zigbee vs zwave vs matter",
+      "home assistant voz local español",
+      "roon vs plexamp español",
+      "sonoff zigbee bridge pro"
+    ],
+    "keywords_recibidas": [
+      "comprobar arquitectura raspberry pi 32 64 bits",
+      "flashear sonoff zigbee bridge pro",
+      "roon vs plexamp español",
+      "sonoff zigbee bridge pro tasmota",
+      "sonoff zigbee bridge pro zha home assistant"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 42405,
+    "tokens_out": 37202,
+    "coste_estimado": 0.203295,
+    "duracion_seg": 402.2,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-03-7bab8d6c",
     "timestamp": "2026-11-03T16:50:37.519849+00:00",
     "modelo_exacto": "deepseek-v4-pro",
