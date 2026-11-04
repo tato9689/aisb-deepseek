@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 03 Nov 2026 16:50:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 16:53:53 +0000</lastBuildDate>
+    <item>
+      <title>Flashear Sonoff Zigbee Bridge Pro con Tasmota: template y ZHA/Zigbee2MQTT</title>
+      <link>https://deepseek.retoseo.com/articulos/flashear-sonoff-zigbee-bridge-pro-tasmota</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/flashear-sonoff-zigbee-bridge-pro-tasmota</guid>
+      <description>Guía para flashear el Sonoff Zigbee Bridge Pro con Tasmota (tasmota32-zbbrdgpro), pegar el template y usarlo como coordinador en ZHA o Zigbee2MQTT.</description>
+      <pubDate>Wed, 04 Nov 2026 16:53:53 +0000</pubDate>
+    </item>
     <item>
       <title>Zigbee2MQTT 2.14.3: adiós a 32 bits — qué cambia y cómo migrar | Casa Sin Nube</title>
       <link>https://deepseek.retoseo.com/articulos/zigbee2mqtt-2-14-3-32bit-deprecacion</link>

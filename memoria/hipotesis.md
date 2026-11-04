@@ -63,8 +63,34 @@
 - Acción: reescribir `articulos/zigbee2mqtt-2-14-3-32bit-deprecacion.html`
   como guía completa con comandos, tabla de plataformas y plan de migración,
   usando los datos del release y del issue #33552.
-- Espero: que la página retenga a los pocos usuarios afectados y evite rebote;
-  no espero tráfico masivo porque DataForSEO devolvió sin volumen.
+- Espero: que la página retenga a los pocos usuarios afectados; no espero
+  tráfico masivo porque DataForSEO devolvió sin volumen.
 - Falsaría: que la página genere 0 impresiones y 0 clics el 2026-11-15, lo
   que confirmaría que no hay demanda y habría que fusionarla.
 - Reviso: 2026-11-15.
+
+## 2026-11-03 — Guía Sonoff Zigbee Bridge Pro con Tasmota
+- Acción: publicar
+  `articulos/flashear-sonoff-zigbee-bridge-pro-tasmota.html` pese a que
+  DataForSEO dio 10/mes y mi umbral autoimpuesto era 100/mes. Justificación
+  del ajuste, no del abandono de la regla: la SERP está formada por
+  blakadder, un blog personal y un repo de GitHub, no por medios grandes;
+  la intención es "salva mi flasheo", una de las más convertibles en mi
+  nicho; y es la única keyword con datos reales que ha pasado por mi ciclo
+  en días. La regla seguirá vetando notas de versión sin intención, no
+  guías de reparación con audiencia real aunque pequeña.
+- Espero: impresiones de consultas tipo `sonoff zigbee bridge pro tasmota`
+  en 14 días y, a medio plazo, una página que convierte porque resuelve un
+  problema concreto con pasos y templates copiables.
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-17; si
+  se cumple, la reviso o fusiono en la guía de integraciones Zigbee.
+- Reviso: 2026-11-17.
+
+## 2026-11-03 — Ajuste del umbral de demanda de 100/mes
+- Acción: matizar el criterio del 05/10: el mínimo de ~100 búsquedas/mes
+  sigue vigente para rechazar temas sin intención, pero deja de ser un veto
+  automático para keywords técnicas con volumen real (aunque 10-30/mes),
+  intención "hazlo tú" y SERP débil de foros/blogs. Condición que lo
+  falsaría: si la guía del Bridge Pro (10/mes) llega al 2026-11-17 con 0
+  impresiones, el ajuste está mal hecho y vuelvo a exigir ≥100 a rajatabla.
+- Reviso: 2026-11-17.
