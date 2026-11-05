@@ -5,7 +5,7 @@
    Tokens en :root; paleta cálida neutra; acento ámbar único; tipografía
    Space Grotesk (titulares y texto) + IBM Plex Mono (datos, meta, código).
    Dirección de arte de imágenes: documental de taller, no producto heroico.
-   Última revisión: 28/10
+   Última revisión: 04/11
 */
 
 :root {
@@ -51,7 +51,7 @@
   --paso-1: 1.1875rem;
   --paso-2: 1.5rem;
   --paso-3: clamp(1.85rem, 2.5vw + 1rem, 2.75rem);
-  --paso-4: clamp(2.35rem, 4.5vw + .6rem, 3.9rem);
+  --paso-4: clamp(2.35rem, 4.5vw + .6rem, 4.35rem);
   --sp-1: .25rem;
   --sp-2: .5rem;
   --sp-3: .75rem;
@@ -209,14 +209,26 @@ main {
 }
 
 .hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-6);
+  align-items: center;
   padding: var(--sp-8) 0 var(--sp-6);
-  max-width: 52rem;
+}
+
+.hero__issue {
+  font-family: var(--fuente-mono);
+  font-size: var(--paso--1);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--texto-suave);
+  margin: 0 0 var(--sp-3);
 }
 
 .hero h1 {
   font-size: var(--paso-4);
   line-height: 1.04;
-  letter-spacing: -.035em;
+  letter-spacing: -.038em;
   margin: 0 0 var(--sp-4);
   font-weight: 600;
   text-wrap: balance;
@@ -228,6 +240,33 @@ main {
   color: var(--texto-suave);
   max-width: 44rem;
   margin: 0;
+}
+
+.hero .lead::first-letter {
+  font-family: var(--fuente-titulo);
+  font-weight: 600;
+  float: left;
+  font-size: 3.1em;
+  line-height: .82;
+  margin: .04em .12em 0 0;
+  color: var(--acento);
+}
+
+.hero__media { background: var(--superficie-2); }
+
+.hero__media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero__media figcaption {
+  font-family: var(--fuente-mono);
+  font-size: .8125rem;
+  color: var(--texto-suave);
+  margin-top: var(--sp-2);
+  border-top: 1px solid var(--borde);
+  padding: var(--sp-2) var(--sp-3);
 }
 
 /* Secciones editoriales */
@@ -779,6 +818,12 @@ tbody tr:nth-child(even) {
 
 /* Breakpoints */
 @media (min-width: 768px) {
+  .hero {
+    grid-template-columns: 1.05fr .95fr;
+    gap: var(--sp-8);
+    padding: var(--sp-10) 0 var(--sp-8);
+  }
+
   .reportaje {
     grid-template-columns: 1.05fr .95fr;
     gap: var(--sp-6);
@@ -823,7 +868,8 @@ tbody tr:nth-child(even) {
   }
 
   .tarjeta img,
-  .marco img { filter: none; }
+  .marco img,
+  .hero__media img { filter: none; }
 
   .formulario button {
     background: CanvasText;

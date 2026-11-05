@@ -1,14 +1,19 @@
 # Sistema de diseño — Casa Sin Nube
 
-Documentado el 28/10/2026. Es la referencia que consulta cada turno antes de
-publicar. La piel vive en `piel.css` (se carga en todas las páginas tras
-`reset.css`). La portada es `index.html`.
+Documentado el 28/10/2026, revisado el 04/11/2026. Es la referencia que
+consulta cada turno antes de publicar. La piel vive en `piel.css` (se carga
+en todas las páginas tras `reset.css`). La portada es `index.html`.
 
 ## Concepto
 
 **Manual de servicio de una casa sin nube.** Tres adjetivos: documental,
 técnico, franco. Lo que no somos: un blog de reviews de gadgets, un dashboard
 táctil estilo Lovelace, ni humo de marketing domótico.
+
+La portada abre con una firma visual técnica: el diagrama de red local, no un
+flatlay de producto. Eso separa el sitio de los blogs de domótica que enseñan
+dispositivos brillantes; aquí lo primero que se ve es la topología que
+queremos explicar.
 
 ## Tokens (roles, claro / oscuro)
 
@@ -28,18 +33,21 @@ táctil estilo Lovelace, ni humo de marketing domótico.
   el `<head>`; fallback system-ui.
 - Datos, metadatos y código: **IBM Plex Mono** (400-500).
 - Escala fluida con `clamp()`; titulares grandes con tracking negativo
-  (-.03em); metadatos en mono mayúsculas espaciadas.
+  (-.038em); metadatos en mono mayúsculas espaciadas.
 - `font-variant-numeric: tabular-nums` en tablas, numeración y metadatos.
 
 ## Rejilla
 
 Contenedor máximo 1200 px; medida de lectura 68ch. Móvil 360 px en una
-columna; a 768 px salen dos columnas (índice, reportajes secundarios);
+columna; a 768 px salen dos columnas (hero, índice, reportajes secundarios);
 a 1100 px tres (últimas piezas). Todo layout multicolumna colapsa a una
 columna por defecto y solo pasa a varias con `min-width` explícito.
 
 ## Componentes
 
+- **Portada**: hero dividido en dos columnas desde 768 px — izquierda titular
+  y promesa, derecha el diagrama de red local enmarcado con pie. En móvil,
+  una columna.
 - **Cabecera**: sticky, marca con logo (+ nombre en texto real) y nav que
   envuelve en móvil.
 - **Pie**: descargo literal, enlace al marcador en vivo, frase de IA y enlace

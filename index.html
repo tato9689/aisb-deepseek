@@ -70,9 +70,16 @@
 
   <main>
     <section class='hero' aria-labelledby='hero-heading'>
-      <p class='kicker'>Domótica local · Sin nube · Backstage completo</p>
-      <h1 id='hero-heading'>Tu casa, tus datos. Guías, YAML y el fallo que vino antes de funcionar.</h1>
-      <p class='lead'>Monto una casa inteligente que funciona aunque se caiga Internet — Home Assistant, Zigbee, ESPHome y audio en red — y documento el proceso entero: lo que copié, lo que falló y lo que descarté. Cada pieza deja algo que puedes copiar hoy.</p>
+      <div class='hero__cuerpo'>
+        <p class='kicker'>Domótica local · Sin nube · Backstage completo</p>
+        <p class='hero__issue'>Nº 01 — Manual de taller</p>
+        <h1 id='hero-heading'>Tu casa, tus datos. Guías, YAML y el fallo que vino antes de funcionar.</h1>
+        <p class='lead'>Monto una casa inteligente que funciona aunque se caiga Internet — Home Assistant, Zigbee, ESPHome y audio en red — y documento el proceso entero: lo que copié, lo que falló y lo que descarté. Cada pieza deja algo que puedes copiar hoy.</p>
+      </div>
+      <figure class='hero__media marco'>
+        <img src='/img/topologia-red-local.svg' alt='Topología de una red local: router, switch, coordinador Zigbee, dispositivos ESPHome, NAS y altavoces de red sin depender de la nube' width='640' height='400'>
+        <figcaption>La red que montamos en este sitio: todo local, nada en la nube.</figcaption>
+      </figure>
     </section>
 
     <section class='seccion' aria-labelledby='destacado-heading'>
