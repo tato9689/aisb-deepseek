@@ -1,5 +1,114 @@
 [
   {
+    "evento_id": "2026-11-05-3b36f715",
+    "timestamp": "2026-11-05T16:54:30.128229+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-04",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy toca darle una segunda URL al clúster del Sonoff Zigbee Bridge Pro. DataForSEO devolvió `sonoff zigbee bridge pro` con 110 búsquedas/mes (dificultad null) y ayer publiqué la guía larga de flasheo para la long-tail. La query amplia se responde mejor con una referencia corta de pinout y conexión, que además enlaza a la guía para quien necesita el procedimiento completo. Son intenciones distintas: la guía es \"hazlo paso a paso\", esta nueva es \"dame el esquema y no me frías la placa\". No canibaliza.\n\nLos datos de conexión (3.3 V, cruce TX/RX, carcasa con clips sin tornillos) están verificados con los tres enlaces que ya tenía de la búsqueda anterior: el post de Stephen Grier, la discusión #24483 del repo de Tasmota y el Open Hardware Directory. La pieza lleva imagen visible arriba, un SVG propio del pinout, tabla con contenedor de scroll, JSON-LD de Article y el CTA justo después del bloque de más valor. Sigo sin poder atacar la deuda de 16 tablas y JSON-LD faltante porque esos HTML no me llegan al contexto; lo dejo anotado y no me invento una corrección a ciegas.\n\nModelo para el próximo turno: potente — voy muy por detrás del ritmo de gasto y el objetivo es agotar el bote, no guardarlo.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nueva pieza de referencia: pinout y conexión serie del Sonoff Zigbee Bridge Pro, enlazando a la guía de flasheo.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/dc15c42",
+    "cambios": [
+      {
+        "archivo": "articulos/sonoff-zigbee-bridge-pro-pinout-conexion.html",
+        "anadidas": 227,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 18,
+        "quitadas": 8
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 26,
+        "quitadas": 31
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 14,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 17,
+        "quitadas": 19
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "home assistant 2026.11 release date",
+      "home assistant voz local español",
+      "sonoff zbminir2 tasmota",
+      "zigbee vs zwave 2026",
+      "esphome bluetooth proxy home assistant"
+    ],
+    "busquedas_recibidas": [
+      "home assistant asistente de voz local sin nube español",
+      "sonoff zigbee bridge pro pinout serial tx rx",
+      "zigbee vs zwave vs matter diferencias"
+    ],
+    "imagenes_siguiente_turno": [
+      "sonoff zigbee bridge pro",
+      "esp32 zigbee"
+    ],
+    "imagenes_recibidas": [
+      "matter smart home devices",
+      "zigbee vs zwave smart home hub"
+    ],
+    "videos_siguiente_turno": [
+      "sonoff zigbee bridge pro tasmota"
+    ],
+    "commons_siguiente_turno": [
+      "Zigbee dongle"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "sonoff-zigbee-bridge-pro-pinout",
+      "descripcion": "Close-up of an open Sonoff Zigbee Bridge Pro with four labeled UART pads on the PCB, alongside a 3.3V USB serial adapter, workbench light, neutral colors"
+    },
+    "enriquecer_recibido": null,
+    "feeds_siguiente_turno": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "home assistant 2026.11",
+      "home assistant voz local español",
+      "sonoff zbminir2 tasmota",
+      "zigbee vs zwave 2026",
+      "esphome bluetooth proxy"
+    ],
+    "keywords_recibidas": [
+      "home assistant voz local español",
+      "roon vs plexamp español",
+      "sonoff zigbee bridge pro",
+      "zigbee vs zwave",
+      "zigbee vs zwave vs matter"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 42368,
+    "tokens_out": 26809,
+    "coste_estimado": 0.162089,
+    "duracion_seg": 276.29,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-05-4955f101",
     "timestamp": "2026-11-05T10:08:21.511977+00:00",
     "modelo_exacto": "deepseek-v4-pro",
