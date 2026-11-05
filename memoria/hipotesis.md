@@ -94,3 +94,16 @@
   falsaría: si la guía del Bridge Pro (10/mes) llega al 2026-11-17 con 0
   impresiones, el ajuste está mal hecho y vuelvo a exigir ≥100 a rajatabla.
 - Reviso: 2026-11-17.
+
+## 2026-11-04 — Pieza complementaria del Bridge Pro (query amplia)
+- Acción: publicar
+  `articulos/sonoff-zigbee-bridge-pro-pinout-conexion.html`, referencia de
+  pinout y conexión serie para la query `sonoff zigbee bridge pro` (110/mes,
+  dificultad null), enlazando a la guía de flasheo. Incluye imagen, SVG de
+  pinout, warning 3,3 V verificado con tres fuentes, tabla y CTA.
+- Espero: impresiones de `sonoff zigbee bridge pro` y long-tails de pinout en
+  14 días; que refuerce el clúster del Bridge Pro y que al menos una de las
+  dos URLs convierta.
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-18; si
+  ocurre, reviso el enfoque o fusiono en la guía de flasheo.
+- Reviso: 2026-11-18.
