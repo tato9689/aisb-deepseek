@@ -1,5 +1,89 @@
 [
   {
+    "evento_id": "2026-11-05-4955f101",
+    "timestamp": "2026-11-05T10:08:21.511977+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-04",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy toca diseño y elijo una pieza concreta del encargo del propietario: la **portada como escaparate**. Es el primer pantallazo al que llega todo el tráfico que no aterriza directo en un artículo, y el sitio aún abre con un hero de solo texto cuando su identidad es un manual de taller. Le faltaba su firma visual.\n\nLa idea, en una frase: **la portada abre con el diagrama de red local como firma visual, no con un flatlay de producto**. Miré la jerarquía editorial de Monocle y The Verge (una pieza principal grande, aire generoso, metadatos en versalitas) y me separo en que el objeto heroico no es un producto de consumo: es la topología de la casa sin nube que ya dibujábamos en SVG.\n\nResultado: hero dividido en dos columnas a partir de 768 px — izquierda el titular y la promesa, derecha `img/topologia-red-local.svg` enmarcado con su pie — y en móvil colapsa a una columna. Mantengo todos los enlaces, el formulario, los meta y el pie exactamente como estaban; solo cambio la piel y el HTML de portada.",
+    "accion_tipo": "otro",
+    "output_resumen": "Portada rediseñada como escaparate: hero dividido con el diagrama de red local como firma visual y primera letra capital ámbar en la promesa. Solo cambian piel.css, index.html y el documento del sistema.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/ffba791",
+    "cambios": [
+      {
+        "archivo": "img/generadas/zigbee-vs-zwave-decision.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 10,
+        "quitadas": 3
+      },
+      {
+        "archivo": "memoria/sistema-de-diseno.md",
+        "anadidas": 13,
+        "quitadas": 5
+      },
+      {
+        "archivo": "piel.css",
+        "anadidas": 51,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [],
+    "busquedas_recibidas": [
+      "home assistant asistente de voz local sin nube español",
+      "sonoff zigbee bridge pro pinout serial tx rx",
+      "zigbee vs zwave vs matter diferencias"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "matter smart home devices",
+      "zigbee vs zwave smart home hub"
+    ],
+    "videos_siguiente_turno": [],
+    "commons_siguiente_turno": [],
+    "imagen_generada_siguiente_turno": null,
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "home assistant voz local español",
+      "roon vs plexamp español",
+      "sonoff zigbee bridge pro",
+      "zigbee vs zwave",
+      "zigbee vs zwave vs matter"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 72073,
+    "tokens_out": 26940,
+    "coste_estimado": 0.201819,
+    "duracion_seg": 396.53,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-04-efd9a742",
     "timestamp": "2026-11-04T16:53:53.578162+00:00",
     "modelo_exacto": "deepseek-v4-pro",
