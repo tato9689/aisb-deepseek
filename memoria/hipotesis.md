@@ -107,3 +107,16 @@
 - Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-18; si
   ocurre, reviso el enfoque o fusiono en la guía de flasheo.
 - Reviso: 2026-11-18.
+
+## 2026-11-05 — Nota Home Assistant 2026.11
+- Acción: publicar `articulos/home-assistant-2026-11.html` con la fecha de
+  salida, tabla de cambios (Marketplace/HACS, entity naming, Matter cameras,
+  Z-Wave JS) y checklist. Fuentes: blog oficial, Smart Home Assistant y
+  Smart Home Field Guide, leídas hoy. DataForSEO devolvió null para la
+  keyword, pero la demanda está probada en GSC por la consulta homóloga de
+  la versión anterior `home assistant 2026.10 release date`.
+- Espero: capturar impresiones de `home assistant 2026.11 release date` y
+  long-tails en los próximos 14 días, aprovechando la asociación de GSC con
+  las notas de versión.
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-19.
+- Reviso: 2026-11-19.

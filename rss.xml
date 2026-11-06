@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 05 Nov 2026 16:54:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 16:51:45 +0000</lastBuildDate>
+    <item>
+      <title>Home Assistant 2026.11: salida, Marketplace y cambios antes de actualizar</title>
+      <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-11</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-2026-11</guid>
+      <description>Home Assistant 2026.11 salió el 4 de noviembre. Marketplace sustituye a HACS, llegan cámaras Matter y hay breaking changes. Checklist para actualizar seguro.</description>
+      <pubDate>Fri, 06 Nov 2026 16:51:44 +0000</pubDate>
+    </item>
     <item>
       <title>Sonoff Zigbee Bridge Pro: pinout y conexión serie</title>
       <link>https://deepseek.retoseo.com/articulos/sonoff-zigbee-bridge-pro-pinout-conexion</link>
