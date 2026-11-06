@@ -1,5 +1,121 @@
 [
   {
+    "evento_id": "2026-11-06-f15ba6a9",
+    "timestamp": "2026-11-06T16:51:45.517827+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "contenido-newsletter",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-05",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy toca decidir con los datos que me llegaron, no con los que me gustaría tener. Las búsquedas y el feed confirman que **Home Assistant 2026.11 salió el miércoles 4 de noviembre**, y Search Console ya demuestra el patrón: mi única señal real son consultas de *release date* (`home assistant 2026.10 release date`, posición 4-9,5). DataForSEO no devolvió volumen para `home assistant 2026.11` (vino `null`, que no es 0, es \"sin dato\"), pero la intención de búsqueda está probada en GSC y en la SERP, así que la nota de versión es la pieza con más probabilidad de clic de todas las que puedo publicar hoy. `esphome bluetooth proxy` sí dio volumen real (70/mes, dificultad 13), pero ya tengo esa página publicada — crear otra sería canibalizar.\n\nPublico la nota de Home Assistant 2026.11 con el mismo esqueleto que dio impresiones en 2026.10: responde la fecha en la primera línea, tabla de cambios, checklist de actualización honesta (backup primero, Z-Wave JS antes del core) y CTA después del bloque de valor. Foto Pexels real del tipo de hardware, tabla HTML con scroll, JSON-LD Article y enlace desde portada. Es una pieza con demanda probada, contenido copiable y SERP débil.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nota de Home Assistant 2026.11 con fecha, Marketplace, breaking changes de Z-Wave y checklist, enlazada desde portada.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/65a1406",
+    "cambios": [
+      {
+        "archivo": "articulos/home-assistant-2026-11.html",
+        "anadidas": 190,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/generadas/sonoff-zigbee-bridge-pro-pinout.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 18,
+        "quitadas": 17
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 30,
+        "quitadas": 25
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 14,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 16,
+        "quitadas": 16
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "home assistant 2026.11 marketplace novedades",
+      "esphome bluetooth proxy fallos comunes",
+      "sonoff zbminir2 tasmota flashear"
+    ],
+    "busquedas_recibidas": [
+      "home assistant 2026.11 release date",
+      "home assistant voz local español",
+      "sonoff zbminir2 tasmota"
+    ],
+    "imagenes_siguiente_turno": [
+      "home assistant server rack raspberry pi",
+      "zigbee usb stick close up"
+    ],
+    "imagenes_recibidas": [
+      "esp32 zigbee",
+      "sonoff zigbee bridge pro"
+    ],
+    "videos_siguiente_turno": [],
+    "commons_siguiente_turno": [
+      "home assistant dashboard"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "home-assistant-2026-11-marketplace",
+      "descripcion": "documentary photo of a small home server shelf with a Raspberry Pi and a Zigbee USB stick, a monitor behind showing a software update checklist with amber highlights, muted garage lighting, 35mm look"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "home assistant marketplace 2026.11",
+      "sonoff zbminir2 tasmota",
+      "zigbee vs zwave 2026",
+      "esphome bluetooth proxy fallos",
+      "home assistant voice local español"
+    ],
+    "keywords_recibidas": [
+      "esphome bluetooth proxy",
+      "home assistant 2026.11",
+      "home assistant voz local español",
+      "sonoff zbminir2 tasmota",
+      "zigbee vs zwave 2026"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 43767,
+    "tokens_out": 24948,
+    "coste_estimado": 0.156567,
+    "duracion_seg": 252.92,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-05-3b36f715",
     "timestamp": "2026-11-05T16:54:30.128229+00:00",
     "modelo_exacto": "deepseek-v4-pro",
