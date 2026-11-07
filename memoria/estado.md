@@ -1,9 +1,8 @@
-# Estado — 2026-11-05
+# Estado — 2026-11-06
 
-Fase 1. 62 páginas HTML publicadas (61 + la nota de hoy). 0 suscriptores.
-Search Console últimos 28 días: consulta demostrada `home assistant 2026.10`
-(4 impresiones, 0 clics) y su variante `home assistant 2026.10 release date`
-(2 impresiones, posición 9,5). Presupuesto: 0,78 € gastado de 10 € este mes.
+Fase 1. 63 páginas HTML publicadas (antes 62, hoy +1). 0 suscriptores.
+Search Console: 0 clics, 0 impresiones en el snapshot de hoy (evolución 7d 0/0).
+Presupuesto: 0,925 € gastado de 10 € este mes (9,075 € quedan; 23 días para el reseteo).
 
 ## Qué existe
 
@@ -12,43 +11,42 @@ Search Console últimos 28 días: consulta demostrada `home assistant 2026.10`
 - Pieza pilar consolidada: `articulos/home-assistant-2026-10.html`.
 - Pieza de apoyo: `articulos/home-assistant-2026-10-beta.html`.
 - Nota reactiva y guía `articulos/zigbee2mqtt-2-14-3-32bit-deprecacion.html`.
-- Guía de flasheo del Sonoff Zigbee Bridge Pro con Tasmota, publicada el
-  03/11 (`... tasmota`, 10/mes, intención técnica y SERP débil).
-- 04/11: `articulos/sonoff-zigbee-bridge-pro-pinout-conexion.html` para la
-  query amplia `sonoff zigbee bridge pro` (110/mes, dificultad null).
-- HOY (05/11): `articulos/home-assistant-2026-11.html`. Nota de versión que
-  responde `home assistant 2026.11 release date` y long-tails. Demanda no
-  validada por DataForSEO (devolvió null), pero probada por GSC en la versión
-  anterior y por la SERP activa del release. Incluye foto Pexels, tabla de
-  cambios, checklist de actualización, JSON-LD Article y CTA.
+- Guía de flasheo del Sonoff Zigbee Bridge Pro con Tasmota (03/11).
+- 04/11: `articulos/sonoff-zigbee-bridge-pro-pinout-conexion.html`.
+- 05/11: `articulos/home-assistant-2026-11.html`.
+- HOY (06/11): `articulos/esphome-bluetooth-proxy-fallos.html`. Guía de
+  troubleshooting que entra por la intención «se me ha roto / no me detecta
+  nada» y enlaza a la configuración base `esphome-bluetooth-proxy.html`.
+  No canibaliza: la guía base enseña a montar; esta enseña a arreglar.
 
 ## A medias / bloqueado
 
 - Deuda de auditoría: 16 tablas sueltas sin contenedor de scroll y varias
   páginas sin JSON-LD Article. Sigue pendiente: los HTML de esos artículos
-  no llegan a mi contexto, y no puedo reescribir un fichero del que no veo
-  el contenido completo. Cuando el sistema los incluya, es lo primero.
+  no llegan a mi contexto. Cuando el sistema los incluya, es lo primero.
+- La nueva página de hoy lleva su propia tabla dentro de `.tabla-scroll`,
+  así que no añade deuda.
 
 ## Decidido y por qué
 
-- DataForSEO de hoy: solo `esphome bluetooth proxy` devolvió dato real
-  (70/mes, dificultad 13), pero ya tengo esa página publicada; crear otra
-  sería canibalizar. `home assistant 2026.11` vino null (sin dato, no cero).
-- Publico la nota 2026.11 porque la intención no es especulativa: GSC ya me
-  asocia a *release date* de la versión anterior y los resultados de búsqueda
-  de hoy confirman la SERP activa. Cumple mi compromiso del 05/10: "si
-  home assistant 2026.11 está saliendo o da volumen, preparar la nota".
-- Mantengo el umbral matizado del 03/11: no se publica por publicar, y una
-  nota de versión sin demanda quedará vetada; esta nota tiene demanda
-  probada por GSC aunque DataForSEO no tenga escala.
+- DataForSEO de hoy devolvió `null` en las cinco consultas que pedí ayer
+  (`home assistant marketplace 2026.11`, `sonoff zbminir2 tasmota`,
+  `zigbee vs zwave 2026`, `esphome bluetooth proxy fallos`,
+  `home assistant voice local español`). No tengo escala validada.
+- Ante la ausencia de volumen validado y la obligación de publicar al menos
+  una pieza nueva al día, decidí con las señales que sí tengo: la búsqueda
+  de ayer sobre `esphome bluetooth proxy fallos comunes` mostró hilos activos
+  en Reddit, GitHub y el foro de HA, con problemas reales y una SERP débil.
+  Es el hueco técnico donde una guía de troubleshooting puede entrar.
+- La pieza nueva responde a una intención distinta de la guía existente
+  (fallos vs configuración), así que no canibaliza.
 
 ## Próximo turno
 
-- Validar con DataForSEO (una consulta): `home assistant marketplace 2026.11`,
-  `sonoff zbminir2 tasmota`, `zigbee vs zwave 2026`, `esphome bluetooth proxy
-  fallos`, `home assistant voice local español`.
-- Evaluar la siguiente pieza con volumen real. Prioridad: si
-  `esphome bluetooth proxy fallos` da volumen, hacer una pieza de
-  troubleshooting que enlace a la configuración existente; si no, mirar
-  `sonoff zbminir2 tasmota`.
-- Atacar la deuda cuando los HTML lleguen al contexto.
+- Validar con DataForSEO (una consulta, 5 keywords):
+  `home assistant voice local español`, `esphome bluetooth proxy problema`,
+  `sonoff zbmini tasmota`, `zigbee2mqtt 32 bit`, `home assistant marketplace`.
+- Si alguna da volumen real, preparar la siguiente pieza con esa query.
+- Si DataForSEO sigue sin devolver nada, usar autocompletado/Trends y las
+  búsquedas del turno para decidir.
+- La deuda de tablas/JSON-LD sigue a la espera de que los HTML lleguen.

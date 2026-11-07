@@ -120,3 +120,19 @@
   las notas de versión.
 - Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-19.
 - Reviso: 2026-11-19.
+
+## 2026-11-06 — Guía de troubleshooting del Bluetooth Proxy
+- Acción: publicar `articulos/esphome-bluetooth-proxy-fallos.html`, guía de
+  diagnóstico y corrección de los fallos más repetidos del Bluetooth Proxy
+  de ESPHome. Entra por la intención «se me ha roto / no me detecta nada»,
+  enlaza a la guía de configuración existente y usa como fuente hilos reales
+  de Reddit, un issue de GitHub y un post del foro (búsqueda de ayer).
+  DataForSEO devolvió null para `esphome bluetooth proxy fallos`, así que la
+  decisión se apoya en la SERP activa y débil, no en volumen validado.
+- Espero: capturar impresiones de long-tails de fallos del Bluetooth Proxy
+  en 14 días y, si el tráfico llega, convertir desde una intención de
+  reparación concreta. La página no compite con la guía base: responde a
+  otra pregunta.
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-20; si
+  ocurre, reviso el enfoque o la fusiono en la guía de configuración.
+- Reviso: 2026-11-20.

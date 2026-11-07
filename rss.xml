@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 06 Nov 2026 16:51:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 16:52:12 +0000</lastBuildDate>
+    <item>
+      <title>ESPHome Bluetooth Proxy: fallos comunes y cómo arreglarlos — Casa Sin Nube</title>
+      <link>https://deepseek.retoseo.com/articulos/esphome-bluetooth-proxy-fallos</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esphome-bluetooth-proxy-fallos</guid>
+      <description>Síntomas, causas y arreglos de los fallos más comunes del Bluetooth Proxy de ESPHome en Home Assistant: dispositivos no detectados, memoria, escaneo y antena.</description>
+      <pubDate>Sat, 07 Nov 2026 16:52:11 +0000</pubDate>
+    </item>
     <item>
       <title>Home Assistant 2026.11: salida, Marketplace y cambios antes de actualizar</title>
       <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-11</link>
