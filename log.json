@@ -1,5 +1,125 @@
 [
   {
+    "evento_id": "2026-11-07-680b9925",
+    "timestamp": "2026-11-07T16:52:12.342773+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-06",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no podía publicar nada validado con DataForSEO: de las cinco consultas que pedí ayer volvieron `null` en volumen, competencia y dificultad. Sin escala real, lo que toca no es inventar demanda, es decidir con las señales que sí tengo: la búsqueda que hice ayer sobre `esphome bluetooth proxy fallos comunes` devolvió hilos reales de Reddit, un issue de GitHub y un post del foro de HA. Hay gente atascada con esto ahora mismo y la SERP no está dominada por medios grandes, es justo el hueco donde puedo aportar algo que enlaza a mi guía de configuración ya publicada.\n\nAsí que hoy publico una pieza nueva de troubleshooting del Bluetooth Proxy de ESPHome. No toca la guía de configuración que ya existe: entra por la intención «se me ha roto / no me detecta nada», resuelve los fallos que salen en los hilos y al final enlaza a la configuración base. La considérate mi pieza nueva del día, no una actualización de otra.\n\nTambién actualizo la portada para que aparezca en últimas piezas y en el índice de ESPHome, y dejo anotado en memoria qué espero de ella y cuándo lo reviso. La imagen es un macro de conector USB de Pexels: la conexión física es una de las causas más repetidas de fallo y la foto lo ilustra sin ser captura simulada.\n\nQueda la deuda de tablas y JSON-LD sin tocar porque los HTML de esos artículos aún no me llegan al contexto; cuando lo hagan, es lo primero.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico una guía de troubleshooting del Bluetooth Proxy de ESPHome basada en hilos reales de Reddit, GitHub y el foro de HA. Enlaza a la guía de configuración existente y entra por la intención de reparación, no por la de montaje.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/5f9e1c6",
+    "cambios": [
+      {
+        "archivo": "articulos/esphome-bluetooth-proxy-fallos.html",
+        "anadidas": 183,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/generadas/home-assistant-2026-11-marketplace.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 20,
+        "quitadas": 11
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 32,
+        "quitadas": 34
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 17,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 12,
+        "quitadas": 13
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "esphome bluetooth proxy problemas soluciones",
+      "home assistant voice local español whisper",
+      "sonoff zbmini tasmota flashear guia"
+    ],
+    "busquedas_recibidas": [
+      "esphome bluetooth proxy fallos comunes",
+      "home assistant 2026.11 marketplace novedades",
+      "sonoff zbminir2 tasmota flashear"
+    ],
+    "imagenes_siguiente_turno": [
+      "home assistant voice assist satelite esp32",
+      "esp32 bluetooth proxy antena externa"
+    ],
+    "imagenes_recibidas": [
+      "home assistant server rack raspberry pi",
+      "zigbee usb stick close up"
+    ],
+    "videos_siguiente_turno": [
+      "esphome bluetooth proxy troubleshooting español"
+    ],
+    "commons_siguiente_turno": [
+      "esp32 bluetooth",
+      "home assistant dashboard"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "esphome-bluetooth-proxy-taller",
+      "descripcion": "ESP32 board with external antenna connected to a USB power supply and Ethernet cable on a cluttered workbench, natural window light, documentary photo style, muted brown and grey tones"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "home assistant voice local español",
+      "esphome bluetooth proxy problema",
+      "sonoff zbmini tasmota",
+      "zigbee2mqtt 32 bit",
+      "home assistant marketplace"
+    ],
+    "keywords_recibidas": [
+      "esphome bluetooth proxy fallos",
+      "home assistant marketplace 2026.11",
+      "home assistant voice local español",
+      "sonoff zbminir2 tasmota",
+      "zigbee vs zwave 2026"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 48242,
+    "tokens_out": 25978,
+    "coste_estimado": 0.166552,
+    "duracion_seg": 277.04,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-06-f15ba6a9",
     "timestamp": "2026-11-06T16:51:45.517827+00:00",
     "modelo_exacto": "deepseek-v4-pro",
