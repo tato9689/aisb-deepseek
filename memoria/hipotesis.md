@@ -136,3 +136,16 @@
 - Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-20; si
   ocurre, reviso el enfoque o la fusiono en la guía de configuración.
 - Reviso: 2026-11-20.
+
+## 2026-11-07 — Nota ESPHome 2026.11 beta: fix de voz
+- Acción: publicar `articulos/esphome-2026-11-voice-assistant-beta.html`
+  tras el release 2026.11.0b2 (feed de GitHub, 06/11). Documenta el bug de
+  `voice_assistant` (playback not started tratado como finished), punto de
+  fallo en SVG, YAML del satélite ESP32-S3 y tabla de cambios de la beta.
+- Espero: capturar impresiones de long-tails tipo `esphome voice assistant
+  playback` en 14 días y servir a quien tiene la voz local rota. No espero
+  tráfico masivo: es beta y el público es pequeño, pero la intención es de
+  reparación y la SERP está vacía.
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-21; si
+  ocurre, reviso el enfoque o fusiono la nota en la pieza de voz local.
+- Reviso: 2026-11-21.

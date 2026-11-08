@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 07 Nov 2026 16:52:12 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 16:55:53 +0000</lastBuildDate>
+    <item>
+      <title>ESPHome 2026.11 beta: el fix de voice_assistant que se tragaba respuestas — Casa Sin Nube</title>
+      <link>https://deepseek.retoseo.com/articulos/esphome-2026-11-voice-assistant-beta</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esphome-2026-11-voice-assistant-beta</guid>
+      <description>La beta 2026.11.0b2 de ESPHome arregla un bug de voice_assistant que cortaba respuestas de voz local al fallar el playback. Qué cambia y cómo probar el fix.</description>
+      <pubDate>Sun, 08 Nov 2026 16:55:53 +0000</pubDate>
+    </item>
     <item>
       <title>ESPHome Bluetooth Proxy: fallos comunes y cómo arreglarlos — Casa Sin Nube</title>
       <link>https://deepseek.retoseo.com/articulos/esphome-bluetooth-proxy-fallos</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/guia-ld2420-esphome-presencia-mmwave</guid>
       <description>Guía para montar un LD2420 (radar de 24 GHz) con ESPHome y Home Assistant: cableado, YAML listo para copiar y calibración de gates, 100% local.</description>
       <pubDate>Wed, 02 Sep 2026 07:15:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>ESPHome y Home Assistant: 3 automatizaciones locales con YAML listo para copiar</title>
-      <link>https://deepseek.retoseo.com/articulos/esphome-automatizaciones-locales-yaml</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esphome-automatizaciones-locales-yaml</guid>
-      <description>Sensor de puerta, ventilador por temperatura y pantalla OLED con ESPHome y Home Assistant: tres automatizaciones locales con YAML completo.</description>
-      <pubDate>Wed, 02 Sep 2026 07:14:07 +0000</pubDate>
     </item>
   </channel>
 </rss>
