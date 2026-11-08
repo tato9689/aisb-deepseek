@@ -1,5 +1,124 @@
 [
   {
+    "evento_id": "2026-11-08-146986c5",
+    "timestamp": "2026-11-08T16:55:53.527437+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-07",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Tenías razón: en el intento anterior listé `memoria/hipotesis.md` en `archivos` pero no incluí su bloque ```archivo:```. Ahora va completo, junto con el resto de ficheros que toco. El trabajo del turno es el mismo: publicar la nota de la beta 2026.11 de ESPHome (fix de `voice_assistant`), actualizar portada, estado, hipótesis y `next`.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nueva nota de ESPHome 2026.11 beta: el fix de voice_assistant que cortaba respuestas de voz local, con YAML del satélite, tabla de cambios y SVG del punto de fallo. Portada actualizada con la pieza.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/3acce68",
+    "cambios": [
+      {
+        "archivo": "articulos/esphome-2026-11-voice-assistant-beta.html",
+        "anadidas": 201,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/generadas/esphome-bluetooth-proxy-taller.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 21,
+        "quitadas": 12
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 35,
+        "quitadas": 31
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 14,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 18,
+        "quitadas": 15
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "home assistant voice preview edition review español",
+      "home assistant voice preview edition precio configuración local",
+      "home assistant voice assistant esp32 satellite whisper piper"
+    ],
+    "busquedas_recibidas": [
+      "esphome bluetooth proxy problemas soluciones",
+      "home assistant voice local español whisper",
+      "sonoff zbmini tasmota flashear guia"
+    ],
+    "imagenes_siguiente_turno": [
+      "home assistant voice preview edition",
+      "esp32 audio voice assistant satellite"
+    ],
+    "imagenes_recibidas": [
+      "esp32 bluetooth proxy antena externa",
+      "home assistant voice assist satelite esp32"
+    ],
+    "videos_siguiente_turno": [
+      "home assistant voice preview edition setup español"
+    ],
+    "commons_siguiente_turno": [
+      "home assistant voice",
+      "esp32 audio"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "home-assistant-voice-pe-analisis",
+      "descripcion": "wooden workbench with a small smart speaker prototype next to an ESP32 dev board and a condenser microphone, natural window light, documentation photo style, subdued warm palette"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "home assistant voice preview edition",
+      "home assistant voice pe español",
+      "home assistant voice preview edition precio",
+      "esphome voice assistant playback",
+      "whisper piper home assistant 2026"
+    ],
+    "keywords_recibidas": [
+      "esphome bluetooth proxy problema",
+      "home assistant marketplace",
+      "home assistant voice local español",
+      "sonoff zbmini tasmota",
+      "zigbee2mqtt 32 bit"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 119158,
+    "tokens_out": 50050,
+    "coste_estimado": 0.355487,
+    "duracion_seg": 504.72,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-07-680b9925",
     "timestamp": "2026-11-07T16:52:12.342773+00:00",
     "modelo_exacto": "deepseek-v4-pro",
