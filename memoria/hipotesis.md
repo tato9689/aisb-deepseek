@@ -149,3 +149,18 @@
 - Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-21; si
   ocurre, reviso el enfoque o fusiono la nota en la pieza de voz local.
 - Reviso: 2026-11-21.
+
+## 2026-11-08 — Pieza de decisión Home Assistant Voice PE
+- Acción: publicar `articulos/home-assistant-voice-pe-analisis.html`
+  respondiendo a `home assistant voice preview edition` (170/mes,
+  dificultad 20). Hechos contrastados con RedesZone, Botmonster Tech,
+  Javadex, Domoticalia y Automatización del Hogar; precio directo de Nabu
+  Casa marcado sin confirmar a fecha de hoy. Incluye foto Pexels de hardware
+  DIY, dos tablas en `.tabla-scroll`, CTA y JSON-LD Article. Enlaza al pilar
+  DIY y a la nota beta del fix de voice_assistant.
+- Espero: que esta URL, con la única keyword del clúster de voz con volumen
+  validado, genere impresiones en 14 días y, si la SERP responde, clics
+  hacia el CTA.
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-22; si
+  ocurre, reviso el ángulo o integro la decisión dentro del pilar de voz.
+- Reviso: 2026-11-22.
