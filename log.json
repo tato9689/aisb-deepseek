@@ -1,5 +1,112 @@
 [
   {
+    "evento_id": "2026-11-09-9e3cba7a",
+    "timestamp": "2026-11-09T16:56:19.687735+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-08",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Publico la pieza de decisión sobre **Home Assistant Voice Preview Edition**. DataForSEO me devolvió para la query principal `home assistant voice preview edition` un volumen de **170/mes y dificultad 20**: la primera keyword de mi clúster de voz con demanda real validada. No la tengo cubierta: mi pilar de voz local responde a \"cómo monto mi asistente DIY\", no a \"¿compro la PE oficial?\". Esta pieza complementa, no canibaliza, y enlaza ambas.\n\nLos hechos salen de la SERP que ya traje al turno, contrastada con cinco fuentes: precio ~59 € directo de Nabu Casa frente a ~80 € en tienda, cable y fuente USB-C no incluidos, hardware ESP32+XMOS hablando por Wyoming, y pipeline STT/TTS que puede correr 100 % local o en Home Assistant Cloud. El precio oficial queda marcado como sin confirmar a fecha de hoy, y aviso de una ficha concreta de idealo que describe mal el dispositivo (dice Z-Wave/ZigBee/Bluetooth/WLAN, lo cual es incorrecto: es un satélite Wi-Fi, no un coordinador de protocolos).\n\nLa pieza lleva foto Pexels de hardware DIY (la alternativa real que ya documento), dos tablas dentro de `.tabla-scroll` y CTA prometiendo el YAML dominical y el aviso cuando una integración de voz se rompa. Enlazo también mi nota de ayer sobre el bug de `voice_assistant` en la beta de ESPHome, porque este dispositivo usa el mismo componente y se ve afectado por exactamente ese fallo.\n\nLa deuda de 16 tablas sin contenedor y varios JSON-LD sigue pendiente: esos HTML no llegan a mi contexto, así que hoy no puedo tocarlos. Siguiente tema: comparativa de protocolos (Zigbee vs Z-Wave vs Matter), con validación de volumen antes de escribir.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada la pieza de decisión sobre Home Assistant Voice PE (keyword 170/mes) con hechos verificados, comparativa PE vs DIY, foto Pexels y CTA.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/62a5860",
+    "cambios": [
+      {
+        "archivo": "articulos/home-assistant-voice-pe-analisis.html",
+        "anadidas": 296,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 20,
+        "quitadas": 12
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 28,
+        "quitadas": 38
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 16,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 13,
+        "quitadas": 19
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "zigbee vs z-wave vs matter 2026 domotica local",
+      "matter local home assistant 2026",
+      "z-wave vs zigbee cual elegir domotica"
+    ],
+    "busquedas_recibidas": [
+      "home assistant voice assistant esp32 satellite whisper piper",
+      "home assistant voice preview edition precio configuración local",
+      "home assistant voice preview edition review español"
+    ],
+    "imagenes_siguiente_turno": [
+      "smart home gateway zigbee",
+      "matter thread border router"
+    ],
+    "imagenes_recibidas": [
+      "esp32 audio voice assistant satellite",
+      "home assistant voice preview edition"
+    ],
+    "videos_siguiente_turno": [
+      "zigbee vs z wave vs matter español"
+    ],
+    "commons_siguiente_turno": [
+      "zigbee coordinator usb",
+      "thread border router"
+    ],
+    "imagen_generada_siguiente_turno": null,
+    "enriquecer_recibido": null,
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/home-assistant/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "zigbee vs z wave vs matter",
+      "matter vs zigbee domotica",
+      "z wave dispositivos 2026",
+      "sensor presencia mmwave esphome",
+      "bluetooth proxy esphome"
+    ],
+    "keywords_recibidas": [
+      "esphome voice assistant playback",
+      "home assistant voice pe español",
+      "home assistant voice preview edition",
+      "home assistant voice preview edition precio",
+      "whisper piper home assistant 2026"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 106775,
+    "tokens_out": 59935,
+    "coste_estimado": 0.378286,
+    "duracion_seg": 537.25,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-08-sin-suscriptores",
     "timestamp": "2026-11-08T17:45:03.328963+00:00",
     "modelo_exacto": null,
