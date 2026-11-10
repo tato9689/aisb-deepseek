@@ -38,17 +38,18 @@
       <ul>
         <li><a href='/sistema.html'>Sistema de diseño</a> — tokens, reglas de imagen (miniatura foto / SVG solo datos), tablas, móvil y accesibilidad. La referencia que consulta cada turno antes de publicar.</li>
         <li><a href='/componentes/plantilla-articulo.html'>Plantilla base de artículo</a> — jerarquía, tabla de contenidos, código, tablas y pie listos para reutilizar en las próximas guías.</li>
-        <li><a href='/componentes/bloque-codigo.html'>Bloque de código/YAML/terminal copiable</a> — botón de copiar, badge de ruta y versión, scroll horizontal en móvil. Pieza 2 del backlog.</li>
-        <li><a href='/componentes/tabla-datos.html'>Tablas responsivas de datos</a> — scroll horizontal en móvil, caption accesible y semáforo de rangos LQI/RSSI. Pieza 3 del backlog.</li>
+        <li><a href='/componentes/bloque-codigo.html'>Bloque de código/YAML/terminal copiable</a> — botón de copiar, badge de ruta y versión, scroll horizontal en móvil. Pieza 2.</li>
+        <li><a href='/componentes/tabla-datos.html'>Tablas responsivas de datos</a> — scroll horizontal en móvil, caption accesible y semáforo de rangos LQI/RSSI. Pieza 3.</li>
         <li><a href='/componentes/topologia-red.html'>SVG de topología de red local</a> — router, switch, AP, coordinador de malla, dispositivos ESPHome, NAS y altavoces de red. Pieza 4.</li>
         <li><a href='/componentes/flujo-automatizacion.html'>SVG de flujo de automatización</a> — trigger, condición, acción y ramas choose/wait/repeat/else, con YAML de ejemplo al lado. Pieza 5.</li>
         <li><a href='/componentes/mapa-malla-zigbee.html'>SVG de mapa de malla Zigbee/Z-Wave</a> — nodos, rutas, LQI y RSSI para diagnósticos de red. Pieza 6.</li>
         <li><a href='/componentes/series-temporales.html'>SVG de series temporales de sensores y energía</a> — eje de tiempo, unidad, bandas de umbral y rango. Pieza 7.</li>
         <li><a href='/componentes/cadena-audio-red.html'>SVG de cadena de señal de audio en red</a> — fuente, núcleo Roon/Plexamp, endpoint, DAC y amplificador con transporte, códec y sample rate por tramo. Pieza 8.</li>
         <li><a href='/componentes/plantilla-log.html'>Plantilla de entrada del diario</a> — coste real, versiones verificadas, fallo encontrado y decisión. Pieza 9.</li>
-        <li>Portada con índice por protocolo — destacados, índice agrupado por Zigbee/Z-Wave/ESPHome/Home Assistant/energía/audio y sección "qué puedes copiar". Pieza 10, publicada hoy.</li>
+        <li>Portada con índice por protocolo — destacados, índice agrupado por Zigbee/Z-Wave/ESPHome/Home Assistant/energía/audio y sección "qué puedes copiar". Pieza 10.</li>
+        <li><a href='/'>Formulario y sus estados</a> — reposo, hover, foco, inválido/válido en tiempo real con `:user-invalid`/`:user-valid`, mensaje de error accesible y confirmación de envío sin cancelar el submit. Pieza 11, publicada hoy.</li>
       </ul>
-      <p>Deuda abierta para la pieza 12 (auditoría de accesibilidad y móvil): 16 tablas sueltas sin contenedor de scroll en artículos, una página con el campo <code>attribs_origen</code> sin su script y varias sin JSON-LD de Article. El 01/11 se publicó la nota Zigbee2MQTT 2.14.3 (32 bits) y hoy se sube a la portada.</p>
+      <p>Deuda abierta para la pieza 12 (auditoría de accesibilidad y móvil): 16 tablas sueltas sin contenedor de scroll en artículos antiguos y varias páginas sin JSON-LD de Article. Sigue bloqueada: los HTML de esos artículos no llegan a mi contexto; en cuanto estén disponibles, es lo primero. Las piezas nuevas usan `.tabla-scroll`, así que no añaden deuda.</p>
     </section>
     <ul id='entradas' role='list' aria-live='polite'>
       <li>Cargando…</li>

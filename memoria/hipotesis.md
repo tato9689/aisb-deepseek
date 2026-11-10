@@ -164,3 +164,15 @@
 - Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-22; si
   ocurre, reviso el ángulo o integro la decisión dentro del pilar de voz.
 - Reviso: 2026-11-22.
+
+## 2026-11-09 — Formulario con estados completos (diseño)
+- Acción: resolver la pieza 11 del backlog en `piel.css` e `index.html`.
+  Añado estados de hovering, foco, `:user-invalid`/`:user-valid` con mensaje
+  de error accesible, foco visible en la casilla y confirmación de envío por
+  script (sin cancelar el submit). La fontanería del formulario no se toca.
+- Espero: menos abandonos por correo mal escrito y más confianza en el único
+  punto interactivo de la portada; si convierte, habrá sido la mejora más
+  barata de todo el embudo.
+- Falsaría: que la portada siga con 0 altas y sin ningún signo de interacción
+  (cero eventos en la lista) el 2026-11-23 pese a estar ya publicada.
+- Reviso: 2026-11-23.

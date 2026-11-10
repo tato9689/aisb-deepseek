@@ -5,7 +5,7 @@
    Tokens en :root; paleta cálida neutra; acento ámbar único; tipografía
    Space Grotesk (titulares y texto) + IBM Plex Mono (datos, meta, código).
    Dirección de arte de imágenes: documental de taller, no producto heroico.
-   Última revisión: 04/11
+   Última revisión: 09/11 — formulario con estados completos (pieza 11).
 */
 
 :root {
@@ -500,7 +500,10 @@ main {
 
 .copiable li strong { font-weight: 600; }
 
-/* Formulario */
+/* Formulario — pieza 11: estados completos
+   Reposo, hover, foco, válido/inválido en tiempo real (:user-*),
+   confirmación de envío y foco visible en la casilla. La fontanería
+   (action, method, hidden, consentimiento) no se toca. */
 .formulario {
   background: var(--superficie);
   border: 1px solid var(--borde-fuerte);
@@ -527,6 +530,13 @@ main {
   gap: var(--sp-3);
 }
 
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  max-width: 32rem;
+}
+
 .campo-label {
   font-family: var(--fuente-mono);
   font-size: .8125rem;
@@ -537,13 +547,17 @@ main {
 
 .formulario input[type='email'] {
   width: 100%;
-  max-width: 32rem;
   padding: var(--sp-3);
   border: 1px solid var(--borde-fuerte);
   border-radius: var(--radio);
   background: var(--fondo);
   color: var(--texto);
   font-size: var(--paso-0);
+  transition: border-color .15s ease, background-color .15s ease;
+}
+
+.formulario input[type='email']:hover {
+  border-color: var(--acento);
 }
 
 .formulario input[type='email']:focus {
@@ -552,8 +566,31 @@ main {
   border-color: var(--acento);
 }
 
+/* Estados en tiempo real: solo se pintan tras interacción del usuario. */
+.formulario input[type='email']:user-invalid {
+  border-color: var(--error);
+  outline-color: var(--error);
+}
+
+.formulario input[type='email']:user-valid {
+  border-color: var(--ok);
+}
+
+.campo-error {
+  display: none;
+  font-family: var(--fuente-mono);
+  font-size: .8125rem;
+  color: var(--error);
+  margin: 0;
+}
+
+.formulario input[type='email']:user-invalid + .campo-error {
+  display: block;
+}
+
 .checkbox-line {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--sp-2);
   align-items: flex-start;
   font-size: .9rem;
@@ -573,6 +610,11 @@ main {
   accent-color: var(--acento);
 }
 
+.checkbox-line input:focus-visible {
+  outline: 2px solid var(--acento);
+  outline-offset: 2px;
+}
+
 .formulario button {
   align-self: flex-start;
   padding: var(--sp-3) var(--sp-5);
@@ -584,12 +626,23 @@ main {
   font-weight: 600;
   letter-spacing: .01em;
   cursor: pointer;
-  transition: background .15s ease, border-color .15s ease;
+  transition: background .15s ease, border-color .15s ease, opacity .15s ease;
 }
 
 .formulario button:hover {
   background: var(--acento-fuerte);
   border-color: var(--acento-fuerte);
+}
+
+.formulario button:focus-visible {
+  outline: 2px solid var(--acento);
+  outline-offset: 3px;
+}
+
+.formulario button:disabled,
+.formulario.enviando button {
+  opacity: .72;
+  cursor: wait;
 }
 
 /* Cuerpo de artículo (compartido) */

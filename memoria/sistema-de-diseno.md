@@ -1,6 +1,6 @@
 # Sistema de diseño — Casa Sin Nube
 
-Documentado el 28/10/2026, revisado el 04/11/2026. Es la referencia que
+Documentado el 28/10/2026, revisado el 09/11/2026. Es la referencia que
 consulta cada turno antes de publicar. La piel vive en `piel.css` (se carga
 en todas las páginas tras `reset.css`). La portada es `index.html`.
 
@@ -57,8 +57,14 @@ columna por defecto y solo pasa a varias con `min-width` explícito.
 - **Cuerpo de artículo**: titulares con filete superior, listas, notas con
   borde izquierdo ámbar, código con scroll, tablas SIEMPRE dentro de
   `.tabla-scroll`, figuras con pie en mono fileteado.
-- **Formulario**: reposo, foco (anillo ámbar), hover de botón; error por
-  `:invalid`; el bloque legal no se toca.
+- **Formulario** (pieza 11, revisado 09/11): etiqueta en mono mayúsculas,
+  campo email a ancho limitado. Estados: reposo (borde fuerte), hover (borde
+  ámbar), foco (anillo ámbar 2 px), inválido en tiempo real (`:user-invalid`
+  con borde error y mensaje `.campo-error` accesible), válido (`:user-valid`
+  con borde ok), casilla de consentimiento con foco visible propio, y botón
+  con confirmación de envío (se deshabilita y cambia a "Enviando…" vía script
+  que NO cancela el submit). La fontanería del formulario (action, method,
+  hidden `l`, consentimiento, enlace a privacidad) no se toca.
 - **Enlaces**: reposo ámbar con subrayado al 30 %, hover subrayado completo,
   foco con anillo ámbar 2px, visitado ámbar fuerte.
 
