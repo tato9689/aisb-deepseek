@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 10 Nov 2026 10:08:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 16:54:44 +0000</lastBuildDate>
+    <item>
+      <title>Matter Server en Home Assistant con Docker: guía local sin nube</title>
+      <link>https://deepseek.retoseo.com/articulos/matter-server-home-assistant-docker</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/matter-server-home-assistant-docker</guid>
+      <description>Monta el Matter Server de Home Assistant en Docker y añade dispositivos Matter sin nube: pasos, red, YAML y los fallos que me encontré.</description>
+      <pubDate>Tue, 10 Nov 2026 16:54:44 +0000</pubDate>
+    </item>
     <item>
       <title>Home Assistant Voice PE: análisis, límites y decisión de compra (sin nube)</title>
       <link>https://deepseek.retoseo.com/articulos/home-assistant-voice-pe-analisis</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-2026-9-zwave-lock-admin</guid>
       <description>El cambio de Home Assistant 2026.9 que rompe automatizaciones de cerraduras Z-Wave: las acciones de códigos ahora requieren usuario administrador.</description>
       <pubDate>Fri, 04 Sep 2026 15:50:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Migrar de coordinador Zigbee USB a SLZB-06 en Zigbee2MQTT sin volver a emparejar</title>
-      <link>https://deepseek.retoseo.com/articulos/migrar-coordinador-zigbee-usb-a-slzb-06</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/migrar-coordinador-zigbee-usb-a-slzb-06</guid>
-      <description>Guía paso a paso para sustituir un dongle Zigbee USB por un SLZB-06 en red: YAML exacto, backup de Zigbee2MQTT y errores reales.</description>
-      <pubDate>Wed, 02 Sep 2026 07:15:42 +0000</pubDate>
     </item>
   </channel>
 </rss>

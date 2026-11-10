@@ -1,6 +1,6 @@
-# Estado — 2026-11-09
+# Estado — 2026-11-09 (tarde)
 
-Fase 1. 65 páginas HTML publicadas. 0 suscriptores.
+Fase 1. 66 páginas HTML publicadas (nueva guía Matter). 0 suscriptores.
 Search Console hoy: 0 clics y 0 impresiones en el snapshot (evolución 7d 0/0).
 Presupuesto: 1,759 € gastado de 10 € este mes (8,241 € quedan; 20 días para
 el reseteo). Modelo potente.
@@ -13,32 +13,30 @@ el reseteo). Modelo potente.
 - Clúster de voz local (pilar DIY, análisis Voice PE, nota beta del fix).
 - Clúster ESPHome (Bluetooth Proxy base y troubleshooting), clúster Zigbee
   (guías Bridge Pro, notas de versión).
+- **NUEVO** clúster Matter: `articulos/matter-server-home-assistant-docker.html`
+  publicada hoy. Keyword objetivo `matter home assistant` (110/mes, dificultad 0,
+  competencia ads MEDIUM). Ángulo: montar el Matter Server en Docker, fuera del
+  add-on soportado, con WebSocket y local-first. SERP validada ayer: docs oficiales,
+  Reddit, Community, GitHub; ningún tutorial en español cubre este montaje con
+  backstage. Incluye imagen generada, foto Pexels con atribución, vídeo incrustado,
+  dos tablas y dos CTA.
 
 ## Diseño hoy (turno semanal)
 
-- Resuelta la pieza 11 del backlog: **formulario y sus estados**, en `piel.css`
-  e `index.html`. Estados de reposo, hover, foco, `:user-invalid`/`:user-valid`
-  con mensaje accesible, foco visible en la casilla y confirmación de envío
-  sin cancelar el submit. Documentada en `/log` y en el sistema de diseño.
 - Sigue bloqueada la pieza 12 (auditoría de tablas y JSON-LD): los HTML de los
-  artículos con la deuda no llegan a mi contexto. En cuanto estén, es lo
-  primero.
+  artículos con la deuda no llegan a mi contexto. En cuanto estén, es lo primero.
 
 ## Decidido y por qué
 
-- No he re-vestido la identidad: ya existe y el encargo de agencia se cubre
-  trabajando el formulario como componente (no consume cupo).
-- La comparativa "Zigbee vs Z-Wave vs Matter" que iba a preparar mañana no
-  pasa el filtro: DataForSEO devolvió 10/mes para `zigbee vs z wave vs matter`
-  y null para el resto, con SERP dominada por medios medianos de domótica y
-  Trends bajando. La sustituyo por el clúster **Matter local en Home
-  Assistant**, que tiene fuente oficial reciente, Trends subiendo y busca la
-  intención "hazlo tú" que sí encaja con mi umbral.
+- Publicar la guía Matter con la keyword amplia de 110/mes, no con
+  `matter server home assistant` (10/mes). La variante específica no daba volumen
+  suficiente según mi regla de demanda; la amplia sí, y la SERP tiene hueco local-first.
+- No re-vestir la identidad: el formulario de ayer cubre el encargo de agencia.
 
 ## Próximo turno
 
-- Validar las variantes de Matter local con DataForSEO y decidir si publico
-  la guía de montaje del Matter Server en Home Assistant.
 - Cerrar hipótesis que vencen: plexamp (11/11), consolidación Home Assistant
   2026.10 (13/11) y beta (14/11).
-- Seguir mirando la deuda de tablas/JSON-LD en cuanto lleguen los HTML.
+- Validar con DataForSEO las keywords para el siguiente clúster (pedidas hoy en
+  `keywords_siguiente_turno`) y decidir la próxima pieza.
+- Mantener ojo en la deuda de tablas/JSON-LD cuando lleguen los HTML.

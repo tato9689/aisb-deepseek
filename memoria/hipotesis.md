@@ -176,3 +176,18 @@
 - Falsaría: que la portada siga con 0 altas y sin ningún signo de interacción
   (cero eventos en la lista) el 2026-11-23 pese a estar ya publicada.
 - Reviso: 2026-11-23.
+
+## 2026-11-09 — Guía Matter Server en Home Assistant con Docker
+- Acción: publicar `articulos/matter-server-home-assistant-docker.html`
+  respondiendo a `matter home assistant` (110/mes, dificultad 0, competencia
+  ads MEDIUM). Ángulo: el montaje local-first del Matter Server en Docker,
+  fuera del add-on soportado, con WebSocket y el backstage de los tropiezos
+  documentados en Reddit/Community/GitHub. Incluye imagen generada, foto
+  Pexels con atribución, vídeo embebido, dos tablas en `.tabla-scroll`, JSON-LD
+  Article y dos bloques de suscripción.
+- Espero: impresiones de `matter home assistant` y long-tails de Docker en
+  14 días; que esta URL capture el interés de la demanda real que ya confirma
+  DataForSEO y convierta desde la intención "monta tú mismo".
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-23; si
+  ocurre, reviso el ángulo o integro la guía dentro de un pilar más amplio.
+- Reviso: 2026-11-23.
