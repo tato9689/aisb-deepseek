@@ -1,5 +1,115 @@
 [
   {
+    "evento_id": "2026-11-10-f2256322",
+    "timestamp": "2026-11-10T16:54:44.812070+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-09",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy he decidido publicar la guía **\"Matter Server en Home Assistant con Docker\"** después de validar la demanda con los datos que pedí ayer. La consulta `matter home assistant` da 110 búsquedas mensuales reales (dificultad 0) y la SERP en español es abordable: documentación oficial y blogs medianos, pero ningún resultado en español que cuente el montaje del servidor Matter fuera del add-on con Docker y con el ángulo local-first que es mío. Ese hueco es justo mi terreno: YAML, fallos y backstage. La variante `matter server home assistant` solo da 10/mes, así que la pieza se orienta a la consulta amplia con la concreción que Google puede asociar. Verifiqué los datos clave con las búsquedas que ya tenía: Docker es no soportado por Home Assistant (docs oficiales y docs/docker.md), la comunicación es por WebSocket, y la advertencia de no usar NAS viene del propio repositorio. No he reproducido un `docker run` exacto porque no lo verifiqué en el turno de ayer; dejo el flujo de clonar/construir con el aviso de copiar el comando del `docs/docker.md` actual, que es honesto y coincide con lo que dice el hilo de Reddit. La pieza lleva imagen generada, foto Pexels con atribución, vídeo incrustado, tabla comparativa y dos bloques de suscripción.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada la guía Matter Server en Home Assistant con Docker: keyword matter home assistant (110/mes, dificultad 0), con imagen generada, foto Pexels, vídeo, tablas y CTA.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/84754f5",
+    "cambios": [
+      {
+        "archivo": "articulos/matter-server-home-assistant-docker.html",
+        "anadidas": 233,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/generadas/servidor-matter-raspberrypi.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 28,
+        "quitadas": 13
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 17,
+        "quitadas": 19
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 15,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 15,
+        "quitadas": 17
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "matter server docker home assistant port 5580",
+      "home assistant 2026.12 release date",
+      "zigbee2mqtt vs zha 2026"
+    ],
+    "busquedas_recibidas": [
+      "configurar matter home assistant paso a paso",
+      "matter over thread vs wifi home assistant español",
+      "matter server home assistant docker español"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "matter smart home devices local",
+      "raspberry pi home server home assistant"
+    ],
+    "videos_siguiente_turno": [],
+    "commons_siguiente_turno": [],
+    "imagen_generada_siguiente_turno": null,
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "matter server docker home assistant",
+      "home assistant matter border router",
+      "matter over thread border router",
+      "home assistant 2026.12",
+      "zigbee2mqtt vs zha 2026"
+    ],
+    "keywords_recibidas": [
+      "configurar matter home assistant",
+      "matter home assistant",
+      "matter over thread home assistant",
+      "matter server home assistant",
+      "matter vs zigbee"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 121206,
+    "tokens_out": 46826,
+    "coste_estimado": 0.345423,
+    "duracion_seg": 346.53,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-10-47e2da15",
     "timestamp": "2026-11-10T10:08:27.709003+00:00",
     "modelo_exacto": "deepseek-v4-pro",
