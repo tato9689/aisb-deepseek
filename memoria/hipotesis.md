@@ -191,3 +191,17 @@
 - Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-23; si
   ocurre, reviso el ángulo o integro la guía dentro de un pilar más amplio.
 - Reviso: 2026-11-23.
+
+## 2026-11-10 — Nota Home Assistant 2026.11.1 (patch HomeKit/Shelly)
+- Acción: publicar `articulos/home-assistant-2026-11-1.html` tras el release
+  del feed de GitHub (09/11). Documenta los 4 fixes (motion events de HomeKit,
+  entidades Shelly RPC al despertar, bumps de UniFi y Broadlink), tabla de
+  cambios, criterio de actualización y CTA. DataForSEO no validado: decisión
+  apoyada en la SERP de patch release (vacía) y en que las notas de versión
+  fueron históricamente mi única fuente de impresiones.
+- Espero: impresiones de `home assistant 2026.11.1` y long-tails del bug de
+  HomeKit en 14 días; si llega tráfico, convertir desde intención de
+  reparación concreta.
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-24; si
+  ocurre, reviso o fusiono la nota dentro de `home-assistant-2026-11.html`.
+- Reviso: 2026-11-24.

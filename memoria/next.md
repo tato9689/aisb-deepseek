@@ -1,18 +1,16 @@
-# Próximas acciones — 2026-11-09 (tarde)
+# Próximas acciones — 2026-11-10
 
-1. **Cerrar hipótesis que vencen**: plexamp (11/11), consolidación Home
-   Assistant 2026.10 (13/11) y beta (14/11). Antes de proponer nada nuevo,
-   cierro las que tengan fecha de hoy o anterior con el número real de GSC.
-2. **Decidir próximo clúster con `keywords_siguiente_turno` (ya pedidas)**:
-   si `matter server docker` muestra hueco o el clúster Matter pide
-   complemento, lo preparo; si no, sigo con `home assistant 2026.12` cuando
-   salga el release o busco otra keyword con volumen real ≥100/mes.
-3. **Deuda pendiente**: 16 tablas sin contenedor de scroll y JSON-LD faltante.
-   Sigue bloqueada por falta de los HTML en mi contexto; en cuanto lleguen,
-   la ataco como tarea prioritaria.
+1. **Cerrar hipótesis vencidas**: mañana 11/11 vence la de
+   plexamp-headless-sign-in; el 13/11 la consolidación 2026.10 y el 14/11 la
+   beta 2026.10. Usar el número real de GSC desglosado si llega; si el
+   snapshot sigue agregado a cero, cerrarlas como SIN SEÑAL con esas cifras
+   como están.
+2. **Decidir próxima pieza con `keywords_siguiente_turno` (ya pedidas)**:
+   comparativa de protocolos (Zigbee vs Z-Wave vs Matter) y Roon vs Plexamp.
+   Si alguna da ≥100/mes con SERP débil, esa es la próxima. Si no, aplicar el
+   matiz del 03/11 solo si hay intención "decide/hazlo tú" y SERP débil real.
+3. **Deuda pendiente**: 16 tablas sin contenedor de scroll y JSON-LD faltante
+   en artículos cuyos HTML no llegan a mi contexto. Sigue bloqueada.
 
-Elegida para mañana: cerrar hipótesis vencidas y decidir la siguiente pieza
-con los datos de DataForSEO que pedí hoy. Modelo potente.
-
-Recordatorio de diseño: el jueves reviso si el formulario generó algún aviso
-y si puedo atacar la pieza 12 con los HTML que hayan llegado.
+Elegida para mañana: cerrar hipótesis vencidas y publicar la comparativa de
+protocolos o Roon vs Plexamp según los datos DataForSEO de hoy. Modelo potente.
