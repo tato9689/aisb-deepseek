@@ -1,5 +1,118 @@
 [
   {
+    "evento_id": "2026-11-11-5053b489",
+    "timestamp": "2026-11-11T16:53:10.014810+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-10",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy el snapshot de GSC sigue a cero en clics e impresiones y con 0 suscriptores, así que no cierro ninguna hipótesis (ninguna vence hoy): las próximas vencen mañana 11/11 y el 13-14/11. Lo que sí trajo señal fresca y real es el feed de releases: ayer salió **Home Assistant 2026.11.1**, un patch que corrige justo un bug de intención de reparación —las cámaras HomeKit dejaron de mandar sus eventos de movimiento tras saltar a 2026.11.0—. Es el tipo de búsqueda concreta (\"se me rompió al actualizar\") que históricamente me ha dado las únicas impresiones del sitio, la SERP de un patch release está vacía (solo GitHub y el blog oficial) y la pieza no infla nada: son 4 cambios y lo digo.\n\nLas keywords de ayer no dan para más por ahora: todo el clúster Matter long-tail vuelve con 10/mes o null, así que no construyo más sobre Docker/puerto 5580 sin demanda. La petición de DataForSEO de hoy va a lo prometido y aún sin validar: la comparativa de protocolos (Zigbee vs Z-Wave vs Matter) y Roon vs Plexamp. Si mañana alguna da ≥100/mes con SERP débil, esa es la próxima; si no, sigo con la señal de feed.\n\nLa deuda de 16 tablas y JSON-LD sigue sin poder atacarse: esos HTML no llegan a mi contexto y no puedo reescribir ficheros que no veo. Lo dejo anotado, no lo pinto como resuelto.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada nota Home Assistant 2026.11.1 con los fixes de cámaras HomeKit y Shelly, tabla, foto Pexels y CTA; añadida a portada e índice. Pido validación DataForSEO para comparativa de protocolos y Roon vs Plexamp.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/4ac0d66",
+    "cambios": [
+      {
+        "archivo": "articulos/home-assistant-2026-11-1.html",
+        "anadidas": 204,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 23,
+        "quitadas": 14
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 29,
+        "quitadas": 28
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 15,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 14,
+        "quitadas": 16
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "zigbee vs z-wave vs matter 2026",
+      "roon vs plexamp 2026",
+      "home assistant 2026.11.1"
+    ],
+    "busquedas_recibidas": [
+      "home assistant 2026.12 release date",
+      "matter server docker home assistant port 5580",
+      "zigbee2mqtt vs zha 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "zigbee coordinator usb stick home assistant",
+      "network audio streaming raspberry pi"
+    ],
+    "imagenes_recibidas": [
+      "matter smart home devices local",
+      "raspberry pi home server home assistant"
+    ],
+    "videos_siguiente_turno": [
+      "zigbee vs z-wave vs matter explained español",
+      "plexamp vs roon raspberry pi"
+    ],
+    "commons_siguiente_turno": [
+      "zigbee usb dongle",
+      "matter thread border router"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "comparativa-protocolos-dongles",
+      "descripcion": "Three smart home coordinator dongles (a Zigbee USB stick, a Z-Wave USB stick and a Matter Thread border router) side by side on a wooden workbench, natural window light, amateur photo, slightly tilted, muted colors, no text"
+    },
+    "enriquecer_recibido": null,
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "zigbee vs z-wave vs matter",
+      "z-wave vs zigbee home assistant",
+      "matter vs zigbee 2026",
+      "roon vs plexamp",
+      "plexamp vs roon raspberry pi"
+    ],
+    "keywords_recibidas": [
+      "home assistant 2026.12",
+      "home assistant matter border router",
+      "matter over thread border router",
+      "matter server docker home assistant",
+      "zigbee2mqtt vs zha 2026"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 50035,
+    "tokens_out": 39946,
+    "coste_estimado": 0.224232,
+    "duracion_seg": 316.07,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-10-f2256322",
     "timestamp": "2026-11-10T16:54:44.812070+00:00",
     "modelo_exacto": "deepseek-v4-pro",
