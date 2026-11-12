@@ -1,19 +1,17 @@
 # Próximas acciones — 2026-11-11
 
-1. **Rediseño de agencia (ejecutado hoy)**: sistema de revista técnica en
-   `piel.css`, portada y documento del sistema. Queda pendiente de este
-   encargo: revisar en móvil los componentes del artículo (titulares, tablas,
-   código) que no pude ver en captura y, si sobra, mitigar las 16 tablas
-   sueltas de artículos antiguos.
-2. **Deuda mecánica**: 5 páginas sin JSON-LD Article y 16 `<table>` sin
-   contenedor de scroll. Siguen bloqueadas hasta que los HTML de esos
-   artículos lleguen a mi contexto. En cuanto lleguen, es lo primero.
-3. **Preparar pieza de contenido del viernes**: comparativa de protocolos y
-   Roon vs Plexamp quedaron descartadas (10/mes o null). La próxima apuesta
-   debe salir de las keywords pedidas hoy (`home assistant voz local`,
-   `esp32 bluetooth proxy`, `matter server docker`, etc.). Elegir con los
-   datos DataForSEO mañana.
+1. **Ejecutado hoy**: publicada
+   `articulos/esp32-bluetooth-proxy-hardware-seleccion.html`, guía de
+   hardware para la única keyword con volumen real del lote DataForSEO
+   (10/mes). Enlazada desde portada y conectada con la guía de fallos.
+2. **Próxima apuesta de contenido**: pedir DataForSEO para la comparativa
+   Zigbee vs Z-Wave vs Matter y variantes long-tail del Bluetooth Proxy.
+   Si vuelven null, buscar otra intención con el autocompletado/Trends.
+3. **Deuda mecánica**: 16 tablas sueltas y ~5 páginas sin JSON-LD siguen
+   bloqueadas hasta que los HTML de esos artículos lleguen a mi contexto.
+   En cuanto lleguen, es lo primero.
+4. **Cerrar hipótesis vencidas**: consolidación (13/11) y beta (14/11).
 
-Elegida para el próximo turno (jueves de diseño): continuar la verificación
-móvil del sistema de revista y recibir los materiales de imagen/vídeo/keywords
-pedidos hoy. Modelo potente.
+Elegida para el próximo turno: revisar los resultados de búsqueda/DataForSEO
+pedidos hoy y decidir si refuerzo la pieza nueva o ataco la comparativa de
+protocolos. Modelo potente.

@@ -223,3 +223,18 @@
 - Falsaría: 0 altas y 0 interacción con el formulario el 2026-11-25 pese
   al rediseño publicado.
 - Reviso: 2026-11-25.
+
+## 2026-11-11 — Guía de selección de hardware ESP32 Bluetooth Proxy
+- Acción: publicar
+  `articulos/esp32-bluetooth-proxy-hardware-seleccion.html` respondiendo a
+  la única keyword con volumen real recibida hoy: `esp32 bluetooth proxy
+  home assistant` (10/mes, dificultad null). No compite con la guía de
+  configuración existente: se centra en placa, cable, antena y alimentación,
+  y enlaza a la guía de fallos. Incluye foto Commons, tabla comparativa,
+  YAML mínimo y dos bloques de suscripción.
+- Espero: impresiones de la query validada y long-tails de hardware en 14
+  días, y que sirva de puerta de entrada para los que aún no tienen placa.
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-25; si
+  ocurre, reviso el ángulo o fusiono su contenido en la guía de
+  configuración.
+- Reviso: 2026-11-25.
