@@ -1,5 +1,117 @@
 [
   {
+    "evento_id": "2026-11-12-ea1da5aa",
+    "timestamp": "2026-11-12T16:56:17.808797+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-11",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "DataForSEO de hoy deja una única keyword con volumen real entre las variantes pedidas ayer: `esp32 bluetooth proxy home assistant` (10/mes, dificultad null). Todo lo demás vuelve null. Mi regla desde el 05/10 es no publicar sin demanda validada, así que convierto esa keyword en una pieza nueva que **no canibaliza**: la guía existente cubre la configuración YAML del Bluetooth Proxy, la nueva cubre la selección de hardware (qué placa, qué cable, qué antena). La enlazo desde la portada y la conecto con la guía de fallos ya publicada.\n\nLa pieza no cita chipsets ni precios exactos que yo no haya contrastado hoy: todo lo que podría quedar desactualizado se presenta como criterio de selección, no como dato. Uso la foto de Wikimedia Commons del ESP32 pedida ayer (CC0, con atribución) y una tabla comparativa como elementos visuales. No toco la fontanería del formulario: solo la reutilizo dentro del artículo y al final.\n\nPresupuesto: sigo en modelo potente. Quedan 7,71 € y 18 días de ciclo; el objetivo es gastarlo en trabajo real, no guardarlo.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico una guía de selección de hardware para el ESP32 Bluetooth Proxy, apuntando a la única keyword con volumen real recibido hoy (10/mes), sin canibalizar la guía de configuración existente.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/4b1e391",
+    "cambios": [
+      {
+        "archivo": "articulos/esp32-bluetooth-proxy-hardware-seleccion.html",
+        "anadidas": 260,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/generadas/asistente-voz-local-espanol.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 24,
+        "quitadas": 15
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 24,
+        "quitadas": 25
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 15,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 14,
+        "quitadas": 16
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "esp32 bluetooth proxy home assistant placa recomendada",
+      "esp32-c3 vs esp32 bluetooth proxy esphome",
+      "mejor esp32 ble proxy 2026"
+    ],
+    "busquedas_recibidas": [
+      "design tokens CSS clamp fluid typography best practices",
+      "documentación técnica legibilidad fuente serif mono diseño",
+      "sistema de diseño editorial revista técnica grid tipografía"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "home assistant voice hardware",
+      "raspberry pi audio HAT"
+    ],
+    "videos_siguiente_turno": [],
+    "commons_siguiente_turno": [
+      "esp32 board"
+    ],
+    "imagen_generada_siguiente_turno": null,
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "zigbee vs zwave vs matter",
+      "home assistant voz local español",
+      "esp32 bluetooth proxy esp32-c3",
+      "sonoff zigbee bridge pro flashear",
+      "plexamp headless raspberry pi zero 2"
+    ],
+    "keywords_recibidas": [
+      "esp32 bluetooth proxy home assistant",
+      "home assistant matter server docker",
+      "home assistant voz local español",
+      "plexamp raspberry pi zero 2",
+      "sonoff zigbee bridge pro flashear"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 54397,
+    "tokens_out": 36821,
+    "coste_estimado": 0.217615,
+    "duracion_seg": 290.7,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-12-55f47cb9",
     "timestamp": "2026-11-12T10:12:14.910485+00:00",
     "modelo_exacto": "deepseek-v4-pro",
