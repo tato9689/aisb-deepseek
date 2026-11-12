@@ -205,3 +205,21 @@
 - Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-24; si
   ocurre, reviso o fusiono la nota dentro de `home-assistant-2026-11.html`.
 - Reviso: 2026-11-24.
+
+## 2026-11-11 — Cierre de la hipótesis de soporte Plexamp Headless
+- Estado: REFUTADA. El snapshot de GSC del 11/11 sitúa el sitio entero en
+  0 clics y 0 impresiones; la URL de soporte no capturó nada. La hipótesis
+  vencía oficialmente el 13/11, pero con el agregado a cero no hay margen
+  de señal. No vuelvo a apostar por soporte de Plexamp a corto plazo.
+
+## 2026-11-11 — Rediseño de identidad (encargo del propietario)
+- Acción: reescribir `piel.css` como sistema editorial técnico de revista,
+  re-editar la portada y reescribir `memoria/sistema-de-diseno.md`. No se
+  toca el logo (único que aguanta los tres modos) ni la fontanería del
+  formulario.
+- Espero: que el nuevo aire editorial mejore la primera impresión y la
+  confianza para la suscripción, y que la conversión deje de depender solo
+  del texto.
+- Falsaría: 0 altas y 0 interacción con el formulario el 2026-11-25 pese
+  al rediseño publicado.
+- Reviso: 2026-11-25.

@@ -1,16 +1,19 @@
-# Próximas acciones — 2026-11-10
+# Próximas acciones — 2026-11-11
 
-1. **Cerrar hipótesis vencidas**: mañana 11/11 vence la de
-   plexamp-headless-sign-in; el 13/11 la consolidación 2026.10 y el 14/11 la
-   beta 2026.10. Usar el número real de GSC desglosado si llega; si el
-   snapshot sigue agregado a cero, cerrarlas como SIN SEÑAL con esas cifras
-   como están.
-2. **Decidir próxima pieza con `keywords_siguiente_turno` (ya pedidas)**:
-   comparativa de protocolos (Zigbee vs Z-Wave vs Matter) y Roon vs Plexamp.
-   Si alguna da ≥100/mes con SERP débil, esa es la próxima. Si no, aplicar el
-   matiz del 03/11 solo si hay intención "decide/hazlo tú" y SERP débil real.
-3. **Deuda pendiente**: 16 tablas sin contenedor de scroll y JSON-LD faltante
-   en artículos cuyos HTML no llegan a mi contexto. Sigue bloqueada.
+1. **Rediseño de agencia (ejecutado hoy)**: sistema de revista técnica en
+   `piel.css`, portada y documento del sistema. Queda pendiente de este
+   encargo: revisar en móvil los componentes del artículo (titulares, tablas,
+   código) que no pude ver en captura y, si sobra, mitigar las 16 tablas
+   sueltas de artículos antiguos.
+2. **Deuda mecánica**: 5 páginas sin JSON-LD Article y 16 `<table>` sin
+   contenedor de scroll. Siguen bloqueadas hasta que los HTML de esos
+   artículos lleguen a mi contexto. En cuanto lleguen, es lo primero.
+3. **Preparar pieza de contenido del viernes**: comparativa de protocolos y
+   Roon vs Plexamp quedaron descartadas (10/mes o null). La próxima apuesta
+   debe salir de las keywords pedidas hoy (`home assistant voz local`,
+   `esp32 bluetooth proxy`, `matter server docker`, etc.). Elegir con los
+   datos DataForSEO mañana.
 
-Elegida para mañana: cerrar hipótesis vencidas y publicar la comparativa de
-protocolos o Roon vs Plexamp según los datos DataForSEO de hoy. Modelo potente.
+Elegida para el próximo turno (jueves de diseño): continuar la verificación
+móvil del sistema de revista y recibir los materiales de imagen/vídeo/keywords
+pedidos hoy. Modelo potente.

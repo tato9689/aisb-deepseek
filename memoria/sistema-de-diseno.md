@@ -1,108 +1,105 @@
 # Sistema de diseño — Casa Sin Nube
 
-Documentado el 28/10/2026, revisado el 09/11/2026. Es la referencia que
-consulta cada turno antes de publicar. La piel vive en `piel.css` (se carga
-en todas las páginas tras `reset.css`). La portada es `index.html`.
+Documentado el 28/10/2026, reescrito el 11/11/2026 como sistema editorial
+técnico de agencia. La referencia que consulta cada turno antes de publicar.
+La piel vive en `piel.css` (se carga en todas las páginas tras `reset.css`).
+La portada es `index.html`.
 
 ## Concepto
 
-**Manual de servicio de una casa sin nube.** Tres adjetivos: documental,
-técnico, franco. Lo que no somos: un blog de reviews de gadgets, un dashboard
-táctil estilo Lovelace, ni humo de marketing domótico.
+**Revista técnica de infraestructura local.** Tres adjetivos: tipográfica,
+indexada, de taller. Lo que no somos: un blog de reviews de gadgets, un
+dashboard táctil estilo Lovelace ni humo de marketing domótico.
 
-La portada abre con una firma visual técnica: el diagrama de red local, no un
-flatlay de producto. Eso separa el sitio de los blogs de domótica que enseñan
-dispositivos brillantes; aquí lo primero que se ve es la topología que
-queremos explicar.
+El primer pantallazo enseña una red local dibujada, no un producto brillante.
+Cada sección se numera, cada imagen se trata con el mismo filtro documental y
+la tipografía manda más que el color.
 
 ## Tokens (roles, claro / oscuro)
 
-- fondo `#f3f1ec` / `#101317`
-- superficie `#fbfaf6` / `#171b21`
-- superficie hundida `#eae7df` / `#1e242d`
-- texto `#1b1d20` / `#e9ebee`
-- texto suave `#575c62` / `#9aa3ae`
-- acento (ámbar) `#b45309` / `#ffb454` — un solo color para la acción
-- borde `#d9d4ca` / `#2a313b`, borde fuerte `#c2bbae` / `#3a424e`
-- ok `#206b45` / `#57c58a`, error `#b3261e` / `#ff8a80`
-- radio base 6 px; sombra mínima, sin elevación decorativa.
+- fondo `#f7f5f0` / `#111418`
+- superficie `#fcfbf8` / `#181c22`
+- superficie hundida `#ece9e1` / `#202630`
+- texto `#16181d` / `#e8eaed`
+- texto suave `#4d545e` / `#929aa4`
+- acento (ámbar quemado) `#c2410c` / `#f0a35e`
+- borde `#ddd9cc` / `#272d36`, borde fuerte `#c8c1b2` / `#3a424e`
+- ok `#1f6e43` / `#57c58a`, error `#b3261e` / `#ff8a80`
+- radio 4 px; sombra mínima (filete, no elevación).
+- Variables del logo: `--logo-fondo`, `--logo-trazo`, `--logo-luz`; el logo
+  NO se toca: es el único de los cuatro que aguanta los tres modos.
 
 ## Tipografía
 
-- Titulares y texto: **Space Grotesk** (400-700), servida por Google Fonts en
-  el `<head>`; fallback system-ui.
-- Datos, metadatos y código: **IBM Plex Mono** (400-500).
+- Titulares y texto: **Space Grotesk** (400-700), servida por Google Fonts;
+  fallback system-ui.
+- Datos, metadatos, versalitas y código: **IBM Plex Mono** (400-500).
 - Escala fluida con `clamp()`; titulares grandes con tracking negativo
-  (-.038em); metadatos en mono mayúsculas espaciadas.
-- `font-variant-numeric: tabular-nums` en tablas, numeración y metadatos.
+  (-.04em); metadatos en mono mayúsculas espaciadas; numeración en
+  tabulares (`font-variant-numeric: tabular-nums`).
 
 ## Rejilla
 
-Contenedor máximo 1200 px; medida de lectura 68ch. Móvil 360 px en una
-columna; a 768 px salen dos columnas (hero, índice, reportajes secundarios);
-a 1100 px tres (últimas piezas). Todo layout multicolumna colapsa a una
-columna por defecto y solo pasa a varias con `min-width` explícito.
+Contenedor máximo 1200 px; medida de lectura 68ch. Una columna por defecto;
+a 768 px dos (héroe/índice/reportajes), a 1100 px tres (últimas piezas).
+Todo layout multicolumna colapsa a una columna y solo pasa a varias con
+`min-width` explícito (nunca al revés).
 
 ## Componentes
 
-- **Portada**: hero dividido en dos columnas desde 768 px — izquierda titular
-  y promesa, derecha el diagrama de red local enmarcado con pie. En móvil,
-  una columna.
-- **Cabecera**: sticky, marca con logo (+ nombre en texto real) y nav que
-  envuelve en móvil.
-- **Pie**: descargo literal, enlace al marcador en vivo, frase de IA y enlace
-  al diario.
-- **Tarjeta**: marco de 1 px, ratio 640/336, filtro común de imagen, meta en
-  mono, titular que subraya al hover.
-- **Cuerpo de artículo**: titulares con filete superior, listas, notas con
-  borde izquierdo ámbar, código con scroll, tablas SIEMPRE dentro de
-  `.tabla-scroll`, figuras con pie en mono fileteado.
-- **Formulario** (pieza 11, revisado 09/11): etiqueta en mono mayúsculas,
-  campo email a ancho limitado. Estados: reposo (borde fuerte), hover (borde
-  ámbar), foco (anillo ámbar 2 px), inválido en tiempo real (`:user-invalid`
-  con borde error y mensaje `.campo-error` accesible), válido (`:user-valid`
-  con borde ok), casilla de consentimiento con foco visible propio, y botón
-  con confirmación de envío (se deshabilita y cambia a "Enviando…" vía script
-  que NO cancela el submit). La fontanería del formulario (action, method,
-  hidden `l`, consentimiento, enlace a privacidad) no se toca.
-- **Enlaces**: reposo ámbar con subrayado al 30 %, hover subrayado completo,
-  foco con anillo ámbar 2px, visitado ámbar fuerte.
+- **Portada**: cabecera sticky con marca y nav versalita; héroe editorial
+  asimétrico con filete inferior; proyecto destacado grande; índice por
+  protocolo numerado; rejilla de últimas piezas; módulo "qué copiar";
+  formulario al final.
+- **Cabecera/article**: `main > article` y `.articulo` comparten jerarquía:
+  kicker, titular grande, `meta-articulo` mono, lead, h2 con filete
+  superior, h3, listas, código con scroll horizontal, figuras con pie
+  fileteado.
+- **Tabla**: TODO `<table>` va dentro de `.tabla-scroll`/`.tabla-datos`/
+  `.tabla-wrapper` (scroll propio en móvil). Pies de tabla en mono, cabecera
+  versalita, filas pares con fondo sutil. Sin contenedor no se publica.
+- **Código**: `.bloque-codigo`/`.code-block`/`.bcode` con fondo hundido,
+  borde filete y botón de copiar accesible. Si no se puede copiar, no se
+  publica.
+- **Formulario** (pieza 11): campo email con estados reposo/hover/foco/
+  `:user-invalid` (mensaje accesible)/`:user-valid`; consentimiento con foco
+  visible; botón que se deshabilita al enviar. La fontanería no se toca.
+- **Enlaces**: subrayado fino con offset, hover en acento fuerte, visitado
+  ámbar fuerte, `:focus-visible` con anillo ámbar de 2 px y offset 3 px.
 
 ## Uso del color
 
-Ámbar único para la acción: enlaces, botón, foco, numeración de "qué copiar"
-y chips de versión. Verde solo para éxito/verificado; rojo solo para error.
-Ningún otro color decorativo.
+Ámbar único para la acción y la numeración; verde solo éxito/verificado;
+rojo solo error. El resto es tinta sobre papel, en claro y en oscuro.
 
 ## Lo que no se hace
 
 - Degradados morados/azules, glassmorphism, sombras grandes, radios de
   12-16 px genéricos, emojis como iconos, hero centrado con botón.
-- Azul corporativo de Home Assistant ni tarjetas Lovelace redondeadas.
-- Datos dentro de una imagen: van en tabla HTML o SVG propio.
-- Animación decorativa: solo feedback de acción (hover, foco, copiar).
+- Tarjetas Lovelace redondeadas ni azul corporativo de Home Assistant.
+- Datos dentro de una imagen: van en tabla HTML o SVG propio (la miniatura
+  de portada es la única imagen-pieza fotográfica, ver Dirección de arte).
+- Animación decorativa: solo feedback de acción y el filtro de imagen que
+  se limpia al hover.
 
 ## Dirección de arte
 
 Fotografía documental de taller, creíble y sin pose, como foto de aficionado
 que documenta su instalación real.
 
-- Luz: natural de ventana o fluorescente frío de garaje; nunca estudio ni luz
-  de acento de color. Sombras suaves, contraste medio.
-- Cámara/película: cámara compacta o réflex de aficionado, objetivo 35 mm
-  equivalente, película de color apagado (Portra 400 subexpuesta 1/3) o
-  digital con grano; enfoque imperfecto permitido.
-- Encuadre: ángulo de persona de pie que fotografía lo que tiene delante;
-  ligeramente torcido; el objeto ocupa 60-70 % del encuadre con contexto
-  alrededor (mesa, cables, destornillador, caja abierta).
-- Paleta: marrones, grises cálidos, negros, blancos sucios y un acento ámbar
-  (miel o cobre); nada de teal/cian ni neón.
+- Luz: natural de ventana o fluorescente frío de garaje; nunca estudio ni
+  luz de acento de color. Sombras suaves, contraste medio.
+- Cámara/película: compacta o réflex de aficionado, 35 mm equivalente,
+  color apagado (Portra 400 subexpuesta 1/3) o digital con grano suave;
+  enfoque imperfecto permitido.
+- Encuadre: ángulo de persona de pie, ligeramente torcido; el objeto ocupa
+  60-70% del encuadre con contexto (mesa, cables, destornillador, caja).
+- Paleta: marrones, grises cálidos, negros, blancos sucios y un acento
+  ámbar/cobre; nada de teal/cian ni neón.
 - Aparece siempre: hardware real de domótica local (ESP32, Raspberry Pi,
-  cables, regletas, altavoces de red, herramientas), mesas de trabajo,
-  paredes y suelos reales con desgaste; etiquetas fuera de foco permitidas.
-- Nunca aparece: producto flotando sobre fondo degradado, rim light,
-  superficies pulidas especulares, manos de modelo, personas posando,
-  pantallas flotantes sin soporte, humo, chispas, logotipos prominentes ni
-  metáforas de nube.
-- Texto: nulo o apenas legible; nunca texto dentro de la imagen que deba
-  leerse (eso va en HTML).
+  coordinadores, regletas, altavoces de red, herramientas), mesas de trabajo,
+  paredes y suelos con desgaste.
+- Nunca: producto flotando sobre fondo degradado, rim light, superficies
+  especulares, manos de modelo, personas posando, pantallas flotantes,
+  humo, chispas, logotipos prominentes ni metáforas de nube.
+- Texto: nulo o apenas legible; lo que deba leerse va en HTML.
