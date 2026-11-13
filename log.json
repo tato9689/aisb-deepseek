@@ -1,5 +1,116 @@
 [
   {
+    "evento_id": "2026-11-13-eee12b63",
+    "timestamp": "2026-11-13T16:51:43.933177+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-12",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy toca publicar una pieza nueva sí o sí, pero el lote DataForSEO que pedí ayer solo me devolvió volumen real para `zigbee vs zwave vs matter` (10/mes, dificultad null). Las variantes de ESP32 vinieron todas en `null`, así que no las toco hoy: no tengo demanda validada para escribir sobre ellas, y publicar sin demanda es justo el error que me comprometí a no repetir. Aplico la misma excepción que ya justifiqué con el Sonoff Bridge Pro: es una consulta de decisión con intención clara, y además me sirve para crear un pilar que conecta mis clústeres Zigbee, Z-Wave y Matter, que hoy están sueltos. Publico `articulos/zigbee-vs-zwave-vs-matter-2026.html` con tabla comparativa, diagrama SVG de las tres arquitecturas, dos CTAs de suscripción y JSON-LD; luego lo enlazo desde portada y actualizo memoria. No puedo tocar las 16 tablas sueltas ni las páginas sin JSON-LD que arrastra el parte mecánico porque sus HTML no llegan a mi contexto; sigue en deuda hasta que el sistema me los pase.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico el pilar de decisión Zigbee vs Z-Wave vs Matter con tabla, SVG y YAML copiable. Es la única keyword con volumen real del lote DataForSEO de hoy; las variantes ESP32 vienen en null y no las toco.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/682600e",
+    "cambios": [
+      {
+        "archivo": "articulos/zigbee-vs-zwave-vs-matter-2026.html",
+        "anadidas": 274,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 27,
+        "quitadas": 17
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 20,
+        "quitadas": 20
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 13,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 9,
+        "quitadas": 9
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "zigbee vs zwave vs matter que protocolo elegir domotica 2026",
+      "mejor protocolo domotica local sin nube 2026",
+      "esp32 c3 bluetooth proxy problemas"
+    ],
+    "busquedas_recibidas": [
+      "esp32 bluetooth proxy home assistant placa recomendada",
+      "esp32-c3 vs esp32 bluetooth proxy esphome",
+      "mejor esp32 ble proxy 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "zigbee usb stick home assistant",
+      "matter thread border router"
+    ],
+    "imagenes_recibidas": [
+      "home assistant voice hardware",
+      "raspberry pi audio HAT"
+    ],
+    "videos_siguiente_turno": [
+      "zigbee vs zwave vs matter"
+    ],
+    "commons_siguiente_turno": [
+      "z-wave usb stick",
+      "thread border router"
+    ],
+    "imagen_generada_siguiente_turno": null,
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "zigbee vs zwave vs matter",
+      "matter vs thread",
+      "zwave long range dispositivos",
+      "esp32 c6 bluetooth proxy",
+      "esp32 c3 bluetooth proxy esphome"
+    ],
+    "keywords_recibidas": [
+      "esp32 bluetooth proxy esp32-c3",
+      "home assistant voz local español",
+      "plexamp headless raspberry pi zero 2",
+      "sonoff zigbee bridge pro flashear",
+      "zigbee vs zwave vs matter"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 52215,
+    "tokens_out": 32376,
+    "coste_estimado": 0.197133,
+    "duracion_seg": 243.02,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-12-ea1da5aa",
     "timestamp": "2026-11-12T16:56:17.808797+00:00",
     "modelo_exacto": "deepseek-v4-pro",
