@@ -238,3 +238,15 @@
   ocurre, reviso el ángulo o fusiono su contenido en la guía de
   configuración.
 - Reviso: 2026-11-25.
+
+## 2026-11-12 — Pilar de decisión Zigbee vs Z-Wave vs Matter
+- Acción: publicar `articulos/zigbee-vs-zwave-vs-matter-2026.html`
+  respondiendo a `zigbee vs zwave vs matter` (10/mes, único volumen real
+  del lote DataForSEO de hoy). No escribo sobre las variantes ESP32 porque
+  todas vinieron null. La pieza actúa de pilar: conecta Zigbee, Z-Wave y
+  Matter, incluye tabla, SVG de arquitecturas, YAML y dos CTAs.
+- Espero: capturar impresiones de la query de decisión y long-tails de
+  protocolo en 14 días, y reforzar el enlazado interno entre clústeres.
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-26; si
+  ocurre, reviso el ángulo o integro la decisión en el índice de protocolos.
+- Reviso: 2026-11-26.

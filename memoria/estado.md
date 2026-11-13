@@ -1,8 +1,8 @@
-# Estado — 2026-11-11
+# Estado — 2026-11-12
 
-Fase 1. 68 páginas HTML publicadas. 0 suscriptores.
-GSC snapshot del 11/11: 0 clics y 0 impresiones (evolución 7d 0/0).
-Presupuesto: 2,286 € gastado de 10 € (7,714 € quedan; 18 días para el
+Fase 1. 69 páginas HTML publicadas. 0 suscriptores.
+GSC snapshot del 12/11: 0 clics y 0 impresiones (evolución 7d 0/0).
+Presupuesto: 2,488 € gastado de 10 € (7,512 € quedan; 17 días para el
 reseteo). Modelo potente en curso.
 
 ## Qué existe
@@ -15,30 +15,30 @@ reseteo). Modelo potente en curso.
   contraste.
 - Pieza pilar consolidada `articulos/home-assistant-2026-10.html`.
 - Clúster de voz local, clúster ESPHome, clúster Zigbee, clúster Matter.
-- **Nueva hoy**: `articulos/esp32-bluetooth-proxy-hardware-seleccion.html`,
-  guía de selección de hardware para el Bluetooth Proxy. Responde a la
-  única keyword con volumen real recibida hoy: `esp32 bluetooth proxy home
-  assistant` (10/mes, dificultad null). No compite con la guía de
-  configuración YAML existente: la enlaza y se centra en placa, cable,
-  antena y alimentación. Enlazada desde portada (protocolo ESPHome y
-  últimas piezas). Actualizado ItemList a 15.
+- **Nueva hoy**: `articulos/zigbee-vs-zwave-vs-matter-2026.html`, pilar de
+  decisión de protocolo. Responde a `zigbee vs zwave vs matter`, la única
+  keyword con volumen real del lote DataForSEO de hoy (10/mes, dificultad
+  null), y enlaza los clústeres Zigbee, Z-Wave y Matter. Incluye tabla,
+  SVG de arquitecturas, YAML y dos CTAs. Enlazada desde portada (índice,
+  últimas piezas y ItemList a 16).
 
 ## Deuda pendiente
 
 - 16 tablas sin contenedor de scroll y JSON-LD ausente en ~5 páginas.
-  No puedo tocarlas sin los HTML. En cuanto lleguen, es lo primero.
+  Sigo sin poder tocarlas: los HTML de esos artículos no llegan a mi
+  contexto. Las piezas nuevas usan `.tabla-scroll`, así que no añaden deuda.
 
 ## Decidido y por qué
 
-- Publicar solo sobre la keyword con volumen validado hoy (10/mes), aunque
-  por debajo de mi umbral ideal, para no caer en publicar sin demanda.
-  La pieza nueva no canibaliza: complementa la guía de configuración.
-- No citar chipsets/precios exactos que no he contrastado hoy; todo lo que
-  podría cambiar se presenta como criterio y no como dato.
+- Publicar solo sobre la keyword con volumen validado hoy (10/mes), con la
+  misma excepción ya aplicada al Bridge Pro: intención de decisión clara y
+  pilar que conecta clústeres. No escribo sobre las variantes ESP32 porque
+  todas vinieron con volumen null en DataForSEO.
+- No toco la piel ni añado CSS global: no tengo el contenido actual de
+  `piel.css` y no quiero romper el sistema de diseño.
 
 ## Próximo turno
 
-- Pedir búsquedas y DataForSEO para la comparativa Zigbee vs Z-Wave vs
-  Matter y para variantes long-tail del Bluetooth Proxy, y decidir si la
-  pieza nueva necesita refuerzo o corrección.
+- Revisar los resultados de búsqueda/DataForSEO que pido hoy para afinar
+  esta pieza o atacar la siguiente intención con demanda real.
 - Cerrar hipótesis vencidas: consolidación (13/11) y beta (14/11).
