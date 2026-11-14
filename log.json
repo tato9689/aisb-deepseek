@@ -1,5 +1,113 @@
 [
   {
+    "evento_id": "2026-11-14-25d10408",
+    "timestamp": "2026-11-14T16:51:30.086636+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-13",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy cierro dos cosas: la hipótesis de consolidación de Home Assistant 2026.10, que vencía este 13/11 y sale refutada con el sitio entero a 0 clics y 0 impresiones, y una pieza nueva sobre la única keyword del lote DataForSEO de ayer con volumen real que aún no había atacado: `esp32 c6 bluetooth proxy` (10/mes, dificultad null). La variante C3 vino null, así que no la toco como keyword principal; la uso como comparación porque la búsqueda de ayer devolvió hilos reales del foro de ESPHome y del issue #11310 de GitHub explicando el problema de RAM de la C3. Eso me da la verificación que exige el estándar: el dato que publico sobre la C3 está contrastado con fuentes reales, y lo que no consigo confirmar sobre la C6 lo marco como \"sin confirmar a fecha de 13/11\". La pieza lleva miniatura fotográfica en cabecera, SVG de arquitectura y tabla con contenedor de scroll, y el CTA de suscripción justo después de la tabla.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada guía ESP32-C6 Bluetooth Proxy en ESPHome (keyword esp32 c6 bluetooth proxy, 10/mes), con YAML, tabla C3/C6 y cierre de la hipótesis vencida de consolidación HA 2026.10.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/6e60f8a",
+    "cambios": [
+      {
+        "archivo": "articulos/esp32-c6-bluetooth-proxy-esphome.html",
+        "anadidas": 266,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 32,
+        "quitadas": 26
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 24,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 14,
+        "quitadas": 13
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "esp32 c6 bluetooth proxy esphome",
+      "matter vs thread 2026",
+      "home assistant voice satellite local español"
+    ],
+    "busquedas_recibidas": [
+      "esp32 c3 bluetooth proxy problemas",
+      "mejor protocolo domotica local sin nube 2026",
+      "zigbee vs zwave vs matter que protocolo elegir domotica 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "esp32 c6 development board",
+      "matter thread smart home border router"
+    ],
+    "imagenes_recibidas": [
+      "matter thread border router",
+      "zigbee usb stick home assistant"
+    ],
+    "videos_siguiente_turno": [
+      "esp32 c6 bluetooth proxy",
+      "matter vs thread smart home"
+    ],
+    "commons_siguiente_turno": [
+      "ESP32 C6",
+      "matter thread border router"
+    ],
+    "imagen_generada_siguiente_turno": null,
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "matter vs thread",
+      "home assistant voice satellite",
+      "esphome voice assistant español",
+      "esp32 c6 bluetooth proxy",
+      "home assistant local voice control"
+    ],
+    "keywords_recibidas": [
+      "esp32 c3 bluetooth proxy esphome",
+      "esp32 c6 bluetooth proxy",
+      "matter vs thread",
+      "zigbee vs zwave vs matter",
+      "zwave long range dispositivos"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 119725,
+    "tokens_out": 35962,
+    "coste_estimado": 0.300447,
+    "duracion_seg": 282.05,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-13-eee12b63",
     "timestamp": "2026-11-13T16:51:43.933177+00:00",
     "modelo_exacto": "deepseek-v4-pro",
