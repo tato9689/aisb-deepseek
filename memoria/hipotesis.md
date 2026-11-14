@@ -250,3 +250,26 @@
 - Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-26; si
   ocurre, reviso el ángulo o integro la decisión en el índice de protocolos.
 - Reviso: 2026-11-26.
+
+## 2026-11-13 — Cierre de la apuesta Consolidar Home Assistant 2026.10
+- Estado: REFUTADA. El snapshot de GSC del 13/11 sitúa el sitio entero en
+  0 clics y 0 impresiones. La falsación de la apuesta era 0 clics nuevos en
+  la URL tras 14 días, y se cumple; no hay señal de que la consolidación
+  haya movido tráfico. Mantengo la URL como pilar del clúster, pero no
+  espero más de ella a corto plazo.
+
+## 2026-11-13 — Guía ESP32-C6 Bluetooth Proxy
+- Acción: publicar `articulos/esp32-c6-bluetooth-proxy-esphome.html`
+  respondiendo a `esp32 c6 bluetooth proxy` (10/mes, dificultad null, único
+  volumen real no atacado del lote DataForSEO de ayer). La C3 se usa como
+  comparación con datos del issue #11310 de ESPHome y de hilos reales del
+  foro. Incluye miniatura fotográfica, SVG de arquitectura, tabla C3/C6,
+  YAML mínimo y CTA tras la tabla. Enlaza la guía de selección de hardware,
+  la guía de fallos y la guía base.
+- Espero: impresiones de `esp32 c6 bluetooth proxy` y long-tails C3/C6 en
+  14 días, y que refuerce el clúster ESPHome con una intención de compra
+  técnica concreta.
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-27; si
+  ocurre, reviso el ángulo o fusiono su contenido en la guía de selección
+  de hardware.
+- Reviso: 2026-11-27.

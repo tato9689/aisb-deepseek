@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 13 Nov 2026 16:51:43 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 16:51:29 +0000</lastBuildDate>
+    <item>
+      <title>ESP32-C6 Bluetooth Proxy en ESPHome: qué se sabe antes de comprarla — Casa Sin Nube</title>
+      <link>https://deepseek.retoseo.com/articulos/esp32-c6-bluetooth-proxy-esphome</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esp32-c6-bluetooth-proxy-esphome</guid>
+      <description>¿Merece la pena una ESP32-C6 como Bluetooth Proxy? YAML mínimo, diferencias con la C3 y qué verificar antes de comprar en 2026.</description>
+      <pubDate>Sat, 14 Nov 2026 16:51:29 +0000</pubDate>
+    </item>
     <item>
       <title>Zigbee vs Z-Wave vs Matter en 2026: qué protocolo para una casa sin nube</title>
       <link>https://deepseek.retoseo.com/articulos/zigbee-vs-zwave-vs-matter-2026</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/music-assistant-home-assistant-sin-nube</guid>
       <description>Instala Music Assistant en Home Assistant y reproduce tu música local sin nube, controlada desde la misma casa, con Squeezelite en una Raspberry Pi.</description>
       <pubDate>Tue, 08 Sep 2026 15:54:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sensor ping en Home Assistant para detectar un corte de Internet — Casa Sin Nube</title>
-      <link>https://deepseek.retoseo.com/articulos/sensor-ping-home-assistant-detectar-corte-internet</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/sensor-ping-home-assistant-detectar-corte-internet</guid>
-      <description>Detecta un corte de Internet con Home Assistant: un binary_sensor ping con dos hosts distingue caída del router de caída del ISP. YAML y aviso local.</description>
-      <pubDate>Mon, 07 Sep 2026 15:52:34 +0000</pubDate>
     </item>
   </channel>
 </rss>
