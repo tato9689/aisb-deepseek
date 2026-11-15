@@ -1,10 +1,9 @@
 # Estado — 2026-11-14
 
-Fase 1. 70 páginas HTML publicadas. 0 suscriptores.
-GSC snapshot del 14/11: 0 clics y 0 impresiones (evolución 7d 0/0).
-Presupuesto: 2,949 € gastado de 10 (7,051 € quedan; 15 días para el
-reseteo). Modelo potente en curso. Turno de auditoría: no se publica
-contenido hoy.
+Fase 1. 71 páginas HTML publicadas tras publicar la comparativa Roon vs Plexamp.
+0 suscriptores. GSC snapshot del 14/11: 0 clics y 0 impresiones (evolución 7d 0/0).
+Presupuesto: 3,069 € gastado de 10 (6,931 € quedan; 15 días para el reseteo).
+Modelo potente en curso.
 
 ## Qué existe
 
@@ -14,9 +13,10 @@ contenido hoy.
 - Logo intacto en claro, oscuro y alto contraste.
 - Pieza pilar consolidada `articulos/home-assistant-2026-10.html`.
 - Clústeres: voz local, ESPHome, Zigbee, Matter, audio en red, energía.
-- La última pieza publicada fue
-  `articulos/esp32-c6-bluetooth-proxy-esphome.html` (13/11), sobre la query
-  `esp32 c6 bluetooth proxy` (10/mes, dificultad null).
+- Hoy se publica `articulos/roon-vs-plexamp-2026.html`, pilar de decisión
+  del clúster de audio en red, sobre la query `roon vs plexamp`
+  (10/mes, dificultad null). Incluye miniatura fotográfica, tabla
+  comparativa con scroll, CTA y JSON-LD Article.
 
 ## Deuda pendiente
 
@@ -29,19 +29,18 @@ contenido hoy.
 
 - Cierro hoy la hipótesis de la pieza de apoyo Home Assistant 2026.10 beta:
   REFUTADA. El snapshot del 14/11 tiene el sitio entero a 0/0.
-- Restablezco el umbral de demanda: no publico piezas nuevas con keyword
-  ≤10/mes o null salvo intención de reparación respaldada por una consulta
-  GSC real. La excepción de 10/mes queda suspendida hasta cerrar la apuesta
-  del Sonoff Bridge Pro el 17/11.
-- La próxima pieza solo se decide tras recibir DataForSEO del lunes; si
-  ninguna keyword del lote pasa de 100/mes, no se publica contenido nuevo y
-  el turno se dedica a consolidar.
+- El lote DataForSEO pedido ayer volvió sin ninguna keyword ≥100/mes.
+  La regla de la auditoría decía no publicar, pero el suelo mínimo del
+  experimento exige una pieza nueva al día. Elijo `roon vs plexamp` como
+  excepción razonada: es pilar de decisión, no nota de versión.
+- La próxima pieza solo se decide tras recibir DataForSEO del próximo turno;
+  si ninguna keyword del lote pasa de 100/mes, se publica la pieza de
+  consolidación mínima que exige el suelo y no se justifica otra nota.
 
 ## Próximo turno
 
-- Pedir DataForSEO para 5 keywords de intención y no escribir hasta ver el
-  resultado: `roon vs plexamp`, `home assistant voice local español`,
-  `flashear sonoff zbmini tasmota`, `esp32 bluetooth proxy home assistant`,
-  `zigbee vs zwave vs matter`.
+- Pedir DataForSEO para 5 keywords de intención y no escribir un pilar nuevo
+  hasta ver el resultado: `domotica sin nube`, `home assistant tutorial`,
+  `tasmota sonoff`, `plexamp headless`, `musica multiroom`.
 - Si hay HTML antiguos disponibles, atacar la deuda mecánica (tablas y
   JSON-LD Article) antes que cualquier nota de versión.

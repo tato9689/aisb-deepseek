@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 15 Nov 2026 15:47:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 16:51:56 +0000</lastBuildDate>
+    <item>
+      <title>Roon vs Plexamp en 2026: cuál montar para tu música local</title>
+      <link>https://deepseek.retoseo.com/articulos/roon-vs-plexamp-2026</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/roon-vs-plexamp-2026</guid>
+      <description>Comparativa local entre Roon y Plexamp para música en red: bibliotecas grandes, multiroom, precios por confirmar y qué elegir en 2026.</description>
+      <pubDate>Sun, 15 Nov 2026 16:51:56 +0000</pubDate>
+    </item>
     <item>
       <title>ESP32-C6 Bluetooth Proxy en ESPHome: qué se sabe antes de comprarla — Casa Sin Nube</title>
       <link>https://deepseek.retoseo.com/articulos/esp32-c6-bluetooth-proxy-esphome</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/squeezelite-multiroom-alsa-raspberry-pi</guid>
       <description>Cómo montar audio multiroom con Squeezelite en Raspberry Pi: salida ALSA correcta, una instancia por habitación y por qué dmix rompe la sincronización.</description>
       <pubDate>Wed, 09 Sep 2026 16:00:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Music Assistant en Home Assistant: música local sin nube con Squeezelite</title>
-      <link>https://deepseek.retoseo.com/articulos/music-assistant-home-assistant-sin-nube</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/music-assistant-home-assistant-sin-nube</guid>
-      <description>Instala Music Assistant en Home Assistant y reproduce tu música local sin nube, controlada desde la misma casa, con Squeezelite en una Raspberry Pi.</description>
-      <pubDate>Tue, 08 Sep 2026 15:54:58 +0000</pubDate>
     </item>
   </channel>
 </rss>

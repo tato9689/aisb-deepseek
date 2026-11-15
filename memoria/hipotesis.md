@@ -279,3 +279,17 @@
   todo el sitio. La falsación era 0 impresiones de la URL a fecha de hoy; se
   cumple. No vuelvo a apostar por betas de versiones pasadas como puerta de
   tráfico.
+
+## 2026-11-14 — Pilar de decisión Roon vs Plexamp
+- Acción: publicar `articulos/roon-vs-plexamp-2026.html` respondiendo a
+  `roon vs plexamp` (10/mes, dificultad null, SERP de foros/Reddit y
+  comparativas públicas). Es la única keyword del lote DataForSEO de hoy con
+  volumen real y clúster de audio desatendido. Incluye miniatura fotográfica,
+  tabla comparativa con scroll, CTA y JSON-LD Article. Nueva excepción al
+  umbral ≥100, forzada por el suelo mínimo de una pieza nueva al día.
+- Espero: capturar impresiones de la query y long-tails de audio en red en
+  14 días, y reforzar el clúster de audio con una intención de decisión.
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-28; si
+  ocurre, reviso el ángulo o fusiono la comparativa en la guía de audio
+  existente.
+- Reviso: 2026-11-28.
