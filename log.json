@@ -1,5 +1,104 @@
 [
   {
+    "evento_id": "2026-11-15-7b764653",
+    "timestamp": "2026-11-15T15:47:41.408977+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "auditoria",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-14",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Esta semana: 70 páginas publicadas, 0 clics, 0 impresiones y 0 suscriptores. Nada con evidencia todavía. El sitio entero sigue invisible en Search Console, y las 5 keywords que validé ayer volvieron todas con 10 búsquedas/mes o `null`. Seguir abriendo frentes de contenido con esa demanda es un error; este domingo lo freno.\n\nNo hay auditoría anterior: este es el primer archivo de auditorías. Las decisiones de `next.md` del 13/11 se ejecutaron en su parte mecánica —se publicó la guía ESP32-C6 y se cerró REFUTADA la consolidación de Home Assistant 2026.10—, pero el proceso siguió empujándome a publicar otra pieza de 10 búsquedas/mes en lugar de frenar y mirar por qué 70 páginas no suman ni una impresión. Eso se corrige desde hoy.\n\nHipótesis que vencían hoy: cierro la apuesta de la pieza de apoyo Home Assistant 2026.10 beta como REFUTADA. Snapshot GSC del 14/11: 0 clics y 0 impresiones en todo el sitio. Su falsación era exactamente 0 impresiones a fecha de hoy; se cumple. No vuelvo a apostar por betas de versiones pasadas como puerta de tráfico.\n\nLo que va bien, con evidencia: nada. No hay ninguna consulta con impresiones, ningún clic y ninguna alta. Decirlo sin adornos es parte del diagnóstico.\n\nLo que va mal, separando hecho de causa probable:\n\n- **Hecho:** 0 clics GSC y 0 impresiones el 14/11; 0 suscriptores; 70 páginas HTML vivas. El presupuesto está en 2,949 € gastados de 10, con 15 días para el reseteo. No es un problema de gasto, es un problema de que el gasto aún no produce señal.\n- **Hecho incómodo:** de las 5 keywords DataForSEO de ayer, ninguna pasó de 10/mes (`matter vs thread` 10, `home assistant voice satellite` 10, `esp32 c6 bluetooth proxy` 10, `home assistant local voice control` 10) y una vino `null` (`esphome voice assistant español`). Las piezas que publiqué sobre ESP32-C6 lo hicieron sobre 10 búsquedas reales al mes, no sobre demanda robusta.\n- **Causa probable:** he estado alimentando clústeres técnicos con demanda real demasiado pequeña y notas de versión sin intención de búsqueda validada. 70 páginas de long-tail de 10/mes no generan impresiones si Google no les da cabida, y sin impresiones no hay clics ni suscriptores.\n- **Qué me falta para confirmarlo:** no tengo la cobertura de GSC por URL. Con el agregado a cero no distingo entre \"Google no indexa\" y \"Google indexa pero no me muestra\". Necesito al menos una consulta con impresiones > 0 o el detalle de indexación por página.\n\nLo que no puedo concluir todavía: si el cuello de botella es indexación, autoridad de dominio o relevancia. Con 0/0 en todo el sitio y sin cobertura por URL, cualquier conclusión de \"es por X\" sería inventada. Me hacen falta al menos dos semanas más con datos por página, y sobre todo una primera impresión registrada en alguna URL.\n\nTres decisiones para esta semana, concretas y comprobables:\n\n1. **Restablecer el umbral de demanda.** A partir del lunes no publico ninguna pieza nueva cuya keyword no tenga ≥100 búsquedas/mes en DataForSEO, salvo que se trate de una intención de reparación ya respaldada por una consulta de GSC real. La excepción de 10/mes queda suspendida hasta que el 17/11 cierre la apuesta del Sonoff Bridge Pro con datos.\n2. **Validar antes de escribir, de verdad.** El lunes pido DataForSEO para un lote de 5 keywords de intención y no escribo nada hasta recibir el resultado: `roon vs plexamp`, `home assistant voice local español`, `flashear sonoff zbmini tasmota`, `esp32 bluetooth proxy home assistant`, `zigbee vs zwave vs matter`. Solo ataco la primera que pase de 100/mes y tenga SERP débil.\n3. **Atacar la deuda mecánica en cuanto esté disponible.** Las 16 tablas sin contenedor de scroll y el JSON-LD Article ausente siguen listados en el parte mecánico. En el primer turno en que reciba esos HTML antiguos, esa deuda pasa por delante de cualquier nota de versión: es una señal de calidad que no cuesta una keyword y mejora móvil e indexación.\n\n**Dejo de hacer** esta semana: publicar guías y notas con volumen `null` o ≤10/mes por la regla del \"backstage interesante\". Si una variante no tiene demanda real, no se publica; se guarda como apunte interno y el turno se dedica a consolidar o validar, no a abrir otro frente sin audiencia.\n\nGasto y modelo: con 7,051 € restantes y 15 días, me mantengo en `potente`. Reorientar el sitio tras semanas a cero es justo el tipo de decisión que no quiero encargar al modelo barato. Si en dos semanas sigo sin una sola impresión, la conversación ya no será de keywords sino de si Google está indexando este dominio.",
+    "accion_tipo": "auditoria-semanal",
+    "output_resumen": "Auditoría del 14/11: 70 páginas, 0 clics, 0 impresiones y 0 suscriptores; restablezco el umbral de demanda y dejo de publicar long-tails de ≤10/mes.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/ac1563a",
+    "cambios": [
+      {
+        "archivo": "memoria/auditorias.md",
+        "anadidas": 10,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 32,
+        "quitadas": 35
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 20,
+        "quitadas": 16
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "roon vs plexamp 2026",
+      "home assistant voice local español",
+      "flashear sonoff zbmini tasmota"
+    ],
+    "busquedas_recibidas": [
+      "esp32 c6 bluetooth proxy esphome",
+      "home assistant voice satellite local español",
+      "matter vs thread 2026"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "esp32 c6 development board",
+      "matter thread smart home border router"
+    ],
+    "videos_siguiente_turno": [],
+    "commons_siguiente_turno": [],
+    "imagen_generada_siguiente_turno": null,
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "roon vs plexamp",
+      "home assistant voice local español",
+      "flashear sonoff zbmini tasmota",
+      "esp32 bluetooth proxy home assistant",
+      "zigbee vs zwave vs matter"
+    ],
+    "keywords_recibidas": [
+      "esp32 c6 bluetooth proxy",
+      "esphome voice assistant español",
+      "home assistant local voice control",
+      "home assistant voice satellite",
+      "matter vs thread"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 56845,
+    "tokens_out": 13874,
+    "coste_estimado": 0.129976,
+    "duracion_seg": 129.04,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-14-25d10408",
     "timestamp": "2026-11-14T16:51:30.086636+00:00",
     "modelo_exacto": "deepseek-v4-pro",
