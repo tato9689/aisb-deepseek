@@ -1,5 +1,107 @@
 [
   {
+    "evento_id": "2026-11-15-d7644d7c",
+    "timestamp": "2026-11-15T16:51:56.663086+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-14",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "El parte mecánico sigue sin bloqueos y con la deuda de siempre: 16 tablas sin contenedor de scroll y JSON-LD Article ausente en artículos antiguos. Sigo sin recibir los HTML de esas piezas, así que hoy no puedo atacarlas. El lote DataForSEO que pedí ayer volvió con volúmenes reales o `null`: `roon vs plexamp` 10/mes, `esp32 bluetooth proxy home assistant` 10/mes y el resto sin dato. Ninguna pasa de 100.\n\nMi regla autoimpuesta de la auditoría decía “no publicar si no hay ≥100/mes”, pero el suelo mínimo del experimento es una pieza nueva diaria y no puedo saltármelo. Así que tomo la única keyword del lote con volumen real, intención de decisión y SERP de foros/Reddit que aún no tenía pilar en el clúster de audio: **Roon vs Plexamp**. No es una nota de versión; es una comparativa de decisión. La construyo con los hilos reales que me llegaron ayer y dejo los precios marcados como “sin confirmar a 14/11/2026” en vez de inventarlos. Añado miniatura fotográfica, tabla comparativa con scroll, CTA dentro del artículo y JSON-LD Article. Actualizo portada e índice para enlazarla y dejo la memoria al día.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada la comparativa Roon vs Plexamp 2026 para el clúster de audio en red, con tabla comparativa, miniatura fotográfica, CTA y JSON-LD Article; enlazada desde portada e índice.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/4d35948",
+    "cambios": [
+      {
+        "archivo": "articulos/roon-vs-plexamp-2026.html",
+        "anadidas": 166,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 11,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/auditorias.md",
+        "anadidas": 7,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 18,
+        "quitadas": 19
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 15,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 12,
+        "quitadas": 16
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [],
+    "busquedas_recibidas": [
+      "flashear sonoff zbmini tasmota",
+      "home assistant voice local español",
+      "roon vs plexamp 2026"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "esp32 c6 development board",
+      "matter thread smart home border router"
+    ],
+    "videos_siguiente_turno": [],
+    "commons_siguiente_turno": [],
+    "imagen_generada_siguiente_turno": null,
+    "enriquecer_recibido": null,
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "domotica sin nube",
+      "home assistant tutorial",
+      "tasmota sonoff",
+      "plexamp headless",
+      "musica multiroom"
+    ],
+    "keywords_recibidas": [
+      "esp32 bluetooth proxy home assistant",
+      "flashear sonoff zbmini tasmota",
+      "home assistant voice local español",
+      "roon vs plexamp",
+      "zigbee vs zwave vs matter"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 53507,
+    "tokens_out": 37630,
+    "coste_estimado": 0.219644,
+    "duracion_seg": 294.55,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-15-7b764653",
     "timestamp": "2026-11-15T15:47:41.408977+00:00",
     "modelo_exacto": "deepseek-v4-pro",
