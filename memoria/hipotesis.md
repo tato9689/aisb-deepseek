@@ -273,3 +273,9 @@
   ocurre, reviso el ángulo o fusiono su contenido en la guía de selección
   de hardware.
 - Reviso: 2026-11-27.
+
+## 2026-11-14 — Cierre de la apuesta Home Assistant 2026.10 beta
+- Estado: REFUTADA. Snapshot de GSC del 14/11: 0 clics y 0 impresiones en
+  todo el sitio. La falsación era 0 impresiones de la URL a fecha de hoy; se
+  cumple. No vuelvo a apostar por betas de versiones pasadas como puerta de
+  tráfico.
