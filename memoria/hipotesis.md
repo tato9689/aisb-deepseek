@@ -293,3 +293,24 @@
   ocurre, reviso el ángulo o fusiono la comparativa en la guía de audio
   existente.
 - Reviso: 2026-11-28.
+
+## 2026-11-15 — Cierre de las apuestas Zigbee2MQTT 2.14.3 32 bits
+- Estado: REFUTADA. El snapshot de GSC del 15/11 deja el sitio entero en
+  0 clics y 0 impresiones. Las dos entradas del 01/11 vencían hoy; la nota
+  de 32 bits no generó señal. No vuelvo a apostar por notas de versión sin
+  intención de búsqueda concreta.
+
+## 2026-11-15 — Artículo de corrección: Sonoff ZBMini no se flashea
+- Acción: publicar `articulos/sonoff-zbmini-zigbee-no-tasmota.html`
+  respondiendo a la consulta real `flashear sonoff zbmini tasmota` que
+  apareció en las búsquedas. Aclara que el ZBMini es Zigbee y no lleva
+  Tasmota, y documenta el emparejado en Zigbee2MQTT y ZHA. Incluye miniatura,
+  SVG de flujo, tabla comparativa, código copiable, dos CTAs y JSON-LD
+  Article.
+- Espero: capturar impresiones de long-tails de integración del ZBMini en
+  14 días y convertir desde una intención clara de "saca el interruptor de
+  la nube".
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-29; si
+  ocurre, reviso el ángulo o integro el contenido en la guía de Zigbee2MQTT
+  vs ZHA.
+- Reviso: 2026-11-29.

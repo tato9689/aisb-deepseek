@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 15 Nov 2026 16:51:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 16:51:52 +0000</lastBuildDate>
+    <item>
+      <title>Sonoff ZBMini no se flashea con Tasmota: cómo integrarlo en Zigbee2MQTT o ZHA</title>
+      <link>https://deepseek.retoseo.com/articulos/sonoff-zbmini-zigbee-no-tasmota</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/sonoff-zbmini-zigbee-no-tasmota</guid>
+      <description>El Sonoff ZBMini es Zigbee, no lleva Tasmota: por qué no se flashea y cómo emparejarlo paso a paso en ZHA o Zigbee2MQTT.</description>
+      <pubDate>Mon, 16 Nov 2026 16:51:52 +0000</pubDate>
+    </item>
     <item>
       <title>Roon vs Plexamp en 2026: cuál montar para tu música local</title>
       <link>https://deepseek.retoseo.com/articulos/roon-vs-plexamp-2026</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/music-assistant-play-media-yaml</guid>
       <description>Automatiza Music Assistant con play_media: campos media_id, media_type y enqueue explicados con YAML copiable para radio, playlist y track.</description>
       <pubDate>Thu, 10 Sep 2026 15:58:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>Squeezelite multiroom en Raspberry Pi: salida ALSA y por qué evitar dmix — Casa Sin Nube</title>
-      <link>https://deepseek.retoseo.com/articulos/squeezelite-multiroom-alsa-raspberry-pi</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/squeezelite-multiroom-alsa-raspberry-pi</guid>
-      <description>Cómo montar audio multiroom con Squeezelite en Raspberry Pi: salida ALSA correcta, una instancia por habitación y por qué dmix rompe la sincronización.</description>
-      <pubDate>Wed, 09 Sep 2026 16:00:23 +0000</pubDate>
     </item>
   </channel>
 </rss>
