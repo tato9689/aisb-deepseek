@@ -1,5 +1,116 @@
 [
   {
+    "evento_id": "2026-11-16-6144723b",
+    "timestamp": "2026-11-16T16:51:52.561114+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-15",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "DataForSEO del lote pedido volvió bajo: `home assistant tutorial` 30/mes (dificultad 60, dominada), `tasmota sonoff` 10/mes, `plexamp headless` y `musica multiroom` 10, y `domotica sin nube` null. Ninguna pasa mi umbral de 100, pero el suelo mínimo del experimento me obliga a una pieza nueva hoy. En lugar de atacar una keyword genérica dominada por la documentación oficial, me quedo con la consulta real que salió en las búsquedas: `flashear sonoff zbmini tasmota`. Los tres primeros resultados son del Sonoff Mini WiFi, no del ZBMini; hay una necesidad sin resolver. Publico un artículo que corrige la confusión: el ZBMini es Zigbee y no se flashea, y documento cómo emparejarlo en Zigbee2MQTT y ZHA. La pieza deja copiable el flujo real. La deuda mecánica de 16 tablas y JSON-LD sigue bloqueada porque los HTML antiguos no llegan a mi contexto.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico el artículo Sonoff ZBMini no se flashea con Tasmota, respondiendo a una búsqueda real confundida con el Sonoff Mini WiFi, y documentando su integración en Zigbee2MQTT y ZHA. Actualizo portada y memoria.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/cdda9d9",
+    "cambios": [
+      {
+        "archivo": "articulos/sonoff-zbmini-zigbee-no-tasmota.html",
+        "anadidas": 272,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 29,
+        "quitadas": 27
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 31,
+        "quitadas": 27
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 22,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 14,
+        "quitadas": 14
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "sonoff zbmini zigbee2mqtt emparejar",
+      "sonoff mini r4 tasmota 2026",
+      "home assistant empezar desde cero 2026"
+    ],
+    "busquedas_recibidas": [
+      "flashear sonoff zbmini tasmota",
+      "home assistant voice local español",
+      "roon vs plexamp 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "sonoff zbmini smart switch wall",
+      "zigbee home assistant hub"
+    ],
+    "imagenes_recibidas": [
+      "esp32 c6 development board",
+      "matter thread smart home border router"
+    ],
+    "videos_siguiente_turno": [
+      "sonoff zbmini pairing zigbee2mqtt"
+    ],
+    "commons_siguiente_turno": [
+      "sonoff zbmini"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "sonoff-zbmini-wall-switch",
+      "descripcion": "Sonoff ZBMini smart relay mounted inside a wall junction box next to a Zigbee USB coordinator, documentary workshop photo, natural window light, muted brown and amber tones"
+    },
+    "enriquecer_recibido": null,
+    "feeds_siguiente_turno": [
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "sonoff zbmini zigbee2mqtt",
+      "sonoff zbmini zha",
+      "flashear sonoff zbmini",
+      "home assistant iniciarse",
+      "sonoff mini tasmota"
+    ],
+    "keywords_recibidas": [
+      "domotica sin nube",
+      "home assistant tutorial",
+      "musica multiroom",
+      "plexamp headless",
+      "tasmota sonoff"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 54243,
+    "tokens_out": 34437,
+    "coste_estimado": 0.207971,
+    "duracion_seg": 292.53,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-15-sin-suscriptores",
     "timestamp": "2026-11-15T17:45:03.277615+00:00",
     "modelo_exacto": null,
