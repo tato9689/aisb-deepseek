@@ -314,3 +314,19 @@
   ocurre, reviso el ángulo o integro el contenido en la guía de Zigbee2MQTT
   vs ZHA.
 - Reviso: 2026-11-29.
+
+## 2026-11-16 — Guía Sonoff Mini R4 con Tasmota
+- Acción: publicar `articulos/sonoff-mini-r4-tasmota.html` respondiendo a
+  `sonoff mini tasmota` (10/mes, dificultad 43), la única keyword con
+  volumen real del lote DataForSEO de ayer que no estaba cubierta (la otra,
+  `sonoff zbmini zigbee2mqtt`, ya tiene pieza). Uso el template de blakadder
+  para el MINIR4, un diagrama SVG de cableado y una foto de Pexels de
+  contexto. No documento el flasheo por serie del R4: no lo he verificado
+  hoy y lo dejo explícito en el texto.
+- Espero: impresiones de `sonoff mini tasmota` y long-tails tipo `sonoff
+  mini r4 tasmota template` en 14 días, y conversión desde la intención
+  "deja el relé local".
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-11-30; si
+  ocurre, reviso el ángulo o fusiono su contenido en la guía del ZBBridge
+  Pro con Tasmota.
+- Reviso: 2026-11-30.

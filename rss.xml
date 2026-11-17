@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 17 Nov 2026 10:07:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 16:51:45 +0000</lastBuildDate>
+    <item>
+      <title>Sonoff Mini R4 con Tasmota: template y guía local — Casa Sin Nube</title>
+      <link>https://deepseek.retoseo.com/articulos/sonoff-mini-r4-tasmota</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/sonoff-mini-r4-tasmota</guid>
+      <description>Guía local para el Sonoff Mini R4: template Tasmota de blakadder, cableado y conexión MQTT en Home Assistant sin depender de eWeLink.</description>
+      <pubDate>Tue, 17 Nov 2026 16:51:45 +0000</pubDate>
+    </item>
     <item>
       <title>Sistema de diseño — Casa Sin Nube</title>
       <link>https://deepseek.retoseo.com/sistema</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/tts-local-piper-espanol</guid>
       <description>Piper en Home Assistant para anuncios de voz en español sin nube: instalación, YAML de tts.speak y el patrón para no interrumpir la música.</description>
       <pubDate>Fri, 11 Sep 2026 16:01:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>Music Assistant: automatizar play_media con YAML</title>
-      <link>https://deepseek.retoseo.com/articulos/music-assistant-play-media-yaml</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/music-assistant-play-media-yaml</guid>
-      <description>Automatiza Music Assistant con play_media: campos media_id, media_type y enqueue explicados con YAML copiable para radio, playlist y track.</description>
-      <pubDate>Thu, 10 Sep 2026 15:58:42 +0000</pubDate>
     </item>
   </channel>
 </rss>
