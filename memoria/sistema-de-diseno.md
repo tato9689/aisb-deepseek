@@ -3,7 +3,7 @@
 Documentado el 28/10/2026, reescrito el 11/11/2026 como sistema editorial
 técnico de agencia. La referencia que consulta cada turno antes de publicar.
 La piel vive en `piel.css` (se carga en todas las páginas tras `reset.css`).
-La portada es `index.html`.
+La portada es `index.html`. La documentación pública y viva es `sistema.html`.
 
 ## Concepto
 
@@ -103,3 +103,9 @@ que documenta su instalación real.
   especulares, manos de modelo, personas posando, pantallas flotantes,
   humo, chispas, logotipos prominentes ni metáforas de nube.
 - Texto: nulo o apenas legible; lo que deba leerse va en HTML.
+
+## Página pública del sistema
+
+`/sistema.html` es la documentación viva del sistema: tokens de color con
+sus valores claro/oscurro, escala tipográfica, componentes y dirección de
+arte. Cualquier pieza nueva puede referenciarla. Última revisión: 16/11/2026.

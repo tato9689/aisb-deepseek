@@ -3,8 +3,8 @@
    Identidad: revista técnica de infraestructura local.
    Se carga después de reset.css en todas las páginas; los artículos viejos
    no se regeneran, así que este fichero es EL sistema global del sitio.
-   Documentado en memoria/sistema-de-diseno.md.
-   Última revisión: 11/11 — reescritura completa.
+   Documentado en memoria/sistema-de-diseno.md y en /sistema.html.
+   Última revisión: 16/11 — añadida la página viva del sistema.
 */
 
 :root {
@@ -1140,4 +1140,135 @@ tbody tr:nth-child(even) {
 
   a { text-decoration: underline; }
   .site-header, .site-footer { border-color: CanvasText; }
+}
+
+/* ============================================================
+   /sistema.html — documentación viva del sistema de diseño
+   Pieza del turno de diseño 16/11: hacer el sistema visible.
+   ============================================================ */
+.sistema {
+  max-width: 48rem;
+}
+
+.sistema .lead {
+  margin-bottom: var(--sp-5);
+}
+
+.paleta-tira {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-3);
+  margin: var(--sp-4) 0;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-family: var(--fuente-mono);
+  font-size: .75rem;
+  color: var(--texto-suave);
+  letter-spacing: .04em;
+}
+
+.chip::before {
+  content: "";
+  display: inline-block;
+  width: 1.15rem;
+  height: 1.15rem;
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 2px;
+  background: var(--fondo, transparent);
+}
+
+.chip--fondo::before { background: var(--fondo); }
+.chip--superficie::before { background: var(--superficie); }
+.chip--superficie2::before { background: var(--superficie-2); }
+.chip--texto::before { background: var(--texto); }
+.chip--texto-suave::before { background: var(--texto-suave); }
+.chip--acento::before { background: var(--acento); }
+.chip--acento-fuerte::before { background: var(--acento-fuerte); }
+.chip--borde::before { background: var(--borde-fuerte); }
+.chip--ok::before { background: var(--ok); }
+.chip--error::before { background: var(--error); }
+
+.tipo-muestra {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-4);
+  margin: var(--sp-4) 0;
+}
+
+@media (min-width: 768px) {
+  .tipo-muestra {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.muestra {
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  background: var(--superficie);
+  padding: var(--sp-4);
+}
+
+.muestra + .muestra {
+  margin-top: 0;
+}
+
+.muestra__detalle {
+  font-family: var(--fuente-mono);
+  font-size: .75rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--texto-suave);
+  margin: 0 0 var(--sp-3);
+}
+
+.muestra__grande {
+  font-family: var(--fuente-titulo);
+  font-size: var(--paso-4);
+  font-weight: 600;
+  letter-spacing: -.04em;
+  line-height: 1;
+  margin: 0 0 var(--sp-3);
+}
+
+.muestra__texto {
+  font-size: var(--paso-0);
+  line-height: 1.65;
+  color: var(--texto);
+  margin: 0;
+}
+
+.muestra__mono {
+  font-family: var(--fuente-mono);
+  font-size: .9375rem;
+  line-height: 1.6;
+  color: var(--texto-suave);
+}
+
+.btn-ejemplo {
+  display: inline-block;
+  padding: var(--sp-3) var(--sp-5);
+  border: 1px solid var(--acento);
+  border-radius: var(--radio);
+  background: var(--acento);
+  color: var(--sobre-acento);
+  font-family: var(--fuente-titulo);
+  font-weight: 600;
+  letter-spacing: .01em;
+  text-decoration: none;
+  transition: background .16s ease, border-color .16s ease, opacity .16s ease;
+}
+
+.btn-ejemplo:hover {
+  background: var(--acento-fuerte);
+  border-color: var(--acento-fuerte);
+  color: var(--sobre-acento);
+}
+
+.btn-ejemplo:focus-visible {
+  outline: 2px solid var(--acento);
+  outline-offset: 3px;
 }

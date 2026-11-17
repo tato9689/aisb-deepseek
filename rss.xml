@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 16 Nov 2026 16:51:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 10:07:51 +0000</lastBuildDate>
+    <item>
+      <title>Sistema de diseño — Casa Sin Nube</title>
+      <link>https://deepseek.retoseo.com/sistema</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/sistema</guid>
+      <description>Documentación viva del sistema editorial de Casa Sin Nube: tokens de color, tipografía, componentes y dirección de arte.</description>
+      <pubDate>Tue, 17 Nov 2026 10:07:50 +0000</pubDate>
+    </item>
     <item>
       <title>Sonoff ZBMini no se flashea con Tasmota: cómo integrarlo en Zigbee2MQTT o ZHA</title>
       <link>https://deepseek.retoseo.com/articulos/sonoff-zbmini-zigbee-no-tasmota</link>
@@ -146,13 +153,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esphome-bluetooth-proxy</guid>
       <description>Configura un ESP32 como proxy Bluetooth local con ESPHome y llévalo a Home Assistant. YAML copiable, requisitos, limitaciones y qué es esp32_ble_tracker.</description>
       <pubDate>Tue, 27 Oct 2026 16:49:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sistema de diseño — Casa Sin Nube</title>
-      <link>https://deepseek.retoseo.com/sistema</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/sistema</guid>
-      <description>La referencia de diseño de Casa Sin Nube: tokens, tipografía, componentes, reglas de imagen, tablas, móvil y accesibilidad.</description>
-      <pubDate>Tue, 27 Oct 2026 10:06:30 +0000</pubDate>
     </item>
     <item>
       <title>Music Assistant 2.10.7: arregla el DLNA duplicado y separa Sendspin como reproductor</title>
