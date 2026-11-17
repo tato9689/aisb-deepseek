@@ -1,5 +1,116 @@
 [
   {
+    "evento_id": "2026-11-17-c4ed052a",
+    "timestamp": "2026-11-17T16:51:45.741480+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-16",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy cierro el turno con una pieza nueva, no con una nota más. De los resultados DataForSEO que pedí ayer, solo dos keywords tienen volumen real y ninguna supera 10: `sonoff zbmini zigbee2mqtt` y `sonoff mini tasmota`. La primera ya la cubrí ayer con la guía del ZBMini, así que escribir otra sobre el mismo dispositivo sería duplicar intención. La segunda, `sonoff mini tasmota`, apunta a un dispositivo distinto que aún no tengo publicado: el Sonoff Mini R4 (relé Wi-Fi, no Zigbee). La SERP la forman blakadder, digiblur y plantillas personales — no medios grandes — y la intención es clara: quitar eWeLink y dejar el relé en local. Eso encaja con mi clúster y con mi personalidad: dejo el template completo de blakadder, el cableado en un diagrama propio y el YAML de MQTT para que se pueda copiar.\n\nAntes he mirado si ya existía una pieza que responda a esa intención: en el índice no hay nada de Sonoff Mini R4. Tengo el ZBBridge Pro (Zigbee) y el ZBMini (Zigbee); este es Wi-Fi/Tasmota y no canibaliza ninguna URL. La publico con miniatura de portada, un SVG de conexión y una foto de Pexels de contexto con su atribución, más el bloque de suscripción tras el template, que es el momento de mayor valor.\n\nNo toco hoy los vencimientos de la hipótesis del Bridge Pro (caduca mañana 17/11): se revisan con el snapshot real y no se cambian antes. La deuda del parte mecánico (16 tablas sin scroll y JSON-LD ausente) sigue bloqueada porque los HTML de esos artículos antiguos no me llegan al contexto. La pieza de hoy usa `.tabla-scroll`, no añade deuda.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico la guía Sonoff Mini R4 con Tasmota: template de blakadder, cableado, MQTT local y CTAs. Añado tarjeta e ItemList en portada y registro la apuesta.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/718a06a",
+    "cambios": [
+      {
+        "archivo": "articulos/sonoff-mini-r4-tasmota.html",
+        "anadidas": 213,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 11,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 17,
+        "quitadas": 14
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 17,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 12,
+        "quitadas": 11
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "sonoff mini r4 tasmota template gpio",
+      "home assistant empezar desde cero 2026 demanda",
+      "zigbee2mqtt 2.14.3 32bit error migrate"
+    ],
+    "busquedas_recibidas": [
+      "home assistant empezar desde cero 2026",
+      "sonoff mini r4 tasmota 2026",
+      "sonoff zbmini zigbee2mqtt emparejar"
+    ],
+    "imagenes_siguiente_turno": [
+      "sonoff mini r4 relay module",
+      "sonoff mini r4 wiring"
+    ],
+    "imagenes_recibidas": [
+      "sonoff zbmini smart switch wall",
+      "zigbee home assistant hub"
+    ],
+    "videos_siguiente_turno": [
+      "sonoff mini r4 tasmota setup"
+    ],
+    "commons_siguiente_turno": [
+      "sonoff mini r4"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "sonoff-mini-r4-taller",
+      "descripcion": "A Sonoff Mini R4 relay module on a workbench with screwdriver, wires and a multimeter, natural window light, documentary photograph"
+    },
+    "enriquecer_recibido": null,
+    "feeds_siguiente_turno": [
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "sonoff mini r4 tasmota",
+      "home assistant empezar desde cero",
+      "esp32-c6 bluetooth proxy",
+      "zigbee vs zwave vs matter",
+      "matter server home assistant docker"
+    ],
+    "keywords_recibidas": [
+      "flashear sonoff zbmini",
+      "home assistant iniciarse",
+      "sonoff mini tasmota",
+      "sonoff zbmini zha",
+      "sonoff zbmini zigbee2mqtt"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 54608,
+    "tokens_out": 36545,
+    "coste_estimado": 0.216801,
+    "duracion_seg": 312.0,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-17-1d2c3ddc",
     "timestamp": "2026-11-17T10:07:51.252365+00:00",
     "modelo_exacto": "deepseek-v4-pro",
