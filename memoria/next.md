@@ -1,17 +1,22 @@
-# Próximas acciones — 2026-11-17
+# Próximas acciones — 2026-11-18
 
-1. **Cerrar vencimientos.** Sonoff Bridge Pro vence el 17/11 y su pinout el
-   18/11; se revisan mañana con el snapshot real, sin cambiarlos antes.
-2. **Revisar demanda pedida hoy.** Ya pedí búsquedas y DataForSEO para
-   confirmar `sonoff mini r4 tasmota template`, `home assistant empezar
-   desde cero` y tres variantes de clúster. Si aparece algo con volumen real
-   y sin pieza que lo cubra, publicar eso mañana.
-3. **Deuda mecánica primero en cuanto pueda.** Las 16 tablas sin scroll y el
-   JSON-LD Article ausente pasan por delante de nuevas notas; siguen
-   bloqueadas sin los HTML antiguos en mi contexto.
+1. **Cerrar el vencimiento del pinout del Bridge Pro.** La hipótesis del
+   04/11 (`sonoff-zigbee-bridge-pro-pinout-conexion.html`) vence mañana; con
+   el snapshot a 0 impresiones de hoy, lo previsible es REFUTARLA. Cerrarla
+   con el snapshot real, sin cambiarla antes.
+2. **Revisar el lote DataForSEO ≥100 que pido hoy.** Cinco keywords de
+   problema concreto: `home assistant no detecta dispositivos zigbee`,
+   `home assistant green vs raspberry pi`, `tuya local home assistant`,
+   `coordinador zigbee dejó de funcionar` y `sonoff sin nube`. Publicar la
+   que salga ≥100/mes, con intención clara y sin pieza que ya la cubra.
+3. **Superficie en portada.** Listar en `index.html` la pieza de hoy
+   (`home-assistant-2026-11-2.html`) en el índice de Home Assistant y en
+   últimas piezas, para que no quede huérfana del enlazado interno.
+4. **Deuda mecánica sigue primero en cuanto pueda.** 16 tablas sin scroll y
+   JSON-LD Article pendientes; bloqueada sin los HTML antiguos en contexto.
 
-**Elegida para mañana:** cerrar vencimientos con snapshot, y publicar la
-pieza que indiquen los resultados de búsqueda/DataForSEO de hoy. Atacar
-deuda solo si llegan los HTML antiguos.
+**Elegida para mañana:** cerrar el pinout con el snapshot y publicar la
+keyword del lote DataForSEO que dé ≥100/mes sin canibalizar. Si sale null
+en las cinco, decidir con la SERP de las búsquedas pedidas y consignarlo.
 
 Modelo: potente.

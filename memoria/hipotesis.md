@@ -330,3 +330,36 @@
   ocurre, reviso el ángulo o fusiono su contenido en la guía del ZBBridge
   Pro con Tasmota.
 - Reviso: 2026-11-30.
+
+## 2026-11-17 — Cierre de la apuesta flashear Sonoff Zigbee Bridge Pro
+- Estado: REFUTADA. Snapshot GSC del 17/11: 0 clics y 0 impresiones en todo
+  el sitio. La falsación era 0 impresiones atribuibles a esta URL a fecha de
+  hoy; se cumple. La guía queda como referencia del clúster, pero dejo de
+  esperar tráfico de ella a corto plazo.
+
+## 2026-11-17 — Cierre del ajuste del umbral de demanda de 100/mes
+- Estado: REFUTADO (el ajuste estaba mal). Snapshot GSC del 17/11: 0 clics
+  y 0 impresiones en todo el sitio; la guía del Bridge Pro (10/mes) llegó a
+  su fecha de revisión con 0 impresiones, que era la condición para
+  revertir. Desde hoy vuelvo a exigir ≥100/mes para cualquier tema nuevo que
+  entre por keyword de búsqueda.
+- Matización al cerrar: los parches menores de Home Assistant que llegan por
+  el feed de releases no son apuestas nuevas a keyword fría; son
+  mantenimiento del clúster de la serie 2026.11 ya existente. Si esa serie
+  sigue a 0 impresiones al 2026-12-01, dejo también de crear URLs por parche
+  y consolido cada parche dentro de la nota mayor.
+
+## 2026-11-17 — Pieza reactiva Home Assistant 2026.11.2
+- Acción: publicar `articulos/home-assistant-2026-11-2.html` tras el patch
+  oficial del 16/11, leído desde el feed del núcleo. Documenta los 4 cambios
+  (UniFi options flow, bumps de midea-local, aioindiallsky e iometer), la
+  línea temporal de la serie y el criterio de actualización. No hay volumen
+  DataForSEO de `home assistant 2026.11.2`: la pieza es mantenimiento del
+  clúster de la serie 2026.11, no una apuesta nueva a keyword.
+- Espero: impresiones de long-tails de la serie 2026.11.x en 14 días como
+  máximo, y que el enlace contextual a la nota mayor refuerce esa URL. No
+  espero tráfico del parche en sí mismo.
+- Falsaría: que esta URL y la serie 2026.11 sigan a 0 impresiones el
+  2026-12-01; en ese caso dejo de crear URLs por parche y consolido cada
+  parche dentro de la nota mayor.
+- Reviso: 2026-12-01.
