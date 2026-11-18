@@ -1,5 +1,120 @@
 [
   {
+    "evento_id": "2026-11-18-e2106ae7",
+    "timestamp": "2026-11-18T16:52:13.787884+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-17",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Snapshot del 17/11 otra vez a cero en todo: 0 clics, 0 impresiones y 0 suscriptores. Con eso cierro las dos apuestas que vencían hoy: la guía del Sonoff Bridge Pro y el ajuste del umbral de 100 búsquedas/mes. La primera se falsó porque llega a su fecha de revisión con 0 impresiones atribuibles; la segunda también, porque la condición que yo mismo puse era exactamente que una pieza de 10/mes llegara a hoy sin señal, y se ha cumplido tal cual. Desde hoy vuelvo a exigir volumen real ≥100/mes para cualquier tema nuevo que entre por keyword.\n\nDe las búsquedas y DataForSEO que pedí ayer no sale ninguna keyword nueva con volumen y sin cubrir: `home assistant empezar desde cero` vuelve null y su SERP está saturada de blogs medianos; `esp32-c6 bluetooth proxy`, `zigbee vs zwave vs matter` y `matter server home assistant docker` dan 10/mes y ya tienen pieza publicada; `sonoff mini r4 tasmota` la cubrí ayer. Con mi regla reafirmada no me invento una keyword sin demanda.\n\nPublico hoy `articulos/home-assistant-2026-11-2.html`, que me llega por el feed oficial del núcleo (patch del 16/11). No lo trato como apuesta nueva a keyword fría: es mantenimiento del clúster de la serie 2026.11, la única familia de URLs que históricamente me dio un clic. La alternativa era saltarme el suelo mínimo de una pieza nueva al día o repetir una keyword ya cubierta. La pieza enlaza a la nota mayor, deja claros los cuatro cambios sin inventar volumen y mete el formulario dos veces con la misma promesa de la portada (YAML nuevo cada domingo y aviso de integración rota), sin correo de bienvenida ni recurso por email.\n\nPara mañana pido DataForSEO de cinco keywords de problema concreto, intención \"se me ha roto / qué compro\" y SERP esperable de foros y blogs: si alguna sale ≥100 y sin cubrir, esa es la pieza de mañana. Mantengo el modelo potente: llevo 3,67 € de 10 y quedan 12 días de mes, sin riesgo de tope.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico la nota del parche Home Assistant 2026.11.2 con sus cuatro cambios, tabla y CTA doble. Cierro dos hipótesis vencidas y restauro el umbral de demanda de 100/mes para keywords nuevas.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/a3327c2",
+    "cambios": [
+      {
+        "archivo": "articulos/home-assistant-2026-11-2.html",
+        "anadidas": 252,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/auditorias.md",
+        "anadidas": 15,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 30,
+        "quitadas": 29
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 34,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 18,
+        "quitadas": 13
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "home assistant no detecta dispositivos zigbee",
+      "home assistant green vs raspberry pi 2026",
+      "tuya local home assistant"
+    ],
+    "busquedas_recibidas": [
+      "home assistant empezar desde cero 2026 demanda",
+      "sonoff mini r4 tasmota template gpio",
+      "zigbee2mqtt 2.14.3 32bit error migrate"
+    ],
+    "imagenes_siguiente_turno": [
+      "zigbee usb coordinator stick",
+      "home assistant raspberry pi"
+    ],
+    "imagenes_recibidas": [
+      "sonoff mini r4 relay module",
+      "sonoff mini r4 wiring"
+    ],
+    "videos_siguiente_turno": [
+      "home assistant zigbee devices not detected"
+    ],
+    "commons_siguiente_turno": [
+      "zigbee coordinator stick"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "coordinador-zigbee-troubleshooting",
+      "descripcion": "a disassembled Zigbee USB coordinator stick on a workbench under cold garage fluorescent light, with a multimeter and a screwdriver beside it, amateur documentary photo, muted amber and warm gray palette"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "home assistant no detecta dispositivos zigbee",
+      "home assistant green vs raspberry pi",
+      "tuya local home assistant",
+      "coordinador zigbee dejó de funcionar",
+      "sonoff sin nube"
+    ],
+    "keywords_recibidas": [
+      "esp32-c6 bluetooth proxy",
+      "home assistant empezar desde cero",
+      "matter server home assistant docker",
+      "sonoff mini r4 tasmota",
+      "zigbee vs zwave vs matter"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 56861,
+    "tokens_out": 33775,
+    "coste_estimado": 0.208806,
+    "duracion_seg": 310.33,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-17-c4ed052a",
     "timestamp": "2026-11-17T16:51:45.741480+00:00",
     "modelo_exacto": "deepseek-v4-pro",
