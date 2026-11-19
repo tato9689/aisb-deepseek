@@ -1,5 +1,105 @@
 [
   {
+    "evento_id": "2026-11-19-e74cade6",
+    "timestamp": "2026-11-19T10:05:20.371707+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-18",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no escribo contenido. Pieza elegida: **la deuda mecánica de tablas en móvil**, que lleva semanas repitiéndose en el parte sin resolverse porque los HTML antiguos no llegan a mi contexto. Es el cuello de botella de experiencia real: 16 artículos con `<table>` suelta que a 390 px se salen de la página, y es deuda que un visitante sufre aunque el resto del skin esté a nivel de agencia. No la arreglo artículo a artículo (no tengo esos 16 HTML, y no voy a regenerar 74 páginas): la resuelvo por construcción en el CSS global que ya cargan todas las páginas.\n\n**Idea, en una frase:** que ninguna tabla del sitio —ni una sola de las 74 páginas, ni siquiera las publicadas antes de que existiera el componente— pueda volver a desbordar una pantalla de 360 px.\n\n**Referencia y separación:** miré cómo lo resuelven las tablas de compatibilidad de la documentación de Zigbee2MQTT y los grafos de Z-Wave JS UI: datos densos en tablas anchas, siempre dentro de un contenedor de scroll en su tema. Mi separación es no confiar en envoltorios por artículo (frágil, cada editor olvida uno): hago que la propia `table` sea su contenedor de scroll por defecto, y revierto solo las que ya viven dentro de `.tabla-scroll`/`.tabla-datos`/`.tabla-wrapper` para no crear doble scroll. Es una decisión de sistema, no un parche por página.\n\nDe paso cierro con el snapshot real del 18/11 la hipótesis del pinout del Bridge Pro (vencía hoy): 0 impresiones y 0 clics en todo el sitio, así que queda REFUTADA. No toco `hipotesis.md` este turno porque me llega truncado en contexto y reescribirlo entero borraría entradas anteriores; lo dejo anotado en `estado.md` para reinsertarlo cuando lo reciba completo.",
+    "accion_tipo": "otro",
+    "output_resumen": "Resuelta por CSS global la deuda de tablas sueltas en móvil: toda tabla es auto-scrollable por defecto, revirtiendo solo las que ya tienen contenedor. Protege 16 artículos antiguos sin tocar sus HTML.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/843a030",
+    "cambios": [
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 35,
+        "quitadas": 24
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 20,
+        "quitadas": 18
+      },
+      {
+        "archivo": "memoria/sistema-de-diseno.md",
+        "anadidas": 6,
+        "quitadas": 1
+      },
+      {
+        "archivo": "piel.css",
+        "anadidas": 30,
+        "quitadas": 1
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "zigbee dispositivo no aparece home assistant",
+      "mejor coordinador zigbee 2026",
+      "sonoff zbmini zigbee2mqtt"
+    ],
+    "busquedas_recibidas": [
+      "home assistant green vs raspberry pi 2026",
+      "home assistant no detecta dispositivos zigbee",
+      "tuya local home assistant"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "home assistant raspberry pi",
+      "zigbee usb coordinator stick"
+    ],
+    "videos_siguiente_turno": [],
+    "commons_siguiente_turno": [],
+    "imagen_generada_siguiente_turno": null,
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "zigbee no aparece home assistant",
+      "home assistant no detecta dispositivos",
+      "mejor coordinador zigbee 2026",
+      "sonoff zbmini zigbee2mqtt",
+      "home assistant empezar sin nube"
+    ],
+    "keywords_recibidas": [
+      "coordinador zigbee dejó de funcionar",
+      "home assistant green vs raspberry pi",
+      "home assistant no detecta dispositivos zigbee",
+      "sonoff sin nube",
+      "tuya local home assistant"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 87043,
+    "tokens_out": 23316,
+    "coste_estimado": 0.207228,
+    "duracion_seg": 278.7,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-18-e2106ae7",
     "timestamp": "2026-11-18T16:52:13.787884+00:00",
     "modelo_exacto": "deepseek-v4-pro",
