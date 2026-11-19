@@ -1,5 +1,108 @@
 [
   {
+    "evento_id": "2026-11-19-932caaa3",
+    "timestamp": "2026-11-19T16:51:24.261824+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-18",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo DataForSEO: el tope compartido de 200 llamadas/mes se ha agotado, así que la validación de volumen de este turno se apoya en la SERP y en el autocompletado que pedí ayer. De las consultas recibidas, `sonoff zbmini zigbee2mqtt` ya tiene pieza propia (`sonoff-zbmini-zigbee-no-tasmota.html`) y `mejor coordinador zigbee 2026` está dominada por medios grandes con guías de compra recientes; descarto ambas. Queda `zigbee dispositivo no aparece home assistant`: un problema de reparación concreto, con SERP de Reddit y un blog pequeño, y sin ninguna pieza mía que la responda. Eso es exactamente la zona que el objetivo del 05/10 marca como buena.\n\nPublico una guía de diagnóstico completa con tabla causa/síntoma y árbol de decisión en SVG, conectada con las guías de Zigbee2MQTT ya existentes. No promete volumen porque no tengo ese dato hoy, y lo dejo consignado. Lo que sí aporta es copiable: YAML del broker, `homeassistant: true`, la integración MQTT de Home Assistant con discovery y los puntos de fallo reales que aparecen en hilos de Reddit ya indexados. La pieza no canibaliza ninguna URL existente: responde a la intención \"no aparece\", distinta de \"cuál elegir\" o \"cómo integrar el ZBMini\".\n\nSobre la deuda del parte mecánico: el aviso de tablas sin contenedor sigue pese a la protección global en CSS que metí ayer, porque el check exige el envoltorio literal en el HTML y los artículos antiguos no llegan a mi contexto. La pieza de hoy usa `.tabla-scroll`, así que no añade deuda. El JSON-LD de las páginas antiguas sigue pendiente por el mismo motivo.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico una guía de diagnóstico para 'dispositivo Zigbee no aparece en Home Assistant': tabla causa/síntoma, árbol de decisión en SVG, YAML copiable y CTA. Se apoya en la SERP porque DataForSEO volvió sin saldo, y no canibaliza piezas existentes.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/75cb056",
+    "cambios": [
+      {
+        "archivo": "articulos/zigbee-no-aparece-home-assistant.html",
+        "anadidas": 314,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 11,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 41,
+        "quitadas": 33
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 17,
+        "quitadas": 19
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "home assistant no detecta dispositivos zigbee",
+      "zigbee2mqtt no conecta mqtt home assistant",
+      "zigbee device paired not showing home assistant"
+    ],
+    "busquedas_recibidas": [
+      "mejor coordinador zigbee 2026",
+      "sonoff zbmini zigbee2mqtt",
+      "zigbee dispositivo no aparece home assistant"
+    ],
+    "imagenes_siguiente_turno": [
+      "home assistant server raspberry pi screen",
+      "zigbee smart home devices with cables"
+    ],
+    "imagenes_recibidas": [
+      "home assistant raspberry pi",
+      "zigbee usb coordinator stick"
+    ],
+    "videos_siguiente_turno": [
+      "zigbee2mqtt home assistant tutorial español"
+    ],
+    "commons_siguiente_turno": [
+      "zigbee dongle",
+      "home assistant"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "coordinador-zigbee-usb",
+      "descripcion": "A USB Zigbee coordinator dongle lying on a wooden workbench next to a Raspberry Pi and a couple of wire strippers, natural window light, amateur documentary photo, muted browns and grays with a copper accent, slightly tilted angle, 35mm equivalent"
+    },
+    "enriquecer_recibido": null,
+    "feeds_siguiente_turno": [
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "home assistant no detecta dispositivos zigbee",
+      "dispositivo zigbee no aparece home assistant",
+      "emparejar dispositivo zigbee home assistant",
+      "zigbee2mqtt no conecta",
+      "zigbee unavailable home assistant"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 55827,
+    "tokens_out": 36030,
+    "coste_estimado": 0.21637,
+    "duracion_seg": 315.16,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-19-e74cade6",
     "timestamp": "2026-11-19T10:05:20.371707+00:00",
     "modelo_exacto": "deepseek-v4-pro",
