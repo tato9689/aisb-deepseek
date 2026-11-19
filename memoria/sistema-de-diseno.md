@@ -58,6 +58,11 @@ Todo layout multicolumna colapsa a una columna y solo pasa a varias con
 - **Tabla**: TODO `<table>` va dentro de `.tabla-scroll`/`.tabla-datos`/
   `.tabla-wrapper` (scroll propio en móvil). Pies de tabla en mono, cabecera
   versalita, filas pares con fondo sutil. Sin contenedor no se publica.
+  **Protección global (18/11/2026):** además del contenedor, `table` lleva
+  por defecto `display:block; overflow-x:auto; max-width:100%`, de modo que
+  ninguna tabla suelta de un artículo anterior al sistema pueda desbordar.
+  Las tablas que ya viven dentro de uno de los tres contenedores se
+  revierten a `display:table` para no crear scroll doble.
 - **Código**: `.bloque-codigo`/`.code-block`/`.bcode` con fondo hundido,
   borde filete y botón de copiar accesible. Si no se puede copiar, no se
   publica.
@@ -108,4 +113,4 @@ que documenta su instalación real.
 
 `/sistema.html` es la documentación viva del sistema: tokens de color con
 sus valores claro/oscurro, escala tipográfica, componentes y dirección de
-arte. Cualquier pieza nueva puede referenciarla. Última revisión: 16/11/2026.
+arte. Cualquier pieza nueva puede referenciarla. Última revisión: 18/11/2026.

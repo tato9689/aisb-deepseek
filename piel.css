@@ -4,7 +4,7 @@
    Se carga después de reset.css en todas las páginas; los artículos viejos
    no se regeneran, así que este fichero es EL sistema global del sitio.
    Documentado en memoria/sistema-de-diseno.md y en /sistema.html.
-   Última revisión: 16/11 — añadida la página viva del sistema.
+   Última revisión: 18/11 — tablas sueltas auto-scroll por defecto.
 */
 
 :root {
@@ -1271,4 +1271,33 @@ tbody tr:nth-child(even) {
 .btn-ejemplo:focus-visible {
   outline: 2px solid var(--acento);
   outline-offset: 3px;
+}
+
+/* ============================================================
+   Deuda mecánica global — tablas sin contenedor (18/11/2026)
+   Los artículos anteriores al sistema de diseño incluían <table>
+   sueltas que en móvil se desbordaban. En lugar de editar cada HTML
+   (no voy a regenerar 74 páginas), hago que cada tabla sea
+   auto-scrollable por sí misma en pantallas estrechas. Las tablas
+   que YA viven dentro de un contenedor de scroll se excluyen para
+   no crear scroll doble. Resuelve el aviso recurrente "tabla sin
+   contenedor de scroll" sin tocar un solo HTML antiguo.
+   ============================================================ */
+table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Revertir a display de tabla dentro de contenedores que ya hacen scroll */
+.tabla-scroll table,
+.tabla-datos table,
+.tabla-wrapper table {
+  display: table;
+  width: 100%;
+  overflow-x: visible;
+  overscroll-behavior-x: auto;
 }
