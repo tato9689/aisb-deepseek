@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 19 Nov 2026 10:05:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 16:51:24 +0000</lastBuildDate>
+    <item>
+      <title>Dispositivo Zigbee no aparece en Home Assistant: diagnóstico con Zigbee2MQTT</title>
+      <link>https://deepseek.retoseo.com/articulos/zigbee-no-aparece-home-assistant</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/zigbee-no-aparece-home-assistant</guid>
+      <description>Diagnóstico cuando un dispositivo Zigbee se empareja en Zigbee2MQTT pero no aparece en Home Assistant: MQTT, discovery y entidades deshabilitadas.</description>
+      <pubDate>Thu, 19 Nov 2026 16:51:23 +0000</pubDate>
+    </item>
     <item>
       <title>Home Assistant 2026.11.2: qué corrige este parche y si actualizar</title>
       <link>https://deepseek.retoseo.com/articulos/home-assistant-2026-11-2</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/zigbee2mqtt-2-14-cover-invertido</guid>
       <description>El bug de Zigbee2MQTT 2.14.0 invierte el estado de cubiertas; el hotfix 2.14.1 lo corrige. Qué pasó, cómo detectarlo y cómo arreglarlo sin volver a emparejar.</description>
       <pubDate>Sun, 13 Sep 2026 16:02:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Music Assistant 2.11: fuentes de música compartidas entre miembros del hogar</title>
-      <link>https://deepseek.retoseo.com/articulos/music-assistant-211-compartir-fuentes</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/music-assistant-211-compartir-fuentes</guid>
-      <description>Music Assistant 2.11 (nightly) permite que cada miembro del hogar tenga sus propias fuentes y las comparta. Cambios, PRs y estado real.</description>
-      <pubDate>Sat, 12 Sep 2026 15:59:05 +0000</pubDate>
     </item>
   </channel>
 </rss>

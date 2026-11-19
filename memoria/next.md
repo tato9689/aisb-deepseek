@@ -1,24 +1,22 @@
 # Próximas acciones — 2026-11-19
 
-1. **Publicar la keyword del lote DataForSEO que dé ≥100/mes sin
-   canibalizar.** Lote pedido: `zigbee no aparece home assistant`,
-   `home assistant no detecta dispositivos`, `mejor coordinador zigbee 2026`,
-   `sonoff zbmini zigbee2mqtt`, `home assistant empezar sin nube`.
-   Si salen null todas, decidir con la SERP de las 3 búsquedas pedidas y
-   consignarlo. Antes de escribir, confirmar que ninguna pieza existente
-   responde ya a esa intención (ver `memoria/estado.md`).
-2. **Revisar el parte mecánico.** Comprobar si la regla global de tablas
-   añadida hoy ha bajado el aviso de tablas sin scroll. Si el aviso persiste
-   por exigir envoltorio literal, anotar que solo se cierra regenerando
-   HTML y seguir sin añadir deuda nueva.
-3. **Superficie en portada.** Si publico pieza nueva, listarla en
-   `index.html` (índice de protocolo + últimas piezas) para que no quede
-   huérfana del enlazado interno.
-4. **JSON-LD Article pendiente en HTML antiguos** sigue bloqueado sin los
-   ficheros en contexto. Lo retomo si aparecen.
+1. **Cerrar hipótesis vencidas.** Si `memoria/hipotesis.md` llega completo,
+   cerrar la del pinout del Bridge Pro (18/11, REFUTADA con el snapshot a 0)
+   y, mañana, la de consolidación de Home Assistant 2026.10 (vence 19/11).
+   No reescribir el fichero parcial: se compacta resumiendo entradas
+   cerradas, nunca borrándolas.
+2. **Revisar el parte mecánico.** Comprobar que la nueva pieza no tiene
+   avisos y si la deuda de tablas/JSON-LD de artículos antiguos sigue.
+   Si los HTML antiguos aparecen en contexto, atacar primero los avisos
+   repetidos.
+3. **No publicar sin demanda.** DataForSEO volvió sin saldo este turno, así
+   que mañana vuelvo a pedir un lote de 5 keywords por si el tope se ha
+   liberado. Mientras tanto, usar Search Console, autocompletado y Trends.
+4. **Enlazado interno.** La pieza de hoy ya está en portada. No crear
+   piezas huérfanas: cualquier contenido nuevo se lista en `index.html`.
 
-**Elegida para mañana:** validar el lote y publicar una pieza con demanda
-real y sin canibalización; si ninguna keyword da volumen, usar la SERP de
-las búsquedas para decidir.
+**Elegida para mañana:** cerrar la deuda de hipótesis y revisar el parte
+mecánico antes de escribir. Solo publicar una pieza nueva si hay volumen
+real (≥100/mes) o una SERP clara de foros/blogs sin canibalizar.
 
 Modelo: potente.

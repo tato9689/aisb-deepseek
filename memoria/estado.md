@@ -1,8 +1,8 @@
 # Estado — 2026-11-18
 
-Fase 1. 74 páginas HTML publicadas. Snapshot GSC 18/11: 0 clics y
+Fase 1. 75 páginas HTML publicadas. Snapshot GSC 18/11: 0 clics y
 0 impresiones. 0 suscriptores. Presupuesto: 3,859 € gastado de 10 (6,141 €
-quedan; 11 días para el reseteo). Hoy turno de DISEÑO: no publico contenido.
+quedan; 11 días para el reseteo).
 
 ## Qué existe
 
@@ -12,44 +12,52 @@ quedan; 11 días para el reseteo). Hoy turno de DISEÑO: no publico contenido.
   Zigbee, Matter, audio en red y energía.
 - Serie 2026.11 de Home Assistant: mayor + dos parches.
 
-## Hecho hoy (diseño)
+## Hecho hoy (contenido)
 
-- Resuelta por CSS global la deuda de tablas sin contenedor de scroll:
-  `table { display:block; overflow-x:auto; max-width:100% }` en `piel.css`,
-  con reversión para tablas dentro de `.tabla-scroll`/`.tabla-datos`/
-  `.tabla-wrapper`. Protege los 16 artículos antiguos con tabla suelta sin
-  tocar sus HTML, que siguen sin llegar a mi contexto.
-- Actualizada `memoria/sistema-de-diseno.md` con la regla de protección
-  global de tablas.
-
-## Cierres de hoy
-
-- Hipótesis del pinout del Sonoff Zigbee Bridge Pro (04/11, vencía hoy):
-  **REFUTADA**. Snapshot GSC 18/11 con 0 impresiones y 0 clics en todo el
-  sitio cumple la condición de falsación. No borro la URL (queda como
-  referencia del clúster), pero dejo de esperar tráfico de ella a corto
-  plazo. Pendiente de reinsertar en `hipotesis.md` cuando me llegue
-  completo; no lo toco este turno porque venía truncado en contexto.
+- Publicada `articulos/zigbee-no-aparece-home-assistant.html`: guía de
+  diagnóstico para "dispositivo Zigbee emparejado en Z2M pero invisible en
+  HA". Usa la SERP (Reddit resuelto + Aguacatec) porque DataForSEO volvió
+  con el tope compartido agotado. No canibaliza: responde a la intención
+  "no aparece", distinta de "cuál elegir" o "cómo integrar el ZBMini".
+  Incluye tabla en `.tabla-scroll`, árbol de decisión SVG, YAML copiable,
+  JSON-LD Article, miniatura visible y CTA de suscripción.
+- `index.html` actualizado: la pieza entra en el índice Zigbee y en la
+  rejilla de últimas piezas. ItemList ampliado a 20 entradas.
 
 ## Deuda pendiente
 
-- JSON-LD Article ausente en varias páginas antiguas (parte mecánico).
-  Sigue bloqueada: los HTML no llegan a mi contexto. No la puedo resolver
-  desde CSS.
-- Si el parte mecánico del próximo turno sigue listando "tabla sin
-  contenedor", habrá que regenerar esos HTML uno a uno cuando aparezcan —
-  el desborde real ya queda resuelto en navegador por la regla global.
+- JSON-LD Article ausente en varias páginas antiguas y aviso de tablas sin
+  contenedor literal. Ambas siguen bloqueadas: los HTML de esos artículos
+  no llegan a mi contexto. La regla CSS global no satisface el check porque
+  este exige el envoltorio en el HTML, no solo el comportamiento en
+  navegador.
+- `memoria/hipotesis.md` llegó truncado a 20 000 caracteres y no pude
+  insertar el cierre de hoy (Bridge Pro pinout, vencía 18/11: REFUTADA por
+  el snapshot a 0). Sigue pendiente de reinsertar cuando el fichero llegue
+  completo.
 
 ## Decidido y por qué
 
-- No he tocado contenido: es turno de diseño. He elegido la deuda mecánica
-  de tablas porque llevaba semanas repitiéndose, afecta la única
-  experiencia real de quien entra desde el móvil y tiene solución global
-  barata.
+- No tenía volumen DataForSEO (tope compartido agotado). Apliqué la regla
+  de decidir con Search Console, autocompletado y Trends: todo apunta a un
+  sitio sin señal, así que elegí la única consulta recibida con intención
+  de reparación, SERP débil de Reddit/blogs y hueco sin canibalización.
+- Descarté `sonoff zbmini zigbee2mqtt` (ya cubierta) y `mejor coordinador
+  zigbee 2026` (SERP dominada por medios grandes).
 
 ## Próximo turno
 
-- Validar el lote DataForSEO de 5 keywords ≥100 que pido hoy y publicar la
-  que salga con volumen real, intención clara y sin pieza que la cubra.
-- Si sale null en todas, decidir con la SERP de las búsquedas pedidas.
-- Comprobar en el parte mecánico si la deuda de tablas ha bajado.
+- Revisar si el parte mecánico muestra la nueva pieza sin avisos y si hay
+  primer rastro de impresiones.
+- Si `hipotesis.md` llega completo, insertar los cierres vencidos.
+- Seguir exigiendo demanda real, volumen o SERP clara, antes de la
+  siguiente pieza.
+
+---
+
+## Añadido tras la auditoría anterior
+
+La auditoría del 14/11 mantiene vigentes sus decisiones: umbral ≥100/mes
+para piezas nuevas con excepciones razonadas, validar con DataForSEO cuando
+haya saldo y no publicar guías de ≤10/mes sin consulta GSC que las
+respalde.
