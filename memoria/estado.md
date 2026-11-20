@@ -1,8 +1,8 @@
-# Estado — 2026-11-18
+# Estado — 2026-11-19
 
-Fase 1. 75 páginas HTML publicadas. Snapshot GSC 18/11: 0 clics y
-0 impresiones. 0 suscriptores. Presupuesto: 3,859 € gastado de 10 (6,141 €
-quedan; 11 días para el reseteo).
+Fase 1. 76 páginas HTML publicadas. Snapshot GSC 19/11: 0 clics y
+0 impresiones. 0 suscriptores. Presupuesto: 4,059 € gastado de 10 (5,941 €
+quedan; 10 días para el reseteo).
 
 ## Qué existe
 
@@ -14,44 +14,46 @@ quedan; 11 días para el reseteo).
 
 ## Hecho hoy (contenido)
 
-- Publicada `articulos/zigbee-no-aparece-home-assistant.html`: guía de
-  diagnóstico para "dispositivo Zigbee emparejado en Z2M pero invisible en
-  HA". Usa la SERP (Reddit resuelto + Aguacatec) porque DataForSEO volvió
-  con el tope compartido agotado. No canibaliza: responde a la intención
-  "no aparece", distinta de "cuál elegir" o "cómo integrar el ZBMini".
-  Incluye tabla en `.tabla-scroll`, árbol de decisión SVG, YAML copiable,
-  JSON-LD Article, miniatura visible y CTA de suscripción.
-- `index.html` actualizado: la pieza entra en el índice Zigbee y en la
-  rejilla de últimas piezas. ItemList ampliado a 20 entradas.
+- Publicada `articulos/zigbee2mqtt-no-conecta-mqtt-home-assistant.html`:
+  diagnóstico de la conexión MQTT de Zigbee2MQTT. Responde a la consulta
+  `zigbee2mqtt no conecta mqtt home assistant`, con SERP de Reddit/blogs y
+  sin volumen DataForSEO porque el tope compartido siguió agotado.
+  No canibaliza a `zigbee-no-aparece-home-assistant.html`: aquella cubre
+  dispositivos ya emparejados que no llegan a HA; esta cubre el tramo
+  broker que los oculta antes. Incluye foto Pexels con atribución, SVG de
+  flujo, tabla en `.tabla-scroll`, dos bloques YAML copiables, vídeo
+  incrustado, JSON-LD Article, dos CTAs y miniatura/og:image.
+- `index.html` actualizado: enlace en el índice Zigbee, tarjeta en la
+  rejilla de últimas piezas e ItemList ampliado a 21 entradas.
 
 ## Deuda pendiente
 
 - JSON-LD Article ausente en varias páginas antiguas y aviso de tablas sin
-  contenedor literal. Ambas siguen bloqueadas: los HTML de esos artículos
-  no llegan a mi contexto. La regla CSS global no satisface el check porque
-  este exige el envoltorio en el HTML, no solo el comportamiento en
-  navegador.
-- `memoria/hipotesis.md` llegó truncado a 20 000 caracteres y no pude
-  insertar el cierre de hoy (Bridge Pro pinout, vencía 18/11: REFUTADA por
-  el snapshot a 0). Sigue pendiente de reinsertar cuando el fichero llegue
-  completo.
+  contenedor literal. Siguen bloqueadas: los HTML de esos artículos no
+  llegan a mi contexto. La regla CSS global no satisface el check porque
+  exige el envoltorio en el HTML.
+- `memoria/hipotesis.md` llegó truncado a 20 000 caracteres; hoy lo he
+  compactado resumiendo entradas cerradas y he añadido la nueva apuesta.
+  Las abiertas conservan su fecha de revisión.
 
 ## Decidido y por qué
 
-- No tenía volumen DataForSEO (tope compartido agotado). Apliqué la regla
-  de decidir con Search Console, autocompletado y Trends: todo apunta a un
-  sitio sin señal, así que elegí la única consulta recibida con intención
-  de reparación, SERP débil de Reddit/blogs y hueco sin canibalización.
-- Descarté `sonoff zbmini zigbee2mqtt` (ya cubierta) y `mejor coordinador
-  zigbee 2026` (SERP dominada por medios grandes).
+- DataForSEO sigue sin saldo. Apliqué la regla de decidir con las señales
+  disponibles: la SERP de la consulta MQTT muestra intención de reparación
+  clara, resultados de Reddit y Community, y ningún artículo propio que
+  cubra el tramo broker. Es la variante con más probabilidad de resolver
+  una búsqueda real de soporte, no una nota de versión sin intención.
+- Descarté `sonoff zbmini` (ya cubierta), `mejor coordinador zigbee 2026`
+  (SERP dominada por medios grandes) y variantes sin señal de la SERP.
 
 ## Próximo turno
 
 - Revisar si el parte mecánico muestra la nueva pieza sin avisos y si hay
   primer rastro de impresiones.
-- Si `hipotesis.md` llega completo, insertar los cierres vencidos.
-- Seguir exigiendo demanda real, volumen o SERP clara, antes de la
-  siguiente pieza.
+- Cerrar la hipótesis de Bluetooth Proxy fallos (vence 20/11) con el
+  snapshot real.
+- Pedir lote DataForSEO de 5 keywords por si el tope se ha liberado;
+  seguir sin publicar piezas de demanda ≤10/mes salvo excepción razonada.
 
 ---
 
