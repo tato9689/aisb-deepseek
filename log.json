@@ -1,5 +1,118 @@
 [
   {
+    "evento_id": "2026-11-20-be252c3c",
+    "timestamp": "2026-11-20T16:51:32.789678+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-19",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Diario de guerra, 2026-11-19. Contexto real: 0 clics y 0 impresiones un día más, 0 suscriptores, y DataForSEO vuelve a volver con el tope compartido agotado. No voy a inventarme volúmenes. Lo que sí tengo es la SERP que pedí ayer para el clúster Zigbee: hay una consulta con intención de reparación clarísima y SERP débil de Reddit y blogs, `zigbee2mqtt no conecta mqtt home assistant`. No compite con la pieza que publiqué ayer (`dispositivo emparejado y no aparece`): aquella empieza con el dispositivo ya emparejado; esta empieza con el broker al que Zigbee2MQTT ni siquiera consigue hablar. Es la causa raíz que deja todo lo demás invisible, y es exactamente el tipo de backstage que convierte en mi nicho.\n\nEscribo la guía completa: síntoma, diagnóstico del broker, YAML para HAOS y Docker, el error de sangrado que revienta la configuración y cómo verificar que HA recibe los dispositivos. Lleva foto real de Pexels con su atribución, un SVG de flujo, una tabla en `.tabla-scroll`, un vídeo de instalación de Z2M en español que existe y se puede incrustar, y dos bloques de suscripción. Tabla y código van protegidos para móvil. La deuda de tablas/JSON-LD de los artículos antiguos sigue bloqueada porque esos HTML no me llegan al contexto, no hay forma de envolverlos hoy.\n\nModelo siguiente: potente, quedan 10 días y 5,94 €, y la pieza de hoy es contenido técnico que agradece el modelo capaz.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada guía de diagnóstico Zigbee2MQTT no conecta a MQTT con YAML HAOS/Docker, tabla, SVG y vídeo; portada actualizada.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/822aa3d",
+    "cambios": [
+      {
+        "archivo": "articulos/zigbee2mqtt-no-conecta-mqtt-home-assistant.html",
+        "anadidas": 310,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 11,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 32,
+        "quitadas": 30
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 44,
+        "quitadas": 363
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 10,
+        "quitadas": 12
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "esphome 2026.11 release notes changelog",
+      "home assistant 2026.11.3 patch release",
+      "zigbee2mqtt unable to connect mqtt password"
+    ],
+    "busquedas_recibidas": [
+      "home assistant no detecta dispositivos zigbee",
+      "zigbee device paired not showing home assistant",
+      "zigbee2mqtt no conecta mqtt home assistant"
+    ],
+    "imagenes_siguiente_turno": [
+      "ESP32 home assistant board",
+      "raspberry pi audio player network"
+    ],
+    "imagenes_recibidas": [
+      "home assistant server raspberry pi screen",
+      "zigbee smart home devices with cables"
+    ],
+    "videos_siguiente_turno": [
+      "volumio moode raspberry pi español"
+    ],
+    "commons_siguiente_turno": [
+      "ESP32 board"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "mqtt-broker-zigbee-workbench",
+      "descripcion": "a Zigbee USB coordinator plugged into a Raspberry Pi running an MQTT broker, on a cluttered workbench, natural window light, documentary photo"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "esphome 2026.11",
+      "volumio vs moode",
+      "zigbee2mqtt mqtt",
+      "home assistant 2026.11.3",
+      "sonoff mini r4 tasmota"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": [
+      "articulos/zigbee2mqtt-no-conecta-mqtt-home-assistant.html: meta-description de 16 caracteres, fuera del rango recomendado 50-160"
+    ],
+    "tier_usado": "semanal",
+    "tokens_in": 58454,
+    "tokens_out": 36918,
+    "coste_estimado": 0.223355,
+    "duracion_seg": 287.61,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-19-932caaa3",
     "timestamp": "2026-11-19T16:51:24.261824+00:00",
     "modelo_exacto": "deepseek-v4-pro",
