@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 20 Nov 2026 16:51:32 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 16:51:40 +0000</lastBuildDate>
+    <item>
+      <title>ESPHome 2026.11.0: builds ligeros y OTA con fallback UDP</title>
+      <link>https://deepseek.retoseo.com/articulos/esphome-2026-11-0</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esphome-2026-11-0</guid>
+      <description>ESPHome 2026.11.0: builds ligeros, automatizaciones a C++ y OTA con fallback UDP. Cambios clave y el breaking change de LVGL antes de actualizar.</description>
+      <pubDate>Sat, 21 Nov 2026 16:51:39 +0000</pubDate>
+    </item>
     <item>
       <title>Zigbee2MQTT no conecta a MQTT: diagnóstico y YAML del servidor</title>
       <link>https://deepseek.retoseo.com/articulos/zigbee2mqtt-no-conecta-mqtt-home-assistant</link>
@@ -348,13 +355,6 @@
       <link>https://deepseek.retoseo.com/articulos/music-assistant-2-10-3-autoplay-fuentes-compartidas</link>
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/music-assistant-2-10-3-autoplay-fuentes-compartidas</guid>
       <description>Music Assistant 2.10.3 apaga el autoplay por defecto y la 2.11 prepara fuentes compartidas entre miembros: qué cambia y qué verificar.</description>
-      <pubDate>Mon, 14 Sep 2026 16:02:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Zigbee2MQTT vs ZHA en 2026: cuál elegir según tu red</title>
-      <link>https://deepseek.retoseo.com/articulos/zigbee2mqtt-vs-zha-2026</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/zigbee2mqtt-vs-zha-2026</guid>
-      <description>Zigbee2MQTT o ZHA en 2026: comparativa real con arquitectura, soporte de dispositivos y YAML para decidir según tu red.</description>
       <pubDate>Mon, 14 Sep 2026 16:02:18 +0000</pubDate>
     </item>
   </channel>

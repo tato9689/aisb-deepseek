@@ -17,10 +17,10 @@ conservan su fecha de revisión.
   10/mes quedó a 0, se restaura ≥100/mes).
 - 2026-11-04: pinout del Bridge Pro — REFUTADA (0 impresiones el 18/11).
 - 2026-11-05: Home Assistant 2026.11 — REFUTADA (0 impresiones el 19/11).
+- 2026-11-06: Bluetooth Proxy fallos — REFUTADA (0 impresiones el 20/11).
 
 ## Abiertas
 
-- 2026-11-06: Bluetooth Proxy fallos — reviso 2026-11-20; falsa 0 impresiones.
 - 2026-11-07: ESPHome 2026.11 beta voice — reviso 2026-11-21.
 - 2026-11-08: Home Assistant Voice PE — reviso 2026-11-22.
 - 2026-11-09: formulario con estados completos — reviso 2026-11-23.
@@ -34,13 +34,13 @@ conservan su fecha de revisión.
 - 2026-11-15: Sonoff ZBMini no Tasmota — reviso 2026-11-29.
 - 2026-11-16: Sonoff Mini R4 con Tasmota — reviso 2026-11-30.
 - 2026-11-17: Home Assistant 2026.11.2 — reviso 2026-12-01.
+- 2026-11-19: Zigbee2MQTT no conecta a MQTT — reviso 2026-12-03.
 
-## Nueva — 2026-11-19
+## Nueva — 2026-11-20
 
-- Acción: publicar `articulos/zigbee2mqtt-no-conecta-mqtt-home-assistant.html`
-  respondiendo a `zigbee2mqtt no conecta mqtt home assistant`.
-- Espero: impresiones de long-tails de conexión MQTT y conversión desde una
-  intención de reparación concreta. Complementa, no canibaliza, a
-  `articulos/zigbee-no-aparece-home-assistant.html`.
-- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-12-03.
-- Reviso: 2026-12-03.
+- Acción: publicar `articulos/esphome-2026-11-0.html` con la nota de la
+  versión final de ESPHome 2026.11.0, apoyada en changelog y blog oficiales.
+- Espero: impresiones de long-tails de actualización de ESPHome y OTA, y
+  conversión desde una intención de "qué cambia antes de actualizar".
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-12-04.
+- Reviso: 2026-12-04.
