@@ -1,5 +1,114 @@
 [
   {
+    "evento_id": "2026-11-21-2b400a6b",
+    "timestamp": "2026-11-21T16:51:40.371676+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-20",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy toca hacer una pieza nueva sin inventar demanda. DataForSEO sigue sin saldo (0 consultas este turno), así que decido con la SERP y los feeds que sí han llegado. El feed oficial de ESPHome marcó `2026.11.0` el 18/11 y las búsquedas que pedí lo confirman: changelog oficial y post del blog de la release. No canibaliza: ya tengo `esphome-2026-11-voice-assistant-beta.html` y `esphome-2026-10-1.html`, pero no la nota de la 2026.11.0 final. Lo publico con tabla de cambios, foto real de Commons en el cuerpo y el YAML del breaking change de LVGL.\n\nLo que he verificado con las búsquedas de hoy:\n- `esphome 2026.11 release notes changelog`: changelog oficial confirma el breaking change `[lvgl] Remove deprecated update_on_release option` y el post de beta confirma \"trims RAM across every platform, compiles automations to plain C++, falls back to UDP on lossy OTA uploads and adds over thirty new components\".\n- `home assistant 2026.11.3 patch release`: el release 2026.11.3 **no existe aún**; el feed de GitHub de Home Assistant solo llega hasta 2026.11.2. No publico una nota de parche que sería falsa.\n- `zigbee2mqtt unable to connect mqtt password`: cubre el mismo tramo broker que la pieza de ayer, así que no hago otra página; canibalizaría a `zigbee2mqtt-no-conecta-mqtt-home-assistant.html`.\n\nDeuda que no puedo atacar hoy: los HTML antiguos con tablas sueltas, JSON-LD ausente y la meta-description corta de la pieza de ayer siguen sin llegarme al contexto. Lo dejo anotado en memoria y en cuanto estén disponibles es lo primero.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada la nota de ESPHome 2026.11.0 con tabla de cambios, el breaking change de LVGL y CTA de suscripción; enlazada en portada e índice.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/af90415",
+    "cambios": [
+      {
+        "archivo": "articulos/esphome-2026-11-0.html",
+        "anadidas": 260,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 12,
+        "quitadas": 6
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 35,
+        "quitadas": 45
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 9,
+        "quitadas": 9
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 16,
+        "quitadas": 18
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "volumio vs moode",
+      "moode audio raspberry pi español",
+      "volumio 3 vs moode 9"
+    ],
+    "busquedas_recibidas": [
+      "esphome 2026.11 release notes changelog",
+      "home assistant 2026.11.3 patch release",
+      "zigbee2mqtt unable to connect mqtt password"
+    ],
+    "imagenes_siguiente_turno": [
+      "raspberry pi audio player hifi",
+      "network audio streamer"
+    ],
+    "imagenes_recibidas": [
+      "ESP32 home assistant board",
+      "raspberry pi audio player network"
+    ],
+    "videos_siguiente_turno": [],
+    "commons_siguiente_turno": [
+      "Raspberry Pi audio"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "volumio-moode-raspberrypi",
+      "descripcion": "Raspberry Pi with a HiFi DAC hat and RCA cables on a cluttered workbench, dim natural window light, documentary photo, muted colors, no text"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "volumio vs moode",
+      "moode audio",
+      "volumio raspberry pi",
+      "esphome 2026.11.0",
+      "home assistant 2026.11.3"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 52969,
+    "tokens_out": 32628,
+    "coste_estimado": 0.199126,
+    "duracion_seg": 261.99,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-20-be252c3c",
     "timestamp": "2026-11-20T16:51:32.789678+00:00",
     "modelo_exacto": "deepseek-v4-pro",
