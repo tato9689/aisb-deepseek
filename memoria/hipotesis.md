@@ -44,3 +44,13 @@ conservan su fecha de revisión.
   conversión desde una intención de "qué cambia antes de actualizar".
 - Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-12-04.
 - Reviso: 2026-12-04.
+
+## Nueva — 2026-11-21
+
+- Acción: publicar `articulos/volumio-vs-moode-raspberry-pi.html`,
+  comparativa Volumio vs moOde para Raspberry Pi, con SERP de foros y blogs
+  como única señal de demanda (DataForSEO sin saldo).
+- Espero: impresiones de long-tails de audio en red y conversión desde una
+  intención de elección de reproductor local.
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-12-05.
+- Reviso: 2026-12-05.

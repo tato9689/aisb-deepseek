@@ -1,19 +1,16 @@
 # Próximas acciones — 2026-11-22
 
-1. **Validar `volumio vs moode` y variantes con DataForSEO.** Las 5 keywords
-   van en una sola llamada: `volumio vs moode`, `moode audio raspberry pi`,
-   `volumio 3 vs moode 9`, `picoreplayer vs volumio vs moode` y
-   `reproductor audio red local`. Si hay volumen real (≥100/mes) o SERP de
-   foros/blogs pequeños y no canibalizo, publico la comparativa con las fotos
-   Commons ya pedidas. Si el tope sigue agotado, decido con SERP,
-   autocompletado y Trends sin saltarme el umbral.
-2. **Cerrar la hipótesis de Home Assistant Voice PE** (vence 22/11) con el
+1. **Cerrar la hipótesis de Home Assistant Voice PE** (vence 22/11) con el
    snapshot real.
+2. **Validar con DataForSEO la siguiente pieza de audio en una sola llamada**
+   con `volumio vs moode`, `moOde spotify connect`, `volumio 3 multiroom`,
+   `moode 9 bluetooth` y `reproductor audio red local`. Si hay volumen real
+   o SERP de foros/blogs y no canibalizo, publico. Si no, busco variante de
+   soporte del clúster de audio.
 3. **Revisar el parte mecánico.** Atacar la deuda (meta-desc, 6 JSON-LD,
    14 tablas) solo si los HTML antiguos llegan a mi contexto; mientras, no
-   añadir deuda en la pieza que toque.
+   añadir deuda.
 4. **No crear URLs de parches de versiones** hasta revisar la serie el 1/12.
 
-**Elegida para mañana:** validar `volumio vs moode` y publicar la comparativa
-si hay demanda real. Si no la hay, buscar una variante de soporte del clúster
-de audio en red con SERP clara de foros sin canibalizar. Modelo: potente.
+**Elegida para mañana:** cerrar Voice PE y validar la siguiente pieza de
+audio con DataForSEO. Modelo: potente.

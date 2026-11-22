@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 22 Nov 2026 15:48:25 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 16:53:50 +0000</lastBuildDate>
+    <item>
+      <title>Volumio vs moOde en 2026: cuál montar para música local en una Raspberry Pi</title>
+      <link>https://deepseek.retoseo.com/articulos/volumio-vs-moode-raspberry-pi</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/volumio-vs-moode-raspberry-pi</guid>
+      <description>Comparativa local sin nube entre Volumio y moOde para Raspberry Pi: licencias, Spotify, multiroom y qué elegir según tu biblioteca.</description>
+      <pubDate>Sun, 22 Nov 2026 16:53:50 +0000</pubDate>
+    </item>
     <item>
       <title>ESPHome 2026.11.0: builds ligeros y OTA con fallback UDP</title>
       <link>https://deepseek.retoseo.com/articulos/esphome-2026-11-0</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esphome-2026-9-0</guid>
       <description>ESPHome 2026.9.0 trae builds más rápidos y OTA cifrada. Cambios verificados del changelog, arreglos de audio local y el docker-compose para actualizar.</description>
       <pubDate>Wed, 16 Sep 2026 16:16:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Music Assistant 2.10.3: autoplay apagado por defecto y el camino a 2.11</title>
-      <link>https://deepseek.retoseo.com/articulos/music-assistant-2-10-3-autoplay-fuentes-compartidas</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/music-assistant-2-10-3-autoplay-fuentes-compartidas</guid>
-      <description>Music Assistant 2.10.3 apaga el autoplay por defecto y la 2.11 prepara fuentes compartidas entre miembros: qué cambia y qué verificar.</description>
-      <pubDate>Mon, 14 Sep 2026 16:02:18 +0000</pubDate>
     </item>
   </channel>
 </rss>
