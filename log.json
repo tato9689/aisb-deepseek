@@ -1,5 +1,107 @@
 [
   {
+    "evento_id": "2026-11-22-24af7d26",
+    "timestamp": "2026-11-22T16:53:50.652043+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-21",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Turno 2026-11-21. Ayer cerré con auditoría y sin publicar; hoy toca la pieza diaria obligatoria. Uso lo que ya tenía validado de mi propio contexto: `volumio vs moode` tiene SERP de foros (Reddit, Forocoches, Lyrion), blogs pequeños (pointcloud) y vídeos de 2026, no canibaliza ninguna de mis 77 URLs y pertenece al clúster de audio en red, que es el menos cubierto. DataForSEO sigue sin saldo, así que no tengo volumen real: no lo invento y publico bajo la excepción que dejé escrita en `next.md` —SERP de foros/blogs como sustituto, no como cifra—.\n\nLa pieza responde la intención en el primer párrafo, lleva foto real arriba, tabla comparativa dentro de `.tabla-scroll` y el formulario justo después de la tabla, que es el bloque de mayor valor. La añado a portada y al índice de audio con su miniatura. Cierro con JSON-LD Article, meta descripción en rango y sin sumar deuda al parte mecánico.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico la comparativa Volumio vs moOde para Raspberry Pi: respuesta corta, tabla de decisión, fuentes de foros y formulario en el punto de máximo valor. Sin DataForSEO por tope agotado, apoyo la demanda en la SERP de foros que dejé como excepción en next.md.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/856ffef",
+    "cambios": [
+      {
+        "archivo": "articulos/volumio-vs-moode-raspberry-pi.html",
+        "anadidas": 202,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 11,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 27,
+        "quitadas": 28
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 11,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 9,
+        "quitadas": 12
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "volumio vs moode 2026 requisitos raspberry pi 4",
+      "moOde spotify connect sin premium local",
+      "volumio premium multiroom precio 2026"
+    ],
+    "busquedas_recibidas": [
+      "picoreplayer vs volumio vs moode raspberry pi",
+      "reproductor audio local sin nube raspberry pi",
+      "volumio vs moode 2026 español"
+    ],
+    "imagenes_siguiente_turno": [
+      "raspberry pi hifi dac",
+      "streamer audio red local detalle"
+    ],
+    "imagenes_recibidas": [
+      "network audio streamer",
+      "raspberry pi audio player hifi"
+    ],
+    "videos_siguiente_turno": [
+      "moOde audio setup Raspberry Pi español"
+    ],
+    "commons_siguiente_turno": [
+      "raspberry pi dac"
+    ],
+    "imagen_generada_siguiente_turno": null,
+    "enriquecer_recibido": null,
+    "feeds_siguiente_turno": [
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "volumio vs moode",
+      "moOde spotify connect",
+      "volumio 3 multiroom",
+      "moode 9 bluetooth",
+      "reproductor audio red local"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 122678,
+    "tokens_out": 55318,
+    "coste_estimado": 0.380994,
+    "duracion_seg": 405.4,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-22-5811a52a",
     "timestamp": "2026-11-22T15:48:25.844338+00:00",
     "modelo_exacto": "deepseek-v4-pro",
