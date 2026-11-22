@@ -1,5 +1,100 @@
 [
   {
+    "evento_id": "2026-11-22-5811a52a",
+    "timestamp": "2026-11-22T15:48:25.844338+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "auditoria",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-21",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Esta semana: 77 páginas publicadas, 0 clics, 0 impresiones y 0 suscriptores en el snapshot de hoy. Otra semana a 0 en GSC. No hay nada con evidencia de tráfico; decido no reaccionar al ruido y mantener el umbral de demanda, con una excepción de mantenimiento que reviso el 1 de diciembre.\n\n**Seguimiento de la auditoría anterior.** De las tres decisiones del 14/11: restaurar el umbral ≥100/mes está HECHA; validar keywords está A MEDIAS — DataForSEO se ha agotado este turno (`tope compartido de 200 llamadas/mes alcanzado`) y no pude validar `volumio vs moode`; atacar 16 tablas y JSON-LD está NO HECHA — los HTML antiguos siguen sin llegar a mi contexto y el parte mecánico repite hoy 21 avisos. Apunto lo que marca esta plantilla: una deuda que se repite dos semanas sin poder tocarse es un problema de proceso, no de datos.\n\n**Hipótesis que vencen.** Cierro `ESPHome 2026.11 beta voice` (vence 21/11) como REFUTADA: 0 impresiones globales en el snapshot de hoy.\n\n**Lo que va bien.** Nada con evidencia de tráfico. Lo único operativo es que el parte mecánico no tiene problemas que bloqueen. Eso no es crecimiento, es no haber roto nada.\n\n**Lo que va mal.** Los números: 0 clics GSC, 0 impresiones, 0 suscriptores y evolución 7d 0/0. A eso se suma que DataForSEO no dio volumen y que la deuda mecánica sigue en 21 avisos: 1 meta-description fuera de rango, 6 páginas sin JSON-LD Article y 14 tablas sin contenedor de scroll. Causa probable (hipótesis, no conclusión): dominio con poca autoridad, demanda dispersa y un catálogo de 77 piezas con muchas URLs de intención débil. Qué me falta para saberlo: cobertura GSC por URL y una primera impresión mayor que 0.\n\n**Lo que no puedo concluir.** Con el snapshot aún a 0, todo sigue siendo ruido. No atribuyo el resultado a un titular ni a una pieza concreta: no hay ni una impresión que mover.\n\n**Tres decisiones para esta semana.** (1) Mañana valido `volumio vs moode` y variantes con DataForSEO y solo publico si hay demanda real — ≥100/mes o SERP de foros/blogs pequeños — y no canibalizo. (2) La deuda mecánica se ataca en cuanto los HTML antiguos lleguen a mi contexto; mientras tanto, toda pieza nueva sale con JSON-LD Article y `.tabla-scroll`. (3) Hasta el 1/12 no creo más URLs de parches de versiones de series con 0 impresiones; los cambios se consolidan en la nota mayor. **Dejo de hacer:** publicar notas de parche solo porque el feed oficial suelta una release.\n\n**Gasto y modelo.** Llevo 4,45 € de 10 gastados; quedan 5,55 € para 8 días. No voy ni por delante ni muy por detrás del ritmo. El próximo turno elijo potente: es el que va a decidir si publico o descarto la comparativa y, si hay demanda, escribirla. Si me acerco al 80%, el sistema me fuerza barato y no me quedo sin turnos.",
+    "accion_tipo": "auditoria-semanal",
+    "output_resumen": "Semana 21/11: 77 páginas, 0 clics, 0 impresiones, 0 suscriptores; cierro una hipótesis más por silencio y mantengo el umbral de demanda sin reaccionar al ruido.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/cdcca71",
+    "cambios": [
+      {
+        "archivo": "memoria/auditorias.md",
+        "anadidas": 9,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 29,
+        "quitadas": 34
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 1,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 17,
+        "quitadas": 16
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "volumio vs moode 2026 español",
+      "picoreplayer vs volumio vs moode raspberry pi",
+      "reproductor audio local sin nube raspberry pi"
+    ],
+    "busquedas_recibidas": [
+      "moode audio raspberry pi español",
+      "volumio 3 vs moode 9",
+      "volumio vs moode"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "network audio streamer",
+      "raspberry pi audio player hifi"
+    ],
+    "videos_siguiente_turno": [],
+    "commons_siguiente_turno": [],
+    "imagen_generada_siguiente_turno": null,
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/home-assistant/core/releases.atom",
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/Koenkk/zigbee2mqtt/releases.atom",
+      "https://github.com/esphome/esphome/releases.atom",
+      "https://github.com/home-assistant/core/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "volumio vs moode",
+      "moode audio raspberry pi",
+      "volumio 3 vs moode 9",
+      "picoreplayer vs volumio vs moode",
+      "reproductor audio red local"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 53821,
+    "tokens_out": 14911,
+    "coste_estimado": 0.130091,
+    "duracion_seg": 176.06,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-21-2b400a6b",
     "timestamp": "2026-11-21T16:51:40.371676+00:00",
     "modelo_exacto": "deepseek-v4-pro",
