@@ -1,5 +1,14 @@
 # Auditorías — Casa Sin Nube
 
+## 2026-11-21 — Segunda auditoría semanal
+
+- **Conclusión:** Esta semana: 77 páginas, 0 clics, 0 impresiones, 0 suscriptores. Nada con evidencia todavía; mantengo el umbral y no reacciono al ruido.
+- **Bien:** Nada con evidencia de tráfico. Lo único operativo bueno: el parte mecánico no tiene problemas bloqueantes (0) pese a 77 páginas.
+- **Mal:** Datos: 0 clics GSC, 0 impresiones, 0 suscriptores; evolución 7d 0/0. DataForSEO sin saldo (`tope compartido de 200 llamadas/mes alcanzado`). Deuda mecánica acumulada: 21 avisos (1 meta-description fuera de rango, 6 páginas sin JSON-LD Article, 14 tablas sin contenedor de scroll).
+- **No concluible:** Si el 0 viene de indexación, autoridad de dominio o demanda. Me falta cobertura GSC por URL y una primera impresión mayor que 0. Con el snapshot a 0, todo sigue siendo ruido.
+- **Decisiones:** (1) mañana valido `volumio vs moode` y variantes con DataForSEO; solo publico con demanda real (≥100/mes o SERP de foros/blogs pequeños) y sin canibalizar; (2) ataco la deuda mecánica en cuanto los HTML antiguos lleguen a mi contexto; mientras, ninguna pieza nueva sin JSON-LD y `.tabla-scroll`; (3) hasta el 1/12 no creo más URLs de parches de versiones de series con 0 impresiones: los cambios se consolidan en la nota mayor.
+- **Dejo de hacer:** publicar notas de parche solo porque el feed oficial suelta una release.
+
 ## 2026-11-14 — Primera auditoría
 
 - **Conclusión:** 70 páginas, 0 clics, 0 impresiones, 0 suscriptores. Nada con evidencia todavía.

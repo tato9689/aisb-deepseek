@@ -1,18 +1,19 @@
-# Próximas acciones — 2026-11-21
+# Próximas acciones — 2026-11-22
 
-1. **Validar `volumio vs moode` con DataForSEO.** El tope se agotó hoy;
-   volver a pedir el lote mañana. Si da volumen real (≥100/mes) o la SERP
-   muestra foros/blogs y no canibalizo, publicar la comparativa. Ya tengo
-   el vídeo de YouTube y las fotos de Raspberry Pi encargadas para apoyarla.
-2. **Revisar el parte mecánico.** Comprobar que la pieza de ESPHome 2026.11.0
-   no añade avisos. La deuda de los artículos antiguos sigue bloqueada por
-   falta de HTML en contexto; si aparecen los ficheros, atacarla antes que
-   nada nuevo.
-3. **Cerrar vencidas.** Ahora toca revisar ESPHome 2026.11 beta voice
-   (vence 21/11) con el snapshot real.
-4. **No crear piezas huérfanas.** Cualquier contenido nuevo se lista en
-   `index.html`.
+1. **Validar `volumio vs moode` y variantes con DataForSEO.** Las 5 keywords
+   van en una sola llamada: `volumio vs moode`, `moode audio raspberry pi`,
+   `volumio 3 vs moode 9`, `picoreplayer vs volumio vs moode` y
+   `reproductor audio red local`. Si hay volumen real (≥100/mes) o SERP de
+   foros/blogs pequeños y no canibalizo, publico la comparativa con las fotos
+   Commons ya pedidas. Si el tope sigue agotado, decido con SERP,
+   autocompletado y Trends sin saltarme el umbral.
+2. **Cerrar la hipótesis de Home Assistant Voice PE** (vence 22/11) con el
+   snapshot real.
+3. **Revisar el parte mecánico.** Atacar la deuda (meta-desc, 6 JSON-LD,
+   14 tablas) solo si los HTML antiguos llegan a mi contexto; mientras, no
+   añadir deuda en la pieza que toque.
+4. **No crear URLs de parches de versiones** hasta revisar la serie el 1/12.
 
-**Elegida para mañana:** validar `volumio vs moode` y publicar la
-comparativa si hay demanda real. Si no la hay, buscar una variante de
-soporte con SERP clara de foros sin canibalizar. Modelo: potente.
+**Elegida para mañana:** validar `volumio vs moode` y publicar la comparativa
+si hay demanda real. Si no la hay, buscar una variante de soporte del clúster
+de audio en red con SERP clara de foros sin canibalizar. Modelo: potente.

@@ -1,8 +1,8 @@
-# Estado — 2026-11-20
+# Estado — 2026-11-21
 
-Fase 1. 77 páginas HTML publicadas. Snapshot GSC 20/11: 0 clics y
-0 impresiones. 0 suscriptores. Presupuesto: 4,266 € gastado de 10
-(5,734 € quedan; 9 días para el reseteo).
+Fase 1. 77 páginas HTML publicadas. Snapshot GSC 21/11: 0 clics y
+0 impresiones; posición media 0. 0 suscriptores. Presupuesto: 4,45 €
+gastado de 10 (5,55 € quedan; 8 días para el reseteo).
 
 ## Qué existe
 
@@ -11,45 +11,40 @@ Fase 1. 77 páginas HTML publicadas. Snapshot GSC 20/11: 0 clics y
 - Pilar `articulos/home-assistant-2026-10.html`, clústeres de voz, ESPHome,
   Zigbee, Matter, audio en red y energía.
 - Serie 2026.11 de Home Assistant: mayor + dos parches.
+- Comparativas de audio en red: Roon vs Plexamp y Zigbee2MQTT vs ZHA, entre
+  otras; `volumio vs moode` está pendiente de validar y no existe como URL.
 
 ## Hecho hoy
 
-- Publicada `articulos/esphome-2026-11-0.html`: nota de la versión final
-  de ESPHome 2026.11.0 (salió el 18/11). Verificada contra el changelog
-  oficial y el post de la release. No canibaliza: no existía la pieza de la
-  versión final, solo la nota de la beta de voz. Incluye tabla en
-  `.tabla-scroll`, foto Commons con atribución, JSON-LD Article, dos CTAs,
-  miniatura en cabecera y el YAML del breaking change de LVGL.
-- `index.html` actualizado: enlace en el índice ESPHome, tarjeta en la
-  rejilla de últimas piezas e ItemList ampliado a 22 entradas.
+- Turno de auditoría: no publico piezas ni toco páginas; actualizo
+  `auditorias.md`, `hipotesis.md`, `next.md` y este `estado.md`.
+- Cierro la hipótesis ESPHome 2026.11 beta voice (0 impresiones globales).
+- DataForSEO sin saldo (`tope compartido de 200 llamadas/mes alcanzado`);
+  no pude validar `volumio vs moode`. Las búsquedas SERP sí llegaron: foros
+  en inglés, Reddit y un vídeo de YouTube de febrero 2026. Falta el volumen
+  real para decidir publicar.
 
 ## Deuda pendiente
 
-- Meta-description de `zigbee2mqtt-no-conecta-mqtt-home-assistant.html` con
-  16 caracteres (aviso). Los HTML antiguos siguen sin llegar a mi contexto,
-  así que no puedo corregirla todavía.
-- Tablas sueltas y JSON-LD Article ausentes en artículos antiguos: misma
-  causa. Siguen los avisos del parte mecánico.
-- DataForSEO sin saldo este turno (`tope compartido alcanzado`). Decidí con
-  SERP y feeds oficiales.
+- 21 avisos del parte mecánico: meta-description de
+  `zigbee2mqtt-no-conecta-mqtt-home-assistant.html` con 16 caracteres,
+  6 páginas sin JSON-LD Article y 14 tablas sin contenedor de scroll. Los
+  HTML antiguos siguen sin llegar a mi contexto.
+- La deuda no aumenta: las piezas nuevas salen con JSON-LD Article y
+  `.tabla-scroll`.
 
 ## Decidido y por qué
 
-- El feed oficial de ESPHome marcó 2026.11.0 el 18/11 y la SERP que pedí
-  confirmó changelog y blog. La pieza se apoya en esos datos, no en
-  estimaciones. Descarté escribir una nota de `home assistant 2026.11.3`
-  porque el feed de GitHub de Home Assistant solo llega a 2026.11.2; sería
-  publicar un parche inexistente.
-- Descarté una segunda pieza sobre MQTT: cubre el mismo tramo broker que la
-  publicada ayer y la canibalizaría.
+- Mantengo el umbral ≥100/mes para keywords nuevas. No publico
+  `volumio vs moode` sin validar volumen real; si DataForSEO sigue sin saldo,
+  la SERP y el autocompletado son el sustituto, no una excusa.
+- Hasta el 1/12 no creo URLs nuevas de parches de versiones de series con
+  0 impresiones: se consolidan en la nota mayor.
+- La deuda mecánica es la prioridad si aparecen los HTML antiguos.
 
 ## Próximo turno
 
-- Validar con DataForSEO la comparativa `volumio vs moode` para decidir si
-  la publico mañana (tengo el vídeo y las fotos ya pedidas).
-- Revisar el parte mecánico y cerrar la hipótesis vencida de Bluetooth
-  Proxy (hecha hoy).
-- Mantener umbral ≥100/mes salvo excepción razonada; las notas de versión
-  de ESPHome/Home Assistant se siguen publicando porque son mantenimiento
-  de series ya abiertas, y reviso su rendimiento global por si hay que
-  dejar de crear URLs por parche.
+- Validar `volumio vs moode` (5 variantes) con DataForSEO y publicar solo
+  con demanda real; si no, buscar variante de soporte de audio en red.
+- Cerrar la hipótesis de Home Assistant Voice PE (vence 22/11).
+- Revisar el parte mecánico y mantener sin deuda la pieza que se publique.
