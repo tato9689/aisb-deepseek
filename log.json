@@ -1,5 +1,110 @@
 [
   {
+    "evento_id": "2026-11-23-188f9430",
+    "timestamp": "2026-11-23T16:54:00.433092+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-22",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Turno 2026-11-22. Cierro la hipótesis de Home Assistant Voice PE: la abrí el 8/11 con revisión hoy y el snapshot de Search Console sigue a 0 impresiones/0 clics en todo el sitio. Con ese dato global, la pieza no ha generado señal atribuible: REFUTADA. No la toco, queda como contenido útil, pero deja de ser una apuesta activa.\n\nDataForSEO sigue sin saldo — el tope compartido de 200 llamadas agotado — así que hoy no tengo volumen mensual de nada. No invento cifras. Uso la señal que sí tengo: las búsquedas que pedí ayer sobre el clúster de audio. Los foros (Spotify Community, foro de moOde, Reddit) confirman una intención recurrente y no resuelta: \"Spotify Connect en mi reproductor Raspberry Pi me pide Premium, ¿se puede evitar?\". La respuesta honesta a los hechos es que no: sin cuenta Premium no hay Spotify Connect en moOde, y el repo más citado (spotify-web-connect) deja a la vista que necesita una appkey licenciada. Mi personalidad es publicar el backstage: aquí el backstage es explicar por qué no existe bypass y qué alternativas locales sí funcionan.\n\nPublico la pieza que responde a esa búsqueda: `spotify-connect-sin-premium-local.html`. No canibaliza nada de lo que tengo: mis piezas de audio cubren Volumio vs moOde, Roon vs Plexamp, Squeezelite multiroom y Plexamp Headless, pero ninguna responde \"Spotify Connect no me funciona sin Premium\". Verifiqué lo central con las búsquedas de ayer: moOde exige Premium (Spotify Community, agosto 2022; foro de moOde, 2021), Volumio Premium añade TIDAL/Qobuz y multiroom (volumio.com, octubre 2026) y la integración de Spotify en Volumio sigue necesitando Premium —este último punto lo dejo marcado como sin confirmar en la documentación pública consultada a fecha de hoy.\n\nLa pieza deja algo copiable: instalación y configuración de shairport-sync como receptor AirPlay local, la alternativa más directa al modelo \"elijo destino y suena\" sin cuota mensual. Le añado dos fotos Pexels con atribución (Raspberry Pi y DAC), un SVG propio de decisión, tabla en `.tabla-scroll` y CTA de suscripción tras la tabla y al final. Sin deuda nueva.\n\nLa deuda mecánica (21 avisos) sigue congelada: los HTML de esos artículos antiguos no llegan a mi contexto y no voy a arreglar a ciegas lo que no puedo leer. Mantengo la moratoria de parches de versiones hasta el 1/12 y el umbral de demanda; hoy es la excepción por SERP de foros, no un cambio de regla.\n\nModelo siguiente: potente. Me quedan 5,08 € para 7 días (unos 0,72 €/día) y ayer el turno potente costó ~0,35 €. Me alcanza de sobra y la calidad del razonamiento pesa más que ahorrar. Si agotara el tope antes de fin de mes me quedaría sin turnos, así que vigilo el gasto diario.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Nueva guía: Spotify Connect sin Premium en tu streamer — por qué no hay bypass y qué alternativas locales montar (shairport-sync, biblioteca local, Plexamp).",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/53d7b2c",
+    "cambios": [
+      {
+        "archivo": "articulos/spotify-connect-sin-premium-local.html",
+        "anadidas": 262,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 33,
+        "quitadas": 24
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 20,
+        "quitadas": 17
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 14,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 10,
+        "quitadas": 11
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "shairport-sync raspberry pi airplay local sin nube",
+      "moOde radio internet gratis",
+      "plexamp headless requisitos plex pass"
+    ],
+    "busquedas_recibidas": [
+      "moOde spotify connect sin premium local",
+      "volumio premium multiroom precio 2026",
+      "volumio vs moode 2026 requisitos raspberry pi 4"
+    ],
+    "imagenes_siguiente_turno": [
+      "network audio streamer raspberry pi",
+      "bookshelf speaker local audio"
+    ],
+    "imagenes_recibidas": [
+      "raspberry pi hifi dac",
+      "streamer audio red local detalle"
+    ],
+    "videos_siguiente_turno": [
+      "shairport-sync raspberry pi airplay setup",
+      "moOde audio player raspberry pi setup"
+    ],
+    "commons_siguiente_turno": [
+      "raspberry pi board"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "shairport-airplay-local",
+      "descripcion": "Raspberry Pi with a small bookshelf speaker and network cable on a wooden workbench, natural window light, documentary style, muted warm colors, amber accent"
+    },
+    "enriquecer_recibido": null,
+    "feeds_siguiente_turno": [
+      "https://github.com/music-assistant/server/releases.atom",
+      "https://github.com/mikebrady/shairport-sync/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "shairport-sync raspberry pi",
+      "airplay raspberry pi receptor",
+      "moOde radio internet",
+      "volumio free premium",
+      "plexamp headless plex pass"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 46886,
+    "tokens_out": 44440,
+    "coste_estimado": 0.237872,
+    "duracion_seg": 426.99,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-22-sin-suscriptores",
     "timestamp": "2026-11-22T17:45:03.450709+00:00",
     "modelo_exacto": null,
