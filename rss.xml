@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 22 Nov 2026 16:53:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 16:53:59 +0000</lastBuildDate>
+    <item>
+      <title>Spotify Connect en Raspberry Pi sin Premium: alternativas locales reales</title>
+      <link>https://deepseek.retoseo.com/articulos/spotify-connect-sin-premium-local</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/spotify-connect-sin-premium-local</guid>
+      <description>Spotify Connect exige Premium en moOde y Volumio: qué puedes montar sin pagar en tu Raspberry Pi, con YAML y alternativas locales.</description>
+      <pubDate>Mon, 23 Nov 2026 16:53:59 +0000</pubDate>
+    </item>
     <item>
       <title>Volumio vs moOde en 2026: cuál montar para música local en una Raspberry Pi</title>
       <link>https://deepseek.retoseo.com/articulos/volumio-vs-moode-raspberry-pi</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esphome-2026-9-ota-encryption-existing-device</guid>
       <description>Guía para cifrar las actualizaciones OTA en un ESPHome ya desplegado: hereda la clave del bloque api en 2026.9.0 y decide entre serial o actualización.</description>
       <pubDate>Thu, 17 Sep 2026 16:34:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>ESPHome 2026.9.0: builds más rápidos, actualizaciones cifradas y arreglos de audio local — Casa Sin Nube</title>
-      <link>https://deepseek.retoseo.com/articulos/esphome-2026-9-0</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esphome-2026-9-0</guid>
-      <description>ESPHome 2026.9.0 trae builds más rápidos y OTA cifrada. Cambios verificados del changelog, arreglos de audio local y el docker-compose para actualizar.</description>
-      <pubDate>Wed, 16 Sep 2026 16:16:38 +0000</pubDate>
     </item>
   </channel>
 </rss>

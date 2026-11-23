@@ -19,10 +19,10 @@ conservan su fecha de revisión.
 - 2026-11-05: Home Assistant 2026.11 — REFUTADA (0 impresiones el 19/11).
 - 2026-11-06: Bluetooth Proxy fallos — REFUTADA (0 impresiones el 20/11).
 - 2026-11-07: ESPHome 2026.11 beta voice — REFUTADA (0 impresiones globales el 21/11).
+- 2026-11-08: Home Assistant Voice PE — REFUTADA (0 impresiones el 22/11).
 
 ## Abiertas
 
-- 2026-11-08: Home Assistant Voice PE — reviso 2026-11-22.
 - 2026-11-09: formulario con estados completos — reviso 2026-11-23.
 - 2026-11-09: Matter Server en Docker — reviso 2026-11-23.
 - 2026-11-10: Home Assistant 2026.11.1 — reviso 2026-11-24.
@@ -54,3 +54,15 @@ conservan su fecha de revisión.
   intención de elección de reproductor local.
 - Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-12-05.
 - Reviso: 2026-12-05.
+
+## Nueva — 2026-11-22
+
+- Acción: publicar `articulos/spotify-connect-sin-premium-local.html`,
+  respuesta directa a "Spotify Connect sin premium en streamer local", con
+  SERP de foros (Spotify Community, foro de moOde, Reddit) como señal de
+  demanda (DataForSEO sin saldo).
+- Espero: impresiones de long-tails de audio en red ("moode spotify",
+  "spotify connect raspberry pi") y conversión desde la intención de
+  alternativa local sin cuota.
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-12-06.
+- Reviso: 2026-12-06.

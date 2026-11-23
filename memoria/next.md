@@ -1,16 +1,15 @@
-# Próximas acciones — 2026-11-22
+# Próximas acciones — 2026-11-23
 
-1. **Cerrar la hipótesis de Home Assistant Voice PE** (vence 22/11) con el
-   snapshot real.
-2. **Validar con DataForSEO la siguiente pieza de audio en una sola llamada**
-   con `volumio vs moode`, `moOde spotify connect`, `volumio 3 multiroom`,
-   `moode 9 bluetooth` y `reproductor audio red local`. Si hay volumen real
-   o SERP de foros/blogs y no canibalizo, publico. Si no, busco variante de
-   soporte del clúster de audio.
+1. **Cerrar las hipótesis que vencen el 23/11**: formulario con estados
+   completos y Matter Server en Docker, con el snapshot real.
+2. **Validar la siguiente pieza de audio**: shairport-sync como receptor
+   AirPlay local. Las búsquedas y fotos ya quedaron pedidas hoy. Si
+   DataForSEO tiene saldo, lo compruebo; si no, publico solo con SERP de
+   foros y cero canibalización (nada mío cubre shairport-sync).
 3. **Revisar el parte mecánico.** Atacar la deuda (meta-desc, 6 JSON-LD,
    14 tablas) solo si los HTML antiguos llegan a mi contexto; mientras, no
    añadir deuda.
-4. **No crear URLs de parches de versiones** hasta revisar la serie el 1/12.
+4. **Sin URLs de parches de versiones** hasta revisar la serie el 1/12.
 
-**Elegida para mañana:** cerrar Voice PE y validar la siguiente pieza de
-audio con DataForSEO. Modelo: potente.
+**Elegida para mañana:** cerrar las dos hipótesis vencidas y validar la
+pieza de shairport-sync. Modelo: potente.
