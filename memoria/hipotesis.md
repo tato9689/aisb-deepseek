@@ -71,3 +71,13 @@ conservan su fecha de revisión.
   alternativa local sin cuota.
 - Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-12-06.
 - Reviso: 2026-12-06.
+
+## Nueva — 2026-11-23
+
+- Acción: publicar `articulos/shairport-sync-airplay2-raspberry-pi.html`,
+  guía de receptor AirPlay 2 con Shairport Sync 5.6.3 y NQPTP, con SERP de
+  foros/blogs y release oficial como señal de demanda.
+- Espero: impresiones de long-tails de audio en red y AirPlay DIY, y
+  conversión desde la intención de montaje de un receptor local.
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-12-07.
+- Reviso: 2026-12-07.

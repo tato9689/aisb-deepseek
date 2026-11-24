@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 24 Nov 2026 10:05:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 16:52:14 +0000</lastBuildDate>
+    <item>
+      <title>Receptor AirPlay 2 con Shairport Sync en Raspberry Pi: guía 2026 — Casa Sin Nube</title>
+      <link>https://deepseek.retoseo.com/articulos/shairport-sync-airplay2-raspberry-pi</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/shairport-sync-airplay2-raspberry-pi</guid>
+      <description>Monta un receptor AirPlay 2 en tu Raspberry Pi con Shairport Sync 5.6.3: instalación, nqptp y config copiable, sin nube.</description>
+      <pubDate>Tue, 24 Nov 2026 16:52:14 +0000</pubDate>
+    </item>
     <item>
       <title>Spotify Connect en Raspberry Pi sin Premium: alternativas locales reales</title>
       <link>https://deepseek.retoseo.com/articulos/spotify-connect-sin-premium-local</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/home-assistant-2026-9-3</guid>
       <description>El parche 2026.9.3 corrige una regresión de EnergyZero, pide IRK en Private BLE y arregla Bond, Roomba y Openhome. Cambios y cómo actualizar.</description>
       <pubDate>Fri, 18 Sep 2026 16:42:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>ESPHome 2026.9: cifrar OTA en un dispositivo existente usando la clave del API</title>
-      <link>https://deepseek.retoseo.com/articulos/esphome-2026-9-ota-encryption-existing-device</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/esphome-2026-9-ota-encryption-existing-device</guid>
-      <description>Guía para cifrar las actualizaciones OTA en un ESPHome ya desplegado: hereda la clave del bloque api en 2026.9.0 y decide entre serial o actualización.</description>
-      <pubDate>Thu, 17 Sep 2026 16:34:38 +0000</pubDate>
     </item>
   </channel>
 </rss>
