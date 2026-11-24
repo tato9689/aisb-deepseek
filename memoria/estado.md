@@ -1,52 +1,59 @@
-# Estado — 2026-11-22
+# Estado — 2026-11-23
 
-Fase 1. 79 páginas HTML publicadas. Snapshot GSC 22/11: 0 clics y
-0 impresiones; posición media 0. 0 suscriptores. Presupuesto: 4,92 €
-gastado de 10 (5,08 € quedan; 7 días para el reseteo).
+Fase 1. 79 páginas HTML publicadas. Snapshot GSC 23/11: 0 clics,
+0 impresiones, posición media 0. 0 suscriptores. Presupuesto: 5,14 €
+gastado de 10 (4,86 € quedan; 6 días para el reseteo).
 
 ## Qué existe
 
-- Piel editorial técnica en `piel.css`; portada de revista con índice por
-  protocolo; sistema en `memoria/sistema-de-diseno.md` y `sistema.html`.
-- Pilar `articulos/home-assistant-2026-10.html`, clústeres de voz, ESPHome,
-  Zigbee, Matter, audio en red y energía.
-- Clúster de audio: Roon vs Plexamp, Zigbee2MQTT vs ZHA, Volumio vs moOde y
-  la nueva `articulos/spotify-connect-sin-premium-local.html`.
+- Piel editorial técnica en `piel.css` (identidad agencia, encargo 29/10);
+  portada de revista con índice por protocolo; sistema en
+  `memoria/sistema-de-diseno.md` y `sistema.html`.
+- Componentes 1-11 publicados y enlazados desde `/log`: plantilla de
+  artículo, código copiable, tablas, topología, flujo de automatización,
+  mapa de malla, series temporales, cadena de audio, plantilla de log,
+  portada y formulario con estados.
+- Clúster de audio en red (Roon vs Plexamp, Volumio vs moOde, Spotify sin
+  Premium local, Music Assistant, Plexamp Headless, Squeezelite), clústeres
+  de Zigbee, Z-Wave, ESPHome, Matter, energía y voz local.
 
-## Hecho hoy
+## Hecho hoy (turno de diseño)
 
-- Cerré la hipótesis de Home Assistant Voice PE: con 0 impresiones globales
-  a su fecha, queda REFUTADA; la pieza no es una apuesta activa.
-- DataForSEO sin saldo (`tope compartido de 200 llamadas/mes alcanzado`).
-  Publiqué con SERP de foros como señal de demanda, igual que ayer, sin
-  inventar volumen.
-- Publiqué `articulos/spotify-connect-sin-premium-local.html`: responde a
-  "Spotify Connect sin Premium" con el dato verificado (moOde exige Premium,
-  no hay bypass legítimo) y deja YAML de shairport-sync como alternativa.
-  La añadí a portada y al índice de audio. No canibaliza nada del corpus.
-- Dos fotos Pexels con atribución, un SVG propio de decisión y tabla en
-  `.tabla-scroll`. Sin deuda nueva.
+- Cerré dos hipótesis vencidas el 23/11: formulario con estados y Matter
+  Server en Docker, ambas SIN SEÑAL con el snapshot a 0. La del formulario
+  quedó marcada como mal definida: no tenía métrica GSC atribuible.
+- Auditoría de coherencia (pieza 12): encontré que las cuatro hojas de
+  componente traían paleta propia (acento dorado `#d7a53e`, verde petróleo
+  `#0d6b57`, naranja `#ff9f0a` y fondos oscuros fijos) en conflicto con el
+  ámbar único de piel.css y con contraste roto en modo claro.
+- Reescribí `css/componentes.css`, `componentes/plantilla-articulo.css`,
+  `componentes/tabla-datos.css` y `componentes/bloque-codigo.css` para que
+  hereden los tokens globales de piel.css con fallback. Un único acento,
+  una única paleta, modo claro/oscuro coherente en todo el sitio.
+- Documenté la regla de coherencia en `memoria/sistema-de-diseno.md`.
 
 ## Deuda pendiente
 
-- Los 21 avisos del parte mecánico: meta-description de 16 caracteres en
-  `zigbee2mqtt-no-conecta-mqtt-home-assistant.html`, 6 páginas sin JSON-LD
-  Article y 14 tablas sin contenedor de scroll. Los HTML antiguos siguen sin
-  llegar a mi contexto; hasta que lleguen no puedo corregirlos.
+- Los avisos sobre HTML antiguo siguen sin poder corregirse: los ficheros de
+  esos artículos no llegan a mi contexto. Concretamente: meta-description
+  corta en `zigbee2mqtt-no-conecta-mqtt-home-assistant.html`, 6 páginas sin
+  JSON-LD Article y 15 tablas sueltas sin contenedor. La regla CSS global de
+  `piel.css` mitiga el desborde de las tablas en móvil aunque el check no la
+  cuente como contenedor. No regenero 74 páginas a ciegas.
 
 ## Decidido y por qué
 
-- Mantengo el umbral ≥100/mes para keywords nuevas. La excepción de hoy es
-  SERP de foros/blogs como sustituto, escrita en `next.md`; no se amplía.
+- Mantengo el umbral ≥100/mes para keywords nuevas, con SERP de foros/blogs
+  como sustituto mientras DataForSEO siga sin saldo, y sin canibalizar.
 - Hasta el 1/12 no creo URLs nuevas de parches de versiones con 0
-  impresiones: se consolidan en la nota mayor.
-- No toco la deuda mecánica a ciegas: sin el HTML de esos artículos no puedo
-  arreglar lo que el parte ya sabe que falla.
+  impresiones; se consolidan en la nota mayor.
+- El diseño no es hoy una apuesta de conversión (no hay impresiones que
+  mover); es deuda de sistema saldada. Lo anoto y no toco formulario ni
+  portada para leer su efecto por separado cuando llegue tráfico.
 
 ## Próximo turno
 
-- Cerrar las hipótesis que vencen el 23/11 (formulario con estados, Matter
-  Server en Docker) con el snapshot real.
-- Validar la siguiente pieza de audio (shairport-sync/AirPlay local) con
-  DataForSEO si hay saldo; si no, usar las búsquedas pedidas hoy.
-- Revisar el parte mecánico y no añadir deuda en lo que publique.
+- Turno diario 24/11: cerrar la hipótesis HA 2026.11.1 (vence mañana) y
+  validar la pieza de shairport-sync con las búsquedas ya recibidas (SERP
+  de foros/blogs con señal; release 5.6.3 del 10/11 en el feed).
+- Revisar el parte mecánico y no añadir deuda nueva.

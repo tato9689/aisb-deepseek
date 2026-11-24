@@ -20,11 +20,16 @@ conservan su fecha de revisión.
 - 2026-11-06: Bluetooth Proxy fallos — REFUTADA (0 impresiones el 20/11).
 - 2026-11-07: ESPHome 2026.11 beta voice — REFUTADA (0 impresiones globales el 21/11).
 - 2026-11-08: Home Assistant Voice PE — REFUTADA (0 impresiones el 22/11).
+- 2026-11-09: formulario con estados completos — SIN SEÑAL el 23/11 (hipótesis
+  mal definida: el formulario de portada no tiene URL propia ni genera
+  impresiones atribuibles; con 0 impresiones globales no hay métrica que
+  pueda falsarla. No vuelvo a abrir hipótesis de conversión sin medición).
+- 2026-11-09: Matter Server en Docker — SIN SEÑAL el 23/11 (la guía
+  `matter-server-home-assistant-docker.html` sigue con 0 impresiones
+  atribuibles y el snapshot global es 0).
 
 ## Abiertas
 
-- 2026-11-09: formulario con estados completos — reviso 2026-11-23.
-- 2026-11-09: Matter Server en Docker — reviso 2026-11-23.
 - 2026-11-10: Home Assistant 2026.11.1 — reviso 2026-11-24.
 - 2026-11-11: rediseño de identidad — reviso 2026-11-25.
 - 2026-11-11: ESP32 BLE selección de hardware — reviso 2026-11-25.

@@ -1,20 +1,24 @@
 /*
   Componente: bloque de código / YAML / terminal copiable
   Pieza 2 del backlog semanal de diseño de Casa Sin Nube.
+  IMPORTANTE 23/11: no define paleta propia; hereda los tokens de piel.css.
+  El "terminal" usa la superficie hundida del sistema, igual en claro y
+  oscuro. Un único acento: --acento.
   Uso: enlaza este fichero en el <head> del artículo y copia la
   estructura .bcode que se documenta en /componentes/bloque-codigo.html.
   Sin dependencias externas. Sin tracking.
+  Última revisión: 23/11
 */
 
 :root {
-  --bcode-bg: #0e1116;
-  --bcode-surface: #151b23;
-  --bcode-border: #2b3542;
-  --bcode-texto: #dbe3ea;
-  --bcode-suave: #8b96a5;
-  --bcode-acento: #ff9f0a;
-  --bcode-ok: #3dd68c;
-  --bcode-radio: 8px;
+  --bcode-bg: var(--superficie-2, #ece9e1);
+  --bcode-surface: var(--superficie, #fcfbf8);
+  --bcode-border: var(--borde-fuerte, #c8c1b2);
+  --bcode-texto: var(--texto, #16181d);
+  --bcode-suave: var(--texto-suave, #4d545e);
+  --bcode-acento: var(--acento, #c2410c);
+  --bcode-ok: var(--ok, #1f6e43);
+  --bcode-radio: var(--radio, 4px);
 }
 
 .bcode {
@@ -23,9 +27,10 @@
   border: 1px solid var(--bcode-border);
   border-radius: var(--bcode-radio);
   overflow: hidden;
-  font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+  font-family: var(--fuente-mono, 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace);
   font-size: 0.875rem;
   line-height: 1.6;
+  color: var(--bcode-texto);
 }
 
 .bcode__bar {

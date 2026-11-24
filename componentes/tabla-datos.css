@@ -1,80 +1,107 @@
 /* Tabla de datos responsiva — componente reutilizable
-   Uso: <link rel='stylesheet' href='/componentes/tabla-datos.css'> tras piel.css */
+   IMPORTANTE 23/11: no define paleta propia; hereda los tokens de piel.css.
+   Fondos y colores claros en modo claro, oscuros en modo oscuro, igual que
+   el resto del sitio. Un único acento: --acento.
+   Uso: <link rel='stylesheet' href='/componentes/tabla-datos.css'> tras piel.css
+   Última revisión: 23/11 */
+
 .tabla-datos {
   overflow-x: auto;
   overscroll-behavior-x: contain;
   -webkit-overflow-scrolling: touch;
-  border: 1px solid #2a2f3a;
-  border-radius: 10px;
-  background: #12161e;
+  border: 1px solid var(--borde-fuerte, #c8c1b2);
+  border-radius: var(--radio, 4px);
+  background: var(--superficie, #fcfbf8);
   margin: 1.5rem 0;
 }
+
 .tabla-datos:focus-visible {
-  outline: 2px solid #ff9f0a;
+  outline: 2px solid var(--acento, #c2410c);
   outline-offset: 2px;
 }
+
 .tabla-datos table {
   border-collapse: collapse;
   width: 100%;
   min-width: 34rem;
   font-size: .95rem;
+  font-variant-numeric: tabular-nums;
 }
+
 .tabla-datos caption {
   caption-side: top;
   text-align: left;
   padding: .65rem .9rem;
-  font-size: .85rem;
-  color: #aab3c0;
-  background: #0e1116;
-  border-bottom: 1px solid #2a2f3a;
-  border-radius: 10px 10px 0 0;
+  font-family: var(--fuente-mono, 'IBM Plex Mono', ui-monospace, monospace);
+  font-size: .8125rem;
+  color: var(--texto-suave, #4d545e);
+  background: var(--superficie-2, #ece9e1);
+  border-bottom: 1px solid var(--borde, #ddd9cc);
 }
+
 .tabla-datos th,
 .tabla-datos td {
   padding: .55rem .8rem;
-  border-bottom: 1px solid #242a35;
+  border-bottom: 1px solid var(--borde, #ddd9cc);
   text-align: left;
   vertical-align: top;
 }
+
 .tabla-datos thead th {
-  background: #171c26;
-  color: #eaf0f8;
-  font-weight: 600;
+  background: var(--superficie-2, #ece9e1);
+  color: var(--texto, #16181d);
+  font-family: var(--fuente-mono, 'IBM Plex Mono', ui-monospace, monospace);
+  font-size: .75rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
   white-space: nowrap;
 }
+
 .tabla-datos tbody tr:last-child th,
 .tabla-datos tbody tr:last-child td {
   border-bottom: 0;
 }
+
+.tabla-datos tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--superficie-2, #ece9e1) 45%, transparent);
+}
+
 .bandera {
   display: inline-block;
   padding: .15rem .5rem;
   border-radius: 4px;
   font-size: .8rem;
   font-weight: 600;
+  font-family: var(--fuente-mono, 'IBM Plex Mono', ui-monospace, monospace);
 }
+
 .bandera--bueno {
   color: #0d2a1a;
-  background: #3dd68c;
+  background: var(--ok, #1f6e43);
 }
+
 .bandera--aceptable {
   color: #2b1d00;
-  background: #ff9f0a;
+  background: var(--acento, #c2410c);
 }
+
 .bandera--debil {
   color: #330d0d;
-  background: #ff6b6b;
+  background: var(--error, #b3261e);
 }
+
 .codigo-patro {
   overflow-x: auto;
-  background: #0b0e14;
-  border: 1px solid #2a2f3a;
-  border-radius: 10px;
+  background: var(--superficie-2, #ece9e1);
+  border: 1px solid var(--borde-fuerte, #c8c1b2);
+  border-radius: var(--radio, 4px);
   padding: 1rem;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-family: var(--fuente-mono, 'IBM Plex Mono', ui-monospace, monospace);
   font-size: .85rem;
   line-height: 1.55;
+  color: var(--texto, #16181d);
 }
+
 @media (prefers-reduced-motion: reduce) {
   * {
     scroll-behavior: auto !important;

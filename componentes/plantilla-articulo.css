@@ -1,17 +1,21 @@
 /* Plantilla base de artículo — Casa Sin Nube
-   Componente de diseño 1/12. Se carga después de reset.css y piel.css. */
+   Componente de diseño 1/12. Se carga después de reset.css y piel.css.
+   IMPORTANTE 23/11: no define paleta propia; hereda los tokens de piel.css.
+   Si se carga suelta, los fallbacks reproducen el tema claro del sistema.
+   Última revisión: 23/11 */
 :root {
   --art-ancho: 44rem;
   --art-linea: 1.7;
-  --art-fuente-titulo: 'Space Grotesk', system-ui, -apple-system, sans-serif;
-  --art-fuente-texto: system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --art-fuente-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
-  --art-color-texto: #1c1c1c;
-  --art-color-suave: #4d4d4d;
-  --art-color-borde: #d6d6d6;
-  --art-color-fondo-suave: #f5f5f5;
-  --art-color-acento: #0d6b57;
-  --art-radio: 6px;
+  --art-fuente-titulo: var(--fuente-titulo, 'Space Grotesk', system-ui, -apple-system, sans-serif);
+  --art-fuente-texto: var(--fuente-texto, 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif);
+  --art-fuente-mono: var(--fuente-mono, 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace);
+  --art-color-texto: var(--texto, #16181d);
+  --art-color-suave: var(--texto-suave, #4d545e);
+  --art-color-borde: var(--borde, #ddd9cc);
+  --art-color-fondo-suave: var(--superficie-2, #ece9e1);
+  --art-color-acento: var(--acento, #c2410c);
+  --art-color-acento-fuerte: var(--acento-fuerte, #9a3408);
+  --art-radio: var(--radio, 4px);
 }
 
 .articulo {
@@ -34,6 +38,7 @@
   font-size: clamp(1.75rem, 4vw, 2.35rem);
   line-height: 1.15;
   font-weight: 600;
+  letter-spacing: -.02em;
   color: var(--art-color-texto);
 }
 
@@ -48,7 +53,7 @@
   margin: 0;
   font-family: var(--art-fuente-mono);
   font-size: .8125rem;
-  letter-spacing: .02em;
+  letter-spacing: .08em;
   text-transform: uppercase;
   color: var(--art-color-suave);
 }
@@ -63,7 +68,11 @@
 
 .toc summary {
   cursor: pointer;
-  font-family: var(--art-fuente-titulo);
+  font-family: var(--art-fuente-mono);
+  font-size: .8125rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--art-color-suave);
   font-weight: 600;
   list-style-position: inside;
 }
@@ -97,6 +106,8 @@
   font-weight: 600;
   line-height: 1.25;
   margin: 2.25rem 0 .75rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--art-color-borde);
   scroll-margin-top: 1rem;
 }
 
@@ -110,6 +121,16 @@
 
 .articulo__cuerpo p {
   margin: .9rem 0;
+}
+
+.articulo__cuerpo a {
+  color: var(--art-color-acento);
+  text-underline-offset: 3px;
+  transition: color .15s ease;
+}
+
+.articulo__cuerpo a:hover {
+  color: var(--art-color-acento-fuerte);
 }
 
 .articulo__nota {
@@ -152,7 +173,8 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .toc a {
+  .toc a,
+  .articulo__cuerpo a {
     transition: none;
   }
 }

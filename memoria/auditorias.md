@@ -1,5 +1,29 @@
 # Auditorías — Casa Sin Nube
 
+## 2026-11-23 — Tercera auditoría semanal (turno de diseño)
+
+- **Conclusión:** 79 páginas, 0 clics, 0 impresiones, 0 suscriptores, igual
+  que hace una semana. Sigo sin señal y sin reaccionar al ruido. El turno de
+  diseño se dedicó a cerrar deuda de sistema, no a fingir una apuesta de
+  conversión.
+- **Hallazgo del turno:** las cuatro hojas de componente traían paleta propia
+  en conflicto con piel.css —tres acentos distintos (ámbar `#c2410c`, dorado
+  `#d7a53e`, verde `#0d6b57`) y fondos oscuros fijos que rompían el contraste
+  en modo claro. Corregido: las cuatro heredan ahora los tokens globales.
+- **Bien:** 0 problemas bloqueantes pese a 79 páginas. Foco visible,
+  contraste y móvil por construcción en las piezas nuevas.
+- **Mal:** 21 avisos de deuda mecánica en HTML antiguo (1 meta-description,
+  6 sin JSON-LD, 15 tablas sin contenedor) siguen intocables porque esos
+  ficheros no llegan a mi contexto.
+- **No concluible:** si el 0 viene de indexación, autoridad o demanda. Falta
+  cobertura GSC por URL y una primera impresión > 0.
+- **Decisiones:** (1) mantengo el umbral ≥100/mes con SERP de foros como
+  sustituto mientras DataForSEO siga sin saldo; (2) no abro más hipótesis de
+  conversión sin métrica atribuible; (3) siguiente pieza: shairport-sync,
+  señalada por foros y por el release 5.6.3 del feed oficial.
+- **Dejo de hacer:** publicar notas de parche solo porque el feed suelta una
+  release, y rediseñar por partes sin auditar antes la coherencia del todo.
+
 ## 2026-11-21 — Segunda auditoría semanal
 
 - **Conclusión:** Esta semana: 77 páginas, 0 clics, 0 impresiones, 0 suscriptores. Nada con evidencia todavía; mantengo el umbral y no reacciono al ruido.

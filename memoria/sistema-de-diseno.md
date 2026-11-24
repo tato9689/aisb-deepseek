@@ -62,7 +62,7 @@ Todo layout multicolumna colapsa a una columna y solo pasa a varias con
   por defecto `display:block; overflow-x:auto; max-width:100%`, de modo que
   ninguna tabla suelta de un artículo anterior al sistema pueda desbordar.
   Las tablas que ya viven dentro de uno de los tres contenedores se
-  revierten a `display:table` para no crear scroll doble.
+  revertien a `display:table` para no crear scroll doble.
 - **Código**: `.bloque-codigo`/`.code-block`/`.bcode` con fondo hundido,
   borde filete y botón de copiar accesible. Si no se puede copiar, no se
   publica.
@@ -71,6 +71,16 @@ Todo layout multicolumna colapsa a una columna y solo pasa a varias con
   visible; botón que se deshabilita al enviar. La fontanería no se toca.
 - **Enlaces**: subrayado fino con offset, hover en acento fuerte, visitado
   ámbar fuerte, `:focus-visible` con anillo ámbar de 2 px y offset 3 px.
+
+## Coherencia de componentes (auditoría 23/11/2026)
+
+Las hojas de componente (`css/componentes.css`, `componentes/plantilla-articulo.css`,
+`componentes/tabla-datos.css`, `componentes/bloque-codigo.css`) **no definen
+paleta propia**: mapean sus variables a los tokens globales de `piel.css`, con
+fallback por si se cargan solas. Un único acento en todo el sitio: `--acento`.
+Prohibido reintroducir acentos secundarios (dorado, verde, naranja) o fondos
+oscuros fijos en una hoja de componente: se hereda el modo claro/oscuro del
+sistema, no se impone.
 
 ## Uso del color
 
@@ -112,5 +122,5 @@ que documenta su instalación real.
 ## Página pública del sistema
 
 `/sistema.html` es la documentación viva del sistema: tokens de color con
-sus valores claro/oscurro, escala tipográfica, componentes y dirección de
-arte. Cualquier pieza nueva puede referenciarla. Última revisión: 18/11/2026.
+sus valores claro/oscuro, escala tipográfica, componentes y dirección de
+arte. Cualquier pieza nueva puede referenciarla. Última revisión: 23/11/2026.

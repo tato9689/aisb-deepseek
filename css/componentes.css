@@ -1,20 +1,28 @@
 /* Componentes reutilizables de artículo — Casa Sin Nube
    Se enlaza desde la plantilla de artículo y viaja con cada pieza nueva.
-   Auto-contenido: define sus tokens sin depender de piel.css.
-   Última revisión: 01/09 */
+   IMPORTANTE 23/11: esta hoja ya NO define paleta propia. Consume los
+   tokens globales de piel.css (que se carga antes en todas las páginas).
+   Si por accidente se carga sola, los fallbacks reproducen el tema claro.
+   Un único acento en todo el sitio: --acento de piel.css.
+   Última revisión: 23/11 */
 
 :root {
-  --dsn-fondo: #0f1115;
-  --dsn-superficie: #171a21;
-  --dsn-borde: #2a2f3a;
-  --dsn-texto: #e6e8ec;
-  --dsn-texto-suave: #a7adb8;
-  --dsn-acento: #d7a53e;
-  --dsn-acento-suave: rgba(215, 165, 62, 0.14);
-  --dsn-error: #c96a5b;
-  --dsn-radio: 6px;
-  --dsn-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  --dsn-sans: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --dsn-fondo: var(--fondo, #f7f5f0);
+  --dsn-superficie: var(--superficie, #fcfbf8);
+  --dsn-superficie-2: var(--superficie-2, #ece9e1);
+  --dsn-borde: var(--borde, #ddd9cc);
+  --dsn-borde-fuerte: var(--borde-fuerte, #c8c1b2);
+  --dsn-texto: var(--texto, #16181d);
+  --dsn-texto-suave: var(--texto-suave, #4d545e);
+  --dsn-acento: var(--acento, #c2410c);
+  --dsn-acento-fuerte: var(--acento-fuerte, #9a3408);
+  --dsn-acento-suave: var(--acento-tinta, #f9e8da);
+  --dsn-sobre-acento: var(--sobre-acento, #fff7ec);
+  --dsn-error: var(--error, #b3261e);
+  --dsn-ok: var(--ok, #1f6e43);
+  --dsn-radio: var(--radio, 4px);
+  --dsn-mono: var(--fuente-mono, 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace);
+  --dsn-sans: var(--fuente-texto, 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif);
 }
 
 /* Anchura de lectura */
@@ -60,21 +68,23 @@
 
 .articulo a {
   color: var(--dsn-acento);
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-color 120ms ease, color 120ms ease;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, currentColor 30%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 120ms ease, text-decoration-color 120ms ease;
 }
 
 .articulo a:hover,
 .articulo a:focus-visible {
-  color: #e3bd6e;
-  border-bottom-color: currentColor;
+  color: var(--dsn-acento-fuerte);
+  text-decoration-color: currentColor;
 }
 
 .articulo code {
   font-family: var(--dsn-mono);
   font-size: 0.875em;
-  background: var(--dsn-superficie);
+  background: var(--dsn-superficie-2);
   border: 1px solid var(--dsn-borde);
   border-radius: 4px;
   padding: 0.1em 0.35em;
@@ -105,6 +115,7 @@
   border-radius: var(--dsn-radio);
   padding: 0.9rem 1rem;
   margin-bottom: 2rem;
+  color: var(--dsn-texto);
 }
 
 .aviso-trabajo strong {
@@ -121,9 +132,10 @@
 }
 
 .toc h2 {
-  font-size: 0.9rem;
+  font-family: var(--dsn-mono);
+  font-size: 0.8125rem;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   color: var(--dsn-texto-suave);
   border: 0;
   margin-top: 0;
@@ -139,10 +151,19 @@
   margin: 0.25rem 0;
 }
 
+.toc a {
+  color: inherit;
+  text-underline-offset: 2px;
+}
+
+.toc a:hover {
+  color: var(--dsn-acento);
+}
+
 /* Bloque de código con botón copiar */
 .code-block {
-  background: var(--dsn-superficie);
-  border: 1px solid var(--dsn-borde);
+  background: var(--dsn-superficie-2);
+  border: 1px solid var(--dsn-borde-fuerte);
   border-radius: var(--dsn-radio);
   margin: 1.4rem 0;
   overflow: hidden;
@@ -155,7 +176,7 @@
   gap: 0.5rem;
   padding: 0.4rem 0.6rem 0.4rem 0.9rem;
   border-bottom: 1px solid var(--dsn-borde);
-  background: rgba(255, 255, 255, 0.02);
+  background: var(--dsn-superficie);
 }
 
 .badge-archivo {
@@ -170,7 +191,7 @@
   font-weight: 600;
   color: var(--dsn-texto);
   background: transparent;
-  border: 1px solid var(--dsn-borde);
+  border: 1px solid var(--dsn-borde-fuerte);
   border-radius: var(--dsn-radio);
   padding: 0.3rem 0.6rem;
   cursor: pointer;
@@ -209,8 +230,9 @@
 .tabla-wrapper {
   overflow-x: auto;
   margin: 1.4rem 0;
-  border: 1px solid var(--dsn-borde);
+  border: 1px solid var(--dsn-borde-fuerte);
   border-radius: var(--dsn-radio);
+  background: var(--dsn-superficie);
 }
 
 .tabla-datos {
@@ -218,6 +240,7 @@
   min-width: 560px;
   border-collapse: collapse;
   font-size: 0.9375rem;
+  font-variant-numeric: tabular-nums;
 }
 
 .tabla-datos th,
@@ -228,7 +251,7 @@
 }
 
 .tabla-datos thead th {
-  background: var(--dsn-superficie);
+  background: var(--dsn-superficie-2);
   font-family: var(--dsn-mono);
   font-size: 0.75rem;
   text-transform: uppercase;
@@ -240,14 +263,14 @@
   border-bottom: 0;
 }
 
-.tabla-datos tbody tr:hover td {
-  background: rgba(255, 255, 255, 0.02);
+.tabla-datos tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--dsn-superficie-2) 45%, transparent);
 }
 
 /* Nota */
 .nota {
   border-left: 3px solid var(--dsn-acento);
-  background: var(--dsn-superficie);
+  background: var(--dsn-acento-suave);
   border-radius: 0 var(--dsn-radio) var(--dsn-radio) 0;
   padding: 0.9rem 1.1rem;
   margin: 1.4rem 0;
