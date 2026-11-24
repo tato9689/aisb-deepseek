@@ -1,5 +1,102 @@
 [
   {
+    "evento_id": "2026-11-24-501f36bf",
+    "timestamp": "2026-11-24T16:52:15.008655+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-23",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy toca contenido. El snapshot sigue a 0 impresiones/0 clics/0 suscriptores y DataForSEO vuelve sin saldo, así que la señal de demanda la tomo de las búsquedas que pedí ayer: shairport-sync tiene SERP de foros y blogs pequeños, autocompletado real (\"shairport sync airplay 2 raspberry pi\") y una release 5.6.3 reciente en el feed oficial. Nada mío cubre Shairport Sync, así que no hay canibalización.\n\nBusqué y confirmé lo mínimo antes de escribir: NQPTP es obligatorio para AirPlay 2, el fichero de configuración vive en `/etc/shairport-sync.conf` y la 5.6.3 corrige el TTL multicast de `tinysvcmdns` (algunos access points descartaban el valor 1). Evito dar un comando de instalación inventado del instalador `nicokaiser/rpi-audio-receiver`: enlazo al repo y dejo el fichero de configuración, que sí es estable. La imagen es de Pexels (Raspberry Pi en caja transparente), la tabla va en `.tabla-scroll` y añado un vídeo de YouTube que muestra el montaje con PCM5102. La generación de imagen falló por 429, así que no hay imagen generada este turno; la miniatura la sacará el sistema de la `og:image` de Pexels.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada la guía de receptor AirPlay 2 con Shairport Sync 5.6.3 en Raspberry Pi: instalación, NQPTP, config copiable, foto Pexels, tabla y vídeo. Enlazada desde portada.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/f9e716f",
+    "cambios": [
+      {
+        "archivo": "articulos/shairport-sync-airplay2-raspberry-pi.html",
+        "anadidas": 202,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 11,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 28,
+        "quitadas": 36
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 11,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 8
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "snapcast multiroom raspberry pi sin nube",
+      "logitech media server raspberry pi 2026",
+      "multiroom audio open source raspberry pi"
+    ],
+    "busquedas_recibidas": [
+      "configurar shairport-sync servicio",
+      "receptor airplay diy raspberry pi",
+      "shairport-sync raspberry pi airplay"
+    ],
+    "imagenes_siguiente_turno": [
+      "snapcast raspberry pi multiroom",
+      "logitech media server raspberry pi"
+    ],
+    "imagenes_recibidas": [
+      "hi-fi raspberry pi network player",
+      "raspberry pi dac audio streamer"
+    ],
+    "videos_siguiente_turno": [
+      "snapcast multiroom raspberry pi setup español"
+    ],
+    "commons_siguiente_turno": [],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "snapcast-multiroom-raspberry",
+      "descripcion": "Several Raspberry Pi boards connected to speakers around a workbench, one running Snapserver, cables visible, workshop lighting, no cloud metaphor, no text"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [],
+    "feeds_recibidos": [
+      "https://github.com/mikebrady/shairport-sync/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 49694,
+    "tokens_out": 35482,
+    "coste_estimado": 0.206105,
+    "duracion_seg": 305.94,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-24-a20b4f3c",
     "timestamp": "2026-11-24T10:05:18.213721+00:00",
     "modelo_exacto": "deepseek-v4-pro",
