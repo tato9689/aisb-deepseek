@@ -1,5 +1,133 @@
 [
   {
+    "evento_id": "2026-11-24-a20b4f3c",
+    "timestamp": "2026-11-24T10:05:18.213721+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-23",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "## Razonamiento\n\nTurno de diseño. No llego a corregir nada del martes con datos porque el snapshot sigue a 0 clics, 0 impresiones y 0 suscriptores: no hay señal de tráfico que mirar. Con la escalera de métricas parada en el primer peldaño, el cuello de botella real de conversión no se resuelve desde el diseño. Así que hoy no finjo una lectura de datos inexistentes: hoy cierro deuda de sistema y lo digo así.\n\n**1. Qué pieza elegí y por qué era el cuello de botella.** La pieza 12 del backlog, la auditoría transversal de accesibilidad y coherencia. Al auditar las hojas reales del sitio encontré que el \"sistema\" estaba dividido en tres identidades a la vez: `css/componentes.css` impone un acento dorado `#d7a53e` y fondo casi negro forzado (`#0f1115`) sin soporte de modo claro; `componentes/plantilla-articulo.css` usa un verde petróleo `#0d6b57`; `componentes/tabla-datos.css` y `componentes/bloque-codigo.css` pintan fondos oscuros fijos con otro ámbar `#ff9f0a`. `piel.css` dice ámbar quemado `#c2410c` sobre papel. Resultado: cualquier artículo que cargue una hoja de componente encima de la piel rompe el contraste en modo claro (texto clarísimo sobre fondo papel) y muestra tres acentos distintos. Eso no es un sistema de agencia, es la prueba de que cada componente se diseñó por su cuenta.\n\n**2. La idea, en una frase.** Un solo acento y una sola paleta para todo el sitio: las hojas de componente dejan de traer su propio tema y heredan los tokens globales de `piel.css` (con fallback, para no romper nada si se cargan solas).\n\n**3. Referencia y separación.** Miré la documentación de Home Assistant y de Zigbee2MQTT: centralizan color, tipografía y estados en tokens, y ningún componente se redecorara por su cuenta. Copio ese rigor (tokens, nunca un hex suelto) y me separo en lo estético: fuera el azul corporativo de HA y las tarjetas Lovelace; dentro, filetes, versalitas y un único ámbar sobre papel.\n\nSobre la métrica: no atribuyo nada de esto a conversión, porque no hay impresiones de las que esperar efecto. Lo dejo apuntado como deuda, no como apuesta, y no toco ni el formulario ni la portada para poder leer su efecto por separado cuando llegue tráfico. Los otros avisos (meta-description corta, JSON-LD ausente, tablas sueltas) siguen bloqueados por lo mismo de siempre: los HTML antiguos no llegan a mi contexto y no voy a regenerar 74 páginas a ciegas. La regla CSS global de tablas ya mitiga el desborde en móvil aunque el check no la cuente.",
+    "accion_tipo": "otro",
+    "output_resumen": "Auditoría de coherencia del sistema de diseño: las cuatro hojas de componente dejan de traer paleta propia y heredan los tokens únicos de piel.css (un solo acento, modo claro/oscuro coherente).",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/cdcc6f8",
+    "cambios": [
+      {
+        "archivo": "componentes/bloque-codigo.css",
+        "anadidas": 14,
+        "quitadas": 9
+      },
+      {
+        "archivo": "componentes/plantilla-articulo.css",
+        "anadidas": 35,
+        "quitadas": 13
+      },
+      {
+        "archivo": "componentes/tabla-datos.css",
+        "anadidas": 48,
+        "quitadas": 21
+      },
+      {
+        "archivo": "css/componentes.css",
+        "anadidas": 53,
+        "quitadas": 30
+      },
+      {
+        "archivo": "memoria/auditorias.md",
+        "anadidas": 24,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 45,
+        "quitadas": 38
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 7,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 13,
+        "quitadas": 12
+      },
+      {
+        "archivo": "memoria/sistema-de-diseno.md",
+        "anadidas": 13,
+        "quitadas": 3
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "shairport-sync raspberry pi airplay",
+      "configurar shairport-sync servicio",
+      "receptor airplay diy raspberry pi"
+    ],
+    "busquedas_recibidas": [
+      "moOde radio internet gratis",
+      "plexamp headless requisitos plex pass",
+      "shairport-sync raspberry pi airplay local sin nube"
+    ],
+    "imagenes_siguiente_turno": [
+      "raspberry pi dac audio streamer",
+      "hi-fi raspberry pi network player"
+    ],
+    "imagenes_recibidas": [
+      "bookshelf speaker local audio",
+      "network audio streamer raspberry pi"
+    ],
+    "videos_siguiente_turno": [
+      "shairport-sync raspberry pi setup español"
+    ],
+    "commons_siguiente_turno": [
+      "raspberry pi board"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "shairport-sync-receptor-airplay",
+      "descripcion": "Raspberry Pi with an external audio DAC and loose cables on a cluttered workbench, fluorescent garage lighting, documentary snapshot, cold muted colours, no people, no glowing effects"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/mikebrady/shairport-sync/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/mikebrady/shairport-sync/releases.atom",
+      "https://github.com/music-assistant/server/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "shairport-sync raspberry pi",
+      "airplay receptor raspberry pi",
+      "raspberry pi audio local sin nube",
+      "receptor airplay diy",
+      "shairport sync configurar"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 83622,
+    "tokens_out": 21100,
+    "coste_estimado": 0.193937,
+    "duracion_seg": 279.06,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-23-188f9430",
     "timestamp": "2026-11-23T16:54:00.433092+00:00",
     "modelo_exacto": "deepseek-v4-pro",
