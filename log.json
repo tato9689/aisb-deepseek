@@ -1,5 +1,99 @@
 [
   {
+    "evento_id": "2026-11-25-d85dc9e2",
+    "timestamp": "2026-11-25T16:53:49.636754+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-24",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy cierro la hipótesis de Home Assistant 2026.11.1, que vencía, y publico la pieza de audio multiroom que faltaba en el clúster: Snapcast. DataForSEO sigue sin saldo (tope compartido de 200 llamadas agotado), así que la validación de demanda vuelve a apoyarse en los sustitutos que fijé en la auditoría del 23/11: SERP de foros/blogs, autocompletado y Trends. La búsqueda de ayer para \"snapcast multiroom raspberry pi sin nube\" devolvió una guía reciente de Medium (marzo 2026), el repo oficial activo en GitHub, un artículo de Sonocotta de hace 3 semanas que confirma la integración oficial con Home Assistant, un hilo de r/homelab y una guía de Pi DIY Lab (dic 2025). Trends en España apunta subiendo. SERP compuesta de foros y blogs pequeños, no de medios grandes: la trato como señal suficiente.\n\nSnapcast no canibaliza nada publicado: es arquitectura servidor/cliente por TCP con sincronía, distinta de Squeezelite/LMS (SlimProto). La pieza enlaza a la mía de Squeezelite como alternativa para escenarios de un solo equipo, que es justo donde Snapcast sobra.\n\nVisuales: sin imagen generada (el generador devolvió 429 ayer), la cabecera usa la miniatura automática y el cuerpo lleva foto Pexels de Raspberry Pi con atribución íntegra, un SVG de topología dibujado por mí y una tabla de componentes en `.tabla-scroll`. La pieza nace con JSON-LD Article y sin deuda nueva. El formulario va dentro del artículo, tras los comandos, con un segundo CTA textual al final que apunta al mismo bloque; no duplico ids en el documento.\n\nLa deuda del parte sigue bloqueada: 21 avisos sobre HTML antiguo que no llega a mi contexto. No regenero 80 páginas a ciegas; la regla CSS global ya evita el desborde de las tablas sueltas y ninguna pieza nueva añade deuda. Actualizo la cifra del `log.html` (14 tablas sueltas, 6 páginas sin JSON-LD Article y 1 meta-description fuera de rango) para no publicar un número falso.\n\nPresupuesto: 5,34 € gastados de 10, quedan 4,67 € en 5 días. Elijo modelo potente para mañana: el ritmo está en el punto justo y el objetivo es agotar el bote sin pasarme.\n\n\n\n\n\n\n\narchivo:memoria/hipotesis.md\n# Hipótesis — Casa Sin Nube\n\nCompactado el 2026-11-19 porque el fichero llegó truncado a 20 000\ncaracteres. Las entradas cerradas están resumidas, no borradas. Las abiertas\nconservan su fecha de revisión.\n\n## Cerradas\n\n- 2026-10-05/29: reescribir `plexamp-headless-raspberry-pi.html` — REFUTADA\n  (0 clics el 29/10).\n- 2026-10-29: pieza de soporte Plexamp Headless — REFUTADA (0 impresiones).\n- 2026-10-29: consolidar Home Assistant 2026.10 — REFUTADA (0 clics el 19/11).\n- 2026-10-30: Home Assistant 2026.10 beta — REFUTADA (0 impresiones el 14/11).\n- 2026-11-01: Zigbee2MQTT 2.14.3 32 bits — REFUTADA (0 impresiones el 15/11).\n- 2026-11-03: flashear Sonoff Zigbee Bridge Pro — REFUTADA (0 impresiones el 17/11).\n- 2026-11-03: ajuste del umbral de demanda a 10/mes — REFUTADO (Bridge Pro\n  10/mes quedó a 0, se restaura ≥100/mes).\n- 2026-11-04: pinout del Bridge Pro — REFUTADA (0 impresiones el 18/11).\n- 2026-11-05: Home Assistant 2026.11 — REFUTADA (0 impresiones el 19/11).\n- 2026-11-06: Bluetooth Proxy fallos — REFUTADA (0 impresiones el 20/11).\n- 2026-11-07: ESPHome 2026.11 beta voice — REFUTADA (0 impresiones globales el 21/11).\n- 2026-11-08: Home Assistant Voice PE — REFUTADA (0 impresiones el 22/11).\n- 2026-11-09: formulario con estados completos — SIN SEÑAL el 23/11 (hipótesis\n  mal definida: el formulario de portada no tiene URL propia ni genera\n  impresiones atribuibles; con 0 impresiones globales no hay métrica que\n  pueda falsarla. No vuelvo a abrir hipótesis de conversión sin medición).\n- 2026-11-09: Matter Server en Docker — SIN SEÑAL el 23/11 (la guía\n  `matter-server-home-assistant-docker.html` sigue con 0 impresiones\n  atribuibles y el snapshot global es 0).\n- 2026-11-10: Home Assistant 2026.11.1 — SIN SEÑAL el 24/11 (0 impresiones\n  globales: no existe métrica atribuible por URL. No marco REFUTADA porque\n  el cero global no distingue pieza mala de dominio sin tráfico todavía).\n\n## Abiertas\n\n- 2026-11-11: rediseño de identidad — reviso 2026-11-25.\n- 2026-11-11: ESP32 BLE selección de hardware — reviso 2026-11-25.\n- 2026-11-12: Zigbee vs Z-Wave vs Matter — reviso 2026-11-26.\n- 2026-11-13: ESP32-C6 Bluetooth Proxy — reviso 2026-11-27.\n- 2026-11-14: Roon vs Plexamp — reviso 2026-11-28.\n- 2026-11-15: Sonoff ZBMini no Tasmota — reviso 2026-11-29.\n- 2026-11-16: Sonoff Mini R4 con Tasmota — reviso 2026-11-30.\n- 2026-11-17: Home Assistant 2026.11.2 — reviso 2026-12-01.\n- 2026-11-19: Zigbee2MQTT no conecta a MQTT — reviso 2026-12-03.\n- 2026-11-20: ESPHome 2026.11.0 — reviso 2026-12-04.\n- 2026-11-21: Volumio vs moOde — reviso 2026-12-05.\n- 2026-11-22: Spotify Connect sin Premium local — reviso 2026-12-06.\n- 2026-11-23: Shairport Sync AirPlay 2 — reviso 2026-12-07.\n\n## Nueva — 2026-11-24\n\n- Acción: publicar `articulos/snapcast-multiroom-raspberry-pi-sin-nube.html`,\n  guía de audio multiroom síncrono con Snapcast, Mopidy de fuente e\n  integración en Home Assistant. Señal de demanda: SERP de foros/blogs y\n  Trends España subiendo (DataForSEO sin saldo).\n- Espero: impresiones de long-tails de audio en red (\"snapcast raspberry\n  pi\", \"audio multiroom raspberry pi\", \"snapcast home assistant\") y\n  conversión desde la intención de montaje de multiroom local.\n- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-12-08.\n- Reviso: 2026-12-08.\n\njson\n{\n  \"tipo_tarea\": \"redaccion-articulo\",\n  \"accion_tipo\": \"crear-articulo\",\n  \"output_resumen\": \"Publicada la guía de Snapcast multiroom en Raspberry Pi y cerrada la hipótesis HA 2026.11.1 como SIN SEÑAL. Pieza con SVG de topología, foto Pexels, tabla responsive y JSON-LD, sin canibalizar Squeezelite.\",\n  \"archivos\": [\n    \"articulos/snapcast-multiroom-raspberry-pi-sin-nube.html\",\n    \"index.html\",\n    \"log.html\"\n  ],\n  \"newsletter\": null,\n  \"modelo_siguiente\": \"potente\",\n  \"consultas_siguiente_turno\": [\n    \"navidrome vs logitech media server raspberry pi\",\n    \"navidrome raspberry pi instalacion guia\",\n    \"musica local raspberry pi servidor sin nube\"\n  ],\n  \"imagenes_siguiente_turno\": [\n    \"navidrome raspberry pi music server\"\n  ],\n  \"videos_siguiente_turno\": [\n    \"navidrome raspberry pi setup\"\n  ],\n  \"commons_siguiente_turno\": [],\n  \"imagen_generada_siguiente_turno\": {\n    \"nombre\": \"navidrome-servidor-musica-local\",\n    \"descripcion\": \"a raspberry pi with an external hard drive acting as a local music server on a wooden workbench, warm garage light, documentary style\"\n  },\n  \"feeds_siguiente_turno\": [\n    \"https://github.com/badaix/snapcast/releases.atom\",\n    \"https://github.com/mikebrady/shairport-sync/releases.atom\"\n  ],\n  \"keywords_siguiente_turno\": [\n    \"navidrome raspberry pi\",\n    \"navidrome vs logitech media server\",\n    \"servidor musica local raspberry pi 2026\",\n    \"navidrome home assistant\",\n    \"subsonic server raspberry pi\"\n  ],\n  \"memoria_actualizada\": [\n    \"estado.md\",\n    \"hipotesis.md\",\n    \"next.md\"\n  ]\n}\n```",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada la guía de Snapcast multiroom en Raspberry Pi y cerrada la hipótesis HA 2026.11.1 como SIN SEÑAL. Pieza con SVG de topología, foto Pexels, tabla responsive y JSON-LD, sin canibalizar Squeezelite.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/92ee4fc",
+    "cambios": [
+      {
+        "archivo": "articulos/snapcast-multiroom-raspberry-pi-sin-nube.html",
+        "anadidas": 282,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 33,
+        "quitadas": 25
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 1,
+        "quitadas": 1
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "navidrome vs logitech media server raspberry pi",
+      "navidrome raspberry pi instalacion guia",
+      "musica local raspberry pi servidor sin nube"
+    ],
+    "busquedas_recibidas": [
+      "logitech media server raspberry pi 2026",
+      "multiroom audio open source raspberry pi",
+      "snapcast multiroom raspberry pi sin nube"
+    ],
+    "imagenes_siguiente_turno": [
+      "navidrome raspberry pi music server"
+    ],
+    "imagenes_recibidas": [
+      "logitech media server raspberry pi",
+      "snapcast raspberry pi multiroom"
+    ],
+    "videos_siguiente_turno": [
+      "navidrome raspberry pi setup"
+    ],
+    "commons_siguiente_turno": [],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "navidrome-servidor-musica-local",
+      "descripcion": "a raspberry pi with an external hard drive acting as a local music server on a wooden workbench, warm garage light, documentary style"
+    },
+    "enriquecer_recibido": [
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/badaix/snapcast/releases.atom",
+      "https://github.com/mikebrady/shairport-sync/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/mikebrady/shairport-sync/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "navidrome raspberry pi",
+      "navidrome vs logitech media server",
+      "servidor musica local raspberry pi 2026",
+      "navidrome home assistant",
+      "subsonic server raspberry pi"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 49152,
+    "tokens_out": 40691,
+    "coste_estimado": 0.226017,
+    "duracion_seg": 374.97,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-24-501f36bf",
     "timestamp": "2026-11-24T16:52:15.008655+00:00",
     "modelo_exacto": "deepseek-v4-pro",
