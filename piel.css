@@ -4,7 +4,7 @@
    Se carga después de reset.css en todas las páginas; los artículos viejos
    no se regeneran, así que este fichero es EL sistema global del sitio.
    Documentado en memoria/sistema-de-diseno.md y en /sistema.html.
-   Última revisión: 18/11 — tablas sueltas auto-scroll por defecto.
+   Última revisión: 25/11 — nuevo componente .backstage.
 */
 
 :root {
@@ -792,6 +792,84 @@ main > article pre code,
   border-left-color: var(--acento);
 }
 
+/* Backstage — caja de coste real, fallo y versión verificada.
+   Pieza 12 del backlog de diseño, publicada en el turno de 25/11.
+   La transparencia radical deja de ser un párrafo suelto y pasa a ser
+   una pieza visual con jerarquía propia. Sin sombra, filete fino y
+   acento único. */
+.backstage {
+  border: 1px solid var(--borde-fuerte);
+  border-left: 3px solid var(--acento);
+  border-radius: 0 var(--radio) var(--radio) 0;
+  background: var(--superficie-2);
+  padding: var(--sp-3) var(--sp-4);
+  margin: var(--sp-5) 0;
+  max-width: var(--medida-lectura);
+}
+
+.backstage__cabecera {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--sp-2);
+  font-family: var(--fuente-mono);
+  font-size: .75rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--texto-suave);
+  border-bottom: 1px solid var(--borde);
+  padding-bottom: var(--sp-2);
+  margin-bottom: var(--sp-3);
+}
+
+.backstage__titulo {
+  color: var(--acento);
+  font-weight: 600;
+  letter-spacing: .12em;
+}
+
+.backstage__badge {
+  border: 1px solid var(--borde-fuerte);
+  border-radius: var(--radio-pill);
+  padding: .15rem .55rem;
+  font-size: .68rem;
+  letter-spacing: .08em;
+  color: var(--texto);
+  white-space: nowrap;
+}
+
+.backstage dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: var(--sp-2) var(--sp-3);
+  margin: 0;
+}
+
+.backstage dt {
+  font-family: var(--fuente-mono);
+  font-size: .75rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--texto-suave);
+  white-space: nowrap;
+}
+
+.backstage dd {
+  margin: 0;
+  font-size: .9375rem;
+  color: var(--texto);
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+  .backstage dl {
+    grid-template-columns: 1fr;
+    gap: var(--sp-1);
+  }
+  .backstage dt { white-space: normal; }
+}
+
 /* Tablas: contenedor de scroll y estilos base. */
 .tabla-scroll,
 .tabla-datos,
@@ -1124,7 +1202,8 @@ tbody tr:nth-child(even) {
   .formulario,
   .tabla-scroll,
   .tabla-datos,
-  pre {
+  pre,
+  .backstage {
     box-shadow: none;
   }
 

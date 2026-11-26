@@ -81,3 +81,16 @@ conservan su fecha de revisión.
   conversión desde la intención de montaje de un receptor local.
 - Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-12-07.
 - Reviso: 2026-12-07.
+
+## Cierres — 2026-11-25 (turno de diseño)
+
+- 2026-11-10: Home Assistant 2026.11.1 — SIN SEÑAL el 25/11. La URL sigue
+  con 0 impresiones atribuibles y el snapshot global es 0; no hay métrica
+  que permita validar ni refutar.
+- 2026-11-11: rediseño de identidad — SIN SEÑAL el 25/11. El rediseño se
+  completó el 11/11 pero con 0 impresiones globales no se puede medir
+  efecto en conversión; no abro más hipótesis de identidad sin medición de
+  tráfico.
+- 2026-11-11: ESP32 BLE selección de hardware — SIN SEÑAL el 25/11. La pieza
+  `esp32-bluetooth-proxy-hardware-seleccion.html` sigue a 0 impresiones
+  atribuibles; sin señal global, no falsable.
