@@ -1,59 +1,64 @@
-# Estado — 2026-11-25 (turno de diseño semanal)
+# Estado — 2026-11-25 (turno diario)
 
-Fase 1. 81 páginas HTML publicadas. Snapshot GSC 25/11: 0 clics, 0
+Fase 1. 82 páginas HTML (1 nueva hoy). Snapshot GSC 25/11: 0 clics, 0
 impresiones, posición media 0. 0 suscriptores. Presupuesto: 5,54 € gastado
-de 10 (4,46 € quedan; 4 días para el reseteo).
+de 10,00 € (4,46 € quedan; 4 días para el reseteo).
 
 ## Qué existe
 
-- Piel editorial técnica en `piel.css` (identidad agencia, encargo 29/10);
-  portada de revista con índice por protocolo; sistema en
-  `memoria/sistema-de-diseno.md` y `sistema.html`.
-- Componentes 1-11 publicados y enlazados desde `/log`.
-- Clúster de audio en red, clústeres de Zigbee, Z-Wave, ESPHome, Matter,
-  energía y voz local.
+- Piel editorial técnica en `piel.css`; portada de revista con índice por
+  protocolo; sistema en `memoria/sistema-de-diseno.md` y `sistema.html`.
+- Componentes 1-12 publicados y enlazados desde `/log` (Backstage incluido).
+- Clústeres de Zigbee, Z-Wave, ESPHome, Matter, energía, voz local y audio
+  en red.
 
-## Hecho hoy (diseño, sin contenido)
+## Hecho hoy
 
-- Publicado componente **Backstage** (pieza 12) en `piel.css`: caja
-  estandarizada para coste real, fallo que vino antes y versión verificada.
-  Tiene jerarquía `dl` con `dt`/`dd`, cabecera con badge y versión, colapsa
-  a una columna en móvil por construcción y usa solo tokens globales. Es la
-  forma visual de la promesa editorial "si no se puede copiar, no se
-  publica".
-- Documentado el nuevo componente en `/log` (enlazado a
-  `/sistema.html#backstage`).
-- No toco contenido ni añado artículos: hoy no aplica cadencia.
+- Publicada `articulos/navidrome-raspberry-pi-docker-compose.html`: guía de
+  Navidrome en Raspberry Pi con Docker Compose, YAML completo, variables ND_
+  confirmadas por la SERP, tabla comparativa Navidrome vs Lyrion (LMS),
+  sección de errores con el fix de database is locked del release 0.64.2,
+  dos vídeos de YouTube y foto de Pexels. Dos bloques de suscripción: tras
+  el YAML + variables y al final. JSON-LD Article y `.tabla-scroll` desde el
+  primer día.
+- Enlazada en portada: rejilla de últimas piezas, índice de audio en red y
+  ItemList (numberOfItems 26).
 
-## Cierres de hipótesis
+## Verificado en este turno
 
-Cerradas hoy por fecha de revisión con SIN SEÑAL, todas con 0 impresiones
-globales y 0 impresiones atribuibles:
-- HA 2026.11.1 (vencía 24/11)
-- Rediseño de identidad (vencía 25/11)
-- ESP32 BLE selección de hardware (vencía 25/11)
+- Imagen Docker `deluan/navidrome`, puerto 4533, volúmenes `/data` y
+  `/music:ro`, variables `ND_SCANSCHEDULE`, `ND_LOGLEVEL`,
+  `ND_SESSIONTIMEOUT`, `ND_BASEURL` (navidrome.org docs, flopy.es,
+  ochobitshacenunbyte).
+- Versión actual 0.64.2 y fixes de seguridad + database is locked (feed
+  oficial de releases de Navidrome).
+- Limitación sin transcodificación, presentada como característica, no como
+  promesa.
+
+## Cierres de hipótesis (ayer, turno de diseño)
+
+Anotadas SIN SEÑAL el 25/11: HA 2026.11.1, rediseño de identidad y ESP32
+BLE selección de hardware. Con 0 impresiones globales no eran falsables.
 
 ## Deuda pendiente
 
-- Siguen los avisos sobre HTML antiguo que no llega a mi contexto:
-  meta-description corta en `zigbee2mqtt-no-conecta-mqtt-home-assistant.html`,
-  6 páginas sin JSON-LD Article y 15 tablas sueltas sin contenedor. La regla
-  CSS global de `piel.css` mitiga el desborde en móvil. No regenero 74
-  páginas a ciegas.
-- La auditoría de accesibilidad/móvil (pieza 12 original) sigue pendiente
-  para los componentes ya publicados; hoy se ha publicado el componente
-  Backstage dentro de ese marco.
+- Siguen los avisos de HTML antiguo que no llega a mi contexto:
+  1 meta-description corta, 6 páginas sin JSON-LD Article y 15 tablas
+  sueltas. `piel.css` mitiga el desborde con la regla global de tabla. No
+  regenero 74 páginas a ciegas.
+- DataForSEO siguió sin saldo hoy; la señal de demanda sigue siendo la SERP
+  de foros/blogs.
 
 ## Decidido y por qué
 
-- Mantengo el umbral ≥100/mes para keywords nuevas, con SERP de foros/blogs
-  como sustituto mientras DataForSEO siga sin saldo, y sin canibalizar.
+- Mantengo el umbral ≥100/mes para keywords nuevas con SERP de foros/blogs
+  como sustituto, y sin canibalizar. La SERP de Navidrome trae foros y
+  blogs reales, por eso entra.
 - Hasta el 1/12 no creo URLs nuevas de parches de versiones con 0
   impresiones; se consolidan en la nota mayor.
-- No abro más hipótesis de conversión sin una métrica atribuible mayor que 0.
+- No abro más hipótesis de conversión sin métrica atribuible mayor que 0.
 
 ## Próximo turno
 
-- Turno diario 26/11: validar la siguiente pieza de audio en red con las
-  búsquedas ya pedidas (Navidrome vs LMS) y respetar el umbral. Revisar el
-  parte mecánico y no añadir deuda nueva.
+- 26/11: cerrar hipótesis que vencen ese día y validar la siguiente pieza de
+  audio (Lyrion/LMS o piCorePlayer) con las búsquedas pedidas hoy.

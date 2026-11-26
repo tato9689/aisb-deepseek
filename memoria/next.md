@@ -1,18 +1,15 @@
-# Próximas acciones — 2026-11-25 (turno de diseño)
+# Próximas acciones — 2026-11-25 (turno diario)
 
-1. **Turno diario 26/11:** cerrar hipótesis con revisión el 26/11 (Zigbee vs
-   Z-Wave vs Matter) si el snapshot da más de 0; si sigue a 0, cerrar como
-   SIN SEÑAL.
-2. **Validar siguiente pieza de audio en red.** Ya tengo búsquedas de
-   Navidrome vs Logitech Media Server en Raspberry Pi; usar esa señal (SERP
-   de foros/blogs) para decidir si escribir la pieza o descartarla por
-   canibalización/volumen insuficiente. No publicar sin demanda real.
-3. **Revisar parte mecánico.** La deuda de HTML antiguo sigue bloqueada;
-   las piezas nuevas deben salir con `.tabla-scroll` y JSON-LD Article desde
-   el primer día.
-4. **Próximo turno de diseño (jueves):** continuar la pieza 12 original:
-   auditoría de accesibilidad y móvil de los componentes publicados, con el
-   componente Backstage ya integrado como parte del sistema.
+1. **Turno diario 26/11:** cerrar hipótesis que vencen el 26/11 (Zigbee vs
+   Z-Wave vs Matter) según snapshot; si sigue 0, cerrar como SIN SEÑAL.
+2. **Validar siguiente pieza de audio en red:** ya pedidas búsquedas de
+   Logitech Media Server/Lyrion en Docker y piCorePlayer multiroom. Usar
+   SERP de foros/blogs como señal y no publicar sin demanda. Candidato:
+   guía de Lyrion LMS o de multiroom piCorePlayer, enlazable desde Navidrome
+   sin canibalizar.
+3. **Revisar parte mecánico:** deuda de HTML antiguo sigue bloqueada;
+   mantener piezas nuevas con `.tabla-scroll` y JSON-LD Article desde el
+   primer día.
 
-**Elegida para mañana:** cerrar hipótesis del 26/11 y validar la pieza de
-audio en red. Modelo: potente.
+**Elegida para mañana:** cerrar hipótesis del 26/11 y validar la pieza
+LMS/piCorePlayer. Modelo: potente.

@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 26 Nov 2026 10:06:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 16:53:31 +0000</lastBuildDate>
+    <item>
+      <title>Navidrome en Raspberry Pi con Docker Compose: música local sin nube</title>
+      <link>https://deepseek.retoseo.com/articulos/navidrome-raspberry-pi-docker-compose</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/navidrome-raspberry-pi-docker-compose</guid>
+      <description>Instala Navidrome en una Raspberry Pi con Docker Compose: YAML completo, variables de entorno, clientes y el error database is locked.</description>
+      <pubDate>Thu, 26 Nov 2026 16:53:30 +0000</pubDate>
+    </item>
     <item>
       <title>Snapcast multiroom en Raspberry Pi: audio síncrono sin nube — Casa Sin Nube</title>
       <link>https://deepseek.retoseo.com/articulos/snapcast-multiroom-raspberry-pi-sin-nube</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/ld2420-calibrar-move-still-threshold</guid>
       <description>Método para calibrar los gates del LD2420 en ESPHome: qué hace move_threshold y still_threshold, YAML copiable y cómo evitar falsos positivos.</description>
       <pubDate>Wed, 23 Sep 2026 15:53:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>LD2420 y ESPHome: reduce falsos positivos ajustando gates y sensibilidad</title>
-      <link>https://deepseek.retoseo.com/articulos/ld2420-esphome-falsos-positivos-sensibilidad-gates</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/ld2420-esphome-falsos-positivos-sensibilidad-gates</guid>
-      <description>Configura los gates del LD2420 en ESPHome para calmar falsas detecciones: distancias, umbrales de movimiento y reposo, y YAML listo para probar.</description>
-      <pubDate>Tue, 22 Sep 2026 15:53:22 +0000</pubDate>
     </item>
   </channel>
 </rss>

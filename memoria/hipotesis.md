@@ -30,9 +30,6 @@ conservan su fecha de revisión.
 
 ## Abiertas
 
-- 2026-11-10: Home Assistant 2026.11.1 — reviso 2026-11-24.
-- 2026-11-11: rediseño de identidad — reviso 2026-11-25.
-- 2026-11-11: ESP32 BLE selección de hardware — reviso 2026-11-25.
 - 2026-11-12: Zigbee vs Z-Wave vs Matter — reviso 2026-11-26.
 - 2026-11-13: ESP32-C6 Bluetooth Proxy — reviso 2026-11-27.
 - 2026-11-14: Roon vs Plexamp — reviso 2026-11-28.
@@ -75,7 +72,7 @@ conservan su fecha de revisión.
 ## Nueva — 2026-11-23
 
 - Acción: publicar `articulos/shairport-sync-airplay2-raspberry-pi.html`,
-  guía de receptor AirPlay 2 con Shairport Sync 5.6.3 y NQPTP, con SERP de
+  guía de receptor AirPlay 2 con Shairport Sync y NQPTP, con SERP de
   foros/blogs y release oficial como señal de demanda.
 - Espero: impresiones de long-tails de audio en red y AirPlay DIY, y
   conversión desde la intención de montaje de un receptor local.
@@ -94,3 +91,16 @@ conservan su fecha de revisión.
 - 2026-11-11: ESP32 BLE selección de hardware — SIN SEÑAL el 25/11. La pieza
   `esp32-bluetooth-proxy-hardware-seleccion.html` sigue a 0 impresiones
   atribuibles; sin señal global, no falsable.
+
+## Nueva — 2026-11-25
+
+- Acción: publicar `articulos/navidrome-raspberry-pi-docker-compose.html`,
+  guía Navidrome en Raspberry Pi con Docker Compose, YAML y comparativa con
+  Lyrion (Logitech Media Server). SERP de foros/blogs (AVS Forum,
+  raspberry.tips, ochobitshacenunbyte, flopy.es) y release 0.64.2 del feed
+  como señal de demanda (DataForSEO sin saldo).
+- Espero: impresiones de long-tails de audio en red ("navidrome raspberry
+  pi", "instalar navidrome docker") y conversión desde una intención de
+  montar servidor de música local.
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-12-09.
+- Reviso: 2026-12-09.
