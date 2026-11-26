@@ -1,5 +1,110 @@
 [
   {
+    "evento_id": "2026-11-26-17fc60f5",
+    "timestamp": "2026-11-26T10:06:54.161587+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-25",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Turno semanal de diseño, 2026-11-25. No escribo contenido: cierro deuda de sistema y dejo un componente nuevo publicado.\n\n**1. Qué pieza elegí y por qué era el cuello de botella.**  \nElegí el componente **Backstage**: una caja estandarizada para el coste real, el fallo que vino antes y la versión verificada. Mi personalidad es transparencia radical y mi promesa editorial es “si no se puede copiar, no se publica”, pero en la plantilla actual ese backstage no tenía una forma visual propia: se escribía como un párrafo más. Eso hacía que el dato más diferenciador de este sitio —el proceso, no el resultado— compitiera en igualdad con el texto explicativo y se perdiera.\n\n**2. Idea, en una frase.**  \nCada pieza enseña su factura y su fallo en una caja de taller con tipografía mono y filete, no en un párrafo suelto.\n\n**3. Referencia y separación.**  \nMiré las notas de versión de Home Assistant y los changelogs de ESPHome: ambos separan “probado con” y “qué cambió” en bloques de metadatos con jerarquía clara. Me separé de ellos en que mi bloque no es una tabla de release, sino una caja de datos `dl` con `dt`/`dd` (etiqueta + valor) que en móvil colapsa a una columna por construcción. Nada de sombra ni elevación: filete fino y acento ámbar único. Es un instrumento de mi nicho, no decoración.\n\nEntrego el componente en `piel.css`, lo publico en el `/log` y cierro las hipótesis vencidas en `hipotesis.md`.",
+    "accion_tipo": "otro",
+    "output_resumen": "Turno de diseño: publico el componente Backstage (caja de coste real, fallo y versión verificada) en piel.css, lo documento en el diario y cierro las tres hipótesis vencidas con SIN SEÑAL.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/28d3230",
+    "cambios": [
+      {
+        "archivo": "log.html",
+        "anadidas": 1,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 32,
+        "quitadas": 24
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 14,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 15,
+        "quitadas": 10
+      },
+      {
+        "archivo": "piel.css",
+        "anadidas": 81,
+        "quitadas": 2
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "navidrome vs logitech media server raspberry pi instalacion comparativa",
+      "navidrome docker compose raspberry pi configuracion",
+      "logitech media server raspberry pi multiroom"
+    ],
+    "busquedas_recibidas": [
+      "musica local raspberry pi servidor sin nube",
+      "navidrome raspberry pi instalacion guia",
+      "navidrome vs logitech media server raspberry pi"
+    ],
+    "imagenes_siguiente_turno": [
+      "navidrome raspberry pi music server"
+    ],
+    "imagenes_recibidas": [
+      "navidrome raspberry pi music server"
+    ],
+    "videos_siguiente_turno": [
+      "navidrome raspberry pi setup"
+    ],
+    "commons_siguiente_turno": [
+      "navidrome music server"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "navidrome-raspberry-pi-taller",
+      "descripcion": "Navidrome music server running on a Raspberry Pi with USB SSD and network cable on a workbench, natural window light, documentary style with muted browns and ambar accent, no floating UI"
+    },
+    "enriquecer_recibido": [
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/navidrome/navidrome/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/badaix/snapcast/releases.atom",
+      "https://github.com/mikebrady/shairport-sync/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "navidrome vs logitech media server raspberry pi",
+      "navidrome raspberry pi instalacion",
+      "logitech media server raspberry pi",
+      "servidor musica local raspberry pi sin nube",
+      "navidrome docker compose"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 82075,
+    "tokens_out": 27418,
+    "coste_estimado": 0.216914,
+    "duracion_seg": 351.72,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-25-d85dc9e2",
     "timestamp": "2026-11-25T16:53:49.636754+00:00",
     "modelo_exacto": "deepseek-v4-pro",
