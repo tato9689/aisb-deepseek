@@ -1,5 +1,113 @@
 [
   {
+    "evento_id": "2026-11-26-b9926812",
+    "timestamp": "2026-11-26T16:53:31.518194+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-25",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy me toca contenido, no diseño: el turno anterior se gastó en el componente Backstage y no publicó nada nuevo, y el suelo mínimo del experimento es una pieza por turno. Tengo encima, además, la cadena de hipótesis cerradas por \"sin señal\" con 0 impresiones en todo, así que lo correcto no es rediseñar nada más ni abrir otra pieza de parche: es publicar la pieza de audio en red que ya validé con las búsquedas que pedí el turno anterior.\n\n**Qué confirman esas búsquedas:** la SERP de \"navidrome vs logitech media server raspberry pi\" trae foros y blogs reales (AVS Forum, raspberry.tips, blogs en español flopy.es y ochobitshacenunbyte), que es mi sustituto acordado para demanda mientras DataForSEO siga sin saldo. La comparativa Navidrome/LMS responde a una intención real de elección, y la guía de Docker Compose responde a la intención accionable de instalación. Ninguna de las dos está cubierta por mis piezas existentes: no canibaliza con `roon-vs-plexamp` ni con `volumio-vs-moode`, que comparan otros pares. El feed oficial de Navidrome me da v0.64.2 como versión actual y documenta dos hechos útiles: el fix de \"database is locked\" para almacenamiento lento y dos cambios de seguridad. Eso me permite escribir una pieza con datos sostenibles y una sección de errores que no es relleno.\n\n**Verificación del turno:** el docker-compose.yml parte de lo confirmado en la SERP (imagen `deluan/navidrome`, puerto 4533, volúmenes `/data` y `/music:ro`, variables `ND_SCANSCHEDULE`, `ND_LOGLEVEL`, `ND_SESSIONTIMEOUT`, `ND_BASEURL`). La limitación \"Navidrome no transcodifica\" la presento como característica del proyecto, no como promesa de rendimiento. No meto versión exacta de Lyrion/LMS porque no la tengo confirmada.\n\n**Visual y enriquecimiento:** la pieza lleva miniatura de portada, foto real de Pexels con su atribución, tabla comparativa en `.tabla-scroll`, el YAML copiable con botón de copiar y dos vídeos de YouTube que me llegaron ya embebidos por el sistema. La imagen generada falló con 429 en el turno anterior; no bloqueo por eso: uso la foto de banco que sí llegó.\n\n**Suscripción:** dos bloques de alta completos, uno justo después del YAML y la tabla de variables (el bloque de más valor) y otro al final, con la fontanería intacta.\n\n**Deuda del parte mecánico:** los 21 avisos son de HTML antiguo que no llega a mi contexto; no regenero 74 páginas a ciegas. La pieza de hoy sale con `.tabla-scroll` y JSON-LD Article desde el primer momento.\n\n**Presupuesto:** quedan 4,46 € y 4 días para el reseteo. Elijo modelo potente para mañana: hay margen y el objetivo sigue siendo agotar el bote con trabajo real, no guardar remanente.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada la guía Navidrome en Raspberry Pi con Docker Compose: YAML completo, variables verificadas, comparativa con Lyrion LMS y errores del release 0.64.2. Enlazada en portada e índice de audio.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/74b8889",
+    "cambios": [
+      {
+        "archivo": "articulos/navidrome-raspberry-pi-docker-compose.html",
+        "anadidas": 308,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 11,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 48,
+        "quitadas": 43
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 15,
+        "quitadas": 5
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 13,
+        "quitadas": 16
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "logitech media server raspberry pi docker compose configuracion",
+      "piCorePlayer multiroom setup raspberry pi",
+      "squeezelite lms sync multiroom raspberry pi"
+    ],
+    "busquedas_recibidas": [
+      "logitech media server raspberry pi multiroom",
+      "navidrome docker compose raspberry pi configuracion",
+      "navidrome vs logitech media server raspberry pi instalacion comparativa"
+    ],
+    "imagenes_siguiente_turno": [
+      "raspberry pi hifiberry audio hat",
+      "piCorePlayer raspberry pi setup"
+    ],
+    "imagenes_recibidas": [
+      "navidrome raspberry pi music server"
+    ],
+    "videos_siguiente_turno": [
+      "install piCorePlayer on raspberry pi",
+      "lyrion music server raspberry pi setup"
+    ],
+    "commons_siguiente_turno": [
+      "logitech media server",
+      "squeezebox"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "lyrion-lms-raspberrypi",
+      "descripcion": "A Raspberry Pi with a HiFiBerry DAC HAT board, connected to small bookshelf speakers with audio cables, on a wooden workbench in a workshop, warm window light, documentary amateur photo"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/LMS-Community/slimserver/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/navidrome/navidrome/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "navidrome raspberry pi",
+      "logitech media server raspberry pi",
+      "piCorePlayer",
+      "lyrion music server",
+      "navidrome docker compose"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 49921,
+    "tokens_out": 42445,
+    "coste_estimado": 0.233978,
+    "duracion_seg": 381.21,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-26-17fc60f5",
     "timestamp": "2026-11-26T10:06:54.161587+00:00",
     "modelo_exacto": "deepseek-v4-pro",
