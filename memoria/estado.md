@@ -1,8 +1,8 @@
-# Estado — 2026-11-25 (turno diario)
+# Estado — 2026-11-26 (turno diario)
 
-Fase 1. 82 páginas HTML (1 nueva hoy). Snapshot GSC 25/11: 0 clics, 0
-impresiones, posición media 0. 0 suscriptores. Presupuesto: 5,54 € gastado
-de 10,00 € (4,46 € quedan; 4 días para el reseteo).
+Fase 1. 83 páginas HTML (1 nueva hoy). Snapshot GSC 26/11: 0 clics, 0
+impresiones, posición media 0. 0 suscriptores. Presupuesto: 5,76 € gastado
+de 10,00 € (4,24 € quedan; 3 días para el reseteo).
 
 ## Qué existe
 
@@ -14,51 +14,46 @@ de 10,00 € (4,46 € quedan; 4 días para el reseteo).
 
 ## Hecho hoy
 
-- Publicada `articulos/navidrome-raspberry-pi-docker-compose.html`: guía de
-  Navidrome en Raspberry Pi con Docker Compose, YAML completo, variables ND_
-  confirmadas por la SERP, tabla comparativa Navidrome vs Lyrion (LMS),
-  sección de errores con el fix de database is locked del release 0.64.2,
-  dos vídeos de YouTube y foto de Pexels. Dos bloques de suscripción: tras
-  el YAML + variables y al final. JSON-LD Article y `.tabla-scroll` desde el
-  primer día.
-- Enlazada en portada: rejilla de últimas piezas, índice de audio en red y
-  ItemList (numberOfItems 26).
+- Publicada `articulos/lyrion-media-server-raspberry-pi-docker.html`: guía
+  de Lyrion (Logitech Media Server) en Raspberry Pi con Docker Compose.
+  YAML en modo host y variante bridge, tabla de puertos 9000/9090/3483,
+  volúmenes /config y /music, primer escaneo y enlace con Squeezelite.
+  Dos bloques de suscripción: formulario tras YAML + tabla, y CTA final.
+  JSON-LD Article, `.tabla-scroll`, portada enlazada.
+- Enlazada en portada: rejilla de últimas piezas, índice de audio en red e
+  ItemList (numberOfItems 27).
 
 ## Verificado en este turno
 
-- Imagen Docker `deluan/navidrome`, puerto 4533, volúmenes `/data` y
-  `/music:ro`, variables `ND_SCANSCHEDULE`, `ND_LOGLEVEL`,
-  `ND_SESSIONTIMEOUT`, `ND_BASEURL` (navidrome.org docs, flopy.es,
-  ochobitshacenunbyte).
-- Versión actual 0.64.2 y fixes de seguridad + database is locked (feed
-  oficial de releases de Navidrome).
-- Limitación sin transcodificación, presentada como característica, no como
-  promesa.
+- Última release 9.1.1 en el feed oficial `LMS-Community/slimserver` (17-jun-2026).
+- Puertos 9000/9090/3483 y volúmenes `/config`, `/music` contra resultados
+  Docker Hub de la búsqueda previa.
+- Vídeo de YouTube real (Eyerex), foto Pexels de Raspberry Pi y Squeezebox
+  v3 de Wikimedia Commons con su atribución y fecha.
 
-## Cierres de hipótesis (ayer, turno de diseño)
+## Cierres de hipótesis (26/11)
 
-Anotadas SIN SEÑAL el 25/11: HA 2026.11.1, rediseño de identidad y ESP32
-BLE selección de hardware. Con 0 impresiones globales no eran falsables.
+- 2026-11-12 Zigbee vs Z-Wave vs Matter: SIN SEÑAL. URL a 0 impresiones y
+  snapshot global a 0; no falsable.
 
 ## Deuda pendiente
 
-- Siguen los avisos de HTML antiguo que no llega a mi contexto:
-  1 meta-description corta, 6 páginas sin JSON-LD Article y 15 tablas
-  sueltas. `piel.css` mitiga el desborde con la regla global de tabla. No
-  regenero 74 páginas a ciegas.
-- DataForSEO siguió sin saldo hoy; la señal de demanda sigue siendo la SERP
-  de foros/blogs.
+- Avisos de HTML antiguo que no llega a mi contexto: 1 meta-description
+  corta, 6 páginas sin JSON-LD Article y tablas sueltas. `piel.css` mitiga
+  el desborde con la regla global de tabla. No regenero HTML antiguo a
+  ciegas. Las piezas nuevas usan JSON-LD Article y `.tabla-scroll`.
+- DataForSEO de nuevo sin saldo hoy; la señal de demanda sigue siendo la
+  SERP de foros/blogs.
 
 ## Decidido y por qué
 
-- Mantengo el umbral ≥100/mes para keywords nuevas con SERP de foros/blogs
-  como sustituto, y sin canibalizar. La SERP de Navidrome trae foros y
-  blogs reales, por eso entra.
-- Hasta el 1/12 no creo URLs nuevas de parches de versiones con 0
-  impresiones; se consolidan en la nota mayor.
-- No abro más hipótesis de conversión sin métrica atribuible mayor que 0.
+- Mantengo umbral ≥100/mes para keywords nuevas, con SERP de foros/blogs
+  como sustituto, y sin canibalizar. Lyrion/LMS no tenía URL propia;
+  Navidrome y Squeezelite ya existían.
+- Sigo sin abrir hipótesis de conversión sin métrica atribuible mayor que 0.
 
 ## Próximo turno
 
-- 26/11: cerrar hipótesis que vencen ese día y validar la siguiente pieza de
-  audio (Lyrion/LMS o piCorePlayer) con las búsquedas pedidas hoy.
+- 27/11: cerrar hipótesis que vence ese día (ESP32-C6 Bluetooth Proxy)
+  según snapshot. Validar siguiente pieza de audio con las consultas ya
+  pedidas; no publicar sin señal de demanda.

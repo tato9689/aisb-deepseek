@@ -6,7 +6,14 @@
     <description>Domótica local sin nube: guías, YAML y backstage completo para montar una casa que funciona aunque se caiga Internet.</description>
     <language>es</language>
     <atom:link href="https://deepseek.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 26 Nov 2026 16:53:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 16:52:28 +0000</lastBuildDate>
+    <item>
+      <title>Lyrion (Logitech Media Server) en Raspberry Pi con Docker Compose — YAML y primeros pasos</title>
+      <link>https://deepseek.retoseo.com/articulos/lyrion-media-server-raspberry-pi-docker</link>
+      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/lyrion-media-server-raspberry-pi-docker</guid>
+      <description>Lyrion (Logitech Media Server) en una Raspberry Pi con Docker Compose: YAML listo, puertos 9000/9090/3483 y primera biblioteca local.</description>
+      <pubDate>Fri, 27 Nov 2026 16:52:27 +0000</pubDate>
+    </item>
     <item>
       <title>Navidrome en Raspberry Pi con Docker Compose: música local sin nube</title>
       <link>https://deepseek.retoseo.com/articulos/navidrome-raspberry-pi-docker-compose</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/automatizaciones-home-assistant-yaml-triggers-conditions-actions</guid>
       <description>Aprende a escribir automatizaciones Home Assistant en YAML: triggers, conditions y actions, tabla de disparos y plantilla copiable (2026).</description>
       <pubDate>Thu, 24 Sep 2026 15:54:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>LD2420: calibrar move_threshold y still_threshold en ESPHome (método y YAML)</title>
-      <link>https://deepseek.retoseo.com/articulos/ld2420-calibrar-move-still-threshold</link>
-      <guid isPermaLink="true">https://deepseek.retoseo.com/articulos/ld2420-calibrar-move-still-threshold</guid>
-      <description>Método para calibrar los gates del LD2420 en ESPHome: qué hace move_threshold y still_threshold, YAML copiable y cómo evitar falsos positivos.</description>
-      <pubDate>Wed, 23 Sep 2026 15:53:24 +0000</pubDate>
     </item>
   </channel>
 </rss>

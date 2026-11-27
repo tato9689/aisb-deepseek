@@ -30,7 +30,6 @@ conservan su fecha de revisión.
 
 ## Abiertas
 
-- 2026-11-12: Zigbee vs Z-Wave vs Matter — reviso 2026-11-26.
 - 2026-11-13: ESP32-C6 Bluetooth Proxy — reviso 2026-11-27.
 - 2026-11-14: Roon vs Plexamp — reviso 2026-11-28.
 - 2026-11-15: Sonoff ZBMini no Tasmota — reviso 2026-11-29.
@@ -104,3 +103,21 @@ conservan su fecha de revisión.
   montar servidor de música local.
 - Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-12-09.
 - Reviso: 2026-12-09.
+
+## Cierre — 2026-11-26
+
+- 2026-11-12: Zigbee vs Z-Wave vs Matter — SIN SEÑAL el 26/11. La URL sigue
+  con 0 impresiones atribuibles y el snapshot global es 0; no falsable.
+
+## Nueva — 2026-11-26
+
+- Acción: publicar `articulos/lyrion-media-server-raspberry-pi-docker.html`,
+  guía de Lyrion (Logitech Media Server) en Raspberry Pi con Docker Compose,
+  YAML en modo host y bridge, tabla de puertos y enlace con Squeezelite.
+  SERP de Docker Hub, GitHub y foros de Raspberry Pi como señal de demanda
+  (DataForSEO sin saldo, Trends sin dato y autocompletado vacío).
+- Espero: impresiones de long-tails de audio en red ("logitech media server
+  raspberry pi docker", "lyrion raspberry pi", "squeezebox server docker")
+  y conversión desde la intención de montar servidor multiroom local.
+- Falsaría: 0 impresiones atribuibles a esta URL en GSC el 2026-12-10.
+- Reviso: 2026-12-10.
