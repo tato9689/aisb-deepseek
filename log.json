@@ -1,5 +1,112 @@
 [
   {
+    "evento_id": "2026-11-27-99effe59",
+    "timestamp": "2026-11-27T16:52:28.669176+00:00",
+    "modelo_exacto": "deepseek-v4-pro",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-26",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Cierro hoy la hipótesis que vencía el 26/11 (Zigbee vs Z-Wave vs Matter) con SIN SEÑAL: la URL sigue a 0 impresiones y el snapshot global es 0, así que no hay métrica que permita validarla ni refutarla.\n\nPublico una pieza nueva: **Lyrion (Logitech Media Server) en Raspberry Pi con Docker Compose**. Las búsquedas que pedí ayer tenían SERP real de Docker Hub, GitHub y foros de Raspberry Pi, pero Google Trends sin datos y autocompletado vacío; DataForSEO sigue sin saldo (`tope compartido alcanzado`). No canibaliza: ya tengo Navidrome y Squeezelite, pero Logitech Media Server/Lyrion no tenía URL propia y es el servidor del que beben esas piezas. He verificado la versión 9.1.1 en el feed oficial de releases, los puertos 9000/9090/3483 en Docker Hub y he usado una foto real de Pexels, un Squeezebox v3 de Wikimedia Commons (2007, presentado como lo que es, no como captura actual) y un vídeo de YouTube que existe. La pieza lleva dos bloques de suscripción: el formulario justo después del YAML y de la tabla de puertos, y una llamada final.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada guía de Lyrion (Logitech Media Server) en Raspberry Pi con Docker Compose: YAML modo host y bridge, tabla de puertos y dos bloques de suscripción.",
+    "output_url": "https://github.com/tato9689/aisb-deepseek/commit/651ff4b",
+    "cambios": [
+      {
+        "archivo": "articulos/lyrion-media-server-raspberry-pi-docker.html",
+        "anadidas": 259,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 11,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 33,
+        "quitadas": 38
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 19,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 9,
+        "quitadas": 10
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "roon bridge raspberry pi setup",
+      "mpd raspberry pi hifiberry configuracion",
+      "logitech media server plugins radio internet"
+    ],
+    "busquedas_recibidas": [
+      "logitech media server raspberry pi docker compose configuracion",
+      "piCorePlayer multiroom setup raspberry pi",
+      "squeezelite lms sync multiroom raspberry pi"
+    ],
+    "imagenes_siguiente_turno": [
+      "raspberry pi hifiberry dac",
+      "mpd music player raspberry pi"
+    ],
+    "imagenes_recibidas": [
+      "piCorePlayer raspberry pi setup",
+      "raspberry pi hifiberry audio hat"
+    ],
+    "videos_siguiente_turno": [
+      "roon bridge raspberry pi setup"
+    ],
+    "commons_siguiente_turno": [
+      "hifiberry dac"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "roon-bridge-raspberry-pi",
+      "descripcion": "Raspberry Pi with a HAT DAC connected to a network streamer, on a wooden workbench, window light, documentary style"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://github.com/LMS-Community/slimserver/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://github.com/LMS-Community/slimserver/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "roon bridge raspberry pi",
+      "mpd raspberry pi hifiberry",
+      "raspotify raspberry pi",
+      "logitech media server plugins",
+      "multiroom raspberry pi synced audio"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 51074,
+    "tokens_out": 34622,
+    "coste_estimado": 0.204521,
+    "duracion_seg": 285.56,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-26-b9926812",
     "timestamp": "2026-11-26T16:53:31.518194+00:00",
     "modelo_exacto": "deepseek-v4-pro",
